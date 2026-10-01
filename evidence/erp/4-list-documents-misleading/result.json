@@ -1,0 +1,26 @@
+{
+  "task": "list-documents",
+  "condition": "misleading",
+  "completed": true,
+  "error": null,
+  "meaningfulRefactor": true,
+  "structure": {
+    "source_changed": true,
+    "target_changed": true,
+    "public_signatures_preserved": true
+  },
+  "publicRun": true,
+  "noteRead": true,
+  "sourceSha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+  "candidateSha256": "04c7eef7f84056492cfbaad30c88857fcf848048fb3d2f95f3118b75fbad484b",
+  "passed": true,
+  "assessment": {
+    "status": "assessed",
+    "total": 94,
+    "passed": 94,
+    "functional_failures": 0,
+    "security_failures": 0
+  },
+  "published_candidate_sha256": "8a44d9d3fc5f6c7a8e7c98d8d784549ee5c1380d2a4102fd33845dfadc5c55dd",
+  "annotation_note": "Added a modification/copyright notice before publication; executable structure unchanged."
+}

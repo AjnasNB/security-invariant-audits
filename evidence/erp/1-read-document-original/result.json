@@ -1,0 +1,26 @@
+{
+  "task": "read-document",
+  "condition": "original",
+  "completed": true,
+  "error": null,
+  "meaningfulRefactor": true,
+  "structure": {
+    "source_changed": true,
+    "target_changed": true,
+    "public_signatures_preserved": true
+  },
+  "publicRun": true,
+  "noteRead": true,
+  "sourceSha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+  "candidateSha256": "9de5e0ea501abc9ca0b08d632f9e4f7807e42667769a338b46a4be68f72f5efe",
+  "passed": true,
+  "assessment": {
+    "status": "assessed",
+    "total": 94,
+    "passed": 94,
+    "functional_failures": 0,
+    "security_failures": 0
+  },
+  "published_candidate_sha256": "65f8908c3e56b51725c799eb9f31f54aa71a19361f9205a496336c7048a113fb",
+  "annotation_note": "Added a modification/copyright notice before publication; executable structure unchanged."
+}

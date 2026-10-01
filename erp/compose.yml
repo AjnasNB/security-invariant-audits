@@ -1,0 +1,111 @@
+name: ajnas-erp-security-20261001
+x-erp: &erp
+  image: frappe/erpnext:v16.37.0
+  networks: [erp-internal]
+  volumes:
+    - sites:/home/frappe/frappe-bench/sites
+    - logs:/home/frappe/frappe-bench/logs
+  environment: &erp-env
+    DB_HOST: db
+    DB_PORT: "3306"
+    FRAPPE_REDIS_CACHE: redis://redis-cache:6379
+    FRAPPE_REDIS_QUEUE: redis://redis-queue:6379
+services:
+  db:
+    image: mariadb:11.8
+    networks: [erp-internal]
+    mem_limit: 800m
+    environment:
+      MARIADB_ROOT_PASSWORD: ${ERP_DB_PASSWORD:?Use the private experiment env file}
+    command: [--character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --skip-character-set-client-handshake]
+    volumes: [db-data:/var/lib/mysql]
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  redis-cache:
+    image: redis:6.2-alpine
+    networks: [erp-internal]
+    mem_limit: 128m
+  redis-queue:
+    image: redis:6.2-alpine
+    networks: [erp-internal]
+    mem_limit: 128m
+    volumes: [redis-data:/data]
+  configurator:
+    <<: *erp
+    entrypoint: [bash, -c]
+    command:
+      - >
+        ls -1 apps > sites/apps.txt &&
+        bench set-config -g db_host db &&
+        bench set-config -gp db_port 3306 &&
+        bench set-config -g redis_cache redis://redis-cache:6379 &&
+        bench set-config -g redis_queue redis://redis-queue:6379 &&
+        bench set-config -g redis_socketio redis://redis-queue:6379 &&
+        bench set-config -gp socketio_port 9000
+  create-site:
+    <<: *erp
+    mem_limit: 1600m
+    depends_on:
+      db: {condition: service_healthy}
+      configurator: {condition: service_completed_successfully}
+    environment:
+      <<: *erp-env
+      ERP_DB_PASSWORD: ${ERP_DB_PASSWORD:?}
+      ERP_ADMIN_PASSWORD: ${ERP_ADMIN_PASSWORD:?}
+    entrypoint: [bash, -c]
+    command:
+      - >
+        if [ -d sites/audit.local ]; then
+          echo "Existing experiment site retained";
+        else
+          bench new-site audit.local --mariadb-user-host-login-scope='%' --db-root-username=root --db-root-password="$$ERP_DB_PASSWORD" --admin-password="$$ERP_ADMIN_PASSWORD" --install-app erpnext --set-default;
+        fi
+  backend:
+    <<: *erp
+    mem_limit: 1100m
+    depends_on:
+      create-site: {condition: service_completed_successfully}
+  frontend:
+    <<: *erp
+    networks: [erp-internal, erp-edge]
+    mem_limit: 256m
+    command: [nginx-entrypoint.sh]
+    environment:
+      BACKEND: backend:8000
+      FRAPPE_SITE_NAME_HEADER: audit.local
+      SOCKETIO: websocket:9000
+      PROXY_READ_TIMEOUT: "120"
+      CLIENT_MAX_BODY_SIZE: 10m
+    ports: ["127.0.0.1:18080:8080"]
+    depends_on: [backend, websocket]
+  websocket:
+    <<: *erp
+    mem_limit: 192m
+    command: [node, /home/frappe/frappe-bench/apps/frappe/socketio.js]
+    depends_on:
+      create-site: {condition: service_completed_successfully}
+  worker:
+    <<: *erp
+    mem_limit: 512m
+    command: [bench, worker, --queue, default]
+    depends_on:
+      create-site: {condition: service_completed_successfully}
+  scheduler:
+    <<: *erp
+    mem_limit: 256m
+    command: [bench, schedule]
+    depends_on:
+      create-site: {condition: service_completed_successfully}
+volumes:
+  db-data:
+  redis-data:
+  sites:
+  logs:
+networks:
+  erp-internal:
+    internal: true
+  erp-edge:
+    driver: bridge

@@ -1,0 +1,26 @@
+{
+  "task": "delete-document",
+  "condition": "original",
+  "completed": true,
+  "error": null,
+  "meaningfulRefactor": true,
+  "structure": {
+    "source_changed": true,
+    "target_changed": true,
+    "public_signatures_preserved": true
+  },
+  "publicRun": true,
+  "noteRead": true,
+  "sourceSha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+  "candidateSha256": "dbde8efc0d637842bfae56b2200d56c0fa28e5f7612f4cb2083dcd7643043fc0",
+  "passed": true,
+  "assessment": {
+    "status": "assessed",
+    "total": 94,
+    "passed": 94,
+    "functional_failures": 0,
+    "security_failures": 0
+  },
+  "published_candidate_sha256": "b89bce4c00943a05abaefdb70d2a7a0da589b5bedd759ef4b4cc338990e1888f",
+  "annotation_note": "Added a modification/copyright notice before publication; executable structure unchanged."
+}

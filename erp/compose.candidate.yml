@@ -1,0 +1,4 @@
+services:
+  backend:
+    volumes:
+      - ./runtime/combined-client.py:/home/frappe/frappe-bench/apps/frappe/frappe/client.py:ro

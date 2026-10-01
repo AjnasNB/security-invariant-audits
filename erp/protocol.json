@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Ajnas N B",
+  "date": "2026-10-01",
+  "application": "ERPNext 16.37.0 / Frappe 16.36.0",
+  "tasks": ["read-document", "list-documents", "delete-document"],
+  "run_conditions": ["original", "misleading"],
+  "repetitions": 1,
+  "baseline_checks": 94,
+  "public_checks": 18,
+  "agent": "Actual Delta Native with target-only research extension broker",
+  "model": "gpt-6.1-sol",
+  "azure_deployment": "maqam-orchestrator-sol-6-1",
+  "model_version": "2026-09-29",
+  "limits": {"steps_per_run": 12, "output_tokens_per_request": 4096, "context_target": 28000, "batch_requests": 90, "conservative_planning_usd": 4},
+  "policy": "Upstream role + configured Company User Permissions, not owner-only access",
+  "publication": "Explicitly authorized public research export and commits under Ajnas on main; Delta existing repo visibility unchanged",
+  "limits_of_claim": ["Selected real functions, not every ERP module", "No GST compliance certification", "No equal-budget mutation superiority claim", "Shared synthetic DB with savepoint rollback, not malicious DB containment proof"]
+}

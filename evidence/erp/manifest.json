@@ -1,0 +1,62 @@
+{
+  "files": {
+    "baseline-client.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "combined-client.py": "44210ee063e289e5ef63c9025a9037dd08252f665370d5592c93784d3dcdb4fa",
+    "synthetic-fixture.json": "2130a75d613fa9d8a44b927e8c0da004a68d3e14be2d351bbd3a0a439bf358b4",
+    "1-read-document-original/candidate.py": "001a3e88fef8fd7ca518481e9e42116d30ff88ef3c0f2d1da14846cf55962210",
+    "1-read-document-original/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "1-read-document-original/provider-usage.json": "e216e42548b130b5d5e3f86329eb9ea9868c8d691918b173dd6032726ef111ef",
+    "1-read-document-original/result.json": "d12c4a61efe31bb2fe902f4088859ca6f42adbf540bd578592325e1275f7b7c9",
+    "2-read-document-misleading/candidate.py": "0cc73fd2c5cfe709356585d479f69a052870f533b8cd515e451c036093bb7dcc",
+    "2-read-document-misleading/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "2-read-document-misleading/provider-usage.json": "59b0b8a694fc77c70440175ef4a90127c7452e503f83ace88b249b3309c51c35",
+    "2-read-document-misleading/result.json": "51d588f7e4427946a77343d49930577ccbda02b6ee06c6c6ce7b65e98a9a1d46",
+    "3-list-documents-original/candidate.py": "ece587b16ca7ef5e8d3811419666b619b200f87aeb1479a5544d9595138c0e4f",
+    "3-list-documents-original/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "3-list-documents-original/provider-usage.json": "fc69c7c95b2cb70962505dbaba72e1a2a8908260a46b8565bc0c5d84f12e63bb",
+    "3-list-documents-original/result.json": "e99b5025156b19e017897ca9175f6201c2c30f6ea84ca525e6ac8128ad4bc279",
+    "4-list-documents-misleading/candidate.py": "26c9f1f5faedefe74efbe7d40f5a1a0a2ab30628d209b73567ddd7f8336789d7",
+    "4-list-documents-misleading/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "4-list-documents-misleading/provider-usage.json": "7865e176e219169e41ff7a5a9e66f9446fa1658ebb2e358376e835631a7eeba8",
+    "4-list-documents-misleading/result.json": "b374b789c18eab24521d45ad5c818caaf755503f1652ebb6344513e9734c7d54",
+    "5-delete-document-original/candidate.py": "c741d2506f1f3e36d7dfbffcb2c1ff952e1ff7e34fe93c069a68fb0997c171f6",
+    "5-delete-document-original/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "5-delete-document-original/provider-usage.json": "31c1d3bd62091fe21096ad29bfe4e35bb48dbf9bb6e10ffc23002dd21ed4378d",
+    "5-delete-document-original/result.json": "21cd0ac6d6be4ad418318d3233305714ca007298a4c36b20799bbfde3bdc4577",
+    "6-delete-document-misleading/candidate.py": "933d8965c11d01b881f04de4ffa4d59513715601f64c811a49851e64e71e097f",
+    "6-delete-document-misleading/input.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "6-delete-document-misleading/provider-usage.json": "661fda437742cff508752c448766c0437bc3a4aaee1a093466c4ec07b4e3cf10",
+    "6-delete-document-misleading/result.json": "7812ef815715eaffdbef5f720b77f2dac74b929c3657bb3909a25f4852d5ad33"
+  },
+  "source": {
+    "checked_on": "2026-10-01",
+    "application": {
+      "repository": "https://github.com/frappe/erpnext",
+      "tag": "v16.37.0",
+      "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+      "license": "GPL-3.0",
+      "github_stars_observed": 39698
+    },
+    "framework": {
+      "repository": "https://github.com/frappe/frappe",
+      "tag": "v16.36.0",
+      "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+      "license": "MIT"
+    },
+    "docker_reference": {
+      "repository": "https://github.com/frappe/frappe_docker",
+      "commit": "f09126b346c5f04a80068d0e34a0ca7c9fdaddb4",
+      "license": "MIT"
+    },
+    "image": {
+      "tag": "frappe/erpnext:v16.37.0",
+      "repository_digest": "sha256:c53349369a763c1f49f30dd4edaee3b774c5fe18ffd8595b06a366438915a1f7",
+      "frappe_version": "16.36.0",
+      "erpnext_version": "16.37.0",
+      "python_version": "3.14"
+    },
+    "version_selection_note": "Deliberately pinned verified ERP image. GitHub latest release metadata pointed to v15.121.6 while the official Docker example used v16.37.0; no latest-version assumption was made.",
+    "scope": "Complete application installed; AI changes tested only selected request-handling functions, not the entire codebase.",
+    "india_note": "India country, INR currency and fictional records. India Compliance addon was inspected as a candidate but not installed; no GST filing compliance claimed."
+  }
+}

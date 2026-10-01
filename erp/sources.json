@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-01",
+  "application": {
+    "repository": "https://github.com/frappe/erpnext",
+    "tag": "v16.37.0",
+    "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+    "license": "GPL-3.0",
+    "github_stars_observed": 39698
+  },
+  "framework": {
+    "repository": "https://github.com/frappe/frappe",
+    "tag": "v16.36.0",
+    "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+    "license": "MIT"
+  },
+  "docker_reference": {
+    "repository": "https://github.com/frappe/frappe_docker",
+    "commit": "f09126b346c5f04a80068d0e34a0ca7c9fdaddb4",
+    "license": "MIT"
+  },
+  "image": {
+    "tag": "frappe/erpnext:v16.37.0",
+    "repository_digest": "sha256:c53349369a763c1f49f30dd4edaee3b774c5fe18ffd8595b06a366438915a1f7",
+    "frappe_version": "16.36.0",
+    "erpnext_version": "16.37.0",
+    "python_version": "3.14"
+  },
+  "version_selection_note": "Deliberately pinned verified ERP image. GitHub latest release metadata pointed to v15.121.6 while the official Docker example used v16.37.0; no latest-version assumption was made.",
+  "scope": "Complete application installed; AI changes tested only selected request-handling functions, not the entire codebase.",
+  "india_note": "India country, INR currency and fictional records. India Compliance addon was inspected as a candidate but not installed; no GST filing compliance claimed."
+}
