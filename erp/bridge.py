@@ -17,10 +17,11 @@ def main():
     parser.add_argument("--workspace", required=True)
     parser.add_argument("--task", default="read-document")
     parser.add_argument("--condition", default="original")
+    parser.add_argument("--prompt-profile", choices=("defended-v1", "ordinary-v1"), default="defended-v1")
     args = parser.parse_args()
     workspace = Path(args.workspace)
     if args.command == "prepare":
-        result = {"prompt": prepare(workspace, args.task, args.condition)}
+        result = {"prompt": prepare(workspace, args.task, args.condition, args.prompt_profile)}
     elif args.command == "structure":
         source = (workspace / "client.py").read_text(encoding="utf-8")
         baseline = (PROTECTED / "client-baseline.py").read_text(encoding="utf-8")

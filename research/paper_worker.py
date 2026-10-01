@@ -129,6 +129,76 @@ def mucoco_humaneval(payload):
             "adaptation": "Actual VariableNameTransformer class; bypass unused constants/model imports. Canonical solutions, no model-generation claims."}
 
 
+def mucoco_prediction_inputs(payload):
+    """Actual author mutations/template, plus model questions scored by controller."""
+    import textwrap
+    import typing
+    namespace = {"ast": ast, "random": random, "Dict": typing.Dict, "Tuple": typing.Tuple,
+                 "Iterable": typing.Iterable, "Seed": type("Seed", (), {"value": 1234})}
+    helper, mutation_source = original_definition("/task/code_mutation/ast_mutation.py", "ASTNodeHelper", namespace)
+    template_path = "/task/prediction_inconsistency/prompt_templates/prompt_template.py"
+    template_source = Path(template_path).read_text(encoding="utf-8")
+    template_tree = ast.parse(template_source)
+    outer = next(node for node in template_tree.body if isinstance(node, ast.ClassDef)
+                 and node.name == "PredictionInconsistencyPromptTemplate")
+    nested = next(node for node in outer.body if isinstance(node, ast.ClassDef) and node.name == "OutputPrediction")
+    method = next(node for node in nested.body if isinstance(node, ast.FunctionDef) and node.name == "zero_shot_prompt")
+    compiled = ast.Module(body=[method], type_ignores=[])
+    ast.fix_missing_locations(compiled)
+    method_scope = {"textwrap": textwrap}
+    exec(compile(compiled, template_path, "exec"), method_scope)
+    template = method_scope["zero_shot_prompt"](None)
+    variants, skipped = [], []
+    for example in payload["examples"]:
+        problem = example["payload"]
+        program = problem["prompt"] + problem["canonical_solution"]
+        parsed = ast.parse(program)
+        function = next(node for node in parsed.body if isinstance(node, ast.FunctionDef))
+        arguments = {argument.arg for argument in function.args.args}
+        local_ids = [node.id for node in ast.walk(function) if isinstance(node, ast.Name)
+                     and isinstance(node.ctx, ast.Store) and node.id not in arguments]
+        if not local_ids:
+            skipped.append({"task_id": problem["task_id"], "reason": "No local variable for the frozen rename operator"})
+            continue
+        candidates = [
+            ("original", program),
+            ("rename", ast.unparse(helper.VariableNameTransformer({local_ids[0]: "local_value"}).visit(ast.parse(program))) + "\n"),
+            ("boolean_literal", ast.unparse(helper.BooleanLiteralTransformer().visit(ast.parse(program))) + "\n"),
+            ("unchanged_repeat", program),
+        ]
+        expected = None
+        for label, candidate in candidates:
+            if label == "boolean_literal" and ast.dump(ast.parse(candidate)) == ast.dump(parsed):
+                skipped.append({"task_id": problem["task_id"], "operator": label, "reason": "No Boolean literal to mutate"})
+                continue
+            scope = {}
+            with contextlib.redirect_stdout(io.StringIO()):
+                exec(compile(candidate + "\n" + problem["test"], "<author-mutation-check>", "exec"), scope)
+                scope["check"](scope[problem["entry_point"]])
+                output = scope[problem["entry_point"]](*example["input"])
+            if label == "original":
+                expected = output
+            if type(output) is not type(expected) or output != expected:
+                raise ValueError("Author mutation did not preserve the frozen example output")
+            rendered = template.format(qn_desc=ast.get_docstring(function) or "", full_sol=candidate,
+                                       test_input=repr(example["input"]), test_output="", example=None)
+            variants.append({"id": problem["task_id"] + ":" + label, "task_id": problem["task_id"],
+                             "condition": label, "input": example["input"], "expected": expected,
+                             "expected_type": type(expected).__name__, "program": candidate,
+                             "program_sha256": sha(candidate), "prompt": rendered,
+                             "prompt_sha256": sha(rendered), "author_test_suite_passed": True})
+    return {
+        "kind": "MUCOCO-output-prediction-model-inputs", "variants": variants, "skipped": skipped,
+        "mutation_source": mutation_source,
+        "template_source": {"path": template_path, "definition": "OutputPrediction.zero_shot_prompt",
+                            "sha256": sha(ast.get_source_segment(template_source, method))},
+        "adaptations": ["AST-selected unmodified author mutation/template definitions; unused model/GPU/database imports bypassed",
+                        "Three preselected HumanEval inputs, fresh Azure Sol calls, one rename/Boolean mutant and unchanged repeat",
+                        "Author tests validate each reference mutant; model answers are checked separately by the controller",
+                        "No full MongoDB/notebook execution or published-accuracy claim"],
+    }
+
+
 def jailguard_original_replay(payload):
     """Execute main_txt.py itself. No network; bridge responses must match exact queries."""
     import os
@@ -229,6 +299,7 @@ if __name__ == "__main__":
         "jailguard-variants": jailguard_variants,
         "jailguard-detect": jailguard_detect,
         "mucoco-humaneval": mucoco_humaneval,
+        "mucoco-prediction-inputs": mucoco_prediction_inputs,
         "jailguard-original-replay": jailguard_original_replay,
     }[command](payload)
     print(json.dumps(result))
