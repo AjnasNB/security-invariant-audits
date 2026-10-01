@@ -1,0 +1,63 @@
+{
+  "recorded_date": "2026-10-01",
+  "author": "Ajnas N B",
+  "repository": "AjnasNB/security-invariant-audits",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "previous_reviewed_main": "faff556e8df3c65fa12a79ea5729d35314e3f736",
+  "verified_content_main": "b74cf1cb276fe7319e8b77b18d3e5ce8862aeafd",
+  "commits": [
+    {
+      "sha": "9720f39d74bc0b23d98a544ee79258f4dd8fff00",
+      "subject": "fix(research): distinguish invalid outputs and paginated access leaks",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com"
+    },
+    {
+      "sha": "a0222dfcf7e9832a2e9f8e8a26cb93ea841c00dc",
+      "subject": "feat(research): add ordinary prompts and archived MUCOCO failure replay",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com"
+    },
+    {
+      "sha": "b74cf1cb276fe7319e8b77b18d3e5ce8862aeafd",
+      "subject": "docs(results): publish corrected ordinary study and paper replay evidence",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com"
+    }
+  ],
+  "ci": {
+    "run_id": 36871783397,
+    "head_sha": "b74cf1cb276fe7319e8b77b18d3e5ce8862aeafd",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/36871783397",
+    "verified_steps": [
+      "Python unit tests",
+      "Controller source compilation excluding private/vendor trees",
+      "Historical published ERP evidence hashes",
+      "Ordinary saved-observation replay and usage reconciliation",
+      "Archived paper failure evidence verification"
+    ]
+  },
+  "review": {
+    "changed_tracked_files_reviewed": 303,
+    "bounded_publication_scan_passed": true,
+    "possible_credential_findings": 0,
+    "private_paths_tracked": false,
+    "unrelated_product_changes_in_diff": false,
+    "source": "Final Git-index/worktree audit against faff556; no private values printed",
+    "limitation": "Path/common-token/exact-local-password scan, not an exhaustive secret audit"
+  },
+  "local_checks": {
+    "research_unit_tests": 40,
+    "ordinary_saved_checks": 2608,
+    "archived_failures_verified": 3,
+    "correction_pdf_pages_visually_checked": 6,
+    "final_live_erp_fixture_check_passed": true,
+    "reference": "reports/correction-verification-v4.json"
+  },
+  "other_repositories_changed_this_correction": false,
+  "delta_note": "The previously fixed private Delta checkout was reused for actual model runs; unrelated dirty product work and profiles were not pushed or changed.",
+  "scope": "Three content commits and their successful CI on main; this metadata record intentionally does not include its own future commit hash."
+}

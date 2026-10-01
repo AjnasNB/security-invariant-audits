@@ -246,6 +246,8 @@ user-authorized Delta repository remains private. Commits use Ajnas's identity
 on `main`, not a Codex author or Codex-named branch. Prior local-only/no-push
 statements belong to the historical phase and are superseded only for this
 authorized research/fix scope.
+The three correction content commits and successful GitHub CI are recorded in
+[the correction publication note](reports/correction-publication-v4.md).
 
 ```text
 README.md                       current scope, outcomes and entry points
