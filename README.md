@@ -32,6 +32,9 @@ profiles, raw model reasoning and site credentials are excluded.
 
 The complete app is running locally, but only three Frappe request functions
 were refactored. This is not a whole-codebase security audit or GST certification.
+Delta's final local suite passed 324/324 tests. The first GitHub desktop run
+identified a discovery-label/duplicate-route issue; a separate correction commit
+and its final CI result are recorded in the publication log.
 
 Delta product-fix extension: `reports/delta-product-fixes.md` lists the confirmed
 issues and actual source patches. Six fresh Native refactors passed 600/600

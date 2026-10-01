@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "integrated_source_ast_matches": true,
+  "integrated_source_normalized_sha256": "4e4ecaf6d5277512104cf9888d1847eefb1407b1c6549d65a6452991a9f363b6",
+  "seeded_invoice_count": 6,
+  "all_seeded_states_and_amounts_preserved": true,
+  "submitted_ledgers_balanced": true,
+  "temporary_http_records_removed": true,
+  "scope": "Read-only final check of this local synthetic ERP instance"
+}

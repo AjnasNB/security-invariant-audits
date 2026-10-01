@@ -1,0 +1,125 @@
+{
+  "recorded_at": "2026-10-01T12:07:37.177772+00:00",
+  "author": "Ajnas N B",
+  "repositories": [
+    {
+      "repository": "AjnasNB/security-invariant-audits",
+      "url": "https://github.com/AjnasNB/security-invariant-audits",
+      "visibility": "PUBLIC",
+      "branch": "main",
+      "inspected_main_sha": "ce30bd1361f86e682d434ca2439692a9395dc726",
+      "commits": [
+        {
+          "sha": "ce30bd1361f86e682d434ca2439692a9395dc726",
+          "subject": "docs(results): publish ERP evidence report and reconciled cost scope",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "1b0b61e6b1897e9b67ce5915e09503dee1e872a9",
+          "subject": "feat(erp): verify real ERPNext refactors with protected business checks",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "9a95b882c21b7b3434579f4663038f28113d9465",
+          "subject": "feat(research): add controlled security tasks and harness adapters",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        }
+      ],
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 36857549874,
+          "headSha": "ce30bd1361f86e682d434ca2439692a9395dc726",
+          "status": "completed",
+          "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/36857549874"
+        }
+      ]
+    },
+    {
+      "repository": "AjnasNB/delta-harness",
+      "url": "https://github.com/AjnasNB/delta-harness",
+      "visibility": "PRIVATE",
+      "branch": "main",
+      "inspected_main_sha": "193692f6df67d66549fc8ef817e5d4dc557b66ce",
+      "commits": [
+        {
+          "sha": "193692f6df67d66549fc8ef817e5d4dc557b66ce",
+          "subject": "fix(models): keep friendly discovery labels and collapse identical Claude routes",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "8de68ef9cdea26133342ba6f89a4ca73c76645a5",
+          "subject": "docs(test): record verified local reliability and ERP experiment results",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "17514dcc2f8cfb65f4c44709054a9888b174a769",
+          "subject": "fix(accounting): preserve historical costs and report no-edit verification",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "fe94f5502b80aaed8739f78f24f20bf047afd919",
+          "subject": "feat(models): support verified GPT-6.1 Sol routing and metadata",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        },
+        {
+          "sha": "cbd5d9c05206e550ae3ff83021ca1a7d3feec97d",
+          "subject": "fix(native): preserve rollover evidence and safe file outcomes",
+          "author": "ajnasnb",
+          "email": "ajnasnb@gmail.com"
+        }
+      ],
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 36858609828,
+          "headSha": "193692f6df67d66549fc8ef817e5d4dc557b66ce",
+          "status": "completed",
+          "url": "https://github.com/AjnasNB/delta-harness/actions/runs/36858609828"
+        }
+      ]
+    }
+  ],
+  "publication_audits": {
+    "research_files": 153,
+    "research_passed": true,
+    "delta_changed_files": 49,
+    "delta_changed_passed": true
+  },
+  "pdf_qa": {
+    "pages": 6,
+    "all_rendered_pages_visually_inspected": true
+  },
+  "local_checks": {
+    "research_unit_tests": 14,
+    "delta_tests": 324,
+    "erp_refactors": 6,
+    "erp_private_checks": 564,
+    "combined_candidate_checks": 94,
+    "http_checks": 9
+  },
+  "first_delta_ci": {
+    "run_id": 36857475233,
+    "status": "completed",
+    "conclusion": "failure",
+    "failure": "Azure discovery raw-label and duplicate Claude route UI mismatch",
+    "fix": "Separate tested model-label/alias correction commit; final CI is reported above"
+  },
+  "publication_method": "Ajnas-authored logical commits directly on main, non-force pushes; no Codex branch or bot author",
+  "visibility_policy": "Research PUBLIC; existing Delta PRIVATE unchanged",
+  "scope_note": "These are inspected content revisions before this metadata-only record's own commit. The record does not claim a self-referential Git SHA.",
+  "not_published": [
+    "local credentials/site configuration",
+    "raw model reasoning/transcripts",
+    "database backups",
+    "restricted MUCOCO/JailGuard data",
+    "unrelated product files"
+  ]
+}

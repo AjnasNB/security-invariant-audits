@@ -184,9 +184,18 @@ erase their existence.
 | Billing query rate limit | First September query returned 429; later bounded retry succeeded | Initial failure retained; final aggregate available |
 
 Delta's earlier context-rollover and model-metadata fixes are also committed with
-their regressions. Its final publication checkout passed 322/322 tests and
+their regressions. Its final publication checkout passed 324/324 tests and
 TypeScript validation. Earlier product-fix details and original study results are
 kept separately, not merged into one misleading sample count.
+
+The first Delta GitHub workflow passed unit tests, production build, workspace
+and settings checks, then failed the Azure-discovery UI check. Imported raw model
+IDs changed expected display names, and an identical Azure CLI Claude route
+appeared twice. A separate correction commit normalizes recognized model labels,
+preserves descriptive owner names and collapses only identical authenticated
+routes. The discovery, picker, cost-history, dashboard and control-integration
+UI checks passed locally after the correction. The failed CI run is retained;
+the replacement CI result is recorded in `reports/publication.json`.
 
 ## 7. AI and Azure cost accounting
 
