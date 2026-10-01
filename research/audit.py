@@ -79,8 +79,8 @@ def audit_batch(batch_name):
             input_record = read_json(directory / "input.json")
             source = (directory / "workspace" / "target.py").read_bytes()
             candidate_structure = ast.dump(ast.parse(candidate.decode("utf-8")), include_attributes=False)
-            from research.variants import source_code, mutate
-            starting_code = mutate(source_code(row["task"]), row["task"], row["condition"])
+            from research.variants import source_code, historical_mutate
+            starting_code = historical_mutate(source_code(row["task"]), row["task"], row["condition"])
             structure_changed = candidate_structure != ast.dump(ast.parse(starting_code), include_attributes=False)
             trajectories.append({
                 "run_id": row["run_id"], "task": row["task"], "condition": row["condition"],

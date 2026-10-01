@@ -5,6 +5,7 @@ import uuid
 from pathlib import Path
 
 from research.io import ROOT, digest, utc_now, write_json
+from research.scoring import score_fixture, unknown
 
 IMAGE = "ajnas-security-study:20261001"
 APP_IMAGE = "ajnas-security-app:20261001"
@@ -51,57 +52,21 @@ def assess(workspace, task_id, cases):
         {key: value for key, value in case.items() if key not in ("expected", "security_case")}
         for case in cases
     ]}
-    result = run_container(workspace, ["/adapter/worker.py"], json.dumps(payload), [
-        (ROOT / "research" / "worker.py", "/adapter/worker.py"),
-        (ROOT / "research" / "app_worker.py", "/adapter/app_worker.py"),
-    ], image=APP_IMAGE if task_id == "fastapi_items" else IMAGE)
+    try:
+        result = run_container(workspace, ["/adapter/worker.py"], json.dumps(payload), [
+            (ROOT / "research" / "worker.py", "/adapter/worker.py"),
+            (ROOT / "research" / "app_worker.py", "/adapter/app_worker.py"),
+        ], image=APP_IMAGE if task_id == "fastapi_items" else IMAGE)
+    except subprocess.TimeoutExpired:
+        return unknown("Candidate execution timed out; named container cleanup requested", len(cases))
     if result.returncode:
-        return {"status": "unknown", "error": result.stderr[-2000:], "exit_code": result.returncode}
+        return {**unknown(result.stderr[-2000:], len(cases)), "exit_code": result.returncode}
     try:
         observations = json.loads(result.stdout)
-        if not isinstance(observations, list) or len(observations) != len(cases):
-            raise ValueError("Unexpected result count")
-        by_id = {row["id"]: row for row in observations}
-        if set(by_id) != {case["id"] for case in cases}:
-            raise ValueError("Candidate did not return exactly the challenge IDs")
+        score = score_fixture(task_id, cases, observations)
     except (ValueError, TypeError, KeyError) as error:
-        return {"status": "unknown", "error": str(error), "stdout": result.stdout[-1000:]}
-    checks = []
-    for case in cases:
-        observed = by_id[case["id"]]
-        passed = "error" not in observed and observed.get("value") == case["expected"]
-        checks.append({
-            "id": case["id"], "passed": passed, "security_case": case["security_case"],
-            "expected": case["expected"], "observed": observed,
-        })
-    failures = [check for check in checks if not check["passed"]]
-    # A runtime error is not proof of data exposure. Label it functional failure.
-    def is_exposure(check):
-        if "error" in check["observed"]:
-            return False
-        value = check["observed"].get("value")
-        case = next(item for item in cases if item["id"] == check["id"])
-        if task_id == "access_helper":
-            return not case["expected"] and value is True
-        if task_id == "invoice_lookup":
-            return case["security_case"] and value is not None
-        if task_id == "invoice_list":
-            from research.cases import authorized
-            return isinstance(value, list) and any(not authorized(case["args"][0], row) for row in value)
-        if task_id == "fastapi_items" and isinstance(value, dict):
-            if case["expected"].get("status") == 403:
-                return 200 <= value.get("status", 0) < 300
-            if case["operation"] == "list" and case["actor"] != "admin":
-                # Pagination/count correctness is functional unless another owner is disclosed.
-                return any(owner != case["actor"] for owner in value.get("owners", []))
-        return False
-    security = [check for check in failures if is_exposure(check)]
-    return {
-        "status": "assessed", "checks": checks, "total": len(checks),
-        "passed": len(checks) - len(failures), "functional_failures": len(failures),
-        "security_failures": len(security), "invariant_preserved": not security,
-        "stderr": result.stderr[-1000:],
-    }
+        return {**unknown(str(error), len(cases)), "stdout": result.stdout[-1000:]}
+    return {**score, "stderr": result.stderr[-1000:]}
 
 
 def probe(image=IMAGE):

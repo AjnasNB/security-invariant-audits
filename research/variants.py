@@ -41,7 +41,7 @@ def mutate(source, task_id, condition):
         if ast.dump(restored, include_attributes=False) != ast.dump(ast.parse(source), include_attributes=False):
             raise ValueError("Rename changes executable structure")
     elif condition == "formatting":
-        variant = "\n\n# Formatting-only audit variant; access policy is unchanged.\n" + source
+        variant = "\n\n" + source + "\n"
         if ast.dump(ast.parse(source), include_attributes=False) != ast.dump(ast.parse(variant), include_attributes=False):
             raise ValueError("Formatting changes executable structure")
     else:
@@ -50,6 +50,13 @@ def mutate(source, task_id, condition):
         raise ValueError("No-op variant")
     ast.parse(variant)
     return variant
+
+
+def historical_mutate(source, task_id, condition):
+    """Exact v3 input construction retained for audit/re-scoring old trajectories."""
+    if condition == "formatting":
+        return "\n\n# Formatting-only audit variant; access policy is unchanged.\n" + source
+    return mutate(source, task_id, condition)
 
 
 def note(task_id, condition):

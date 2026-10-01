@@ -21,7 +21,7 @@ def run_fixture(payload):
         try:
             with contextlib.redirect_stdout(io.StringIO()):
                 value = function(*case["args"])
-            observations.append({"id": case["id"], "value": value})
+            observations.append({"id": case["id"], "value": value, "return_type": type(value).__name__})
         except Exception as error:
             observations.append({"id": case["id"], "error": type(error).__name__ + ": " + str(error)[:300]})
     return observations

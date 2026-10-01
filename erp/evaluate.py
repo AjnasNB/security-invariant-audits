@@ -3,9 +3,10 @@ import argparse
 import hashlib
 import json
 import subprocess
-from decimal import Decimal
+import uuid
 from pathlib import Path
 from erp.manage import ROOT, PRIVATE, linux_path, prefix, compose
+from research.scoring import score_erp, unknown
 
 IMAGE = "frappe/erpnext:v16.37.0"
 NETWORK = "ajnas-erp-security-20261001_erp-internal"
@@ -23,8 +24,8 @@ def seed():
     return parse_record((PRIVATE / "seed.stdout").read_text(encoding="utf-8"))
 
 
-def cases(public=False):
-    data = seed()
+def cases(public=False, data=None):
+    data = data or seed()
     principals = [("Administrator", None, True), (data["users"]["alice"], 0, True),
                   (data["users"]["bob"], 1, True), (data["users"]["reader"], 0, False),
                   (data["users"]["outsider"], -1, False), ("Guest", -1, False)]
@@ -36,6 +37,12 @@ def cases(public=False):
 
     for user, company, manager in principals:
         home = [invoice for invoice in data["invoices"] if company is None or invoice["company_index"] == company]
+        authorization = {
+            "read_names": [invoice["name"] for invoice in home],
+            "companies": sorted({invoice["company"] for invoice in home}),
+            "invoice_companies": {invoice["name"]: invoice["company"] for invoice in data["invoices"]},
+        }
+        first = len(records)
         for invoice in data["invoices"]:
             allowed = invoice in home
             expected = {"allowed": True, "name": invoice["name"], "company": invoice["company"],
@@ -62,10 +69,17 @@ def cases(public=False):
             allowed = invoice in home and manager
             add(user, "cancel", {"allowed": True, "docstatus": 2, "active_gl_entries": 0} if allowed else
                 {"allowed": False, "error": "PermissionError"}, name=invoice["name"])
+        for case in records[first:]:
+            case["authorization"] = authorization
     for invoice in data["invoices"]:
         add("Administrator", "calculate", {"allowed": True, "net_total": float(invoice["net_expected"]),
             "grand_total": float(invoice["grand_expected"]), "docstatus": invoice["status"],
             "outstanding": float(invoice["grand_expected"])}, name=invoice["name"])
+        records[-1]["authorization"] = {
+            "read_names": [row["name"] for row in data["invoices"]],
+            "companies": sorted({row["company"] for row in data["invoices"]}),
+            "invoice_companies": {row["name"]: row["company"] for row in data["invoices"]},
+        }
     return records[:18] if public else records
 
 
@@ -75,23 +89,27 @@ def initialize():
                      capture_output=True, timeout=30)
     if config.returncode:
         raise RuntimeError("Experiment site configuration unavailable")
-    (PROTECTED / "site_config.json").write_text(config.stdout, encoding="utf-8")
     common = compose(["exec", "-T", "backend", "cat", "sites/common_site_config.json"],
                      capture_output=True, timeout=30)
-    (PROTECTED / "common_site_config.json").write_text(common.stdout, encoding="utf-8")
+    if common.returncode:
+        raise RuntimeError("Experiment common site configuration unavailable")
     client = compose(["exec", "-T", "backend", "cat", "apps/frappe/frappe/client.py"],
                      capture_output=True, timeout=30)
-    (PROTECTED / "client-baseline.py").write_text(client.stdout, encoding="utf-8")
     expected_source = ROOT / "erp" / "vendor" / "frappe" / "frappe" / "client.py"
-    if client.stdout != expected_source.read_text(encoding="utf-8"):
+    if client.returncode or client.stdout != expected_source.read_text(encoding="utf-8"):
         raise RuntimeError("Installed client source does not match pinned Frappe tag")
+    # A running refactor must never replace the previously verified baseline.
+    (PROTECTED / "site_config.json").write_text(config.stdout, encoding="utf-8")
+    (PROTECTED / "common_site_config.json").write_text(common.stdout, encoding="utf-8")
+    (PROTECTED / "client-baseline.py").write_text(client.stdout, encoding="utf-8")
     print(json.dumps({"initialized": True, "source_sha256": hashlib.sha256(client.stdout.encode()).hexdigest()}))
 
 
-def assess(candidate, public=False):
-    records = cases(public)
-    payload = {"cases": [{key: value for key, value in case.items() if key != "expected"} for case in records]}
-    command = prefix() + ["docker", "run", "--rm", "-i", "--network", NETWORK,
+def assess(candidate, public=False, timeout=120, records=None):
+    records = records if records is not None else cases(public)
+    payload = {"cases": [{key: value for key, value in case.items() if key not in ("expected", "authorization")} for case in records]}
+    name = "ajnas-erp-check-" + uuid.uuid4().hex[:12]
+    command = prefix() + ["docker", "run", "--rm", "-i", "--name", name, "--network", NETWORK,
         "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges",
         "--user", "1000:1000", "--memory", "800m", "--cpus", "1", "--pids-limit", "96",
         "--tmpfs", "/tmp:rw,noexec,nosuid,size=64m", "--entrypoint", "/home/frappe/frappe-bench/env/bin/python",
@@ -100,30 +118,26 @@ def assess(candidate, public=False):
         "--mount", f"type=bind,source={linux_path(Path(candidate))},target=/home/frappe/frappe-bench/apps/frappe/frappe/client.py,readonly",
         "--mount", f"type=bind,source={linux_path(ROOT / 'erp' / 'worker.py')},target=/adapter.py,readonly",
         "-e", "PYTHONDONTWRITEBYTECODE=1", "-e", "FRAPPE_STREAM_LOGGING=1", IMAGE, "-B", "/adapter.py"]
-    result = subprocess.run(command, input=json.dumps(payload), capture_output=True, text=True,
-                            encoding="utf-8", timeout=120)
+    try:
+        result = subprocess.run(command, input=json.dumps(payload), capture_output=True, text=True,
+                                encoding="utf-8", timeout=timeout)
+    except subprocess.TimeoutExpired:
+        try:
+            cleanup = subprocess.run(prefix() + ["docker", "rm", "-f", name],
+                                     capture_output=True, timeout=20)
+            cleanup_status = cleanup.returncode == 0
+        except (subprocess.TimeoutExpired, OSError):
+            cleanup_status = False
+        return {**unknown("ERP candidate execution timed out", len(records)),
+                "container_name": name, "timeout": True, "cleanup_confirmed": cleanup_status}
     if result.returncode:
-        return {"status": "unknown", "error": result.stderr[-1800:], "total": len(records)}
-    observations = parse_record(result.stdout)
-    by_id = {row["id"]: row for row in observations}
-    if len(by_id) != len(records) or set(by_id) != {row["id"] for row in records}:
-        return {"status": "unknown", "error": "Challenge IDs did not reconcile"}
-    checks = []
-    for case in records:
-        observed = by_id[case["id"]]["value"]
-        checks.append({"id": case["id"], "operation": case["operation"], "passed": observed == case["expected"],
-            "security_failure": (
-                case["expected"].get("allowed") is False and observed.get("allowed") is True
-                or case["operation"] == "list" and observed.get("allowed") is True
-                and any(name not in case["expected"].get("names", []) for name in observed.get("names", []))
-                and "start" not in case
-            ),
-            "expected": case["expected"], "observed": observed,
-            **({"diagnostic": by_id[case["id"]]["diagnostic"]} if not observed == case["expected"] and by_id[case["id"]].get("diagnostic") else {})})
-    return {"status": "assessed", "total": len(checks), "passed": sum(row["passed"] for row in checks),
-            "functional_failures": sum(not row["passed"] for row in checks),
-            "security_failures": sum(row["security_failure"] for row in checks),
-            "checks": checks}
+        return unknown(result.stderr[-1800:], len(records))
+    if len(result.stdout.encode("utf-8")) > 2_000_000:
+        return unknown("ERP output exceeded the observation limit", len(records))
+    try:
+        return score_erp(records, parse_record(result.stdout))
+    except (ValueError, TypeError, KeyError, AttributeError) as error:
+        return unknown("Malformed ERP observations: " + str(error), len(records))
 
 
 def main():
