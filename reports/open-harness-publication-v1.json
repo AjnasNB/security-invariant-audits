@@ -1,0 +1,64 @@
+{
+  "recorded_date": "2026-10-01",
+  "author": "Ajnas N B",
+  "repository": "AjnasNB/security-invariant-audits",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "previous_reviewed_main": "ccab35a664cdce61ea743fdd1ac7ed9eef4da85f",
+  "verified_content_main": "e9e7c44bf77b43f68b214657525ec518e27fa823",
+  "commits": [
+    {
+      "sha": "3c093121d44e6b18bdc9b1f26704d1f966e3f7ce",
+      "subject": "feat(harnesses): run ordinary Azure tasks across five agent runtimes",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com"
+    },
+    {
+      "sha": "e9e7c44bf77b43f68b214657525ec518e27fa823",
+      "subject": "docs(results): publish open-harness questions evidence and bounded costs",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com"
+    }
+  ],
+  "ci": {
+    "run_id": 36879825255,
+    "head_sha": "e9e7c44bf77b43f68b214657525ec518e27fa823",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/36879825255"
+  },
+  "verification": {
+    "measurement_unit_tests": 49,
+    "windows_and_linux_unit_tests_passed": true,
+    "published_evidence_files": 592,
+    "saved_coding_files": 60,
+    "completed_refactors": 51,
+    "completed_refactor_checks": 5633,
+    "all_saved_checks": 6520,
+    "answered_paper_questions": 18,
+    "correct_paper_answers": 18,
+    "no_observed_access_violation": true,
+    "pdf_pages_visually_checked": 6,
+    "selected_codex_sdk_tests": 14,
+    "selected_openhands_security_tool_tests": 77,
+    "final_read_only_erp_fixture_check_passed": true
+  },
+  "publication_scan": {
+    "tracked_files_reviewed": 1063,
+    "passed": true,
+    "issues": [],
+    "values_disclosed": false,
+    "scope": "Tracked paths, common token/private-key patterns and exact local ERP passwords; not an exhaustive secret detector"
+  },
+  "costs": {
+    "extension_reported_reference_estimate_usd": 1.2543425,
+    "unreported_request_reservations_usd": 0.0621575,
+    "reported_plus_uncertain_reservations_usd": 1.3165,
+    "fixed_total_reference_cap_usd": 1.5,
+    "not_an_azure_invoice": true
+  },
+  "credential_policy": "Real Azure credentials stayed in the authenticated controller. Disposable agent proxy capabilities, raw traces, profiles, source archives and upstream checkouts are not public exports.",
+  "other_repositories_changed": false,
+  "limitations": "Budget-limited primary schedules and three-task optional smokes, not an agent ranking, full source build/test, exhaustive all-harness comparison or security guarantee.",
+  "scope": "Published content commits and successful CI; this metadata record does not include its own future commit hash."
+}

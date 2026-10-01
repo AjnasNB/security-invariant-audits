@@ -26,6 +26,7 @@ invoice/remaining-credit figures.
 [New protocol and adaptations](docs/OPEN-HARNESS-PROTOCOL.md) |
 [PDF report](reports/Ajnas_Open_Harness_Ordinary_Results_20261001.pdf) |
 [Raw-count summary](reports/open-harness-results-v1.json).
+[Published commits and passing CI](reports/open-harness-publication-v1.md).
 
 Verify the new public saved evidence without Azure or Docker:
 
