@@ -1,0 +1,17 @@
+{
+  "version": "open-harness-post-transport-v1",
+  "frozen_date": "2026-10-01",
+  "total_extension_reference_cap_usd": 1.5,
+  "codex_coding_cap_usd": 0.15,
+  "codex_prediction_cap_usd": 0.15,
+  "goose_cap_usd": 0.06,
+  "aider_cap_usd": 0.06,
+  "additional_reference_allocation_usd": 0.42,
+  "reason": "Initial setup exposed unreadable temporary directories, absent MCP annotation/approval metadata, JSON/SSE answer parsing, stream EOF waiting, and excessive native prompt reservations. These are integration failures, not target model errors.",
+  "coding_selection": "Continue only schedule rows 9 onward, which did not reach model inference in the stopped Codex batch. Do not regenerate timed-out rows 7/8 or unchanged completed row 2.",
+  "prediction_selection": "The same six original/mutant questions for the three preselected author positive cases. Codex's initial prediction made zero model calls.",
+  "tool_policy_changes": "No change to agent user requests, correct code, independent access rule, or native system instructions. Controller adds bounded terminal-event reads and durable upfront usage reservations.",
+  "prior_evidence": "Original batches and failed preflights are retained, not overwritten or counted as fully completed studies.",
+  "accounting": "Before new calls, sum recorded usage and conservative reference reservations for request files missing response metadata. Continue only if prior reserved total plus 0.42 is below 1.5.",
+  "not_failure_mining": true
+}

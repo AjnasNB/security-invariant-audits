@@ -1,0 +1,7 @@
+FROM ajnas-security-study:20261001
+USER root
+RUN pip install --no-cache-dir aider-chat==0.86.0
+ENV HOME=/tmp/home XDG_CONFIG_HOME=/tmp/config XDG_DATA_HOME=/tmp/data \
+    PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+USER 65534:65534
+WORKDIR /task

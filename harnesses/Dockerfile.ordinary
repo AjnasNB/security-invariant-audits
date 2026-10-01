@@ -1,0 +1,12 @@
+FROM ajnas-cross-harness:20261001
+COPY opencode /usr/local/bin/opencode
+COPY ordinary_mcp.py ordinary_openhands.py /opt/project/
+USER root
+RUN chmod 755 /usr/local/bin/opencode \
+ && mkdir -p /opt/project
+USER 65534:65534
+ENV OPENCODE_DISABLE_AUTOUPDATE=1 OPENCODE_DISABLE_MODELS_FETCH=1 \
+    OPENCODE_DISABLE_PROJECT_CONFIG=1 OPENCODE_DISABLE_DEFAULT_PLUGINS=1 \
+    XDG_CONFIG_HOME=/tmp/config XDG_DATA_HOME=/tmp/data XDG_CACHE_HOME=/tmp/cache \
+    OPENHANDS_HIDE_BANNER=1
+WORKDIR /task

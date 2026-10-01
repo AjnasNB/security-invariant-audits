@@ -13,6 +13,10 @@ def natural_assess(workspace, task, public=False):
     with tempfile.TemporaryDirectory(prefix="ajnas-invoice-run-") as temporary:
         directory = Path(temporary)
         (directory / "target.py").write_bytes((Path(workspace) / "invoice_service.py").read_bytes())
+        # Only this disposable, credential-free worker copy is readable by the
+        # container's non-root UID. TemporaryDirectory defaults to 0700 on Linux.
+        directory.chmod(0o755)
+        (directory / "target.py").chmod(0o644)
         result = assess(directory, task, cases)
     if public:
         return {"status": result["status"], "tests": result.get("total"),

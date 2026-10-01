@@ -1,0 +1,18 @@
+{
+  "version": "remaining-paper-questions-v1",
+  "registered_date": "2026-10-01",
+  "total_extension_cap_usd": 1.5,
+  "prior_recorded_reference_estimate_usd": 1.197604,
+  "prior_uncertain_request_reservation_usd": 0.0621575,
+  "opencode_reference_cap_usd": 0.08,
+  "openhands_reference_cap_usd": 0.08,
+  "combined_reserved_maximum_usd": 1.4197615,
+  "selection": {
+    "opencode": ["HumanEvalTF466:mutant", "HumanEvalTF547:original", "HumanEvalTF547:mutant"],
+    "openhands": ["HumanEvalTF466:original", "HumanEvalTF466:mutant", "HumanEvalTF547:original", "HumanEvalTF547:mutant"]
+  },
+  "reason": "Complete only questions that produced no model answer in the small original sub-budgets. Existing answered questions are not repeated. Initial budget stops and auxiliary title traffic stay in the evidence.",
+  "transport": "Terminal-event bounded reads, JSON/SSE final-text parser, upfront per-request reservations.",
+  "different_from_discovery": "The selected cases are known-positive historical MUCOCO examples; this is current-model reproduction testing, not unbiased discovery or full-paper accuracy.",
+  "no_additional_paid_coding_runs": true
+}
