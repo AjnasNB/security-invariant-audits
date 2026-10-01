@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-01T08:05:04.305609+00:00",
+  "sources": [
+    {
+      "source_id": "codex_cli",
+      "repository": "https://github.com/openai/codex",
+      "commit": "01fc69f4026735edfdf6789820549727a4867b11",
+      "license": "Apache-2.0",
+      "selected_file_hashes": {
+        "README.md": "51fd30959ece9cb3c96fa8fe7e131f0c0f617f7844b0f8e96bde7fd08d22ec1f",
+        "LICENSE": "aa5e89edcbbd01fc3fb188a527d8bdc0da5812305cab220c84348c14ea427288",
+        "AGENTS.md": "f6937d6d37ec246aa58ab16cb308e3cec66506c592eb278d7bfa3f9ede6f1d88"
+      }
+    },
+    {
+      "source_id": "openhands",
+      "repository": "https://github.com/OpenHands/OpenHands",
+      "commit": "a8c05584ec6bb063a0857460b9cbff48e136919f",
+      "license": "MIT",
+      "selected_file_hashes": {
+        "README.md": "b7c1e6e52f95654bbf812ed442d28955392fa238c3fb50a49e3e2bb24b862159",
+        "LICENSE": "e1d1fa9f3a8d7bef24449d488fcd8f00f8f272cac297bb9bed161eb6175b876a",
+        "AGENTS.md": "3f27c7af3f78e0cc66ed6ca760ce4e1d3b93504b9e6764ff3599cd9ae5cb2914"
+      }
+    },
+    {
+      "source_id": "openhands_sdk",
+      "repository": "https://github.com/OpenHands/software-agent-sdk",
+      "commit": "fad63774459171b08f889b12fd3b4d6346168c3e",
+      "license": "MIT",
+      "selected_file_hashes": {
+        "README.md": "bdc50c2993c8ac107c9d06e4ec41cefec3f1080115672a856f14b5f73ad7da3f",
+        "LICENSE": "6129b054edd8cdac1252496d36e6a06848f0fb11e9d2564429ed79674ab4bf32",
+        "AGENTS.md": "ca07afebf9edaf7f8a78742098360856b338b0e9775f664159d05490afcda51d"
+      }
+    },
+    {
+      "source_id": "claude_code",
+      "repository": "https://github.com/anthropics/claude-code",
+      "commit": "6160717d8994f236ab381cf534fc1cde5347c12f",
+      "license": "commercial CLI; public repo is not a core-source MIT license",
+      "selected_file_hashes": {
+        "README.md": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+        "LICENSE.md": "728158fd1037143fad6907e8fa34804177e598b7326519503fe83cafdef849e6"
+      }
+    },
+    {
+      "source_id": "claude_agent_sdk",
+      "repository": "https://github.com/anthropics/claude-agent-sdk-python",
+      "commit": "db750b20a88ae9645b1674d95193a88c89a265f9",
+      "license": "MIT SDK",
+      "selected_file_hashes": {
+        "README.md": "b25b92c9505664819251da90b5749c0cc462a3ad7ef1650fc0ae4b0da4df81f3",
+        "LICENSE": "2c7f3d72461b6c088cc0cc0272671ed8165a5065a2102497443ba98a64da64a9"
+      }
+    }
+  ]
+}

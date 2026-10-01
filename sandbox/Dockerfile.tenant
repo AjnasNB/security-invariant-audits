@@ -1,0 +1,4 @@
+FROM ajnas-security-study:20261001
+USER root
+RUN pip install --no-cache-dir Django==4.2.23 djangorestframework==3.16.0
+USER 65534:65534

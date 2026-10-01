@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-01T06:34:54.195498+00:00",
+  "families_kept_separate": true,
+  "datasets": {
+    "humaneval": {
+      "records": 164,
+      "family": "general-code",
+      "path": "datasets/humaneval.jsonl"
+    },
+    "mucoco": {
+      "records": 2268,
+      "family": "general-code",
+      "path": "datasets/restricted/mucoco.jsonl",
+      "redistribution": "not-established"
+    },
+    "jailguard": {
+      "records": 10000,
+      "family": "text-injection",
+      "path": "datasets/restricted/jailguard.jsonl",
+      "redistribution": "not-established"
+    },
+    "django_multitenant": {
+      "records": 59,
+      "family": "tenant-upstream-tests",
+      "path": "datasets/django_multitenant_tests.jsonl"
+    },
+    "agentdojo": {
+      "records": 124,
+      "family": "agent-injection",
+      "path": "datasets/agentdojo.jsonl"
+    },
+    "fastapi_app": {
+      "records": 11,
+      "family": "application-owner-tests",
+      "path": "datasets/fastapi_upstream_tests.jsonl"
+    },
+    "erpnext": {
+      "records": 255,
+      "family": "erp-source-tests-not-executed",
+      "path": "datasets/restricted/erpnext_tests.jsonl",
+      "redistribution": "GPL-3.0-separate"
+    },
+    "ajnas_synthetic": {
+      "records": 326,
+      "family": "owner-company",
+      "path": "datasets/synthetic_invoice_cases.jsonl"
+    }
+  }
+}

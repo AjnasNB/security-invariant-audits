@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-01T06:34:54.195498+00:00",
+  "sources": [
+    {
+      "id": "mucoco",
+      "repository": "https://github.com/mucoco-tester/mucoco-tester.github.io",
+      "commit": "d0d77fca568cb7cdecfd9ec85c86ee25a7078cfa",
+      "acquired_at": "2026-10-01T06:34:30.464148+00:00",
+      "stars_at_acquisition": 0,
+      "license": "unknown",
+      "redistributable_in_project": false,
+      "local_path": "D:\\SUTD\\_sources\\mucoco",
+      "sparse_checkout": true,
+      "selected_file_hashes": {
+        "README.md": "2f6ed4bbe569c5402bd1d9ff8e3a3bf472199342c62da88dc2b5f69b97a932e5"
+      }
+    },
+    {
+      "id": "jailguard",
+      "repository": "https://github.com/shiningrain/JailGuard",
+      "commit": "419e1d3d08f4d02998a11a687f925518d2d5dd0c",
+      "acquired_at": "2026-10-01T06:34:31.157137+00:00",
+      "stars_at_acquisition": 34,
+      "license": "unknown",
+      "redistributable_in_project": false,
+      "local_path": "D:\\SUTD\\_sources\\jailguard",
+      "sparse_checkout": true,
+      "selected_file_hashes": {
+        "README.md": "e5c6b63ede991a3c7b5d2a15f1d75285eedb0659e962ef2b736b6b0f0af6b82d"
+      }
+    },
+    {
+      "id": "humaneval",
+      "repository": "https://github.com/openai/human-eval",
+      "commit": "6d43fb980f9fee3c892a914eda09951f772ad10d",
+      "acquired_at": "2026-10-01T06:34:31.948573+00:00",
+      "stars_at_acquisition": 3395,
+      "license": "MIT",
+      "redistributable_in_project": true,
+      "local_path": "D:\\SUTD\\_sources\\humaneval",
+      "sparse_checkout": false,
+      "selected_file_hashes": {
+        "README.md": "8cc4bfff522ffc90b5fefe91a3b34249194417d37dc25891b0c6206b410a5e9e",
+        "LICENSE": "fc262f9be764e73a1481711b45ae4b991c39c6b12ff7dfbe7a89354491d1d531"
+      }
+    },
+    {
+      "id": "django_multitenant",
+      "repository": "https://github.com/citusdata/django-multitenant",
+      "commit": "72cb58970e707922facd8d5674d10b1027ba63eb",
+      "acquired_at": "2026-10-01T06:34:32.769373+00:00",
+      "stars_at_acquisition": 824,
+      "license": "MIT",
+      "redistributable_in_project": true,
+      "local_path": "D:\\SUTD\\_sources\\django_multitenant",
+      "sparse_checkout": false,
+      "selected_file_hashes": {
+        "README.md": "a00d42b51a13c7eda684dd109191f5e353509e6cdfec382e2f65f1c8c1876584",
+        "LICENSE": "12021dcf17af3b34897bfdb00b08ee152b8eaf5b0ad9b1bedfe8e2cd61393568",
+        "docs\\source\\license.rst": "3d36cd21ba0dec84e67b7f0cfb62c83bd5e0a9ac4b6c5d276e07a6f05f0fbd1f"
+      }
+    },
+    {
+      "id": "agentdojo",
+      "repository": "https://github.com/ethz-spylab/agentdojo",
+      "commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+      "acquired_at": "2026-10-01T06:34:33.524267+00:00",
+      "stars_at_acquisition": 882,
+      "license": "MIT",
+      "redistributable_in_project": true,
+      "local_path": "D:\\SUTD\\_sources\\agentdojo",
+      "sparse_checkout": false,
+      "selected_file_hashes": {
+        "README.md": "b6616a39351841b10c68d6806741c5302ee15d8fc5517ff58fa7c7586ce24ca8",
+        "LICENSE": "a090c871ff2aa6abb58a0eda1b6262dca39a7610de3df3411497fba7aa6fad09"
+      }
+    },
+    {
+      "id": "fastapi_app",
+      "repository": "https://github.com/fastapi/full-stack-fastapi-template",
+      "commit": "cb740b656d7a0a6c5e12c7bf8e50343ec94ee9c7",
+      "acquired_at": "2026-10-01T06:34:34.250243+00:00",
+      "stars_at_acquisition": 45828,
+      "license": "MIT",
+      "redistributable_in_project": true,
+      "local_path": "D:\\SUTD\\_sources\\fastapi_app",
+      "sparse_checkout": false,
+      "selected_file_hashes": {
+        "README.md": "8da597775cabbeaaa93a6a1c3e382e6b2b40b1f646bba0e94d5d479fad0e7b64",
+        "LICENSE": "702c40d778386ffa2e793841c3069284968033b215a206d73adb3f4d1c135eb1"
+      }
+    },
+    {
+      "id": "erpnext",
+      "repository": "https://github.com/frappe/erpnext",
+      "commit": "3e6deac96ee39d0800171cc2c94b52f9cd04936a",
+      "acquired_at": "2026-10-01T06:34:34.993076+00:00",
+      "stars_at_acquisition": 39696,
+      "license": "GPL-3.0",
+      "redistributable_in_project": false,
+      "local_path": "D:\\SUTD\\_sources\\erpnext",
+      "sparse_checkout": true,
+      "selected_file_hashes": {
+        "README.md": "2e1f65ba732ed84b86330a512ca5db884667c37f3eeef9b3ba1292972e74cd9d",
+        "license.txt": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+      }
+    }
+  ]
+}

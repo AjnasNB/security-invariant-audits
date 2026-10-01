@@ -1,0 +1,37 @@
+{
+  "schema_version": 3,
+  "author": "Ajnas N B",
+  "frozen_at": "2026-10-01",
+  "conditions": ["original", "rename", "formatting", "neutral", "misleading"],
+  "fixture_tasks": ["access_helper", "invoice_lookup", "invoice_list"],
+  "application_task": "fastapi_items",
+  "schedule_seed": 20261001,
+  "pilot_repetitions": 2,
+  "independent_control_runs_per_task": 6,
+  "engine": "delta-native-restricted",
+  "deployment": "maqam-orchestrator-sol-6-1",
+  "expected_model": "gpt-6.1-sol",
+  "expected_version": "2026-09-29",
+  "api": "azure-responses",
+  "limits": {
+    "max_steps": 10,
+    "max_output_tokens_per_request": 4096,
+    "max_input_tokens_per_request": 20000,
+    "batch_max_requests": 600,
+    "batch_max_total_tokens": 1500000,
+    "batch_planning_cap_usd": 10,
+    "wall_seconds_per_run": 180
+  },
+  "billing": {
+    "currency": "USD",
+    "input_per_million": null,
+    "cached_input_per_million": null,
+    "output_per_million": null,
+    "status": "Azure invoice rates unavailable; public OpenAI Standard reference is an estimate only",
+    "public_reference_rates": [2, 0.1, 10],
+    "public_reference_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "unverified_conservative_planning_rates": [4, 4, 20],
+    "planning_note": "Two times public uncached/output rates; all input planned as uncached. Not a guaranteed Azure bill cap."
+  },
+  "scope": "local only; no Git branches, remote creation, commits or pushes"
+}

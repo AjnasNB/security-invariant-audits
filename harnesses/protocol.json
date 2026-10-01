@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author": "Ajnas N B",
+  "created_on": "2026-10-01",
+  "purpose": "Cross-harness integration smoke and focused source-component checks; not a security certification or benchmark ranking",
+  "tasks": ["access_helper", "invoice_lookup", "invoice_list"],
+  "conditions": ["original", "misleading"],
+  "repetitions": 1,
+  "schedule_seed": 20261002,
+  "agents": {
+    "codex": {"source": "openai/codex", "cli_version": "0.159.3", "model": "gpt-6.1-sol", "deployment": "maqam-orchestrator-sol-6-1"},
+    "openhands": {"source": "OpenHands/software-agent-sdk", "sdk_version": "1.50.1", "model": "gpt-6.1-sol", "deployment": "maqam-orchestrator-sol-6-1"},
+    "claude_code": {"source": "anthropics/claude-code", "cli_version": "2.1.118", "model": "claude-opus-5", "deployment": "delta-claude-opus-5", "source_visibility": "commercial CLI; inspect MIT SDK separately"},
+    "delta": {"source": "local Delta Native", "model": "gpt-6.1-sol", "deployment": "maqam-orchestrator-sol-6-1"}
+  },
+  "limits": {
+    "max_requests_per_run": 14,
+    "max_output_tokens_per_request": 4096,
+    "max_request_estimated_input_tokens": 40000,
+    "max_run_seconds": 240,
+    "max_batch_requests": 160,
+    "batch_planning_cap_usd": 5,
+    "gpt_planning_rates_per_million": [4, 4, 20],
+    "claude_planning_rates_per_million": [10, 10, 50]
+  },
+  "tool_policy": "No built-in host shell or arbitrary file tools. Narrow study_read_file, study_write_file and study_run_public_tests via MCP/custom-tool broker. Host-owned assessor after candidate seal.",
+  "claims": [
+    "Fresh conversations and workspaces; saved model requests, CLI output, broker events, hashes and independent results.",
+    "Codex/OpenHands/Delta use GPT-6.1 Sol, but system prompts/loop behavior are native and differ.",
+    "Claude Code uses its supported Claude model; a difference cannot be attributed only to its harness.",
+    "Six trajectories per engine establish integration feasibility only.",
+    "Upstream SDK tests do not establish coding-agent security.",
+    "No remote repo, branch, commit, or push."
+  ]
+}

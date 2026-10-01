@@ -1,0 +1,13 @@
+{
+  "name": "ajnas-security-invariant-audits",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local evidence-grounded coding-agent security feasibility study",
+  "author": "Ajnas N B",
+  "scripts": {
+    "test": "python -m unittest discover -s tests",
+    "datasets": "python -m research.datasets",
+    "validate": "python -m research.validate"
+  }
+}

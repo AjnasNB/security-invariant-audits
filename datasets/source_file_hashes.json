@@ -1,0 +1,43 @@
+{
+  "mucoco": {
+    "code_mutation/ast_mutation.py": "616705e99484121fcbf9088dd1e5422c81f802616cbeab05f7221ff649a532a1",
+    "datasets/open_ended_format/humaneval_test_modified_open.csv": "b04055deccbbd5a5402060be1e0f4e81a11b3b41aa5153c2e5d9e3b8b949806a"
+  },
+  "jailguard": {
+    "JailGuard/main_txt.py": "f0319c5d788074346d55a96c31ffc630ccf89ecc780d7e95be13f8462b5a3b66",
+    "JailGuard/utils/utils.py": "5a5a972d61ad4f2a7cc49b11a1f5bc008e907a1f3a8ccd1782b51d7784276902",
+    "JailGuard/utils/similarity.py": "96185196bb1cdce17615615d6d982d396e3853e8487508d47ce31c97006dfc6e",
+    "JailGuard/utils/augmentations.py": "81395cb2566c1b76f5b4c1cc5658f8915fee0e38818596416e71ff6462c02d0b",
+    "JailGuard/utils/mask_utils.py": "d166c26149080fbe43fa9c35bda903134ae804dcd8b7c60983f9c563badfc815",
+    "dataset/text/dataset.pkl": "888a52ec7514d723d8357330354233914a732c8e16be9fcddd24afeb61acd3c5",
+    "dataset/text/dataset-key.pkl": "235f208b2bea2569ed43502de73c6de44293753636225a1ce9fafd7f967f0d85"
+  },
+  "humaneval": {
+    "data/HumanEval.jsonl.gz": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+    "human_eval/execution.py": "64c5511d8838a9e7572d23bb63b519bd00b094e6f85536840b2b58e393c4764c",
+    "LICENSE": "fc262f9be764e73a1481711b45ae4b991c39c6b12ff7dfbe7a89354491d1d531"
+  },
+  "django_multitenant": {
+    "django_multitenant/views.py": "6a9c8d57d01dc50b31889c8397942d20949df02ed26868ccce3c0cfe5ed28340",
+    "django_multitenant/mixins.py": "eea37d83ac19d4d309ed8b62417a12652fef7730afe4a38e23f9d7fa59869262",
+    "django_multitenant/tests/test_viewsets.py": "8a11296f5d8d3c113718335e732a71083f5b02365084ed0e2d5eb8d19df4163d",
+    "LICENSE": "12021dcf17af3b34897bfdb00b08ee152b8eaf5b0ad9b1bedfe8e2cd61393568"
+  },
+  "agentdojo": {
+    "src/agentdojo/default_suites/v1/banking/user_tasks.py": "670cd9cff9ce04f152c8ede4b18a4f0b2591be4caf84c27bb761fc25ec3a16c1",
+    "src/agentdojo/default_suites/v1/banking/injection_tasks.py": "2b9c0572d83234b2aba9ecd9004ab9c5ce327f0076976334f1d1b97e87263d25",
+    "LICENSE": "a090c871ff2aa6abb58a0eda1b6262dca39a7610de3df3411497fba7aa6fad09"
+  },
+  "fastapi_app": {
+    "backend/app/api/routes/items.py": "e710b3e160bff038f079d99afff92d1d3f85b461e6e87db78f918027bf56c2b1",
+    "backend/app/models.py": "aeeb0a85f23fc2d74ff442c924144fd43f9c31fe884fd0f39c2babf2f58c7b03",
+    "backend/tests/api/routes/test_items.py": "b356e203937266454e0b0f1ea1af60e6d339639c0c21762ce7832ffb67fa2c1e",
+    "backend/pyproject.toml": "af02a0595faf8ff29dbfc0897a4e0e24f4c7736d0fe92eb5332bbd1a675a4439",
+    "LICENSE": "702c40d778386ffa2e793841c3069284968033b215a206d73adb3f4d1c135eb1"
+  },
+  "erpnext": {
+    "erpnext/accounts/doctype/sales_invoice/sales_invoice.py": "9d014590c295e1f25542ef7218d67e9643c040f28fabef1d2fa0e5c0786a8dbe",
+    "erpnext/accounts/doctype/sales_invoice/test_sales_invoice.py": "fa0f160b2bdabf1bc4f204f302eaa333de6306ee844c714333181ebed1ef7223",
+    "license.txt": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  }
+}
