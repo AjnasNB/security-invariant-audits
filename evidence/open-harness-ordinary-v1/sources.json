@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-01T14:44:44.271420+00:00",
+  "sources": [
+    {
+      "agent": "codex",
+      "repository": "https://github.com/openai/codex",
+      "commit": "01fc69f4026735edfdf6789820549727a4867b11",
+      "version_or_tag": "rust-v0.159.3",
+      "license": "Apache-2.0",
+      "local_clone_unchanged": true,
+      "selected_hashes": {
+        "README.md": "51fd30959ece9cb3c96fa8fe7e131f0c0f617f7844b0f8e96bde7fd08d22ec1f",
+        "LICENSE": "aa5e89edcbbd01fc3fb188a527d8bdc0da5812305cab220c84348c14ea427288",
+        "NOTICE": "3c505dc54be731583470ef3584e5cb96d60df7add3e7e36294cf4dea8316a5cb",
+        "AGENTS.md": "f6937d6d37ec246aa58ab16cb308e3cec66506c592eb278d7bfa3f9ede6f1d88"
+      },
+      "execution": "Official pinned release binary",
+      "full_source_build_or_full_test_suite": false
+    },
+    {
+      "agent": "opencode",
+      "repository": "https://github.com/anomalyco/opencode",
+      "commit": "aec0b9a6d8898f68f923aaf08b7306d931fd9d76",
+      "version_or_tag": "v1.18.34",
+      "license": "MIT",
+      "local_clone_unchanged": true,
+      "selected_hashes": {
+        "README.md": "b1705f0eda69dc87bb8e90a3713917bdfddb0e86f50aa1df2d56c8bd8d21c26c",
+        "LICENSE": "b5c625d157735f04e1b2b7ceccee849130b554bdb23cd58db55a38a257efbbdd",
+        "AGENTS.md": "8316fe29e94db4263999e6ec3c0556c9c9152ada6e8ad4ded8a5a9bf301fcffb"
+      },
+      "execution": "Official pinned release binary",
+      "full_source_build_or_full_test_suite": false
+    },
+    {
+      "agent": "openhands",
+      "repository": "https://github.com/OpenHands/software-agent-sdk",
+      "commit": "fad63774459171b08f889b12fd3b4d6346168c3e",
+      "version_or_tag": "1.50.1",
+      "license": "MIT",
+      "local_clone_unchanged": true,
+      "selected_hashes": {
+        "README.md": "bdc50c2993c8ac107c9d06e4ec41cefec3f1080115672a856f14b5f73ad7da3f",
+        "LICENSE": "6129b054edd8cdac1252496d36e6a06848f0fb11e9d2564429ed79674ab4bf32",
+        "AGENTS.md": "ca07afebf9edaf7f8a78742098360856b338b0e9775f664159d05490afcda51d"
+      },
+      "execution": "Pinned package/source SDK runtime",
+      "full_source_build_or_full_test_suite": false
+    },
+    {
+      "agent": "goose",
+      "repository": "https://github.com/aaif-goose/goose",
+      "commit": "302b60806639ea9f0ae8f053f49f8bf0e88b26f4",
+      "version_or_tag": "v1.52.0",
+      "license": "Apache-2.0",
+      "local_clone_unchanged": true,
+      "selected_hashes": {
+        "README.md": "fccd074f76e9956fb822c5521a499cd1d8038af96f1e4952d5b02dba238226aa",
+        "LICENSE": "276907a476b8790c650f7a7584b5bd194303bdacb269edf130b51c3cf2a7365d",
+        "AGENTS.md": "c7914167d1741a03634a53aabbf6f3da6ebaccf96f72e6aa6bde0f8faf2cae51"
+      },
+      "execution": "Official pinned release binary",
+      "full_source_build_or_full_test_suite": false
+    },
+    {
+      "agent": "aider",
+      "repository": "https://github.com/Aider-AI/aider",
+      "commit": "a4be6ccd87ebaa59b361f3f028d116ce1761b626",
+      "version_or_tag": "v0.86.0",
+      "license": "Apache-2.0",
+      "local_clone_unchanged": true,
+      "selected_hashes": {
+        "README.md": "a8ef71738663c513c47363ca6292b8d0aeda49e156b6a68da426c995e885102c",
+        "LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+      },
+      "execution": "Pinned package/source SDK runtime",
+      "full_source_build_or_full_test_suite": false
+    }
+  ],
+  "scope": "Source clones and runtime provenance, not claims of full builds or exhaustive upstream tests"
+}

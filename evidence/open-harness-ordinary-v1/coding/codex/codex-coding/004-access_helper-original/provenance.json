@@ -1,0 +1,132 @@
+{
+  "provider_metadata": [
+    {
+      "number": 15,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 5804,
+        "input_tokens_details": {
+          "cache_write_tokens": 5801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 106,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 5910
+      },
+      "status": "completed",
+      "response_id": "resp_0dd106b347bce4e1016abe6b5fc9d48195ab4e31cd837c8b22",
+      "reference_cost_usd": 0.0155685,
+      "request_sha256": "acf484329ed5c2ecbee201dfb87de925c10ea1000c63f77c3021e9ab3e574572",
+      "response_sha256": "efcdeb54e9f00196f63f9b730747b26968fbd11da8ab4e92d8d08e27be5f68d9",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 16,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 6556,
+        "input_tokens_details": {
+          "cache_write_tokens": 752,
+          "cached_tokens": 5801
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6578
+      },
+      "status": "completed",
+      "response_id": "resp_0dd106b347bce4e1016abe6b6440ec81958b3a18ed0ac8f8c5",
+      "reference_cost_usd": 0.0026861,
+      "request_sha256": "65d5ed30355b08439e948cf7b36fa12f562de8241ec967cc1e43036cd85032ee",
+      "response_sha256": "bacf93890e1b752b7ab76c7e0732ab2563083b999b0170a7f9b197cc399591b6",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 17,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 6619,
+        "input_tokens_details": {
+          "cache_write_tokens": 63,
+          "cached_tokens": 6553
+        },
+        "output_tokens": 414,
+        "output_tokens_details": {
+          "reasoning_tokens": 94
+        },
+        "total_tokens": 7033
+      },
+      "status": "completed",
+      "response_id": "resp_0dd106b347bce4e1016abe6b67632c8195b4976879774013d2",
+      "reference_cost_usd": 0.0049588,
+      "request_sha256": "8fbad0738b2198a3a0d8cf304ec5fd984bf7a2b8f7e04740600c63f5fd1a2487",
+      "response_sha256": "d3151fc6843ff88d35943016fccad20763df6031a8b5f5688ee78a0b54478cf0",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 18,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 7024,
+        "input_tokens_details": {
+          "cache_write_tokens": 405,
+          "cached_tokens": 6616
+        },
+        "output_tokens": 16,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7040
+      },
+      "status": "completed",
+      "response_id": "resp_0dd106b347bce4e1016abe6b6f00208195a7c826e981b854b9",
+      "reference_cost_usd": 0.0018401,
+      "request_sha256": "cfa31397e5d22ddde208303c9090153ba74a9cf1ffb3a596b40a28be1e092493",
+      "response_sha256": "27e52c0088d611d5a413aed7705c87314d6ac918c8e95357bae49571efb04c0a",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 19,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 7096,
+        "input_tokens_details": {
+          "cache_write_tokens": 72,
+          "cached_tokens": 7021
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7139
+      },
+      "status": "completed",
+      "response_id": "resp_0dd106b347bce4e1016abe6b728a508195aa302c918b9013fd",
+      "reference_cost_usd": 0.0013181,
+      "request_sha256": "a2b9e709cf85cc629a8c0c65acf3cf724871ad6cb0642d564e25238778fb35f7",
+      "response_sha256": "5ab4478a2b4c99b7f63abc19b9923177d96898a5330c4bed84b944ca98807404",
+      "unknown_usage": false,
+      "failure": null
+    }
+  ],
+  "native_response_count": 5,
+  "private_trace_files_excluded": true,
+  "tool_calls": {
+    "inspect_file": 4,
+    "edit_block": 1,
+    "run_tests": 1
+  },
+  "events_sha256": "77c2c11a047bcb3155b02a06a59f238d69800e0b0d4fb097a695ddf902e87a88"
+}

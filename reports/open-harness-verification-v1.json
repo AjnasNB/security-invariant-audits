@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-10-01T14:50:59.704743+00:00",
+  "author": "Ajnas N B",
+  "unit_tests": 49,
+  "all_commands_passed": true,
+  "commands": [
+    {
+      "command": "python -B -m unittest discover -s tests -q",
+      "passed": true,
+      "output": "----------------------------------------------------------------------\nRan 49 tests in 0.713s\n\nOK"
+    },
+    {
+      "command": "python -B -m harnesses.verify_ordinary",
+      "passed": true,
+      "output": "Verified 592 files; 60 saved coding outputs; 51 completed refactors.\nReplayed 6520/6520 checks; 18 answered paper questions (18 correct). No Azure or generated-program execution."
+    },
+    {
+      "command": "python -B -m research.demo",
+      "passed": true,
+      "output": "Verified 226 evidence files; 24 recorded trajectories.\nReplayed 2608/2608 checks; 23 completed refactors; 0 access violations; 0 unknown files.\nNo Azure calls, candidate code execution, Docker or credentials used. This replays saved observations; a fresh model experiment is a separate paid command."
+    },
+    {
+      "command": "python -B -m research.check_paper_evidence",
+      "passed": true,
+      "output": "Verified 10 paper evidence files and 3 archived failures. No new model or program execution."
+    },
+    {
+      "command": "python -B -m erp.check_published",
+      "passed": true,
+      "output": "Published evidence valid: 27 hashes, six refactors, 564 checks."
+    },
+    {
+      "command": "python -B -m compileall -q -x [/\\\\](vendor|private|runs|runtime|protected)[/\\\\] research erp harnesses",
+      "passed": true,
+      "output": ""
+    }
+  ],
+  "windows_and_linux_unit_checks_passed": true,
+  "upstream_selected_tests": {
+    "codex_sdk": 14,
+    "openhands_security_tools": 77
+  },
+  "upstream_source_clones_unchanged": true,
+  "pdf": {
+    "pages": 6,
+    "rendered_with": "Poppler, 110 dpi",
+    "all_pages_visually_inspected": true,
+    "layout_passed": true,
+    "new_report_preserves_historical_reports": true
+  },
+  "cost_within_cap": true,
+  "reference_estimate_usd": 1.2543425,
+  "uncertain_request_reservations_usd": 0.062157500000000004,
+  "artifact_sha256": {
+    "reports/open-harness-results-v1.json": "08cde8e2b34016d4c2a9119bb6e31b291c4f55ca88d63ea4d30b05d2ad1f9599",
+    "reports/open-harness-costs-v1.json": "7449be205aa323c966b0135e2cf93dd547e5de8c2d7ab5fa7df52816358c0452",
+    "reports/open-harness-runtime-v1.json": "32cae628326c2f5e0249f8844cbf99ac19685856438cb0f9d3d8b06f6cbeb33d",
+    "datasets/open-harness-sources-v1.json": "26394491a86cf3dcfaeaa595863202afa7a22f3b25a57adade5559b2f0720b2a",
+    "evidence/open-harness-ordinary-v1/manifest.json": "6142142ccbfc582b3844a72065c6d95b62446d8d6a2767d67949a388dc1528de",
+    "reports/Ajnas_Open_Harness_Ordinary_Results_20261001.pdf": "a45a22279b93f233915a2f7c957194f1d18b5f39bf2d52c5d327822750f4df27"
+  },
+  "no_azure_calls_in_final_verification": true,
+  "scope": "Local evidence replay, unit/control checks, exact artifact hashes and visual PDF review. Not regenerated model responses, whole upstream source suites or production security."
+}

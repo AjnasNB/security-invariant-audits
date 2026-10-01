@@ -1,0 +1,29 @@
+{
+  "id": "HumanEvalTF466:mutant",
+  "task": "HumanEvalTF466",
+  "condition": "mutant",
+  "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return not True\n    for i in range(2, l):\n        if l % i == 0:\n            return not True\n    return not False\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+  "expected": false,
+  "program_sha256": "b5de77a609589f66f92a8a41a7e78732e8b9c3e705e2503fb94447e6350e096e",
+  "termination": "budget_stopped",
+  "budget_stop": "Frozen reference-cost cap reached",
+  "exit_code": 1,
+  "usage": {
+    "requests": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "reference_estimate_usd": 0.0,
+  "run_id": "004-HumanEvalTF466-mutant",
+  "engine": "opencode",
+  "batch": "opencode-prediction",
+  "text": null,
+  "observed": null,
+  "output_valid": false,
+  "status": "unknown",
+  "correct": null,
+  "raw_parser_text": null,
+  "reparsed_without_new_model_calls": true
+}

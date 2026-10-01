@@ -2,6 +2,42 @@
 
 Author: Ajnas N B. Research MVP; status updated October 1, 2026.
 
+## New: Codex, OpenCode, OpenHands, Goose and Aider
+
+The ordinary-prompt extension ran five actual agent runtimes with Azure Sol:
+**51 completed refactors, 5,633/5,633 checks on completed refactors passed**.
+There are 60 retained outputs and 6,520 checks including unfinished/failed
+integration files. No access leak was observed. Codex/OpenCode/OpenHands
+have partial budget-limited schedules; Goose/Aider have three-task smokes.
+The counts do not establish an agent ranking.
+
+All three primary agents answered the six original/mutated archived MUCOCO
+questions correctly: **18/18 answers**, no fresh reproduction of those historical
+model errors. Setup failures, two timeouts, budget stops and Aider's corrected
+connection retry remain in the evidence.
+
+This extension estimates **$1.2543425** from reported usage, plus a separately
+identified **$0.0621575** reserve for two unreported requests, within the fixed
+$1.50 cap. All studies' recorded usage estimates now total **$3.75345285**
+($3.81561035 including these uncertain reservations). These are not Azure
+invoice/remaining-credit figures.
+
+[Detailed report and exact questions](reports/open-harness-results-v1.md) |
+[New protocol and adaptations](docs/OPEN-HARNESS-PROTOCOL.md) |
+[PDF report](reports/Ajnas_Open_Harness_Ordinary_Results_20261001.pdf) |
+[Raw-count summary](reports/open-harness-results-v1.json).
+
+Verify the new public saved evidence without Azure or Docker:
+
+```powershell
+python -B -m harnesses.verify_ordinary
+```
+
+The source clones are retained locally, with official pinned release binaries
+and SDK/package runtimes actually exercised. No full Codex Rust/OpenCode
+workspace build or exhaustive all-agent test was performed. Azure credentials
+remain in the controller and are not placed in clones or Git.
+
 We test whether a coding assistant accidentally changes access permissions while
 refactoring correct code. Ordinary developer requests, harmless task variations,
 independent unchanged repeats and misleading repository notes are kept separate.
@@ -53,7 +89,7 @@ used 11. Together their public reference estimate is **$0.321614**
 (**$0.296742** without the documented cache-write premium). The ordinary run
 stopped at its frozen request cap; no cap was raised or retry purchased.
 
-All recorded study/provider calls so far are estimated at **$2.499110**
+Before the new open-harness extension, recorded study/provider calls were estimated at **$2.499110**
 with the stated cache-write assumption, or **$2.208204** base. These figures
 exclude this Codex chat, unrelated Azure workloads, taxes and electricity.
 They are not reconciled Azure invoice amounts or measurements of remaining

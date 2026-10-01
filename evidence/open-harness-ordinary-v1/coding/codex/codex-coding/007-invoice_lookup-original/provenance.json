@@ -1,0 +1,6 @@
+{
+  "provider_metadata": [],
+  "native_response_count": 0,
+  "private_trace_files_excluded": true,
+  "native_aider_wrapper": "Text edits and unittest invocation in an isolated throwaway copy"
+}

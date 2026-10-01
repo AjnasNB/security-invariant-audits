@@ -1,0 +1,34 @@
+{
+  "provider_metadata": [
+    {
+      "number": 74,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 3941,
+        "input_tokens_details": {
+          "cache_write_tokens": 3938,
+          "cached_tokens": 0
+        },
+        "output_tokens": 149,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4090
+      },
+      "status": "completed",
+      "response_id": "resp_0d976bd72fdd221b016abe6d1cd4a08195b50218c54ed8330e",
+      "reference_cost_usd": 0.011341,
+      "request_sha256": "4fbd5ad9f5a991ae7441343896eb8567cf5275156c60c2eeb825d2dd503ea897",
+      "response_sha256": "85e6952a9025fd22318de4f4692092284436f8882264af21e1efe723ae5fcff1",
+      "unknown_usage": false,
+      "failure": null
+    }
+  ],
+  "native_response_count": 1,
+  "private_trace_files_excluded": true,
+  "tool_calls": {
+    "inspect_file": 4
+  },
+  "events_sha256": "5f907b21be71b7f80863b10790abd5e37bb53819d2d58ca3b56dd7ffdb031b51"
+}

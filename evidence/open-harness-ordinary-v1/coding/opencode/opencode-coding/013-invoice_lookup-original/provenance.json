@@ -1,0 +1,156 @@
+{
+  "provider_metadata": [
+    {
+      "number": 69,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 572,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 12,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 584
+      },
+      "status": "completed",
+      "response_id": "resp_0c35e42d58f88e91016abe6c6693d48197926f5f7f3a534706",
+      "reference_cost_usd": 0.001264,
+      "request_sha256": "10c0278820acc37f75bbbdea46fa17c31f6e7844e0499c1c55e57e4a305d77dc",
+      "response_sha256": "db778a282bbee3e6465da6475b5908d4fc930240c9935d48afc641c190612cc8",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 70,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 2062,
+        "input_tokens_details": {
+          "cache_write_tokens": 2059,
+          "cached_tokens": 0
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2136
+      },
+      "status": "completed",
+      "response_id": "resp_0b9ec2625f603ab2016abe6c690c7c8196a741a1b8ef2787ac",
+      "reference_cost_usd": 0.0058935,
+      "request_sha256": "bd3653b020ae7be5ae01e3ed97cde6b2ec925c6d9d0eaffd06de5bd274eeda65",
+      "response_sha256": "293732263c5f53f8e45e860a9ff77a8d09cd9b1d4aa85e3569714acb8857876c",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 71,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 2852,
+        "input_tokens_details": {
+          "cache_write_tokens": 790,
+          "cached_tokens": 2059
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2874
+      },
+      "status": "completed",
+      "response_id": "resp_0969901d01905bc3016abe6c6c4b5c8195bb3da2d14905626b",
+      "reference_cost_usd": 0.0024069,
+      "request_sha256": "2b68309cd22cbd53f5fd400d6f03b3784cf27120998027f6de5226166b954fdc",
+      "response_sha256": "da52c785e7284b24611b1a440993edd05f747c88fc92620e5317f1ef78c5908a",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 72,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 2902,
+        "input_tokens_details": {
+          "cache_write_tokens": 50,
+          "cached_tokens": 2849
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 68
+        },
+        "total_tokens": 3186
+      },
+      "status": "completed",
+      "response_id": "resp_0729c37d2f0e1ca9016abe6c6f07a0819588285ce07aa4e3bb",
+      "reference_cost_usd": 0.0032559,
+      "request_sha256": "3cccd8a73c62de9e19fba56f348eb71c53a39791c52313d18990775e6e59b10f",
+      "response_sha256": "26de44b0083278f1fe4a058b0df2a763934b3a7b4040bb9d588a7a3fc173e5b7",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 73,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 3181,
+        "input_tokens_details": {
+          "cache_write_tokens": 279,
+          "cached_tokens": 2899
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3196
+      },
+      "status": "completed",
+      "response_id": "resp_0a0e76a1b5fc97c8016abe6c7516c8819790840b76cea1d84a",
+      "reference_cost_usd": 0.0011434000000000001,
+      "request_sha256": "57f7886161814a7877f95ae110f918576252b9ae31519c3dc3dcec459fc4b8f2",
+      "response_sha256": "3f3372ec142350b5a7108e0f9d2e9714ccd84251edcd56ee16a29dd949f4d003",
+      "unknown_usage": false,
+      "failure": null
+    },
+    {
+      "number": 74,
+      "http_status": 200,
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "usage": {
+        "input_tokens": 3238,
+        "input_tokens_details": {
+          "cache_write_tokens": 57,
+          "cached_tokens": 3178
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3257
+      },
+      "status": "completed",
+      "response_id": "resp_0f8d18b6d9140602016abe6c78227c81958f47fa7cc0eee1b5",
+      "reference_cost_usd": 0.0006563,
+      "request_sha256": "a347b87d36beb3718ba3cf02877f29e79d25783d72e06869ca8920d249aa4512",
+      "response_sha256": "9f857953ed70e82a903a01dabed8a2b5193faefe99f2fc6669f9e85ecfe2cd2c",
+      "unknown_usage": false,
+      "failure": null
+    }
+  ],
+  "native_response_count": 6,
+  "private_trace_files_excluded": true,
+  "tool_calls": {
+    "inspect_file": 4,
+    "update_file": 1,
+    "run_tests": 1
+  },
+  "events_sha256": "0cb699f8372227bcf75a998481761233dc4e0e88a31e88cc0914ade1fab49af3"
+}

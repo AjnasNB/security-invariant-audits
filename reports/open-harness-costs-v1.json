@@ -1,0 +1,580 @@
+{
+  "recorded_at": "2026-10-01T14:44:43.599898+00:00",
+  "batches": {
+    "aider-coding": {
+      "requests": 3,
+      "input_tokens": 3611,
+      "output_tokens": 821,
+      "cached_tokens": 0,
+      "cache_write_tokens": 3602,
+      "http_attempts": 3,
+      "reference_estimate_usd": 0.017233000000000002,
+      "conservative_debit_usd": 0.030864000000000003,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 24,
+        "max_requests_per_run": 8,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.06,
+        "conservative_cap_usd": 0.6,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 3,
+      "metadata_files": 3,
+      "reported_usage_cost_usd": 0.017233000000000002
+    },
+    "aider-coding-identity-fixed": {
+      "requests": 3,
+      "input_tokens": 3611,
+      "output_tokens": 838,
+      "cached_tokens": 2497,
+      "cache_write_tokens": 1105,
+      "http_attempts": 3,
+      "reference_estimate_usd": 0.011410200000000002,
+      "conservative_debit_usd": 0.03120400000000001,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 24,
+        "max_requests_per_run": 8,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.035,
+        "conservative_cap_usd": 0.6,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 3,
+      "metadata_files": 3,
+      "reported_usage_cost_usd": 0.0114102
+    },
+    "codex-coding": {
+      "requests": 29,
+      "input_tokens": 191775,
+      "output_tokens": 3253,
+      "cached_tokens": 149289,
+      "cache_write_tokens": 42399,
+      "http_attempts": 29,
+      "reference_estimate_usd": 0.15363039999999994,
+      "conservative_debit_usd": 0.8321600000000001,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.38,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 30,
+      "metadata_files": 29,
+      "reported_usage_cost_usd": 0.1536304
+    },
+    "codex-coding-continuation": {
+      "requests": 16,
+      "input_tokens": 106866,
+      "output_tokens": 1702,
+      "cached_tokens": 79434,
+      "cache_write_tokens": 27384,
+      "http_attempts": 16,
+      "reference_estimate_usd": 0.09351940000000003,
+      "conservative_debit_usd": 0.46150400000000014,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.15,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 16,
+      "metadata_files": 16,
+      "reported_usage_cost_usd": 0.0935194
+    },
+    "codex-prediction": {
+      "requests": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 0,
+      "reference_estimate_usd": 0.0,
+      "conservative_debit_usd": 0.0,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.035,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 0,
+      "metadata_files": 0,
+      "reported_usage_cost_usd": 0
+    },
+    "codex-prediction-transport": {
+      "requests": 6,
+      "input_tokens": 34395,
+      "output_tokens": 147,
+      "cached_tokens": 0,
+      "cache_write_tokens": 34377,
+      "http_attempts": 6,
+      "reference_estimate_usd": 0.0874485,
+      "conservative_debit_usd": 0.14052,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.15,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 6,
+      "metadata_files": 6,
+      "reported_usage_cost_usd": 0.0874485
+    },
+    "goose-coding": {
+      "requests": 17,
+      "input_tokens": 18070,
+      "output_tokens": 1347,
+      "cached_tokens": 9769,
+      "cache_write_tokens": 4883,
+      "http_attempts": 17,
+      "reference_estimate_usd": 0.0334904,
+      "conservative_debit_usd": 0.09922000000000006,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 24,
+        "max_requests_per_run": 8,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.06,
+        "conservative_cap_usd": 0.6,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 17,
+      "metadata_files": 17,
+      "reported_usage_cost_usd": 0.033490400000000003
+    },
+    "opencode-coding": {
+      "requests": 132,
+      "input_tokens": 325078,
+      "output_tokens": 10381,
+      "cached_tokens": 236706,
+      "cache_write_tokens": 74985,
+      "http_attempts": 132,
+      "reference_estimate_usd": 0.3417170999999998,
+      "conservative_debit_usd": 1.5079320000000007,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.38,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 132,
+      "metadata_files": 132,
+      "reported_usage_cost_usd": 0.3417171
+    },
+    "opencode-prediction": {
+      "requests": 6,
+      "input_tokens": 8236,
+      "output_tokens": 116,
+      "cached_tokens": 0,
+      "cache_write_tokens": 5885,
+      "http_attempts": 7,
+      "reference_estimate_usd": 0.0205745,
+      "conservative_debit_usd": 0.035264,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.035,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 7,
+      "metadata_files": 6,
+      "reported_usage_cost_usd": 0.0205745
+    },
+    "opencode-prediction-remaining": {
+      "requests": 6,
+      "input_tokens": 8426,
+      "output_tokens": 111,
+      "cached_tokens": 0,
+      "cache_write_tokens": 5980,
+      "http_attempts": 6,
+      "reference_estimate_usd": 0.020952000000000005,
+      "conservative_debit_usd": 0.035924,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.08,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 6,
+      "metadata_files": 6,
+      "reported_usage_cost_usd": 0.020952
+    },
+    "openhands-coding": {
+      "requests": 74,
+      "input_tokens": 358331,
+      "output_tokens": 10428,
+      "cached_tokens": 274466,
+      "cache_write_tokens": 83643,
+      "http_attempts": 74,
+      "reference_estimate_usd": 0.3412780999999999,
+      "conservative_debit_usd": 1.641884,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.38,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 74,
+      "metadata_files": 74,
+      "reported_usage_cost_usd": 0.34127810000000003
+    },
+    "openhands-prediction": {
+      "requests": 2,
+      "input_tokens": 6982,
+      "output_tokens": 37,
+      "cached_tokens": 0,
+      "cache_write_tokens": 6976,
+      "http_attempts": 2,
+      "reference_estimate_usd": 0.017821999999999998,
+      "conservative_debit_usd": 0.028668,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.035,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 2,
+      "metadata_files": 2,
+      "reported_usage_cost_usd": 0.017821999999999998
+    },
+    "openhands-prediction-remaining": {
+      "requests": 4,
+      "input_tokens": 14009,
+      "output_tokens": 77,
+      "cached_tokens": 0,
+      "cache_write_tokens": 13997,
+      "http_attempts": 4,
+      "reference_estimate_usd": 0.035786500000000006,
+      "conservative_debit_usd": 0.057576000000000016,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 16,
+        "max_requests_per_run": 2,
+        "max_output_tokens": 256,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.08,
+        "conservative_cap_usd": 0.3,
+        "wall_seconds": 75
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "pending_requests": {},
+      "recorded_request_files": 4,
+      "metadata_files": 4,
+      "reported_usage_cost_usd": 0.0357865
+    },
+    "preflight-codex": {
+      "requests": 2,
+      "input_tokens": 11820,
+      "output_tokens": 183,
+      "cached_tokens": 5801,
+      "cache_write_tokens": 6013,
+      "http_attempts": 2,
+      "reference_estimate_usd": 0.0174546,
+      "conservative_debit_usd": 0.05094,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.42,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 2,
+      "metadata_files": 2,
+      "reported_usage_cost_usd": 0.0174546
+    },
+    "preflight-codex-fixed": {
+      "requests": 5,
+      "input_tokens": 32965,
+      "output_tokens": 535,
+      "cached_tokens": 25923,
+      "cache_write_tokens": 7027,
+      "http_attempts": 5,
+      "reference_estimate_usd": 0.0255398,
+      "conservative_debit_usd": 0.14256,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.42,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 5,
+      "metadata_files": 5,
+      "reported_usage_cost_usd": 0.025539799999999998
+    },
+    "preflight-opencode": {
+      "requests": 6,
+      "input_tokens": 14452,
+      "output_tokens": 424,
+      "cached_tokens": 10616,
+      "cache_write_tokens": 3257,
+      "http_attempts": 6,
+      "reference_estimate_usd": 0.0146021,
+      "conservative_debit_usd": 0.066288,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.42,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 6,
+      "metadata_files": 6,
+      "reported_usage_cost_usd": 0.0146021
+    },
+    "preflight-openhands": {
+      "requests": 5,
+      "input_tokens": 23754,
+      "output_tokens": 688,
+      "cached_tokens": 18489,
+      "cache_write_tokens": 5250,
+      "http_attempts": 5,
+      "reference_estimate_usd": 0.021883899999999998,
+      "conservative_debit_usd": 0.10877600000000001,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 144,
+        "max_requests_per_run": 9,
+        "max_output_tokens": 1536,
+        "max_input_estimate": 22000,
+        "reference_cap_usd": 0.42,
+        "conservative_cap_usd": 3,
+        "wall_seconds": 150
+      },
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Cache-write tokens replace uncached input at 1.25x; no double charge.",
+      "pricing": "Public Standard reference, not reconciled Azure invoice",
+      "recorded_request_files": 5,
+      "metadata_files": 5,
+      "reported_usage_cost_usd": 0.0218839
+    }
+  },
+  "reported_usage_totals": {
+    "requests": 316,
+    "input_tokens": 1162381,
+    "output_tokens": 31088,
+    "cached_tokens": 812990,
+    "cache_write_tokens": 326763
+  },
+  "request_files": 318,
+  "reported_usage_requests": 316,
+  "observed_reference_estimate_usd": 1.2543425,
+  "unreported_requests": [
+    {
+      "path": "codex-coding/007-invoice_lookup-original/provider-30-request.json",
+      "request_sha256": "a39fcb305dceff3a023e4924bcc73bf62d724106b5224722e928b0264341cb03",
+      "usage_unknown": true,
+      "reference_reservation_usd": 0.05587,
+      "note": "Unreported request; not confirmed billed cost. OpenCode missing request is auxiliary title traffic."
+    },
+    {
+      "path": "opencode-prediction/004-HumanEvalTF466-mutant/provider-7-request.json",
+      "request_sha256": "5d01b1b7535e34cc7013c5e47355220b1668980512d8d13f36e282921de9902e",
+      "usage_unknown": true,
+      "reference_reservation_usd": 0.0062875,
+      "note": "Unreported request; not confirmed billed cost. OpenCode missing request is auxiliary title traffic."
+    }
+  ],
+  "unreported_reference_reservations_usd": 0.062157500000000004,
+  "observed_plus_uncertain_reservations_usd": 1.3165,
+  "total_reference_cap_usd": 1.5,
+  "within_cap": true,
+  "previous_study_reference_estimate_usd": 2.4991103499999996,
+  "all_studies_observed_reference_estimate_usd": 3.7534528499999995,
+  "all_studies_with_new_uncertain_reservations_usd": 3.8156103499999996,
+  "rates_per_million": {
+    "input": 2,
+    "cached": 0.1,
+    "output": 10,
+    "cache_write": 2.5
+  },
+  "scope": "Observed provider usage plus explicitly separate uncertain reservations, including setup/title calls. Not Azure invoice, credit balance, local electricity or this Codex chat.",
+  "unknown_legacy_accounting": "Codex stopped batch had an unrecorded in-flight reservation; reconciled from saved request file without regenerating it"
+}

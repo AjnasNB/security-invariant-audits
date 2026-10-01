@@ -1,0 +1,13 @@
+{
+  "version": "aider-model-identity-correction-v1",
+  "registered_date": "2026-10-01",
+  "reason": "All three initial Aider requests reached the verified Sol deployment, but the relay rejected the valid versioned response model name gpt-6.1-sol-2026-09-29 before the CLI received the answer.",
+  "initial_reported_reference_cost_usd": 0.017233,
+  "new_reference_cap_usd": 0.035,
+  "combined_aider_maximum_usd": 0.052233,
+  "original_aider_allocation_usd": 0.06,
+  "selection": "Repeat the same three original compatibility tasks once after accepting the exact verified versioned model identity; no prompt, access rule or test change.",
+  "failed_attempts_retained": true,
+  "not_primary_matched_comparison": true,
+  "no_security_failure_retry": true
+}

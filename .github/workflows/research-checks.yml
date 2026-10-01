@@ -15,3 +15,4 @@ jobs:
       - run: python -B -m erp.check_published
       - run: python -B -m research.demo
       - run: python -B -m research.check_paper_evidence
+      - run: python -B -m harnesses.verify_ordinary

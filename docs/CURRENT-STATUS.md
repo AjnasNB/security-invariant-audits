@@ -2,6 +2,17 @@
 
 Author: Ajnas N B.
 
+Latest extension: five agent runtimes produced 51 completed refactors and
+5,633 passing checks on completed tasks, with 60 retained files / 6,520
+saved-output checks. The primary schedules are partial and budget-limited.
+All 18 answered original/mutant paper questions were correct; archived failures
+remain separate. See `reports/open-harness-results-v1.md`.
+
+The extension's reported reference usage is $1.2543425 plus $0.0621575 of
+explicit uncertainty reservations. All studies' reported estimate is now
+$3.75345285, or $3.81561035 with these new reservations. Earlier costs below
+describe the preceding correction, not the latest aggregate.
+
 The root README and versioned correction reports are the current status.
 Older reports describe the batch actually run then; their “not yet run,”
 “local only,” “no product fix,” or narrower totals must not be treated as the

@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-01T14:47:35.036958+00:00",
+  "images": {
+    "ajnas-open-harness-ordinary:20261001": {
+      "id": "sha256:21c82999b0ea8ff3fc823f109d9a1e16290317a6db85f1767e0209e51695fef1",
+      "created": "2026-10-01T14:10:20.305131049Z",
+      "configured_user": "65534:65534"
+    },
+    "ajnas-goose-ordinary:20261001": {
+      "id": "sha256:5c185350bfac1a3ef174cd5a22bffecb6f03352b0eebcf5ee651579cc4dffe52",
+      "created": "2026-10-01T14:31:37.722187307Z",
+      "configured_user": "65534:65534"
+    },
+    "ajnas-aider-ordinary:20261001": {
+      "id": "sha256:ae20d4eb83fc4006ddbb0f40d190c5fec4fc9a96ebcf1669e319a412f8ace906",
+      "created": "2026-10-01T14:32:41.42588172Z",
+      "configured_user": "65534:65534"
+    },
+    "ajnas-security-study:20261001": {
+      "id": "sha256:ba6a9fba67447b3799e4953bf9f72d946e71a36e0cb2daca8a116209ba70c29d",
+      "created": "2026-10-01T06:28:32.105168246Z",
+      "configured_user": "65534:65534"
+    }
+  },
+  "binary_hashes": {
+    "codex_cli": {
+      "sha256": "8bf204b36a2f6dd0dab73aa2f639892e67ef9ac8befccb4a05b1496ebf25c479",
+      "file_size": 287086056
+    },
+    "opencode": {
+      "sha256": "9ca0b9953d49997601655e54f846a3efa464f237e47c6f1b04716d0f2e64c4c2",
+      "file_size": 185632896
+    },
+    "goose": {
+      "sha256": "6d8f360405168561ee28716f2da93b1a2c565da207db56990889eb928253b408",
+      "file_size": 149764512
+    }
+  },
+  "official_archive_checksums": {
+    "opencode-linux-x64-baseline.tar.gz": "24b0d458d21ef548b2752166303defcf7f4945b049fb4876ab78dfaf86d81b27",
+    "goose-x86_64-unknown-linux-musl.tar.gz": "fdc86653285a89f7dcad6e76736af1688ab2cde44661b089328b2fc40bb79f9f"
+  },
+  "selected_runtime_versions": {
+    "codex_cli": "0.159.3",
+    "opencode": "1.18.34",
+    "openhands_sdk": "1.50.1",
+    "goose": "1.52.0",
+    "aider": "0.86.0"
+  },
+  "dependency_policy": "OpenHands uses existing package-declared research image; Aider dependencies are pinned by its 0.86.0 package in a separate Python 3.12 image. Not full upstream workspace locks or source builds.",
+  "model_mapping": {
+    "deployment": "maqam-orchestrator-sol-6-1",
+    "model": "gpt-6.1-sol",
+    "version": "2026-09-29",
+    "state": "Succeeded"
+  },
+  "agent_config_source_hashes": {
+    "harnesses/ordinary_broker.py": "901edb39b1a8de6284bb54fba4978600cb67021e4e859f1ead4b9665910ab316",
+    "harnesses/ordinary_launch.py": "e426e0f224bbe58c4e0be000c058bc434338c42a01ea8d7b0f39ae2276326249",
+    "harnesses/ordinary_mcp.py": "51c7b8df82461b2b009babff7c5c978ce42144677377dcd96301fcccfa12eb65",
+    "harnesses/ordinary_openhands.py": "741ad07e34a165e35f9e6972cd700442621f5e02b5ed0093545404a2ef2fe53c",
+    "harnesses/ordinary_protocol.py": "50a4d28f58bcc45593ae93c1439a91b6a1b2bae36cc150ebff32d1271fd3b553",
+    "harnesses/ordinary_provider.py": "c0a3f6b141d8a1a8df40474c35c67e2e4ec7e5678088f36a6b80ca651063fd32",
+    "harnesses/ordinary_results.py": "c13eea9919c70ae82a250b98439b43289573cac1549ce8e2596492497adb2680",
+    "harnesses/ordinary_runner.py": "3d1a9000d6bb117108152ca367ebb8820081f403f45a4fb4c6a1f8bd6d6a6919"
+  },
+  "scope": "Read-only runtime identities; existing desktop apps and Azure configuration unchanged"
+}

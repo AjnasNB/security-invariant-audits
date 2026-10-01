@@ -1,0 +1,29 @@
+{
+  "id": "HumanEvalTF466:original",
+  "task": "HumanEvalTF466",
+  "condition": "original",
+  "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return False\n    for i in range(2, l):\n        if l % i == 0:\n            return False\n    return True\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+  "expected": false,
+  "program_sha256": "c790c0c7756c4f5a2af4d82fe770f740e17d43e849a225edb43819f12da8ac0d",
+  "termination": "completed",
+  "budget_stop": null,
+  "exit_code": 0,
+  "usage": {
+    "requests": 1,
+    "input_tokens": 3466,
+    "output_tokens": 16,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3463
+  },
+  "reference_estimate_usd": 0.0088235,
+  "run_id": "001-HumanEvalTF466-original",
+  "engine": "openhands",
+  "batch": "openhands-prediction-remaining",
+  "text": "False",
+  "observed": false,
+  "output_valid": true,
+  "status": "assessed",
+  "correct": true,
+  "raw_parser_text": "False",
+  "reparsed_without_new_model_calls": true
+}

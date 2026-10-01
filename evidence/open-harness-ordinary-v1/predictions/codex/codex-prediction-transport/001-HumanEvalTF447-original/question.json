@@ -1,0 +1,29 @@
+{
+  "id": "HumanEvalTF447:original",
+  "task": "HumanEvalTF447",
+  "condition": "original",
+  "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef is_happy(s):\n    if len(s) < 3:\n      return False\n\n    for i in range(len(s) - 2):\n      \n      if s[i] == s[i+1] or s[i+1] == s[i+2] or s[i] == s[i+2]:\n        return False\n    return True\n\nCall: is_happy('iopaxioi')",
+  "expected": false,
+  "program_sha256": "9246a6c4b3bda9e0323975e69e1795deade3d8a6d978233e03e489cb6138b71d",
+  "termination": "completed",
+  "budget_stop": null,
+  "exit_code": 0,
+  "usage": {
+    "requests": 1,
+    "input_tokens": 5722,
+    "output_tokens": 21,
+    "cached_tokens": 0,
+    "cache_write_tokens": 5719
+  },
+  "reference_estimate_usd": 0.014513499999999999,
+  "run_id": "001-HumanEvalTF447-original",
+  "engine": "codex",
+  "batch": "codex-prediction-transport",
+  "text": "False",
+  "observed": false,
+  "output_valid": true,
+  "status": "assessed",
+  "correct": true,
+  "raw_parser_text": "False",
+  "reparsed_without_new_model_calls": true
+}

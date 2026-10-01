@@ -1,0 +1,28 @@
+{
+  "provider_metadata": [
+    {
+      "number": 1,
+      "http_status": 200,
+      "served_model": "gpt-6.1-sol-2026-09-29",
+      "usage": {
+        "input_tokens": 1108,
+        "output_tokens": 242,
+        "input_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1105,
+          "cached_tokens": 0
+        }
+      },
+      "status": null,
+      "response_id": "chatcmpl-EUCBE3GwSyln0Xoi3NZQAWUkJjYR8",
+      "reference_cost_usd": 0.0051885,
+      "request_sha256": "d8193eddb7d14fa5087348b552e311882597edf9c43f1443dbe46a65a1367b2d",
+      "response_sha256": "04ba76d77693b7d20a11a172413227b0c0535c411d60a338f9b797e0e1bed6f3",
+      "unknown_usage": false,
+      "failure": null
+    }
+  ],
+  "native_response_count": 1,
+  "private_trace_files_excluded": true,
+  "native_aider_wrapper": "Text edits and unittest invocation in an isolated throwaway copy"
+}
