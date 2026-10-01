@@ -1,0 +1,131 @@
+{
+  "recorded_at": "2026-10-01T11:37:59.079748+00:00",
+  "groups": {
+    "original-research": {
+      "requests": 402.0,
+      "input_tokens": 995897.0,
+      "output_tokens": 38381.0,
+      "cached_tokens": 715965.0,
+      "cache_write_tokens": 275520.0,
+      "base_estimate_usd": 1.0152705,
+      "cache_write_estimate_usd": 1.1530305
+    },
+    "cross-harness-including-preflights": {
+      "requests": 85.0,
+      "input_tokens": 499734.0,
+      "output_tokens": 11406.0,
+      "cached_tokens": 361008.0,
+      "cache_write_tokens": 138496.0,
+      "base_estimate_usd": 0.5671070000000001,
+      "cache_write_estimate_usd": 0.6499547499999997
+    },
+    "delta-product-fixes": {
+      "requests": 37.0,
+      "input_tokens": 125694.0,
+      "output_tokens": 3232.0,
+      "cached_tokens": 83787.0,
+      "cache_write_tokens": 41796.0,
+      "base_estimate_usd": 0.1245127,
+      "cache_write_estimate_usd": 0.1454107
+    },
+    "delta-connection-smokes": {
+      "requests": 3.0,
+      "input_tokens": 17700.0,
+      "output_tokens": 44.0,
+      "cached_tokens": 0.0,
+      "cache_write_tokens": 0.0,
+      "base_estimate_usd": 0.03584,
+      "cache_write_estimate_usd": 0.03584
+    },
+    "full-ERP-extension": {
+      "requests": 37.0,
+      "input_tokens": 244282.0,
+      "output_tokens": 5088.0,
+      "cached_tokens": 195112.0,
+      "cache_write_tokens": 49059.0,
+      "base_estimate_usd": 0.1687312,
+      "cache_write_estimate_usd": 0.1932607
+    }
+  },
+  "totals": {
+    "requests": 564.0,
+    "input_tokens": 1883307.0,
+    "output_tokens": 58151.0,
+    "cached_tokens": 1355872.0,
+    "cache_write_tokens": 504871.0,
+    "base_estimate_usd": 1.9114614,
+    "cache_write_estimate_usd": 2.1774966499999997
+  },
+  "record_count": 171,
+  "unknown_usage_attempts": [
+    {
+      "group": "cross-harness-including-preflights",
+      "path": "provider-1-metadata.json",
+      "status": null
+    }
+  ],
+  "public_reference_rates": {
+    "gpt-6.1-sol": {
+      "input": 2,
+      "cached": 0.1,
+      "output": 10,
+      "cache_write": 2.5
+    },
+    "claude-opus-5": {
+      "input": 5,
+      "cached": 0.5,
+      "output": 25,
+      "cache_write": 6.25
+    }
+  },
+  "currency": "USD",
+  "pricing_status": "Reference token estimate, not verified Azure invoice",
+  "cache_write_assumption": "Cache writes are a subset of uncached input; replace ordinary charge with 1.25x, do not double count.",
+  "azure_posted_billing": {
+    "october-1": {
+      "period": {
+        "from": "2026-10-01T00:00:00Z",
+        "to": "2026-10-02T00:00:00Z"
+      },
+      "available": true,
+      "subscription_posted_cost": 199.06918100445776,
+      "ai_service_posted_cost": 0,
+      "currency": [
+        "INR"
+      ],
+      "rows": 33,
+      "ai_rows": 0,
+      "attribution": "Subscription/service aggregates, not uniquely attributable to this experiment",
+      "has_more_pages": false
+    },
+    "september": {
+      "period": {
+        "from": "2026-09-01T00:00:00Z",
+        "to": "2026-10-01T00:00:00Z"
+      },
+      "available": true,
+      "subscription_posted_cost": 262334.47032738605,
+      "ai_service_posted_cost": 237813.68000917652,
+      "currency": [
+        "INR"
+      ],
+      "rows": 52,
+      "ai_rows": 7,
+      "attribution": "Subscription/service aggregates, not uniquely attributable to this experiment",
+      "has_more_pages": false
+    }
+  },
+  "scope": "Observed SUTD experiment/provider calls, preflights and Delta smoke calls. Excludes this Codex desktop conversation and unrelated Azure workloads.",
+  "limitations": [
+    "Possible interrupted unreported calls; metadata missing for some attempts",
+    "Claude Opus 5 public pricing checked October 1; actual Azure offer/cache lifetime can differ",
+    "GPT prompts are below the long-context price threshold in these batches",
+    "Subscription charges cannot be attributed solely to this study",
+    "No new cloud ERP infrastructure was provisioned; the ERP ran locally",
+    "No credit, tax, invoice or exchange-rate reconciliation"
+  ],
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://platform.claude.com/docs/en/about-claude/pricing"
+  ]
+}

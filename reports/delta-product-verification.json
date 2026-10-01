@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-01T08:44:22.308Z",
+  "sourceRoot": "D:\\delta voice\\my harness",
+  "evidenceRoot": "C:\\Users\\20cs0\\Documents\\AjnasResearch\\SUTD\\delta-fixes-20261001",
+  "gitHead": "0a0930ddb0bd40ef7e66d14edbca53af36005e08",
+  "sourceHashes": {
+    "src/core/context-rollover.ts": "ee77b06e2cc699e539c99afaf0459174e2fc2e8dcad9d6b09cb1fdf0c8cb5351",
+    "src/core/tools.ts": "93835e49653de6bec1d912ba4bea0fa19512b80cf98991490b1688c7bf9698a3",
+    "src/core/providers.ts": "7cf4676683bf656dbec0353622d3b372fdf86da8f3ec92eb53de0573a8cd4742",
+    "src/core/provider-registry.ts": "57c55bb41c6d7b0dec23f0d83b22f0ef7d24f3ff973c36f2768fe1562999aabd",
+    "src/core/coordinator.ts": "7afaacf00fdcfff048388c5844889e3a029fe3b4f4d3d7df3004b5abf7907267",
+    "src/core/cost-recovery.ts": "5a55bc27986fdca776310828e0bb2f345bd32b8dd6ca9cc180065fbd4ea46318",
+    "src/core/store.ts": "84482410978732038fae014a7e580afd77988955544465bd2c4d4b8712cf2f8f",
+    "src/core/codex.ts": "cdd7fab3d5181d15b9477bcf4769f67dec57ffea1da11cc612acd6eecbb0a14d",
+    "src/config/codex-sol61.json": "6ae1e5d30467cfaba7e57fc946b7764bffc4424034cd950ad9419c6812365097",
+    "src/shared/model-selection.ts": "1bb802d3daec49656772544259cb18a4e55f0a05037495b7f4e693f2aee4c04b",
+    "src/shared/model-prices.ts": "2e8be586f8524fd19506e7aa7c2b55f1a221bc29c3ff9b34e1fdec1796e104fb"
+  },
+  "beforeTaskSourceHashes": {
+    "src/core/context-rollover.ts": "20eb769b8aead70c9a1a78b5d25f63045d57042ccbf2699f6aeb07426dca02dc",
+    "src/core/tools.ts": "62fa7be02305904ce36cf05052f2a9f4f4ce20a0d110e4dc3f15012408d16d13",
+    "src/core/providers.ts": "0ad1ff884e72c1347c9f3ede70310f6b47f66032e11c623370d2848ea055f73a",
+    "src/core/provider-registry.ts": "f0868c608b1fd6c72d44463a1d820835dab5b34be588e597930e41f5b9f473ed",
+    "src/core/coordinator.ts": "3bf63926e604b2c740f2c8d251277e71b073c0bd9cef9510ae7d026c325cee98",
+    "src/core/cost-recovery.ts": "5c1821806f07b1bb35a242336df5d75c224d673070d4de2257c2fbc577ec3b57",
+    "src/core/store.ts": "4e3a2f9312ba69233f6320a40fb836662f8c9ba4f6be4c10761454c042bfc36a",
+    "src/core/codex.ts": "e021892b3d7ba724af6a1bddbeebd31943080470a3106337e517d98428aadf56",
+    "src/config/codex-sol61.json": null,
+    "src/shared/model-selection.ts": "71b5aa2cc6bc7d558582e81dd26399aaa3a9ee3acc00f8fc0fbf0e6e7b2e66db",
+    "src/shared/model-prices.ts": "efc4acae39c5483c3e4f16373e54072c132ba2495acf100c606a8b51794662f1"
+  },
+  "tests": {
+    "total": 322,
+    "passed": 322,
+    "failed": 0,
+    "skipped": 0
+  },
+  "typecheckPassed": true,
+  "buildPassed": true,
+  "native": {
+    "runs": 6,
+    "passed": 6,
+    "providerRequests": 37,
+    "hiddenPassed": 600,
+    "hiddenTotal": 600,
+    "publicPassed": 234,
+    "publicTotal": 234,
+    "referenceEstimateUsd": 0.12451270000000002,
+    "largeReadRollovers": 5
+  },
+  "desktop": {
+    "passed": true,
+    "model": "maqam-orchestrator-sol-6-1",
+    "rendererErrors": [],
+    "task": {
+      "id": "11ff16e3-d1d2-436d-968c-58e6760c86bf",
+      "status": "completed",
+      "text": "Delta GPT-6.1 Sol connection verified.",
+      "usage": {
+        "inputTokens": 1631,
+        "outputTokens": 14,
+        "cachedTokens": 0,
+        "modelCalls": 1,
+        "costUsd": 0.003402,
+        "costStatus": "known"
+      }
+    }
+  },
+  "codex": {
+    "passed": true,
+    "version": "codex-cli 0.154.0",
+    "status": "completed",
+    "usage": {
+      "inputTokens": 14436,
+      "outputTokens": 16,
+      "cachedTokens": 0,
+      "modelCalls": 1,
+      "costUsd": 0.029032,
+      "costStatus": "known"
+    }
+  },
+  "profile": {
+    "preservedHistory": true,
+    "historySha256": "83d3d653bd12f2f952014062e68959547de15383f4f625399e5d50b6fd5e4c21",
+    "preservedKnownCosts": true,
+    "preservedOtherSettings": true,
+    "sol": "maqam-orchestrator-sol-6-1",
+    "backup": "C:\\Users\\20cs0\\Documents\\AjnasResearch\\SUTD\\delta-fixes-20261001\\profile-migration\\profile-before.json"
+  },
+  "limitations": [
+    "No whole-repository security certification",
+    "No installer replacement",
+    "Reference costs are not an Azure invoice",
+    "Live code execution used the protected research judge; unrestricted host shell remains OS-user privileged"
+  ],
+  "noBranchCommitPush": true
+}

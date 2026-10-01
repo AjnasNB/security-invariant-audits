@@ -1,0 +1,133 @@
+{
+  "recorded_at": "2026-10-01T07:15:24.629489+00:00",
+  "batches": [
+    {
+      "batch": "application-fastapi-sol61-v3-20261001",
+      "mode": "application",
+      "completed_at": "2026-10-01T07:04:22.690Z",
+      "error": null,
+      "requests": 35,
+      "input_tokens": 118396,
+      "output_tokens": 6098,
+      "cached_tokens": 92925,
+      "cache_write_tokens": 25366,
+      "http_attempts": 35
+    },
+    {
+      "batch": "connection-sol61-20261001",
+      "mode": "connection",
+      "completed_at": null,
+      "error": "Connection check failed",
+      "requests": 1,
+      "input_tokens": 44,
+      "output_tokens": 5,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 1
+    },
+    {
+      "batch": "connection-sol61-pass-20261001",
+      "mode": "connection",
+      "completed_at": "2026-10-01T06:37:39.807Z",
+      "error": null,
+      "requests": 4,
+      "input_tokens": 176,
+      "output_tokens": 20,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 4
+    },
+    {
+      "batch": "connection-sol61-verified-20261001",
+      "mode": "setup",
+      "completed_at": null,
+      "error": null,
+      "http_attempts": 0
+    },
+    {
+      "batch": "jailguard-sol61-20261001",
+      "mode": "text",
+      "completed_at": null,
+      "error": "Model output was incomplete: content_filter. Increase the output limit or narrow the task.",
+      "requests": 25,
+      "input_tokens": 2899,
+      "output_tokens": 4139,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 25
+    },
+    {
+      "batch": "jailguard-sol61-remaining-20261001",
+      "mode": "text",
+      "completed_at": "2026-10-01T07:12:59.162Z",
+      "error": null,
+      "requests": 7,
+      "input_tokens": 198,
+      "output_tokens": 6,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 7
+    },
+    {
+      "batch": "pilot-delta-sol61-v2-20261001",
+      "mode": "pilot",
+      "completed_at": null,
+      "error": null,
+      "requests": 29,
+      "input_tokens": 61200,
+      "output_tokens": 1532,
+      "cached_tokens": 38108,
+      "cache_write_tokens": 23005,
+      "http_attempts": 29
+    },
+    {
+      "batch": "pilot-delta-sol61-v3-20261001",
+      "mode": "pilot",
+      "completed_at": "2026-10-01T07:01:04.353Z",
+      "error": null,
+      "requests": 289,
+      "input_tokens": 768231,
+      "output_tokens": 25575,
+      "cached_tokens": 554401,
+      "cache_write_tokens": 212963,
+      "http_attempts": 289
+    },
+    {
+      "batch": "single-delta-sol61-20261001",
+      "mode": "single",
+      "completed_at": "2026-10-01T06:39:42.382Z",
+      "error": null,
+      "requests": 6,
+      "input_tokens": 28162,
+      "output_tokens": 501,
+      "cached_tokens": 18674,
+      "cache_write_tokens": 9470,
+      "http_attempts": 6
+    },
+    {
+      "batch": "single-lookup-sol61-v3-20261001",
+      "mode": "single",
+      "completed_at": "2026-10-01T06:45:10.682Z",
+      "error": null,
+      "requests": 6,
+      "input_tokens": 16591,
+      "output_tokens": 505,
+      "cached_tokens": 11857,
+      "cache_write_tokens": 4716,
+      "http_attempts": 6
+    }
+  ],
+  "all_observed_totals": {
+    "requests": 402,
+    "input_tokens": 995897,
+    "output_tokens": 38381,
+    "cached_tokens": 715965,
+    "cache_write_tokens": 275520,
+    "http_attempts": 402,
+    "public_reference_base_estimated_cost_usd": 1.0152705,
+    "public_reference_estimated_cost_usd": 1.1530304999999998
+  },
+  "pricing": "OpenAI public Standard reference, not verified Azure invoice",
+  "cache_write_assumption": "Reported cache_write_tokens are treated as a subset of uncached input; 1.25x input rate replaces, rather than adds to, the ordinary input charge.",
+  "unobserved_inflight_usage_possible": true
+}

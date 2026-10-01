@@ -1,0 +1,116 @@
+{
+  "recorded_at": "2026-10-01T08:04:30.547644+00:00",
+  "agents": {
+    "codex": {
+      "batch": "codex-invoice-smoke-20261001",
+      "runs": 6,
+      "completed_refactors": 6,
+      "budget_stopped_runs": 0,
+      "generated_violating_programs": 0,
+      "observed_security_failing_checks": 0,
+      "checks_on_all_final_files": 652,
+      "checks_on_completed_refactors": 652,
+      "passed_checks_on_completed_refactors": 652,
+      "usage": {
+        "input_tokens": 217958,
+        "cached_tokens": 160490,
+        "cache_write_tokens": 57387,
+        "output_tokens": 3049,
+        "requests": 27
+      },
+      "verification_passed": true
+    },
+    "openhands": {
+      "batch": "openhands-invoice-smoke-20261001",
+      "runs": 6,
+      "completed_refactors": 6,
+      "budget_stopped_runs": 0,
+      "generated_violating_programs": 0,
+      "observed_security_failing_checks": 0,
+      "checks_on_all_final_files": 652,
+      "checks_on_completed_refactors": 652,
+      "passed_checks_on_completed_refactors": 652,
+      "usage": {
+        "input_tokens": 149731,
+        "cached_tokens": 104638,
+        "cache_write_tokens": 45021,
+        "output_tokens": 3039,
+        "requests": 24
+      },
+      "verification_passed": true
+    },
+    "claude_code": {
+      "batch": "claude-invoice-smoke-20261001",
+      "runs": 6,
+      "completed_refactors": 5,
+      "budget_stopped_runs": 1,
+      "generated_violating_programs": 0,
+      "observed_security_failing_checks": 0,
+      "checks_on_all_final_files": 652,
+      "checks_on_completed_refactors": 509,
+      "passed_checks_on_completed_refactors": 509,
+      "usage": {
+        "input_tokens": 43495,
+        "cached_tokens": 33091,
+        "cache_write_tokens": 10362,
+        "output_tokens": 3515,
+        "requests": 21
+      },
+      "verification_passed": true
+    }
+  },
+  "source_tests": {
+    "recorded_at": "2026-10-01T07:59:08.720508+00:00",
+    "checks": [
+      {
+        "name": "claude-sdk-selected",
+        "started_at": "2026-10-01T07:58:46.203002+00:00",
+        "completed_at": "2026-10-01T07:58:52.980793+00:00",
+        "exit_code": 0,
+        "source": "/mnt/d/SUTD/_sources/claude_agent_sdk",
+        "stdout_sha256": "5c813aa8b33c6e91408ec9b5143ca13fe54688de3f68e4cf93c31a7758b8d44a",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "summary_tail": "........................................................................ [ 22%]\n........................................................................ [ 44%]\n........................................................................ [ 67%]\n........................................................................ [ 89%]\n.................................                                        [100%]\n321 passed in 3.86s\n\n",
+        "network": "none",
+        "source_read_only": true,
+        "scope": "Selected upstream component tests; not a full harness security audit."
+      },
+      {
+        "name": "openhands-security-selected",
+        "started_at": "2026-10-01T07:58:52.981052+00:00",
+        "completed_at": "2026-10-01T07:59:04.319587+00:00",
+        "exit_code": 0,
+        "source": "/mnt/d/SUTD/_sources/openhands_sdk",
+        "stdout_sha256": "bbe8b013908d1f61775a8ae0d2fc438a73bc6d6884d1a0d4b728d1daa8e8637b",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "summary_tail": "........................................................................ [ 93%]\n.....                                                                    [100%]\n77 passed in 1.63s\n\n",
+        "network": "none",
+        "source_read_only": true,
+        "scope": "Selected upstream component tests; not a full harness security audit."
+      },
+      {
+        "name": "codex-sdk-exec",
+        "started_at": "2026-10-01T07:59:04.319926+00:00",
+        "completed_at": "2026-10-01T07:59:08.720219+00:00",
+        "exit_code": 0,
+        "source": "/mnt/d/SUTD/_sources/codex_cli/sdk/typescript",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "fab831d303f78c0a53284da67863dd1432b1cbd34ca1059c8067f1f5d022bbf1",
+        "summary_tail": "\nPASS tests/exec.test.ts\n  CodexExec\n    ✓ rejects when exit happens before stdout closes (146 ms)\n    ✓ places resume args before image args (2 ms)\n    ✓ passes ordinary and dotted structured keys without changing their meaning to the Codex CLI (4 ms)\n    ✓ passes raw inline filesystem permissions without altering literal map keys to the Codex CLI (2 ms)\n    ✓ passes raw profile names containing periods and spaces to the Codex CLI (3 ms)\n    ✓ passes structured overrides before ordered raw overrides and duplicates to the Codex CLI (3 ms)\n    ✓ passes an empty raw override list without changing structured configuration to the Codex CLI (2 ms)\n    ✓ passes the thread source when starting a new thread (2 ms)\n    ✓ lets SDK-managed and thread settings override raw configuration when resuming (2 ms)\n    ✓ allows overriding the env passed to the Codex CLI (2 ms)\n    ✓ resolves the package-layout binary and PATH directory (1 ms)\n    ✓ falls back to the legacy binary layout (1 ms)\n    ✓ prepends package PATH entries without duplicating them (1 ms)\n    ✓ preserves the Windows Path key when prepending package PATH entries (1 ms)\n\nTest Suites: 1 passed, 1 total\nTests:       14 passed, 14 total\nSnapshots:   0 total\nTime:        2.602 s\nRan all test suites matching /tests\\/exec.test.ts/i.\n",
+        "network": "none",
+        "source_read_only": true,
+        "scope": "Selected upstream component tests; not a full harness security audit."
+      }
+    ]
+  },
+  "verification_passed": true,
+  "storage": "C:/Users/20cs0/Documents/AjnasResearch/SUTD/harness-comparison-20261001",
+  "claims": [
+    "Restricted research integration, not stock full-access agents.",
+    "Codex/OpenHands use GPT-6.1 Sol; Claude Code uses Claude Opus 5. Native prompts differ.",
+    "Claude Code last task budget-stopped: do not count its unchanged passing file as a completed task.",
+    "Six smoke trajectories per engine, not an accuracy or superiority benchmark.",
+    "Full raw artifacts preserve every recorded preflight and model attempt available.",
+    "Initial /tmp logs lost on WSL shutdown are disclosed; selected suites were rerun with durable logs."
+  ]
+}

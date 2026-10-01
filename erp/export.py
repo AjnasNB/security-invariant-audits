@@ -11,6 +11,10 @@ def digest(value):
     return hashlib.sha256(value).hexdigest()
 
 
+def write_lf(file, value):
+    Path(file).write_text(value.replace("\r\n", "\n"), encoding="utf-8", newline="\n")
+
+
 def main():
     destination = ROOT / "evidence" / "erp"
     destination.mkdir(parents=True, exist_ok=True)
@@ -32,26 +36,26 @@ def main():
         candidate = directory / "candidate.py"
         text = candidate.read_text(encoding="utf-8")
         text = "# Modified by Ajnas N B's controlled AI-refactoring experiment, October 1, 2026.\n" + text
-        (exported / "candidate.py").write_text(text, encoding="utf-8")
-        (exported / "input.py").write_bytes((directory / "input.py").read_bytes())
+        write_lf(exported / "candidate.py", text)
+        write_lf(exported / "input.py", (directory / "input.py").read_text(encoding="utf-8"))
         summary = {key: value for key, value in row.items() if key not in ("assessment", "answer")}
         summary["assessment"] = {key: value for key, value in row["assessment"].items() if key != "checks"}
         summary["published_candidate_sha256"] = digest(text.encode())
         summary["annotation_note"] = "Added a modification/copyright notice before publication; executable structure unchanged."
-        (exported / "result.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+        write_lf(exported / "result.json", json.dumps(summary, indent=2))
         metadata = []
         for path in sorted(directory.glob("metadata-*.json")):
             raw = json.loads(path.read_text())
             metadata.append({key: value for key, value in raw.items()
                              if key in ("httpStatus", "model", "status", "usage", "responseSha256")})
-        (exported / "provider-usage.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
+        write_lf(exported / "provider-usage.json", json.dumps(metadata, indent=2))
         records.append(summary)
     combined = (ROOT / "erp/runtime/combined-client.py").read_text(encoding="utf-8")
-    combined = "# Modified by Ajnas N B; combined three accepted AI refactors, October 1, 2026.\n" + combined
-    (destination / "combined-client.py").write_text(combined, encoding="utf-8")
-    (destination / "baseline-client.py").write_bytes((PROTECTED / "client-baseline.py").read_bytes())
+    combined = "# Modified by Ajnas N B; combined three accepted AI refactors, October 1, 2026.\n" + combined.rstrip() + "\n"
+    write_lf(destination / "combined-client.py", combined)
+    write_lf(destination / "baseline-client.py", (PROTECTED / "client-baseline.py").read_text(encoding="utf-8"))
     fixture = seed()
-    (destination / "synthetic-fixture.json").write_text(json.dumps(fixture, indent=2), encoding="utf-8")
+    write_lf(destination / "synthetic-fixture.json", json.dumps(fixture, indent=2))
     baseline_checks = {key: value for key, value in baseline.items() if key != "checks"}
     integration_checks = {key: value for key, value in integrated["assessment"].items() if key != "checks"}
     report = {"recorded_at": datetime.now(timezone.utc).isoformat(), "source": source,
@@ -70,10 +74,10 @@ def main():
                   "redactions": ["model reasoning/transcripts", "host profile/endpoint settings", "site configuration and passwords",
                                   "HTTP session cookies", "database backups", "restricted MUCOCO/JailGuard data"],
                   "not_redacted": "Synthetic fixture, modified code, result denominators, setup failures and aggregate token use"}}
-    (ROOT / "reports/erpnext-results.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    write_lf(ROOT / "reports/erpnext-results.json", json.dumps(report, indent=2))
     manifest = {path.relative_to(destination).as_posix(): digest(path.read_bytes())
                 for path in destination.rglob("*") if path.is_file() and path.name != "manifest.json"}
-    (destination / "manifest.json").write_text(json.dumps({"files": manifest, "source": source}, indent=2), encoding="utf-8")
+    write_lf(destination / "manifest.json", json.dumps({"files": manifest, "source": source}, indent=2))
     print(json.dumps({"exported_runs": len(records), "private_checks": report["private_checks"],
                       "private_passed": report["private_passed"], "http_checks": http["passed_checks"],
                       "secrets_exported": False}, indent=2))

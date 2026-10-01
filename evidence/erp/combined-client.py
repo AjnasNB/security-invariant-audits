@@ -603,4 +603,3 @@ def _delete_child_row(doctype, name):
 			parent.remove(row)
 			parent.save()
 			break
-

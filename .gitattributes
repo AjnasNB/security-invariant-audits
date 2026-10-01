@@ -1,0 +1,4 @@
+* text=auto
+evidence/** text eol=lf
+reports/*.json text eol=lf
+*.pdf binary

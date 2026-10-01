@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-01T07:19:25.939473+00:00",
+  "research_unit_tests": 11,
+  "delta_focused_tests": 40,
+  "all_test_suites_passed": true,
+  "candidate_run_receipts": 53,
+  "pilot_checks": 5216,
+  "application_checks": 60,
+  "seeded_faults_rejected": 8,
+  "sources": 7,
+  "provider_attempts": 402,
+  "artifacts": {
+    "README.md": "076de7d8bb590b67c0821a8b38fba51617b5ecc5b8e4ef382744f316827719d7",
+    "reports/summary.json": "b772e6c1459f0e5918c5ab57836fe3ea0e6a1726e7ef6153d1ec3f5d92fa0a47",
+    "reports/results.md": "4e1a244a505bc44482438908ebaed6aed53c5e801a171a6fde3d44c9bfdbe2c5",
+    "reports/runs.csv": "eabac93a730ad4f0b21b6a5b3a6c0c33ace186092d698a4fe6aa834d6036ae73",
+    "reports/comparison.csv": "d1d57434369a06396e47752e1c3e4ba6a4736c5ccc810f3ddbd598dc444ec396",
+    "reports/report.html": "eac014806eb1c95c5b3e2bb99596078cfeb9a89bba9d1a03264e53f926a1d9ce",
+    "output/pdf/Ajnas_Security_Invariant_MVP_Results.pdf": "48cc0c90a1b7871b671fa8f9549a26033c068d29ffb4a3a20d82a955d652b013"
+  },
+  "pdf_qa": {
+    "pages": 6,
+    "rendered_and_visually_inspected": true
+  },
+  "remote_writes": false,
+  "scope": "local measured feasibility study"
+}
