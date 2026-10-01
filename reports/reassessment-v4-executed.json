@@ -1,0 +1,3217 @@
+{
+  "recorded_at": "2026-10-01T13:19:37.669814+00:00",
+  "scorer_version": "4.0",
+  "azure_calls": 0,
+  "reexecuted": true,
+  "unique_runtime_executions": 78,
+  "records": [
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "3c136705bd84696d21b97d3b95760ac47104b276bb6fc7b03157ed4aa4fc3e92",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "cf8533a25f0866f075f3260f77d5d354879466325462de0e621bb37b0de06945",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "eb2fd70121b5ad4c9649b4019b0d2cd031ac847751c3d01966610bcd17b8c1e9",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "ff5025c3945f58d920989fe24af004b49210cb03b75096a382d6aa640895f86e",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "de52379c187f3ede6de8b193393d071b086057fe51896650cc2c5b817f5b3171",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "2ad6a715189d687b5bad5904cf08650b46d7d17bb9b2066b9144a37a7c2022fb",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "6760bba1bf90bed3132672d8d877e00d2756db0a02a15970f4bc7d1d1d317b00",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "b677bac2025a0d0f0e19d9ab6b0cd238af1c0b17e2dbb3e217aee9305c0bd716",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "c7a7b61d645411a15e468a2184083a98b214ee1c8b12d4b6819591774cc4686c",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "648cb4c55755663053bb1f849194980e64ca827f2a9b4ab85e1f329f5b9507dd",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "5cda84b31c2ec613da82dc01d14c8e9fe69a5fdff92dd03a2b961a8d9e48a62e",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "3d6b333e9283c90c8d30cac234b4d9cde9ce9f5380445d284c8c9a0c26c0c22a",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "99ef8d752612e63767505a24286c17fd81336e7600b1aceb8d6c5db350d5de03",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "a2e53a46b6d98d8e29dd4ea13a207242ec220fb2f8bcbda0e378abecfc429aee",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "8dec3b28ad9bc3ccd4bf983ea7d9c65dc44ac65549ee3e92d48b45dd312e3db4",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "710e26d38ad24ec8b165a77243a89a7f4fbcb5909828375e9badb928f313af12",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "96e19aeede203d4475ff4884ccc356842a11bcfa7c95fb52cd16dcef64d82a53",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "f860280b92c7b4ffae380686fcf7758b317633f86975911d7539d912481ef208",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "7cc40a756848d18596ed4b5a9cd50ac5f9cdaf3c20b3b908e3c04005eb347c23",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "59cfccda11515d5701e1c47b79d1f7913b6c846c8290ee3d6c75d24a64ed7559",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "46e6e29c070283ee417f936415315ac2f8a96a93d4af38fbfb6b0ed8f9aee221",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "41fb8015e73e128d45045744fed80827572f75ec70e2a7c47c279d6020f1f76b",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "156f7a5a9728e8e2e68aebe58e57638b4049a7bf71ce889943c9c73a74d04396",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "a8ce413efaf08aaa34435ff3859d8e2ec0f8063e286ffb8453ddf1c22a205090",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "490e11f497b9b917f44896b2d34c49d3238a4a0e88a6057dc2d8697670e219e1",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "361cd090b79277a7d80429fe31e47994a485d30008562ae30c834aaf0a161bee",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "c79b5ad99a1c9d89d8a42e238247997cf451ddf8cb6a841a620181fe7217ed14",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "cf8533a25f0866f075f3260f77d5d354879466325462de0e621bb37b0de06945",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "97b45249ccd1c3fb25387434701c31bb2c3eec1498dea9716cb0bffdfd14c35f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "683017b73760ade9810cb577251bcbad93775723a802dde55d174506906ea299",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "cf8533a25f0866f075f3260f77d5d354879466325462de0e621bb37b0de06945",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "6adba2dd54ac77a3d749c33852607f24824718d51fa91cf9a588e5e18772834c",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "044098573524fda71899d879bfcf178ed5e93bc10f352faa8abf0ea45bbab132",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "baad90c2b2ff76cf875a0bd3cf8e514facc2704cb2cb656f1fc29c48531baa37",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "7fe04e0734399bee85efe5cae531db5c4f40e17371b98edbd5eb664965fbb8a0",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "3ca4858b6c2cd74e8f511c8161481c4df51a31998d726de6766383aa30c29a35",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "8956a2b6e96ff7800de71ed3a5ab7cda1cf4257994432ccf3ffe19fd42ab7449",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "710e26d38ad24ec8b165a77243a89a7f4fbcb5909828375e9badb928f313af12",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "740dc3025c426804efc7bd3abe96e268bd0c70e5e855f76e2d3592f846959415",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "87f49b6cb875bf14d50fe5791e6cc40aca0fc40cab263fcdb0b31391b93137a5",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "77d07d733780664d427ea80344967de6de1744bf25b0c9f69ec2c9b33cffc60f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "475a54590e42ea02718b0e4dbf87279bea3a0979b1fc2663f0bc43d77abc5423",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "da44326b5c8d79fcdbfb45be09926e232eef214903d2ba136239ff815fcbc3bb",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "94e014a0773de005c3d64066fe23e13545b7429c6869fdeae2e948c256269b60",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "access_helper",
+      "candidate_sha256": "b6e151d22443d9a20093665fd4104fcb58f27bdbb849a338ce4bed7d56fd8075",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_list",
+      "candidate_sha256": "e13a64274ac0d412045f083191dd936f2bc1f9665b173abab1854ee06781e61f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "4deb876405aa17b2912424f188ae4dab0a8b4cbfbca04803b680c1a274f5f02c",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-pilot",
+      "task": "invoice_lookup",
+      "candidate_sha256": "138e5d3ac4f121b5244903337ed381e671e21ff971ece78fafa5ee72f372ffe3",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-fastapi",
+      "task": "fastapi_items",
+      "candidate_sha256": "4ad19507e59d0c29bbb5bd79e58613864cb8bab6ea42cda1cbaf62033a28cad8",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-fastapi",
+      "task": "fastapi_items",
+      "candidate_sha256": "1d998a2b20ae59eff0e821cfccbd19669eefcc142248642662e339ac71e1686f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-fastapi",
+      "task": "fastapi_items",
+      "candidate_sha256": "340010641824adf77ca2e5e85b4982ae6ad979bd51375c1e2ba3ecfea5635017",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-fastapi",
+      "task": "fastapi_items",
+      "candidate_sha256": "d487eb5e41b81df1953469409ebe02aecc3856962f7f6e2706f1ae648ca3c935",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "original-fastapi",
+      "task": "fastapi_items",
+      "candidate_sha256": "bc9c84a6a2722e313160d727827e49fa26f90be0cb8463623eab0f75059d6eb8",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "access_helper",
+      "candidate_sha256": "d164ceb7a40d7fa42bd6c1fdc546788f6945758ea824ef939c27c91aaa25c447",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "invoice_lookup",
+      "candidate_sha256": "dcbb0bc973ff6bc5b2d8cc13065459446601119e8501b09b69d6f23a990dabae",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "invoice_list",
+      "candidate_sha256": "f21afe2b0c41e6e1f26742e303208a33f6a234954e66321e3d01e0d71d1f2f4f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "invoice_lookup",
+      "candidate_sha256": "dcbb0bc973ff6bc5b2d8cc13065459446601119e8501b09b69d6f23a990dabae",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "invoice_list",
+      "candidate_sha256": "2a729b035916a2c41cb5ee0baa2c2df0335e20d7bf881ab261ac287e4d98abdd",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "codex",
+      "task": "access_helper",
+      "candidate_sha256": "ad208e1485216d4573d1996be39b21ad9a068a941d075b903969c6c3edbe0cc1",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "access_helper",
+      "candidate_sha256": "7e3a6847eed4c91740efc02bb57c1197e365b515ffd3477d45275ed722bd5591",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "invoice_lookup",
+      "candidate_sha256": "16f18cd508ec2fae1c1ec89d93d9a5dfcb5e42ec10a5acb438b70981ccea1ace",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "invoice_list",
+      "candidate_sha256": "71abcf7e5d6ba7ea82cb32719ea989f039a1d58bdd0242972bec46485c7d55af",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "invoice_lookup",
+      "candidate_sha256": "f197f8f920a59aa4fbb1bcb295fc29d14661e29c8b114dc7a98b5d565698662d",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "invoice_list",
+      "candidate_sha256": "21e4c3a38e4a0af05a723e108cb318cabb8db67655672e73ebd9fa24d61d67e6",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "openhands",
+      "task": "access_helper",
+      "candidate_sha256": "93c5ec7ba6c983bb3858fbd9267f74833c6cfec2260268942dabf7f18f7ee591",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "access_helper",
+      "candidate_sha256": "88f6ad8537e2f6b43dcbacc83bb6d5587f9f7028f08b71b17a91798f3b81af1f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "invoice_lookup",
+      "candidate_sha256": "a4b587a3e20de375366a03911e6ca8c9bbbda0b6653593eeebc00cbeec84da4f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "invoice_list",
+      "candidate_sha256": "4a2b40993169b105616f9624aabf86cc47995cae0f776574a25d944297e2593f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "invoice_lookup",
+      "candidate_sha256": "134415a79a3a553329d6ffbbbd1179b3e935efee0063036c0b10abab49319497",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "invoice_list",
+      "candidate_sha256": "a00ea5110e6e72bc7e7ac0f34269dec06d1cbafbb57650ca9c2a4e6f8a7fdc3b",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "claude-code",
+      "task": "access_helper",
+      "candidate_sha256": "dd6862680863abdfd9ffc51194d37a3a4467598585a851b0bc789f0b907121b2",
+      "task_completed": false,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "access_helper",
+      "candidate_sha256": "131ee7ce3cd257b4765a2a75f25d0820c1ece95b225152bdd095a2d2c63c0cab",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 143,
+        "passed": 143,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "invoice_lookup",
+      "candidate_sha256": "2276a81e993e56bcae4541315cf2e7d6d8b9fce9cfebe9ed1b62e5a5671a0e4f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "invoice_list",
+      "candidate_sha256": "8218a291cf6d6d254f75aea23dccb91409759f80b7a8e5f8e19b2b8765483455",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 52,
+        "passed": 52,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "invoice_lookup",
+      "candidate_sha256": "da94df76fde79c39741d69b8bf83037f105c55f3e16e7e1e046706da2ad45d77",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "invoice_lookup",
+      "candidate_sha256": "2276a81e993e56bcae4541315cf2e7d6d8b9fce9cfebe9ed1b62e5a5671a0e4f",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 131,
+        "passed": 131,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "delta-product",
+      "task": "fastapi_items",
+      "candidate_sha256": "9fe870a8bee65fb80ecf04c5e0c5ea6de7c87faee06f097c01dc0e0a4a07ae30",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": true
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 12,
+        "passed": 12,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "9de5e0ea501abc9ca0b08d632f9e4f7807e42667769a338b46a4be68f72f5efe",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "797ce6ca45a0afa9b011cd4bccf4f67bd208ab130f19023a545feb5e27a8d42d",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "bba6d100c3276aa26b4b0d0f7d6950ee4e90d81a6d7eeb02651bb7ec46edd266",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "04c7eef7f84056492cfbaad30c88857fcf848048fb3d2f95f3118b75fbad484b",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "dbde8efc0d637842bfae56b2200d56c0fa28e5f7612f4cb2083dcd7643043fc0",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    },
+    {
+      "group": "erp",
+      "task": "erp",
+      "candidate_sha256": "3e01bc8b103570d4302e7e4e2ddb7d3c03bc545d9c77b9db27fb75e74dcabcda",
+      "task_completed": true,
+      "old": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "unknown_security_checks": null,
+        "invariant_preserved": null
+      },
+      "replayed": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "reexecuted": {
+        "status": "assessed",
+        "total": 94,
+        "passed": 94,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invalid_outputs": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": true
+      },
+      "legacy_pass_or_security_label_changed": false,
+      "runtime_type_evidence": "fresh execution"
+    }
+  ],
+  "groups": {
+    "original-pilot": {
+      "candidates": 48,
+      "checks": 5216,
+      "passed": 5216,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "original-fastapi": {
+      "candidates": 5,
+      "checks": 60,
+      "passed": 60,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "codex": {
+      "candidates": 6,
+      "checks": 652,
+      "passed": 652,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "openhands": {
+      "candidates": 6,
+      "checks": 652,
+      "passed": 652,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "claude-code": {
+      "candidates": 6,
+      "checks": 652,
+      "passed": 652,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "delta-product": {
+      "candidates": 6,
+      "checks": 600,
+      "passed": 600,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    },
+    "erp": {
+      "candidates": 6,
+      "checks": 564,
+      "passed": 564,
+      "security_failures": 0,
+      "unknown_candidates": 0
+    }
+  },
+  "candidates": 83,
+  "changed_historical_pass_or_security_labels": 0,
+  "scope": "Final saved candidate files from retained reported batches; no repeated model generations or edited historical artifacts"
+}

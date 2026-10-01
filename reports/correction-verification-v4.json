@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-01T13:50:05.125315+00:00",
+  "research_unit_tests": 40,
+  "all_final_commands_passed": true,
+  "commands": [
+    {
+      "command": "python -B -m unittest discover -s tests -q",
+      "passed": true,
+      "output": "----------------------------------------------------------------------\nRan 40 tests in 0.179s\n\nOK"
+    },
+    {
+      "command": "python -B -m research.demo",
+      "passed": true,
+      "output": "Verified 226 evidence files; 24 recorded trajectories.\nReplayed 2608/2608 checks; 23 completed refactors; 0 access violations; 0 unknown files.\nNo Azure calls, candidate code execution, Docker or credentials used. This replays saved observations; a fresh model experiment is a separate paid command."
+    },
+    {
+      "command": "python -B -m research.check_paper_evidence",
+      "passed": true,
+      "output": "Verified 10 paper evidence files and 3 archived failures. No new model or program execution."
+    },
+    {
+      "command": "python -B -m erp.check_published",
+      "passed": true,
+      "output": "Published evidence valid: 27 hashes, six refactors, 564 checks."
+    },
+    {
+      "command": "python -B -m compileall -q -x [/\\\\](vendor|private|runs|runtime|protected)[/\\\\] research erp harnesses",
+      "passed": true,
+      "output": ""
+    }
+  ],
+  "runtime_controls": {
+    "ordinary_controls_passed": true,
+    "actual_erp_timeout_cleanup_passed": true,
+    "archived_failure_replays_confirmed": 3
+  },
+  "artifact_sha256": {
+    "reports/Ajnas_Ordinary_Prompt_Research_Correction_20261001.pdf": "8f68ef8a40598535fe0ce7f433a9e0aa8cdc0e5c5172589d28d2c4488fdcff43",
+    "reports/ordinary-v1-results.json": "8bae1b7a7a4cb89b2c9fec3fa249a7354dfec0a3945baab8baa3c7622fd50d37",
+    "reports/measurement-correction-v4.json": "6f65650a046dfa083d700269670cde1ff64cdf18767e77659458ef787ac67cdc",
+    "reports/reassessment-v4-executed.json": "cad81f79729d7db70cbb3d7ba29c5b806132a64c269ca3fe88c217285e6cb154",
+    "reports/mucoco-author-replay-v1.json": "0ac935364c7faacbb87533bb387a7f5d2c7b2fd9f4b663061cdb5d6825fde329",
+    "reports/mucoco-model-v1.json": "0b6bbda60ed2e99a9b0e5c2710e216770bbc0e628d6da944554944e80726e1cb",
+    "reports/cost-accounting-v4.json": "d8edc53a1a33c5d8bb7c6c7627b050791f935f392c681ac5b4f54903fc0681c3",
+    "protocols/ordinary-v1.json": "84103b1ce141addab747ac044f948d53832e49e5daca70e98293806fd9432dc5",
+    "protocols/mucoco-prediction-v1.json": "a3e301963e21f1a83bea02328ccc8f6004f07ec870b6e19be6d57b7df7bd5a55"
+  },
+  "pdf": {
+    "pages": 6,
+    "rendered_with": "Poppler pdftoppm 105 dpi",
+    "all_pages_visually_inspected": true,
+    "layout_review_passed": true,
+    "new_dated_report_not_overwritten_historical_pdf": true
+  },
+  "typescript_validation": "Four changed/new runner files separately transpile-checked with zero syntax errors",
+  "no_paid_calls_in_final_verification": true,
+  "scope": "Local checks of this correction and published saved evidence; not a security guarantee or independent replication of fresh model outputs"
+}

@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-01T13:24:24.767919+00:00",
+  "test": "Actual ERP candidate import timeout and exact-name cleanup",
+  "passed": true,
+  "assessment": {
+    "status": "unknown",
+    "error": "ERP candidate execution timed out",
+    "total": 1,
+    "passed": null,
+    "functional_failures": null,
+    "security_failures": null,
+    "invalid_outputs": null,
+    "unknown_security_checks": 1,
+    "invariant_preserved": null,
+    "scorer_version": "4.0",
+    "container_name": "ajnas-erp-check-da5645a04f7e",
+    "timeout": true,
+    "cleanup_confirmed": true
+  },
+  "container_absent_after_cleanup": true,
+  "cleanup_inventory_succeeded": true,
+  "azure_calls": 0,
+  "database_changes": false,
+  "scope": "Timeout cleanup, not a general container-escape proof"
+}

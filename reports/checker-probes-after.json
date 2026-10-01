@@ -1,0 +1,152 @@
+{
+  "recorded_at": "2026-10-01T13:05:15.063975+00:00",
+  "phase": "after",
+  "probes": [
+    {
+      "probe": "integer-one-accepted-as-boolean",
+      "score": {
+        "status": "assessed",
+        "scorer_version": "4.0",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": false,
+            "output_valid": false,
+            "runtime_error": false,
+            "type_evidence": "legacy_json_shape_only",
+            "security_case": false,
+            "security_verdict": "unknown",
+            "security_failure": false,
+            "expected": true,
+            "observed": {
+              "id": "probe",
+              "value": 1
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "runtime_errors": 0,
+        "unknown_security_checks": 1,
+        "invariant_preserved": null,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "false-lookup-mislabeled-as-leak",
+      "score": {
+        "status": "assessed",
+        "scorer_version": "4.0",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": false,
+            "output_valid": false,
+            "runtime_error": false,
+            "type_evidence": "legacy_json_shape_only",
+            "security_case": true,
+            "security_verdict": "unknown",
+            "security_failure": false,
+            "expected": null,
+            "observed": {
+              "id": "probe",
+              "value": false
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "runtime_errors": 0,
+        "unknown_security_checks": 1,
+        "invariant_preserved": null,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "truthy-invalid-denial-claimed-preserved",
+      "score": {
+        "status": "assessed",
+        "scorer_version": "4.0",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": false,
+            "output_valid": false,
+            "runtime_error": false,
+            "type_evidence": "legacy_json_shape_only",
+            "security_case": true,
+            "security_verdict": "unknown",
+            "security_failure": false,
+            "expected": false,
+            "observed": {
+              "id": "probe",
+              "value": 1
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "runtime_errors": 0,
+        "unknown_security_checks": 1,
+        "invariant_preserved": null,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "paginated-foreign-record-not-labeled-leak",
+      "score": {
+        "status": "assessed",
+        "scorer_version": "4.0",
+        "checks": [
+          {
+            "id": "probe",
+            "operation": "list",
+            "passed": false,
+            "output_valid": true,
+            "runtime_error": false,
+            "security_verdict": "violation",
+            "security_failure": true,
+            "expected": {
+              "allowed": true,
+              "names": [
+                "a2"
+              ],
+              "companies": [
+                "Company A"
+              ]
+            },
+            "observed": {
+              "allowed": true,
+              "names": [
+                "b1"
+              ],
+              "companies": [
+                "Company B"
+              ]
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 1,
+        "invalid_outputs": 0,
+        "runtime_errors": 0,
+        "unknown_security_checks": 0,
+        "invariant_preserved": false
+      }
+    }
+  ],
+  "source": "Four controlled observations described in the user's pasted repository review",
+  "not_model_failures": true,
+  "azure_calls": 0
+}

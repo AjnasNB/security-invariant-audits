@@ -11,5 +11,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -B -m unittest discover -s tests -v
-      - run: python -B -m compileall -q research erp harnesses
+      - run: python -B -m compileall -q -x '[/\\](vendor|private|runs|runtime|protected)[/\\]' research erp harnesses
       - run: python -B -m erp.check_published
+      - run: python -B -m research.demo
+      - run: python -B -m research.check_paper_evidence

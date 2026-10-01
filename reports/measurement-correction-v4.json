@@ -1,0 +1,106 @@
+{
+  "recorded_at": "2026-10-01T13:38:06.548624+00:00",
+  "scorer_version": "4.0",
+  "four_review_findings_reproduced": 4,
+  "probes": [
+    {
+      "probe": "integer-one-accepted-as-boolean",
+      "before": {
+        "passed": 1,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "invariant_preserved": true
+      },
+      "after": {
+        "passed": 0,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "invariant_preserved": null
+      }
+    },
+    {
+      "probe": "false-lookup-mislabeled-as-leak",
+      "before": {
+        "passed": 0,
+        "security_failures": 1,
+        "invalid_outputs": null,
+        "invariant_preserved": false
+      },
+      "after": {
+        "passed": 0,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "invariant_preserved": null
+      }
+    },
+    {
+      "probe": "truthy-invalid-denial-claimed-preserved",
+      "before": {
+        "passed": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "invariant_preserved": true
+      },
+      "after": {
+        "passed": 0,
+        "security_failures": 0,
+        "invalid_outputs": 1,
+        "invariant_preserved": null
+      }
+    },
+    {
+      "probe": "paginated-foreign-record-not-labeled-leak",
+      "before": {
+        "passed": 0,
+        "security_failures": 0,
+        "invalid_outputs": null,
+        "invariant_preserved": null
+      },
+      "after": {
+        "passed": 0,
+        "security_failures": 1,
+        "invalid_outputs": 0,
+        "invariant_preserved": false
+      }
+    }
+  ],
+  "not_model_or_paper_failures": true,
+  "historical_saved_files": 83,
+  "historical_completed_refactors": 82,
+  "unique_fresh_runtime_executions": 78,
+  "checks_all_saved_files": 8396,
+  "passed_all_saved_files": 8396,
+  "checks_completed_refactors": 8253,
+  "security_failures": 0,
+  "unknown_files": 0,
+  "historical_pass_or_leak_labels_changed": 0,
+  "ordinary_controls_passed": true,
+  "ordinary_seeded_faults_rejected": 6,
+  "erp_timeout_cleanup": {
+    "recorded_at": "2026-10-01T13:24:24.767919+00:00",
+    "test": "Actual ERP candidate import timeout and exact-name cleanup",
+    "passed": true,
+    "assessment": {
+      "status": "unknown",
+      "error": "ERP candidate execution timed out",
+      "total": 1,
+      "passed": null,
+      "functional_failures": null,
+      "security_failures": null,
+      "invalid_outputs": null,
+      "unknown_security_checks": 1,
+      "invariant_preserved": null,
+      "scorer_version": "4.0",
+      "container_name": "ajnas-erp-check-da5645a04f7e",
+      "timeout": true,
+      "cleanup_confirmed": true
+    },
+    "container_absent_after_cleanup": true,
+    "cleanup_inventory_succeeded": true,
+    "azure_calls": 0,
+    "database_changes": false,
+    "scope": "Timeout cleanup, not a general container-escape proof"
+  },
+  "azure_calls_for_correction": 0,
+  "scope": "Old saved observations replayed, candidate code reexecuted, labels reconciled; no historical AI generations overwritten or regenerated"
+}

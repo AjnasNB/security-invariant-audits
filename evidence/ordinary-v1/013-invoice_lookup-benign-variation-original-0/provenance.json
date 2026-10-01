@@ -1,0 +1,150 @@
+{
+  "tool_calls": {
+    "inspect_file": 3,
+    "update_file": 1,
+    "run_tests": 1
+  },
+  "raw_events_sha256": "914c5cdfd924805cdb2f2b524d14852c7d993211fbee3a84237786cd771d6bb8",
+  "provider_metadata": [
+    {
+      "request_number": 67,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dbbd8448194a2b77db5e8d97cdd",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 965,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1014
+      },
+      "reference_cost_usd": 0.00242,
+      "response_sha256": "c9df3a21c20e68f22be7532899835d2f7651a33bfc707e380c990119b70a63b6",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 68,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dbdc344819493010c4f4411d598",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1246,
+        "input_tokens_details": {
+          "cache_write_tokens": 1243,
+          "cached_tokens": 0
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1267
+      },
+      "reference_cost_usd": 0.0033235,
+      "response_sha256": "5203c3f963df3a23522b8cd08b19574213d7b699cdc40724f597f237f5e7955c",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 69,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dbf556c81948ba085366c6abe55",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1629,
+        "input_tokens_details": {
+          "cache_write_tokens": 383,
+          "cached_tokens": 1243
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 31
+        },
+        "total_tokens": 1681
+      },
+      "reference_cost_usd": 0.0016078,
+      "response_sha256": "879e732551a56d5a47404995f5a6a63650c14a38135472ed71d9530b59b76c64",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 70,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dc1a4048194927c4fc0541bab84",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1754,
+        "input_tokens_details": {
+          "cache_write_tokens": 125,
+          "cached_tokens": 1626
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 73
+        },
+        "total_tokens": 2123
+      },
+      "reference_cost_usd": 0.0041711000000000005,
+      "response_sha256": "ae7e8b8d5fdae8a33b7a19f620b338bdbcd73094968a1d540665e4eb703bcbf6",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 71,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dc804108194a01f09b249e7dbea",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2110,
+        "input_tokens_details": {
+          "cache_write_tokens": 356,
+          "cached_tokens": 1751
+        },
+        "output_tokens": 14,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2124
+      },
+      "reference_cost_usd": 0.0012111,
+      "response_sha256": "b36d30cec3ca69e823a50aff04b9182ad921e816445897da8ac7b3dd01233b54",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 72,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_088acb459795fb6d016abe5dca6524819496c8efdd85b82690",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2157,
+        "input_tokens_details": {
+          "cache_write_tokens": 47,
+          "cached_tokens": 2107
+        },
+        "output_tokens": 62,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2219
+      },
+      "reference_cost_usd": 0.0009542,
+      "response_sha256": "c1aa2710c8486e20b344347d6d493cdf0f7a01425c44cbe818749bc24d494a8d",
+      "usage_unknown": false
+    }
+  ],
+  "excluded": [
+    "raw provider requests/responses",
+    "reasoning",
+    "checkpoints",
+    "assistant narrative",
+    "profiles",
+    "credentials"
+  ]
+}

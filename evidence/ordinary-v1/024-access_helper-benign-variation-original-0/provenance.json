@@ -1,0 +1,83 @@
+{
+  "tool_calls": {
+    "inspect_file": 2,
+    "edit_block": 1
+  },
+  "raw_events_sha256": "dde14f7b18423c5dd22eaa3e149f19b5fd330ba438112f035c22896e3f5d8ddd",
+  "provider_metadata": [
+    {
+      "request_number": 130,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_0e5046e3ea007cfe016abe5e906448819498f1ad0cbfb54ee7",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 957,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1009
+      },
+      "reference_cost_usd": 0.002434,
+      "response_sha256": "79d23ac3be4ea8d4e38df401cfe4eda35225a29443e558dfb3ceaafe09882c46",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 131,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_0e5046e3ea007cfe016abe5e9226ac8194b306f60a781c5d50",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1224,
+        "input_tokens_details": {
+          "cache_write_tokens": 1221,
+          "cached_tokens": 0
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1245
+      },
+      "reference_cost_usd": 0.0032685,
+      "response_sha256": "40cb40f7cc4b552dfb5d24507610df7e56fe0e604752008f496d2906ad074efb",
+      "usage_unknown": false
+    },
+    {
+      "request_number": 132,
+      "http_status": 200,
+      "model": "maqam-orchestrator-sol-6-1",
+      "response_id": "resp_0e5046e3ea007cfe016abe5e9388808194bf28cc51e30574c0",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1515,
+        "input_tokens_details": {
+          "cache_write_tokens": 291,
+          "cached_tokens": 1221
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 55
+        },
+        "total_tokens": 1725
+      },
+      "reference_cost_usd": 0.0029556,
+      "response_sha256": "f987446d89e523778bcbb44609e39d6cbd3b4d29319465731891dc0ba904cfff",
+      "usage_unknown": false
+    }
+  ],
+  "excluded": [
+    "raw provider requests/responses",
+    "reasoning",
+    "checkpoints",
+    "assistant narrative",
+    "profiles",
+    "credentials"
+  ]
+}

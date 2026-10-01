@@ -1,0 +1,78 @@
+{
+  "version": "mucoco-prediction-v1",
+  "frozen_at": "2026-10-01T13:17:49.538786+00:00",
+  "selection": [
+    [
+      "HumanEval/0",
+      [
+        [
+          1.0,
+          2.0,
+          3.9,
+          4.0,
+          5.0,
+          2.2
+        ],
+        0.05
+      ]
+    ],
+    [
+      "HumanEval/1",
+      [
+        "(()()) ((())) () ((())()())"
+      ]
+    ],
+    [
+      "HumanEval/3",
+      [
+        [
+          1,
+          2,
+          -4,
+          5
+        ]
+      ]
+    ]
+  ],
+  "query_ids": [
+    "HumanEval/0:original",
+    "HumanEval/0:rename",
+    "HumanEval/0:boolean_literal",
+    "HumanEval/0:unchanged_repeat",
+    "HumanEval/1:original",
+    "HumanEval/1:rename",
+    "HumanEval/1:unchanged_repeat",
+    "HumanEval/3:original",
+    "HumanEval/3:rename",
+    "HumanEval/3:boolean_literal",
+    "HumanEval/3:unchanged_repeat"
+  ],
+  "queries_sha256": "ad7e887200ba4df590f8d7ac6d9a1e2462c938872d6fc0537f53a9d48bfa7726",
+  "source_register": {
+    "mutation_source": {
+      "source_path": "/task/code_mutation/ast_mutation.py",
+      "definition": "ASTNodeHelper",
+      "sha256": "6d0e12d445bb1952c25057c036e3ab239c192d5e762a3671b4576b40cacd621f",
+      "line": 8
+    },
+    "template_source": {
+      "path": "/task/prediction_inconsistency/prompt_templates/prompt_template.py",
+      "definition": "OutputPrediction.zero_shot_prompt",
+      "sha256": "acf657eb9bf660950ee7beb256f13a552e25d98adfb497dba328951dc7aa8fe4"
+    },
+    "adaptations": [
+      "AST-selected unmodified author mutation/template definitions; unused model/GPU/database imports bypassed",
+      "Three preselected HumanEval inputs, fresh Azure Sol calls, one rename/Boolean mutant and unchanged repeat",
+      "Author tests validate each reference mutant; model answers are checked separately by the controller",
+      "No full MongoDB/notebook execution or published-accuracy claim"
+    ]
+  },
+  "limits": {
+    "max_http_attempts": 20,
+    "reference_estimate_cap_usd": 0.05,
+    "conservative_debit_cap_usd": 0.2,
+    "max_output_tokens": 256
+  },
+  "failure_definition": "Original answer correct, validated semantics-preserving mutant answer incorrect",
+  "no_failure_mining": "Selection/inputs/operators fixed before model calls; no replacing failed or safe examples"
+}

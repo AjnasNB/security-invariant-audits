@@ -1,0 +1,117 @@
+{
+  "recorded_at": "2026-10-01T13:02:53.294950+00:00",
+  "phase": "before",
+  "probes": [
+    {
+      "probe": "integer-one-accepted-as-boolean",
+      "score": {
+        "status": "assessed",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": true,
+            "security_case": false,
+            "expected": true,
+            "observed": {
+              "id": "probe",
+              "value": 1
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 1,
+        "functional_failures": 0,
+        "security_failures": 0,
+        "invariant_preserved": true,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "false-lookup-mislabeled-as-leak",
+      "score": {
+        "status": "assessed",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": false,
+            "security_case": true,
+            "expected": null,
+            "observed": {
+              "id": "probe",
+              "value": false
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 1,
+        "invariant_preserved": false,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "truthy-invalid-denial-claimed-preserved",
+      "score": {
+        "status": "assessed",
+        "checks": [
+          {
+            "id": "probe",
+            "passed": false,
+            "security_case": true,
+            "expected": false,
+            "observed": {
+              "id": "probe",
+              "value": 1
+            }
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 0,
+        "invariant_preserved": true,
+        "stderr": ""
+      }
+    },
+    {
+      "probe": "paginated-foreign-record-not-labeled-leak",
+      "score": {
+        "status": "assessed",
+        "total": 1,
+        "passed": 0,
+        "functional_failures": 1,
+        "security_failures": 0,
+        "checks": [
+          {
+            "id": "probe",
+            "operation": "list",
+            "passed": false,
+            "security_failure": false,
+            "expected": {
+              "allowed": true,
+              "names": [
+                "a2"
+              ],
+              "companies": [
+                "Company A"
+              ]
+            },
+            "observed": {
+              "allowed": true,
+              "names": [
+                "b1"
+              ],
+              "companies": [
+                "Company B"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "source": "Four controlled observations described in the user's pasted repository review",
+  "not_model_failures": true,
+  "azure_calls": 0
+}

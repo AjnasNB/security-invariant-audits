@@ -1,0 +1,22 @@
+{
+  "task_id": "HumanEvalTF466",
+  "humaneval_task_id": "HumanEval/82",
+  "function": "prime_length",
+  "input": [
+    "aaaaaaaaaaaaaaa"
+  ],
+  "expected": false,
+  "original_saved_answer": false,
+  "mutant_saved_answer": true,
+  "original_failure_type": "",
+  "mutant_failure_type": "AssertionError > ",
+  "original_prompt_sha256": "349f28b0a9838eaff9e15f34314a92a50079b6450bbfcb0a54027007086855a3",
+  "mutant_prompt_sha256": "62ad47fe740326473c0af94ccabcd83732ce60c68ca2d8580ce6016c982ee100",
+  "original_program_sha256": "c790c0c7756c4f5a2af4d82fe770f740e17d43e849a225edb43819f12da8ac0d",
+  "mutant_program_sha256": "b5de77a609589f66f92a8a41a7e78732e8b9c3e705e2503fb94447e6350e096e",
+  "failure_kind": "Wrong value, not Markdown/output-format-only",
+  "programs_pass_author_tests": true,
+  "original_runtime_output": false,
+  "mutant_runtime_output": false,
+  "replay_confirmed": true
+}

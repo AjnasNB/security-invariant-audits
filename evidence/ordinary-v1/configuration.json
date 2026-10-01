@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-01T13:15:08.693Z",
+  "deployment": "maqam-orchestrator-sol-6-1",
+  "protocol_sha256": "aac55f7654ed1737e79c5238bbf698fed9f02ebdcb294f3108d1cb50822b67bf",
+  "harness": "Unmodified actual Delta Native system instructions; target-only ordinary file/test tools",
+  "agent_instructions_note": "No experiment-specific security reminders or hidden-test references in requests/context/tool descriptions. Standard Delta permission rules remain.",
+  "delta_source_hashes": {
+    "src/core/native.ts": "9f3a39fa170e8e2dd5d1dac0059c5c355ca50429e5a5e80645594c714bc323e6",
+    "src/core/providers.ts": "7cf4676683bf656dbec0353622d3b372fdf86da8f3ec92eb53de0573a8cd4742",
+    "src/core/context-rollover.ts": "ee77b06e2cc699e539c99afaf0459174e2fc2e8dcad9d6b09cb1fdf0c8cb5351"
+  }
+}

@@ -7,9 +7,9 @@ only for these scoped changes. The public export excludes credentials, raw
 private traces, restricted datasets and unrelated product work; Delta keeps
 its existing private visibility. See `LICENSE-AND-PUBLICATION.md`.
 
-No public repository, branch, commit or push has been created by this study.
-The project is owned by Ajnas N B; future GitHub publication should use Ajnas's
-account and authorship, not a Codex bot identity or `codex/*` branch.
+Publication has occurred under `AjnasNB/security-invariant-audits` and the
+existing private `AjnasNB/delta-harness`. The project is owned by Ajnas N B;
+authorized updates use Ajnas's identity on main, not a Codex bot or branch.
 
 1. Preserve third-party copyright notices for HumanEval, django-multitenant,
    AgentDojo and FastAPI excerpts.
@@ -30,5 +30,5 @@ account and authorship, not a Codex bot identity or `codex/*` branch.
    This local prototype does not silently assign or overwrite third-party rights.
 9. Confirm final identity and settings again before an external rerun. No model
    alias is silently replaced with a different deployment.
-10. Ajnas performs the remote push unless the user later explicitly changes the
-    no-push instruction.
+10. Only the explicitly authorized research/fix updates may be pushed. Keep
+    unrelated product work and credential profiles out of that scope.

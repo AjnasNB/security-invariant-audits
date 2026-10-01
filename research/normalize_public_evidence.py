@@ -3,6 +3,18 @@ from research.io import ROOT, digest, read_json, write_json
 
 
 def main():
+    new_reports = (
+        "checker-probes-before.json", "checker-probes-after.json", "cost-accounting-v4.json",
+        "measurement-correction-v4.json", "mucoco-author-replay-v1.json", "mucoco-model-v1.json",
+        "ordinary-controls-v1.json", "ordinary-v1-results.json", "reassessment-v4-executed.json",
+        "reassessment-v4-replay.json", "runtime-validation-v4.json", "correction-verification-v4.json",
+    )
+    for filename in new_reports:
+        path = ROOT / "reports" / filename
+        if path.exists():
+            body = path.read_bytes()
+            if b"\r\n" in body:
+                path.write_bytes(body.replace(b"\r\n", b"\n"))
     for relative in ("evidence/ordinary-v1", "evidence/mucoco-author-replay-v1"):
         directory = ROOT / relative
         manifest = read_json(directory / "manifest.json")

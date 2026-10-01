@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-01T13:35:56.249049+00:00",
+  "experiment": "MUCOCO archived-output failure replay",
+  "upstream_article_id": 30402541,
+  "upstream_article_version": 2,
+  "artifact_terms": "CC BY 4.0 for the Figshare artifacts; not a blanket license for GitHub checkouts",
+  "archive_sha256": {
+    "MuCoCo_experiment_results.zip": "845797525381fc7ca9142768e99f40c9745a29357b06a40fa929723de4c57638",
+    "MuCoCo-Replicate-Package.zip": "51b6be1177ac5cb9a9c986d2c0c16c77b906d0fcea3e0cdc8779e33b3891c62c"
+  },
+  "members": {
+    "MuCoCo_experiment_results/output_prediction/gpt-4o/HumanEval_few_shot_no_mutation.csv": "531359ced9c5ea3cdf577ece16be3247b295d4a8f7e3495bc538cf93a15e23ab",
+    "MuCoCo_experiment_results/output_prediction/gpt-4o/HumanEval_few_shot_boolean_literal.csv": "0180c3c63a0a433956086a2a992a875fb515e0d1165025629d8ec3672202b183"
+  },
+  "author_definitions_sha256": {
+    "RQ1.standardize_two_df": "92751d4019c6a52985e2c468f07288d94f1f1881cfed246661d22b6b0b564730",
+    "DataLogHelper.compare_code_generation_dataframe_results": "214905ee370369e81f6aa40d2e7bd876718baa4a065b0b3509f6b52c70725db2"
+  },
+  "pandas_version": "3.0.1",
+  "model_in_saved_results": "gpt-4o",
+  "task": "HumanEval output prediction, few-shot, Boolean-literal mutation",
+  "author_aggregation": {
+    "log1_inconsistencies": 17,
+    "log2_inconsistencies": 14,
+    "total_inconsistency_questions": 220,
+    "log1_success": 588,
+    "log2_success": 206,
+    "log1_total_answered": 995,
+    "log2_total_answered": 267,
+    "total_tasks": 1111
+  },
+  "matched_original_correct_mutant_wrong_rows": 14,
+  "wrong_value_rows": 6,
+  "format_only_rows": 8,
+  "selected": [
+    {
+      "task_id": "HumanEvalTF447",
+      "humaneval_task_id": "HumanEval/80",
+      "function": "is_happy",
+      "input": [
+        "iopaxioi"
+      ],
+      "expected": false,
+      "original_saved_answer": false,
+      "mutant_saved_answer": true,
+      "original_failure_type": "",
+      "mutant_failure_type": "AssertionError > ",
+      "original_prompt_sha256": "f753c8d1e960e09a51b0fbcc6d5bfb01daa602df50b83fa321bf98942c403817",
+      "mutant_prompt_sha256": "b683f32ae7713bc0649a3603dd59a745225121c484e938989d2a49faaa7e7d4a",
+      "original_program_sha256": "9246a6c4b3bda9e0323975e69e1795deade3d8a6d978233e03e489cb6138b71d",
+      "mutant_program_sha256": "a25636c4123d9ea31d14487ead507a8d4997a8179f63e97cb3bc71a0ffb7e88d",
+      "failure_kind": "Wrong value, not Markdown/output-format-only",
+      "programs_pass_author_tests": true,
+      "original_runtime_output": false,
+      "mutant_runtime_output": false,
+      "replay_confirmed": true
+    },
+    {
+      "task_id": "HumanEvalTF466",
+      "humaneval_task_id": "HumanEval/82",
+      "function": "prime_length",
+      "input": [
+        "aaaaaaaaaaaaaaa"
+      ],
+      "expected": false,
+      "original_saved_answer": false,
+      "mutant_saved_answer": true,
+      "original_failure_type": "",
+      "mutant_failure_type": "AssertionError > ",
+      "original_prompt_sha256": "349f28b0a9838eaff9e15f34314a92a50079b6450bbfcb0a54027007086855a3",
+      "mutant_prompt_sha256": "62ad47fe740326473c0af94ccabcd83732ce60c68ca2d8580ce6016c982ee100",
+      "original_program_sha256": "c790c0c7756c4f5a2af4d82fe770f740e17d43e849a225edb43819f12da8ac0d",
+      "mutant_program_sha256": "b5de77a609589f66f92a8a41a7e78732e8b9c3e705e2503fb94447e6350e096e",
+      "failure_kind": "Wrong value, not Markdown/output-format-only",
+      "programs_pass_author_tests": true,
+      "original_runtime_output": false,
+      "mutant_runtime_output": false,
+      "replay_confirmed": true
+    },
+    {
+      "task_id": "HumanEvalTF547",
+      "humaneval_task_id": "HumanEval/94",
+      "function": "skjkasdkd",
+      "input": [
+        [
+          8191,
+          123456,
+          127,
+          7
+        ]
+      ],
+      "expected": 19,
+      "original_saved_answer": 19,
+      "mutant_saved_answer": 26,
+      "original_failure_type": "",
+      "mutant_failure_type": "AssertionError > ",
+      "original_prompt_sha256": "4b0953bddc61cb4b463b3bf974c4a7d5c90de87a4f5e935f890b32c4ecc3591a",
+      "mutant_prompt_sha256": "0ec7197aa930fb055062de96f56f335f970aaae5321e107bf12a64ae1d3f9e0e",
+      "original_program_sha256": "31e10d7e348f1a43de03e9f82d6e715d1605b0803d7b1b0957291206fe433bd4",
+      "mutant_program_sha256": "bca2e7c62c7b2abdf75a89eedba1f06d69e180ba9af594191ff09623ceb431ba",
+      "failure_kind": "Wrong value, not Markdown/output-format-only",
+      "programs_pass_author_tests": true,
+      "original_runtime_output": 19,
+      "mutant_runtime_output": 19,
+      "replay_confirmed": true
+    }
+  ],
+  "confirmed_selected_failures": 3,
+  "azure_calls": 0,
+  "new_model_generation": false,
+  "claim": "Reproduced saved failure classifications and original/mutant runtime equivalence for three known archived failures; not regenerated historical GPT-4o responses or replicated full-paper rates",
+  "selection": "Explicit positive-case reproduction: first wrong-value case per distinct function, not added to the ordinary-v1 or fresh MUCOCO discovery denominator"
+}

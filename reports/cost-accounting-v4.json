@@ -1,0 +1,106 @@
+{
+  "recorded_at": "2026-10-01T13:38:06.550644+00:00",
+  "groups_added": {
+    "ordinary-v1": {
+      "requests": 132,
+      "input_tokens": 212005,
+      "output_tokens": 12668,
+      "cached_tokens": 138882,
+      "cache_write_tokens": 49743,
+      "http_attempts": 132,
+      "reference_estimate_usd": 0.3116857000000002,
+      "conservative_debit_usd": 1.1013799999999998,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_steps": 8,
+        "output_tokens": 1536,
+        "context_target": 14000,
+        "max_http_attempts": 132,
+        "reference_estimate_cap_usd": 0.45,
+        "conservative_debit_cap_usd": 3,
+        "wall_seconds_per_run": 150
+      },
+      "pricing": "Public GPT-6.1 Sol Standard estimate, not Azure invoice",
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Reported cache-write tokens replace ordinary uncached input at 1.25x; no double charge.",
+      "base_estimate_usd": 0.2868142,
+      "cache_write_estimate_usd": 0.3116857
+    },
+    "mucoco-prediction-v1": {
+      "requests": 11,
+      "input_tokens": 4224,
+      "output_tokens": 148,
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "http_attempts": 11,
+      "reference_estimate_usd": 0.009928,
+      "conservative_debit_usd": 0.019856,
+      "unknown_usage_attempts": 0,
+      "limits": {
+        "max_http_attempts": 20,
+        "reference_estimate_cap_usd": 0.05,
+        "conservative_debit_cap_usd": 0.2
+      },
+      "pricing": "Public GPT-6.1 Sol Standard estimate, not Azure invoice",
+      "rates_per_million": {
+        "input": 2,
+        "cached": 0.1,
+        "output": 10,
+        "cache_write": 2.5
+      },
+      "assumption": "Reported cache-write tokens replace ordinary uncached input at 1.25x; no double charge.",
+      "base_estimate_usd": 0.009928,
+      "cache_write_estimate_usd": 0.009928
+    }
+  },
+  "new_total": {
+    "http_attempts": 143,
+    "base_estimate_usd": 0.2967422,
+    "cache_write_estimate_usd": 0.3216137,
+    "unknown_usage_attempts": 0
+  },
+  "prior_recorded_estimate": {
+    "requests": 564.0,
+    "input_tokens": 1883307.0,
+    "output_tokens": 58151.0,
+    "cached_tokens": 1355872.0,
+    "cache_write_tokens": 504871.0,
+    "base_estimate_usd": 1.9114614,
+    "cache_write_estimate_usd": 2.1774966499999997
+  },
+  "all_recorded_total": {
+    "reported_requests": 707,
+    "base_estimate_usd": 2.2082036,
+    "cache_write_estimate_usd": 2.4991103499999996
+  },
+  "zero_model_cost_work": [
+    "Checker regression probes",
+    "83-file replay/reexecution",
+    "Ordinary evaluator controls",
+    "ERP timeout cleanup",
+    "Author archived failure replay",
+    "Offline evidence verification"
+  ],
+  "rates_per_million_tokens": {
+    "input": 2,
+    "cached": 0.1,
+    "output": 10,
+    "cache_write": 2.5
+  },
+  "source": "Previously verified official GPT-6.1 Sol Standard reference pricing; model response usage from the saved new requests",
+  "pricing_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "scope": "Observed research provider requests only; not Azure invoice/credit reconciliation",
+  "limitations": [
+    "Reference estimate, not guaranteed account-specific Azure billing",
+    "Cache writes assumed to replace ordinary uncached-input rate at 1.25x",
+    "Historical interrupted/unreported usage uncertainty remains; new 143 calls have reported usage",
+    "Excludes this Codex chat, other Azure workloads, taxes and exchange conversion",
+    "No new paid cloud ERP infrastructure; local CPU/storage/electricity are not billed here",
+    "Ordinary-v1 stopped at 132 HTTP attempts, below its $0.45 reference-estimate cap"
+  ]
+}

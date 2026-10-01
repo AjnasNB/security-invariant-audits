@@ -1,0 +1,245 @@
+{
+  "recorded_at": "2026-10-01T13:19:21.353374+00:00",
+  "experiment": "MUCOCO output-prediction model pilot",
+  "results": [
+    {
+      "id": "HumanEval/0:original",
+      "task_id": "HumanEval/0",
+      "condition": "original",
+      "termination": "completed",
+      "text": "False",
+      "expected": false,
+      "observed": false,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "40560c20a6f56877abd19fa87e39aa5d43f3bff6b7417c68e11fc772c096a6c9",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/0:rename",
+      "task_id": "HumanEval/0",
+      "condition": "rename",
+      "termination": "completed",
+      "text": "False",
+      "expected": false,
+      "observed": false,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "e167ea2cf214dcdf346db25c6e09ff8ead57a09b23db481ad035a9ccc0348f87",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/0:boolean_literal",
+      "task_id": "HumanEval/0",
+      "condition": "boolean_literal",
+      "termination": "completed",
+      "text": "False",
+      "expected": false,
+      "observed": false,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "6de4ff231190c9d8a2964d2ccac8b994cb7a03d55724abf555fe5d0bfa470eef",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/0:unchanged_repeat",
+      "task_id": "HumanEval/0",
+      "condition": "unchanged_repeat",
+      "termination": "completed",
+      "text": "False",
+      "expected": false,
+      "observed": false,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "40560c20a6f56877abd19fa87e39aa5d43f3bff6b7417c68e11fc772c096a6c9",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/1:original",
+      "task_id": "HumanEval/1",
+      "condition": "original",
+      "termination": "completed",
+      "text": "['(()())', '((()))', '()', '((())()())']",
+      "expected": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "observed": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "464c1465d5dbdf81777dab90f452cf22371867ee1349fed5d983ef0492c1f621",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/1:rename",
+      "task_id": "HumanEval/1",
+      "condition": "rename",
+      "termination": "completed",
+      "text": "['(()())', '((()))', '()', '((())()())']",
+      "expected": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "observed": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "0117617e0c90493a36603f43b10b329c08a12becffc376a81fe4e6af1f96b7c5",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/1:unchanged_repeat",
+      "task_id": "HumanEval/1",
+      "condition": "unchanged_repeat",
+      "termination": "completed",
+      "text": "['(()())', '((()))', '()', '((())()())']",
+      "expected": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "observed": [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ],
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "464c1465d5dbdf81777dab90f452cf22371867ee1349fed5d983ef0492c1f621",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/3:original",
+      "task_id": "HumanEval/3",
+      "condition": "original",
+      "termination": "completed",
+      "text": "True",
+      "expected": true,
+      "observed": true,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "1a710a84f86e12ee74b7279afbf9fd53480c1753e133161783c0b84b4999346a",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/3:rename",
+      "task_id": "HumanEval/3",
+      "condition": "rename",
+      "termination": "completed",
+      "text": "True",
+      "expected": true,
+      "observed": true,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "0f515447aacfa4a1676abb9a358a0b0966905e6d6b5bdace572803965551a055",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/3:boolean_literal",
+      "task_id": "HumanEval/3",
+      "condition": "boolean_literal",
+      "termination": "completed",
+      "text": "True",
+      "expected": true,
+      "observed": true,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "40ed1f6adedbea7aa8d31e310212d43fa1b01ec71b7565592ac5a19addc05add",
+      "author_test_suite_passed": true
+    },
+    {
+      "id": "HumanEval/3:unchanged_repeat",
+      "task_id": "HumanEval/3",
+      "condition": "unchanged_repeat",
+      "termination": "completed",
+      "text": "True",
+      "expected": true,
+      "observed": true,
+      "output_valid": true,
+      "correct": true,
+      "program_sha256": "1a710a84f86e12ee74b7279afbf9fd53480c1753e133161783c0b84b4999346a",
+      "author_test_suite_passed": true
+    }
+  ],
+  "comparisons": [
+    {
+      "task_id": "HumanEval/0",
+      "mutation": "rename",
+      "status": "assessed",
+      "original_correct": true,
+      "mutant_correct": true,
+      "paper_defined_inconsistency": false
+    },
+    {
+      "task_id": "HumanEval/0",
+      "mutation": "boolean_literal",
+      "status": "assessed",
+      "original_correct": true,
+      "mutant_correct": true,
+      "paper_defined_inconsistency": false
+    },
+    {
+      "task_id": "HumanEval/1",
+      "mutation": "rename",
+      "status": "assessed",
+      "original_correct": true,
+      "mutant_correct": true,
+      "paper_defined_inconsistency": false
+    },
+    {
+      "task_id": "HumanEval/3",
+      "mutation": "rename",
+      "status": "assessed",
+      "original_correct": true,
+      "mutant_correct": true,
+      "paper_defined_inconsistency": false
+    },
+    {
+      "task_id": "HumanEval/3",
+      "mutation": "boolean_literal",
+      "status": "assessed",
+      "original_correct": true,
+      "mutant_correct": true,
+      "paper_defined_inconsistency": false
+    }
+  ],
+  "attempted_queries": 11,
+  "correct": 11,
+  "inconsistencies": 0,
+  "unknown_comparisons": 0,
+  "source": {
+    "mutation_source": {
+      "source_path": "/task/code_mutation/ast_mutation.py",
+      "definition": "ASTNodeHelper",
+      "sha256": "6d0e12d445bb1952c25057c036e3ab239c192d5e762a3671b4576b40cacd621f",
+      "line": 8
+    },
+    "template_source": {
+      "path": "/task/prediction_inconsistency/prompt_templates/prompt_template.py",
+      "definition": "OutputPrediction.zero_shot_prompt",
+      "sha256": "acf657eb9bf660950ee7beb256f13a552e25d98adfb497dba328951dc7aa8fe4"
+    },
+    "adaptations": [
+      "AST-selected unmodified author mutation/template definitions; unused model/GPU/database imports bypassed",
+      "Three preselected HumanEval inputs, fresh Azure Sol calls, one rename/Boolean mutant and unchanged repeat",
+      "Author tests validate each reference mutant; model answers are checked separately by the controller",
+      "No full MongoDB/notebook execution or published-accuracy claim"
+    ]
+  },
+  "conclusion": "A small reproduction attempt of the original-correct/mutant-incorrect failure pattern; not published accuracy or a requirement to discover a failure"
+}

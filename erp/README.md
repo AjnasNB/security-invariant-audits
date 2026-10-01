@@ -1,4 +1,11 @@
-# Full ERPNext experiment
+# ERPNext selected-handler integration study
+
+Current correction: scorer 4.0 fixes pagination leak classification, validates
+return shapes and marks uncertain results unknown. Named-container timeout
+cleanup was tested against the actual runtime. Historical six agent trials are
+still defended-prompt trials. `--prompt-profile=ordinary-v1` is an explicit new
+preparation/runner profile, but no paid ERP run of that profile was performed
+in the correction. See the root README and `docs/CURRENT-STATUS.md`.
 
 The complete local application is ERPNext 16.37.0 / Frappe 16.36.0 with MariaDB,
 Redis, workers, scheduler, websocket server and the web UI. AI refactors affect
@@ -39,6 +46,11 @@ python -B -m erp.evaluate validate
 python -B -m erp.validate
 python -B -m erp.http_smoke
 ```
+
+`erp.evaluate init` now verifies source before changing the protected reference.
+It intentionally fails if the current backend already mounts a refactored
+`client.py`; do not overwrite the reference or reset the database to bypass
+that check. Return the backend's source mount to the pinned baseline first.
 
 `erp/run_delta.ts` imports the actual Delta Native loop, not a mock. It reads
 the user's separately configured local Delta profile; set paths via command

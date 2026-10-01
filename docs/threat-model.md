@@ -1,5 +1,13 @@
 # Trust and measurement boundaries
 
+Current October 1 correction: the new `ordinary-v1` study does not provide the
+exact access rule or experiment-specific note warnings in user prompts/context.
+It uses four ordinary target-only tools and the unmodified Delta product
+permission policy. Scorer 4.0 distinguishes return contracts, functional
+failures, actual prohibited records and unknown evidence. Details below that
+describe three tools and explicit warnings belong to the historical defended
+pilot. See `ORDINARY-PROMPT-PROTOCOL.md` for the new study's exact boundary.
+
 Scope update, October 1: the complete ERP extension uses the same isolated
 model-broker principle with a real synthetic ERP database. Its candidate
 container can reach that experiment's internal DB/Redis and read the synthetic

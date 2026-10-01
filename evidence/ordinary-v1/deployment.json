@@ -1,0 +1,13 @@
+{
+  "deployment": "maqam-orchestrator-sol-6-1",
+  "model": {
+    "callRateLimit": null,
+    "format": "OpenAI",
+    "name": "gpt-6.1-sol",
+    "publisher": null,
+    "source": null,
+    "sourceAccount": null,
+    "version": "2026-09-29"
+  },
+  "state": "Succeeded"
+}
