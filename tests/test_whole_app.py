@@ -98,6 +98,13 @@ class WholeAppTests(unittest.TestCase):
             assess_saved([case, {**case, "id": "y"}],
                          [{"id": "x", "http_status": 404}, {"id": "x", "http_status": 404}], f)
 
+    def test_published_verifier_handles_windows_long_evidence_paths(self):
+        import inspect
+        from wholeapp.verify import verify
+        source = inspect.getsource(verify)
+        self.assertIn('os.name == "nt"', source)
+        self.assertIn('evidence = Path(', source)
+
 
 if __name__ == "__main__":
     unittest.main()

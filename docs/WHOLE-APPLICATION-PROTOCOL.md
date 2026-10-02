@@ -148,6 +148,13 @@ and error classifications remain. Success bodies preserve fictional
 content needed to demonstrate the policy conflict. Replay verifies that
 redaction did not change verdicts.
 
+Windows deep checkouts can put the nested ERP evidence filenames beyond
+260 characters. The verifier uses extended-length Windows paths for evidence
+reads. Git commands on such a checkout also need repo-local
+`git config core.longpaths true`. The initial fresh Windows clone revealed
+this portability issue after Linux CI passed; the separate correction is
+retained, not treated as a candidate/code access failure.
+
 ## Fresh local runtime, no AI calls
 
 Recreating the application requires the complete pinned checkouts, existing

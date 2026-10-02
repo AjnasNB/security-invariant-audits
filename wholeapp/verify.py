@@ -1,6 +1,7 @@
 """Offline public replay: no Docker, Azure, private site or candidate imports."""
 import argparse
 import ast
+import os
 from pathlib import Path
 
 from research.io import ROOT, read_json, digest
@@ -11,6 +12,8 @@ FIELDS = ("total", "passed", "functional_failures", "security_failures", "unknow
 
 def verify(evidence):
     evidence = Path(evidence).resolve()
+    if os.name == "nt" and not str(evidence).startswith("\\\\?\\"):
+        evidence = Path("\\\\?\\" + str(evidence))
     manifest = read_json(evidence / "manifest.json")
     actual = {path.relative_to(evidence).as_posix() for path in evidence.rglob("*")
               if path.is_file() and path.name != "manifest.json"}

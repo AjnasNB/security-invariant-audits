@@ -49,7 +49,7 @@ def main():
     record = {
         "verified_at": utc_now(), "author": "Ajnas N B", "all_commands_passed": True,
         "python_unit_tests": count, "commands": checks,
-        "windows_and_linux_unit_tests_executed": 73, "linux_public_evidence_replay_passed": True,
+        "windows_and_linux_unit_tests_executed": 74, "linux_public_evidence_replay_passed": True,
         "offline_typescript_budget_tests": {"passed": 7, "network_used": False},
         "manifest_file_count": len(read_json(ROOT / "evidence/wholeapp-v1/manifest.json")["files"]),
         "http_cases_per_main_run": 730, "total_retained_public_http_observations": 5847,
