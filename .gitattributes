@@ -1,5 +1,6 @@
 * text=auto
 evidence/** text eol=lf
+evidence/hard-vague-context-v1/** -text
 evidence/** whitespace=-blank-at-eol,-blank-at-eof
 reports/*.json text eol=lf
 protocols/*.json text eol=lf

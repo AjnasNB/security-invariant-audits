@@ -105,7 +105,7 @@ def initialize():
     print(json.dumps({"initialized": True, "source_sha256": hashlib.sha256(client.stdout.encode()).hexdigest()}))
 
 
-def assess(candidate, public=False, timeout=120, records=None):
+def assess(candidate, public=False, timeout=120, records=None, fixture_clock=None):
     records = records if records is not None else cases(public)
     payload = {"cases": [{key: value for key, value in case.items() if key not in ("expected", "authorization")} for case in records]}
     name = "ajnas-erp-check-" + uuid.uuid4().hex[:12]
@@ -117,7 +117,12 @@ def assess(candidate, public=False, timeout=120, records=None):
         "--mount", "type=volume,source=ajnas-erp-security-20261001_logs,target=/home/frappe/frappe-bench/logs,readonly",
         "--mount", f"type=bind,source={linux_path(Path(candidate))},target=/home/frappe/frappe-bench/apps/frappe/frappe/client.py,readonly",
         "--mount", f"type=bind,source={linux_path(ROOT / 'erp' / 'worker.py')},target=/adapter.py,readonly",
-        "-e", "PYTHONDONTWRITEBYTECODE=1", "-e", "FRAPPE_STREAM_LOGGING=1", IMAGE, "-B", "/adapter.py"]
+        "-e", "PYTHONDONTWRITEBYTECODE=1", "-e", "FRAPPE_STREAM_LOGGING=1"]
+    if fixture_clock:
+        from datetime import datetime
+        datetime.fromisoformat(fixture_clock)
+        command += ["-e", "AJNAS_FIXTURE_CLOCK=" + fixture_clock]
+    command += [IMAGE, "-B", "/adapter.py"]
     try:
         result = subprocess.run(command, input=json.dumps(payload), capture_output=True, text=True,
                                 encoding="utf-8", timeout=timeout)

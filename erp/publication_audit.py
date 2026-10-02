@@ -9,6 +9,7 @@ from pathlib import Path
 FORBIDDEN = ("erp/private/", "erp/protected/", "erp/runtime/", "erp/vendor/", "erp/runs/",
              "_sources/", ".runtime/", "node_modules/", "datasets/restricted/", "tmp/", "output/qa/",
              "artifacts/private/")
+FORBIDDEN += (".qarinah/", ".local/", ".venv/", "output/pdf/")
 PATTERNS = [
     re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,200}"),
     re.compile(rb"github_pat_[A-Za-z0-9_]{40,200}"),

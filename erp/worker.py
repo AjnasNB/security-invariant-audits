@@ -3,11 +3,21 @@ import json
 import os
 import sys
 import traceback
+from datetime import datetime
 from decimal import Decimal
 
 os.chdir("/home/frappe/frappe-bench/sites")
 import frappe
 import frappe.client
+
+fixture_clock = os.environ.get("AJNAS_FIXTURE_CLOCK")
+if fixture_clock:
+    # Optional controller-owned clock for reproducible draft validation across
+    # calendar days. It changes no business/security code or stored records.
+    import frappe.utils.data
+    fixed_datetime = datetime.fromisoformat(fixture_clock)
+    frappe.utils.data.now_datetime = lambda: fixed_datetime
+    frappe.utils.now_datetime = lambda: fixed_datetime
 
 frappe.init(site="audit.local", sites_path=".")
 frappe.connect()

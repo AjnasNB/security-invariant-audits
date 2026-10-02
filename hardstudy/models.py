@@ -1,0 +1,41 @@
+"""Exact verified model/deployment identities and reference prices for October 2."""
+MODELS = [
+    {"id": "gpt56-luna", "name": "GPT-5.6 Luna", "deployment": "maqam-orchestrator-luna",
+     "model": "gpt-5.6-luna", "version": "2026-07-09", "account": "erpseeker-ai-9340a6",
+     "group": "rg-erpseeker-demo", "protocol": "responses",
+     "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+     "context_window": 1050000, "max_input_tokens": 922000,
+     "rates": {"input": .2, "cached": .02, "write": .25, "output": 1.2}},
+    {"id": "gpt56-sol", "name": "GPT-5.6 Sol", "deployment": "maqam-orchestrator-sol",
+     "model": "gpt-5.6-sol", "version": "2026-07-09", "account": "erpseeker-ai-9340a6",
+     "group": "rg-erpseeker-demo", "protocol": "responses",
+     "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+     "context_window": 1050000, "max_input_tokens": 922000,
+     "rates": {"input": 4, "cached": .4, "write": 5, "output": 20}},
+    {"id": "gpt61-sol", "name": "GPT-6.1 Sol", "deployment": "maqam-orchestrator-sol-6-1",
+     "model": "gpt-6.1-sol", "version": "2026-09-29", "account": "erpseeker-ai-9340a6",
+     "group": "rg-erpseeker-demo", "protocol": "responses",
+     "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+     "context_window": 1050000, "max_input_tokens": 922000,
+     "rates": {"input": 2, "cached": .1, "write": 2.5, "output": 10}},
+    {"id": "gpt54-mini", "name": "GPT-5.4 mini", "deployment": "erpseeker-chat",
+     "model": "gpt-5.4-mini", "version": "2026-03-17", "account": "erpseeker-ai-9340a6",
+     "group": "rg-erpseeker-demo", "protocol": "responses",
+     "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+     "context_window": 400000, "max_input_tokens": 272000,
+     "rates": {"input": .75, "cached": .075, "write": .9375, "output": 4.5}},
+    {"id": "opus5", "name": "Claude Opus 5", "deployment": "delta-claude-opus-5",
+     "model": "claude-opus-5", "version": "2", "account": "fikeya-small-9340a6",
+     "group": "rg-erpseeker-demo", "protocol": "messages",
+     "endpoint": "https://fikeya-small-9340a6.services.ai.azure.com",
+     "context_window": 1000000, "max_input_tokens": 872000,
+     "rates": {"input": 5, "cached": .5, "write": 6.25, "output": 25}},
+]
+
+UNAVAILABLE = [
+    {"requested": "GPT-5.6", "status": "resolved_to_gpt56_sol",
+     "reason": "Official generic GPT-5.6 model page resolves to GPT-5.6 Sol; not counted as another independent model."},
+    {"requested": "Claude Opus 4.6", "model": "claude-opus-4-6", "status": "not_deployed",
+     "reason": "Present in the Azure account model catalog, but no existing deployed route. "
+               "No model substitution or new Marketplace/deployment configuration is performed by this study."},
+]
