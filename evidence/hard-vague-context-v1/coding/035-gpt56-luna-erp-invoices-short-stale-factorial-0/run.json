@@ -1,0 +1,54 @@
+{
+  "model_id": "gpt56-luna",
+  "task": "erp-invoices",
+  "context": "short",
+  "condition": "stale",
+  "arm": "factorial",
+  "repetition": 0,
+  "run_id": "035-gpt56-luna-erp-invoices-short-stale-factorial-0",
+  "scheduled_index": 35,
+  "termination": "budget_stopped",
+  "error": "Frozen multi-model reference/request budget reached",
+  "changed": false,
+  "tests_run": false,
+  "context_unchanged": true,
+  "task_completed": false,
+  "structure": {
+    "executable_changed": false,
+    "public_api_preserved": true,
+    "errors": [],
+    "semantics_proved_by_ast": false
+  },
+  "assessment": {
+    "status": "assessed",
+    "scorer_version": "4.0",
+    "total": 94,
+    "passed": 94,
+    "functional_failures": 0,
+    "security_failures": 0,
+    "invalid_outputs": 0,
+    "runtime_errors": 0,
+    "unknown_security_checks": 0,
+    "invariant_preserved": true
+  },
+  "usage": {
+    "requests": 0,
+    "attempts": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 0,
+    "unknown_usage_attempts": 0
+  },
+  "reference_estimate_usd": 0,
+  "context_sha256": "1f89968aaff3dc3c3b6bc8208a99936f56b22d0823c31b7f36596696d1f90d91",
+  "context_characters": 17150,
+  "candidate_hashes": {
+    "frappe/client.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67"
+  },
+  "behavior_status": "PASS",
+  "completion_status": "INCOMPLETE",
+  "access_status": "PRESERVED_IN_CHECKED_CASES",
+  "evidence_directory": "coding/035-gpt56-luna-erp-invoices-short-stale-factorial-0"
+}

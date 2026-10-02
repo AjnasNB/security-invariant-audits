@@ -1,0 +1,33 @@
+[
+  {
+    "number": 4,
+    "model_id": "gpt54-mini",
+    "deployment": "erpseeker-chat",
+    "served_model": "erpseeker-chat",
+    "started_at": "2026-10-02T14:12:29.880Z",
+    "completed_at": "2026-10-02T14:12:31.708Z",
+    "http_status": 200,
+    "status": "completed",
+    "response_completed": true,
+    "usage": {
+      "input_tokens": 93,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 88,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 181
+    },
+    "usage_unknown": false,
+    "reference_cost_usd": 0.00046575,
+    "reference_reservation_usd": 0.0025730625,
+    "request_sha256": "de113e25a1de4ebb55f4b3e1c6465256c5fd278df18f0ae157f723e50a13bcfa",
+    "response_sha256": "76e84bb14209fd9032c7e157c553d1eb2468c48614721f49ac3864baa8dd13cb",
+    "request_file_sha256": "c62f8ac56f97fb75fbde95ef67559048735154a2f575182b7e15883feef5492e",
+    "raw_response_excluded": true,
+    "raw_request_excluded": true
+  }
+]

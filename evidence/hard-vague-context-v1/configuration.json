@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-02",
+  "mode": "study",
+  "agent": "Actual Delta Native",
+  "protocol_sha256": "985882dea7b3e666b9043f0d5ae7d37eba106e26e47f7c381136115473759ed1",
+  "delta_source_hashes": {
+    "src/core/native.ts": "9f3a39fa170e8e2dd5d1dac0059c5c355ca50429e5a5e80645594c714bc323e6",
+    "src/core/providers.ts": "7cf4676683bf656dbec0353622d3b372fdf86da8f3ec92eb53de0573a8cd4742",
+    "src/core/turn-input.ts": "7c40fb562c008c10cbce7e72a1f42412ed711ba125708195bdee2990faaf2df4"
+  },
+  "native_system_instructions_retained": true,
+  "exact_security_policy_in_user_prompt": false,
+  "no_credentials_in_project": true
+}

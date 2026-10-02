@@ -1,0 +1,206 @@
+{
+  "provider_metadata": [
+    {
+      "number": 1,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:21.870Z",
+      "completed_at": "2026-10-02T13:58:25.904Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 89752,
+        "input_tokens_details": {
+          "cache_write_tokens": 89749,
+          "cached_tokens": 0
+        },
+        "output_tokens": 90,
+        "output_tokens_details": {
+          "reasoning_tokens": 41
+        },
+        "total_tokens": 89842
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.450557,
+      "reference_reservation_usd": 1.039045,
+      "request_sha256": "af097b955fce9fbd61d59383a0a8d69b2acc647d851bfa88881db375ad8eef61",
+      "response_sha256": "e526806cad3947933db54c65a25e5780bfe7fcb1f718a898faa8b01275c4c5ef",
+      "request_file_sha256": "a170402dc624e7739c09354bb8ef6a528b8c10d433fc58448e72a7477d09fffd",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 2,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:25.966Z",
+      "completed_at": "2026-10-02T13:58:27.875Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 90737,
+        "input_tokens_details": {
+          "cache_write_tokens": 985,
+          "cached_tokens": 89749
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 90764
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0413766,
+      "reference_reservation_usd": 1.05453,
+      "request_sha256": "e319fecf34a6279cd49e115668ce3df7e9980b476ce36147421759dd6c820bb9",
+      "response_sha256": "2600f7c9f0efd800604583654ea072aede124c12f2bc377f318537d6d6cf66e2",
+      "request_file_sha256": "89743ca9e36bd808805981619a7c8f6b18a58c4ac30a00e48bee5d32a96a7391",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 3,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:27.923Z",
+      "completed_at": "2026-10-02T13:58:35.235Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 91168,
+        "input_tokens_details": {
+          "cache_write_tokens": 431,
+          "cached_tokens": 90734
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 341
+        },
+        "total_tokens": 91588
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.046860599999999995,
+      "reference_reservation_usd": 1.058105,
+      "request_sha256": "92bb21d3205326e36e497a52d3a2db1ed1782660a6bb95b6245346083007d7b6",
+      "response_sha256": "c7d54c0744a2a35e2c2a84510840fd3a43c16f544a978149d3960e2aeded2b27",
+      "request_file_sha256": "b8e407ee99a774ccd22d2b44ccc94354225e3088b8df6e0521275566cb2b6002",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 4,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:35.282Z",
+      "completed_at": "2026-10-02T13:58:38.667Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 91818,
+        "input_tokens_details": {
+          "cache_write_tokens": 650,
+          "cached_tokens": 91165
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 92133
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.046028,
+      "reference_reservation_usd": 1.072015,
+      "request_sha256": "5076035a248633651979c2220c3d192d0db7bb2653847eda7b9638edfdf7083f",
+      "response_sha256": "c17a0e1686dd537d3c879a6efb644d621eb5886031cfb6183f6c05fd355d6372",
+      "request_file_sha256": "3aaed0b9767c8fc6f78bd930f542366ad738c875fa85f3cc694cf2be558165a7",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 5,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:38.719Z",
+      "completed_at": "2026-10-02T13:58:41.998Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 92194,
+        "input_tokens_details": {
+          "cache_write_tokens": 376,
+          "cached_tokens": 91815
+        },
+        "output_tokens": 23,
+        "output_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "total_tokens": 92217
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.039078,
+      "reference_reservation_usd": 1.07609,
+      "request_sha256": "2c9eda51d6349d9762eae837fac65dfd7fc4a000d4935a7992f6cef023c1c489",
+      "response_sha256": "5e2a4a36347806aa0ff970d6d5a50d47e272d20ed2d4dbeb2e2d18cc03937127",
+      "request_file_sha256": "92cec275eef922a9879e1904fe42ff5eecc7ebaa45aec62e3970f830ccfe2ca8",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 6,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T13:58:42.767Z",
+      "completed_at": "2026-10-02T13:58:45.434Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 92250,
+        "input_tokens_details": {
+          "cache_write_tokens": 56,
+          "cached_tokens": 92191
+        },
+        "output_tokens": 90,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 92340
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0389684,
+      "reference_reservation_usd": 1.0802,
+      "request_sha256": "f4da19269497222c7e14015a17ca9844eb775e935d29b80a0c85ead3b3b07ef8",
+      "response_sha256": "ee348cafe9a87afb4e7f5c887e4695d631ff390f26b1b0b17e5a63abd42c8732",
+      "request_file_sha256": "2d1ac5cd2b58ae672af92deffd2c14df0eb127e26f08553d100c734c997fa54a",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "bca7833b2dfc9d4ffc15822c731616f99c42f3168975e16bcd4c7458e5115bc2",
+  "tool_calls": {
+    "project_files": 1,
+    "inspect_file": 2,
+    "update_file": 1,
+    "run_tests": 1
+  },
+  "initial_context_sha256": "875b2e72bb213d3a400ea3353e5b73a5021d0c349e6f964eecef91651bb00664",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

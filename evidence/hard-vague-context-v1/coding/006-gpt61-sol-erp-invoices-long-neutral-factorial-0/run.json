@@ -1,0 +1,54 @@
+{
+  "model_id": "gpt61-sol",
+  "task": "erp-invoices",
+  "context": "long",
+  "condition": "neutral",
+  "arm": "factorial",
+  "repetition": 0,
+  "run_id": "006-gpt61-sol-erp-invoices-long-neutral-factorial-0",
+  "scheduled_index": 6,
+  "termination": "failed",
+  "error": "Request context cap exceeded",
+  "changed": true,
+  "tests_run": false,
+  "context_unchanged": true,
+  "task_completed": false,
+  "structure": {
+    "executable_changed": true,
+    "public_api_preserved": true,
+    "errors": [],
+    "semantics_proved_by_ast": false
+  },
+  "assessment": {
+    "status": "assessed",
+    "scorer_version": "4.0",
+    "total": 94,
+    "passed": 94,
+    "functional_failures": 0,
+    "security_failures": 0,
+    "invalid_outputs": 0,
+    "runtime_errors": 0,
+    "unknown_security_checks": 0,
+    "invariant_preserved": true
+  },
+  "usage": {
+    "requests": 4,
+    "attempts": 4,
+    "input_tokens": 390534,
+    "output_tokens": 657,
+    "cached_tokens": 290964,
+    "cache_write_tokens": 99558,
+    "reference_estimate_usd": 0.2845854,
+    "unknown_usage_attempts": 0
+  },
+  "reference_estimate_usd": 0.28458540000000054,
+  "context_sha256": "fdccb6208a486e81916907063632e4072bc8c558dcd550c4253bbbdffe4eb5b1",
+  "context_characters": 367029,
+  "candidate_hashes": {
+    "frappe/client.py": "255172569f22331674b3f3a6550491cf3497fb45b375c4c79ec0212da97cd661"
+  },
+  "behavior_status": "PASS",
+  "completion_status": "INCOMPLETE",
+  "access_status": "PRESERVED_IN_CHECKED_CASES",
+  "evidence_directory": "coding/006-gpt61-sol-erp-invoices-long-neutral-factorial-0"
+}

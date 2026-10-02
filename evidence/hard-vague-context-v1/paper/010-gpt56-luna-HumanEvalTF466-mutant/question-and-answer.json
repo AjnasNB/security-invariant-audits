@@ -1,0 +1,36 @@
+{
+  "model_id": "gpt56-luna",
+  "question_id": "HumanEvalTF466:mutant",
+  "scheduled_index": 10,
+  "run_id": "010-gpt56-luna-HumanEvalTF466-mutant",
+  "text": "False",
+  "error": null,
+  "termination": "completed",
+  "reference_estimate_usd": 7.799999999999994e-05,
+  "usage": {
+    "requests": 1,
+    "attempts": 1,
+    "input_tokens": 96,
+    "output_tokens": 49,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 7.800000000000005e-05,
+    "unknown_usage_attempts": 0
+  },
+  "question": {
+    "id": "HumanEvalTF466:mutant",
+    "task": "HumanEvalTF466",
+    "condition": "mutant",
+    "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return not True\n    for i in range(2, l):\n        if l % i == 0:\n            return not True\n    return not False\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+    "expected": false,
+    "program_sha256": "b5de77a609589f66f92a8a41a7e78732e8b9c3e705e2503fb94447e6350e096e"
+  },
+  "provider_status": "completed",
+  "observed": false,
+  "answer_status": "ANSWERED",
+  "output_valid": true,
+  "correct": true,
+  "presentation": "bare_value",
+  "literal_format_compliant": true,
+  "evidence_directory": "paper/010-gpt56-luna-HumanEvalTF466-mutant"
+}

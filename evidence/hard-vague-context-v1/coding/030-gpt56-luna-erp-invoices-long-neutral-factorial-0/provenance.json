@@ -1,0 +1,68 @@
+{
+  "provider_metadata": [
+    {
+      "number": 127,
+      "model_id": "gpt56-luna",
+      "deployment": "maqam-orchestrator-luna",
+      "served_model": "maqam-orchestrator-luna",
+      "started_at": "2026-10-02T14:07:26.490Z",
+      "completed_at": "2026-10-02T14:07:29.533Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 93386,
+        "input_tokens_details": {
+          "cache_write_tokens": 93383,
+          "cached_tokens": 0
+        },
+        "output_tokens": 126,
+        "output_tokens_details": {
+          "reasoning_tokens": 27
+        },
+        "total_tokens": 93512
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.02349755,
+      "reference_reservation_usd": 0.054229349999999996,
+      "request_sha256": "30b731d78236f8e5281ff1e8db03a225bafbdd9a37ad5e3ad84e8b698c9a7c8c",
+      "response_sha256": "6f18717017b1b1fedd42248f8b20803b9cf9cfc76c502a940c382330766c17ef",
+      "request_file_sha256": "6dfb251037f1515476a08430ade3ceb9bce6a8ad7e19cad57459ebac7b555a6a",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 128,
+      "model_id": "gpt56-luna",
+      "deployment": "maqam-orchestrator-luna",
+      "served_model": "maqam-orchestrator-luna",
+      "started_at": "2026-10-02T14:07:29.586Z",
+      "completed_at": "2026-10-02T14:07:30.035Z",
+      "http_status": 200,
+      "status": "failed",
+      "response_completed": false,
+      "usage": null,
+      "usage_unknown": true,
+      "reference_cost_usd": 0.05719785,
+      "reference_reservation_usd": 0.05719785,
+      "request_sha256": "c7e8b7dd1863b1ea7ab2dac465c7c9f45aab59f6673037b761f2519e58e13709",
+      "response_sha256": "e6cd65d49e371ba3b74f0fbaf87e0cbcf32b5b4ccf9cef45b93d8cfade150bb1",
+      "request_file_sha256": "4b8e8f04c2be3edf158dc9e351a82c79c6c087c3904bfb0eafe33f65c4800e28",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "3d6361c766c48c0e5a8e95802dd5fb9b9a21dd8aa5480c768325669d2181fe82",
+  "tool_calls": {
+    "inspect_file": 1
+  },
+  "initial_context_sha256": "fdccb6208a486e81916907063632e4072bc8c558dcd550c4253bbbdffe4eb5b1",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

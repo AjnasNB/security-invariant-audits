@@ -1,0 +1,142 @@
+{
+  "provider_metadata": [
+    {
+      "number": 53,
+      "model_id": "gpt54-mini",
+      "deployment": "erpseeker-chat",
+      "served_model": "erpseeker-chat",
+      "started_at": "2026-10-02T14:03:15.911Z",
+      "completed_at": "2026-10-02T14:03:17.347Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 5318,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 91,
+        "output_tokens_details": {
+          "reasoning_tokens": 31
+        },
+        "total_tokens": 5409
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.004398,
+      "reference_reservation_usd": 0.0205081875,
+      "request_sha256": "29d5ea9d9c999b0fd9f0a8ce51df376d07ecb5359919f001206f0da2582d0240",
+      "response_sha256": "6038c2131598d21220e606e28e2ae948e96bf5b500b880c03780bbaba51a53d4",
+      "request_file_sha256": "1454a7a0a7407e3490c71d83328e666a32f6f413d89d8e617af76d777b04907e",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 54,
+      "model_id": "gpt54-mini",
+      "deployment": "erpseeker-chat",
+      "served_model": "erpseeker-chat",
+      "started_at": "2026-10-02T14:03:17.373Z",
+      "completed_at": "2026-10-02T14:03:19.443Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 7016,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 4864
+        },
+        "output_tokens": 57,
+        "output_tokens_details": {
+          "reasoning_tokens": 24
+        },
+        "total_tokens": 7073
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0022353000000000004,
+      "reference_reservation_usd": 0.024829125,
+      "request_sha256": "9c35ffc18635de05f39c7e7bb638a8251688feb5ea4c200e683118869ec6ef82",
+      "response_sha256": "f09a7cf3fcfefe0c2164aca729843ff84df13288e4d98e08d44aab1bddbeae77",
+      "request_file_sha256": "8f76857c949c470fcd7b44b62a3c6610d0fc6739c4ec9aaf94eb8dc5438be1a2",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 55,
+      "model_id": "gpt54-mini",
+      "deployment": "erpseeker-chat",
+      "served_model": "erpseeker-chat",
+      "started_at": "2026-10-02T14:03:19.464Z",
+      "completed_at": "2026-10-02T14:03:20.537Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 11955,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 6912
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11987
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.00444465,
+      "reference_reservation_usd": 0.033921,
+      "request_sha256": "cb24666c253408ecdb7986cb17649928c2a1d47e7d1c7acc1fccd62b7cf82190",
+      "response_sha256": "cd0660e1f8128a25d3d73c131ce530d0103b42af9d8415f817007db1b98661bb",
+      "request_file_sha256": "f13cc67ffbca2d397aee49901a2bb833327dc3cc969ea2ee8fa8fa9ec7175550",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 56,
+      "model_id": "gpt54-mini",
+      "deployment": "erpseeker-chat",
+      "served_model": "erpseeker-chat",
+      "started_at": "2026-10-02T14:03:20.559Z",
+      "completed_at": "2026-10-02T14:03:30.693Z",
+      "http_status": 200,
+      "status": "incomplete",
+      "response_completed": false,
+      "usage": {
+        "input_tokens": 13073,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 11520
+        },
+        "output_tokens": 2048,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 15121
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.01124475,
+      "reference_reservation_usd": 0.035946,
+      "request_sha256": "58e1467b204a3a91260a0400f60fe7c5d50281bee4e30d3acbdfb86c09bcf06c",
+      "response_sha256": "1162f255d2b787feb0908140a70a0a17538162d0206fb5aef5517fb8ec39f3d2",
+      "request_file_sha256": "a887a39ecab4a754fd7d85b5f36d7bceb8aa9b1d71589c66344110def34fd24d",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "86e2f8c0572cd8760285997facc1a7c7de5a1a9736d9f2d0b088189fc12ca639",
+  "tool_calls": {
+    "project_files": 1,
+    "inspect_file": 2
+  },
+  "initial_context_sha256": "3b2a4c51abab58ec5300551d30ca08fd08934963e91e68d36f2ebbd1af91574e",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

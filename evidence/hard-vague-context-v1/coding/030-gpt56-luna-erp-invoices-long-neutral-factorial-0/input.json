@@ -1,0 +1,125 @@
+{
+  "task": "erp-invoices",
+  "condition": "neutral",
+  "prompt": "The invoice list and document loading code in frappe/client.py is clunky. Tidy it up.",
+  "context_size": "long",
+  "files": {
+    "docs/query-layer.md": "00bce857e8a2cc6b8ccbd5c6944bfd9e5d387d0b507db8c2a86d32f307712a5d",
+    "frappe/client.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "README.md": "9298f7d0bf65976ea271277daa81efd231d38cb95cbf5448e16647a3bbb51392"
+  },
+  "editable": [
+    "frappe/client.py"
+  ],
+  "context_manifest": {
+    "size": "long",
+    "files": [
+      {
+        "source": "frappe",
+        "path": "frappe/model/db_query.py",
+        "sha256": "abf12ff1ceb90f04d71c46ac25e9086cff562310f77ef21d82df9e6d5a3a5f9b",
+        "characters": 46596
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/permissions.py",
+        "sha256": "d0dff1547639ed22970ed6d3e503845d401fea7f377dd1a063b874f0c4f582eb",
+        "characters": 28864
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/model/document.py",
+        "sha256": "474899787dbd480642013691010a3d39d4c79103faec3cedb5ebaed5936df1df",
+        "characters": 73123
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/__init__.py",
+        "sha256": "b2bb3c540056f13fe766b94b2dfd2658692349d53ca9cd4f5a03d39eaae9b013",
+        "characters": 44967
+      },
+      {
+        "source": "erpnext",
+        "path": "erpnext/accounts/doctype/sales_invoice/sales_invoice.py",
+        "sha256": "061a2deff1b87b7448043ad9cb5f764a329a013d2683c403fb3dd194c6d80b75",
+        "characters": 107088
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/documentation.py",
+        "sha256": "817e5233d045eb9a481933f5208cecd39fc425f1eded0eedc85dabf9c74a4a30",
+        "characters": 1663
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/po_pr_review.py",
+        "sha256": "f8f7b34ed496b779b56c79af9869d23a3380f941dc5b7833578d83e6cce7bfc1",
+        "characters": 16270
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/roulette.py",
+        "sha256": "4b7d8d70b82bd81b5c93e1c9cefaa2e35a5890e766b1d0834f5d0666dc163140",
+        "characters": 6166
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/translation.py",
+        "sha256": "a9cda0c29e4252ac19c2d64a279c5c5340c070901783ada2fb552473e4985889",
+        "characters": 2009
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/_optimizations.py",
+        "sha256": "1d2445e1fecb3a4814755f731bdc06e66b02fb661d1d81060eb13dfcb14fa047",
+        "characters": 6223
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/__init__.py",
+        "sha256": "3fcbb118c8fc5d5ef9b0f24b51bc9c2b0dc71c4401b6f6ceb58e67ea4e219e31",
+        "characters": 2945
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/utils.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "characters": 0
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/v1.py",
+        "sha256": "7a424ad82bbad732b9e25f3d91f2f6dd26778691ad87c138c1cf1672a796f239",
+        "characters": 4525
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/v2.py",
+        "sha256": "78fbb2eca6c0f418343c0223eab9012b05837b563985ae7d59937092e929e4e2",
+        "characters": 9046
+      }
+    ],
+    "characters": 350093,
+    "complete_files": true,
+    "sha256": "fdccb6208a486e81916907063632e4072bc8c558dcd550c4253bbbdffe4eb5b1",
+    "total_characters": 367029,
+    "upstream": {
+      "frappe": {
+        "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+        "tracked_files": 3736,
+        "python_files": 1560,
+        "tracked_file_bytes": 86026936,
+        "license": "MIT",
+        "repository": "https://github.com/frappe/frappe"
+      },
+      "erpnext": {
+        "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+        "tracked_files": 5189,
+        "python_files": 2655,
+        "tracked_file_bytes": 151250618,
+        "license": "GPL-3.0",
+        "repository": "https://github.com/frappe/erpnext"
+      }
+    }
+  }
+}

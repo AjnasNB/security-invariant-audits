@@ -1,0 +1,33 @@
+[
+  {
+    "number": 7,
+    "model_id": "gpt56-luna",
+    "deployment": "maqam-orchestrator-luna",
+    "served_model": "maqam-orchestrator-luna",
+    "started_at": "2026-10-02T14:12:38.574Z",
+    "completed_at": "2026-10-02T14:12:39.912Z",
+    "http_status": 200,
+    "status": "completed",
+    "response_completed": true,
+    "usage": {
+      "input_tokens": 159,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 69,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 228
+    },
+    "usage_unknown": false,
+    "reference_cost_usd": 0.0001146,
+    "reference_reservation_usd": 0.00071015,
+    "request_sha256": "ef9ec14dfe86792a9326f93d64247cead618995a87d803f08f13a69aaa556e59",
+    "response_sha256": "95c3f044d5f6516fdb307a1a67d8158fda7cfb89548370d621dafd924c3a9575",
+    "request_file_sha256": "2e466268a0b2d0b880bddfa381d0e6a8dc4b3a8ee72ad5c404348e7524b10002",
+    "raw_response_excluded": true,
+    "raw_request_excluded": true
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "gpt56-luna": {
+    "deployment": "maqam-orchestrator-luna",
+    "model": {
+      "callRateLimit": null,
+      "format": "OpenAI",
+      "name": "gpt-5.6-luna",
+      "publisher": null,
+      "source": null,
+      "sourceAccount": null,
+      "version": "2026-07-09"
+    },
+    "state": "Succeeded"
+  },
+  "gpt56-sol": {
+    "deployment": "maqam-orchestrator-sol",
+    "model": {
+      "callRateLimit": null,
+      "format": "OpenAI",
+      "name": "gpt-5.6-sol",
+      "publisher": null,
+      "source": null,
+      "sourceAccount": null,
+      "version": "2026-07-09"
+    },
+    "state": "Succeeded"
+  },
+  "gpt61-sol": {
+    "deployment": "maqam-orchestrator-sol-6-1",
+    "model": {
+      "callRateLimit": null,
+      "format": "OpenAI",
+      "name": "gpt-6.1-sol",
+      "publisher": null,
+      "source": null,
+      "sourceAccount": null,
+      "version": "2026-09-29"
+    },
+    "state": "Succeeded"
+  },
+  "gpt54-mini": {
+    "deployment": "erpseeker-chat",
+    "model": {
+      "callRateLimit": null,
+      "format": "OpenAI",
+      "name": "gpt-5.4-mini",
+      "publisher": null,
+      "source": null,
+      "sourceAccount": null,
+      "version": "2026-03-17"
+    },
+    "state": "Succeeded"
+  },
+  "opus5": {
+    "deployment": "delta-claude-opus-5",
+    "model": {
+      "callRateLimit": null,
+      "format": "Anthropic",
+      "name": "claude-opus-5",
+      "publisher": null,
+      "source": null,
+      "sourceAccount": null,
+      "version": "2"
+    },
+    "state": "Succeeded"
+  }
+}

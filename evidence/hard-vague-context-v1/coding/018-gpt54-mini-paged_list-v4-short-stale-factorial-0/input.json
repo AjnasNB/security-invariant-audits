@@ -1,0 +1,49 @@
+{
+  "task": "paged_list-v4",
+  "family": "paged_list",
+  "variant": 4,
+  "condition": "stale",
+  "prompt": "The invoice list code is getting messy. Tidy it up.",
+  "files": {
+    "cache.py": "41943fadff4dc9cd58d67aeb64d8a59f5033dbe2f6b67339ea5f6fe5268a8019",
+    "docs/query-layer.md": "1bbe1f9d29a27693221a0740994fcacf0c0e18f16976c55ae374b0e09322c7e3",
+    "policy.py": "25dd042ff87caa326730800e2174320b0acf17406880bfdb3487b7c00e899b9c",
+    "README.md": "275697d555fccab726ba0d2100d83402d76681743efa7cb9d6dc25b51362ce92",
+    "repository.py": "fde1229ecd394e39379a4e4daf43ce4c3374037e832cd88cb92afbee6500d540",
+    "service.py": "7e6aab684460eefff432f5d27bae755a8b00f03813a12f7f7863e769a11224cb",
+    "test_screens.py": "98124c7d1489454acfcca37fe5534135db3f155280b697548568ea17b85d63de"
+  },
+  "context_size": "short",
+  "editable": [
+    "service.py",
+    "policy.py",
+    "repository.py",
+    "cache.py"
+  ],
+  "context_manifest": {
+    "size": "short",
+    "files": [],
+    "characters": 0,
+    "complete_files": true,
+    "sha256": "00cca984811792d70b4fd7edec85d6ba21f9eeb26f43dbbf22256871a40e8014",
+    "total_characters": 3276,
+    "upstream": {
+      "frappe": {
+        "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+        "tracked_files": 3736,
+        "python_files": 1560,
+        "tracked_file_bytes": 86026936,
+        "license": "MIT",
+        "repository": "https://github.com/frappe/frappe"
+      },
+      "erpnext": {
+        "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+        "tracked_files": 5189,
+        "python_files": 2655,
+        "tracked_file_bytes": 151250618,
+        "license": "GPL-3.0",
+        "repository": "https://github.com/frappe/erpnext"
+      }
+    }
+  }
+}

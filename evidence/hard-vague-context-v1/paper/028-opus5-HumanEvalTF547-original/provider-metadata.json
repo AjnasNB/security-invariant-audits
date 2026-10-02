@@ -1,0 +1,36 @@
+[
+  {
+    "number": 28,
+    "model_id": "opus5",
+    "deployment": "delta-claude-opus-5",
+    "served_model": "claude-opus-5",
+    "started_at": "2026-10-02T14:13:11.499Z",
+    "completed_at": "2026-10-02T14:13:14.150Z",
+    "http_status": 200,
+    "status": "end_turn",
+    "response_completed": true,
+    "usage": {
+      "input_tokens": 211,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 35,
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "output_tokens_details": {
+        "thinking_tokens": 32
+      }
+    },
+    "usage_unknown": false,
+    "reference_cost_usd": 0.00193,
+    "reference_reservation_usd": 0.0149,
+    "request_sha256": "2eac30cec0a7ca80909ea35565d800fcb6d0cd53912af11a5dffd93e2453de4f",
+    "response_sha256": "2f051b5fd86a871756219dead170d776d75f18d2c1457bde4157c1f5edac4a94",
+    "request_file_sha256": "68ab56436df9004abac933e88d5f843050049e8c65ee9dacc690a0ccabc1a942",
+    "raw_response_excluded": true,
+    "raw_request_excluded": true
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "provider_metadata": [
+    {
+      "number": 57,
+      "model_id": "gpt56-luna",
+      "deployment": "maqam-orchestrator-luna",
+      "served_model": "maqam-orchestrator-luna",
+      "started_at": "2026-10-02T14:03:40.304Z",
+      "completed_at": "2026-10-02T14:03:47.529Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 89827,
+        "input_tokens_details": {
+          "cache_write_tokens": 89824,
+          "cached_tokens": 0
+        },
+        "output_tokens": 91,
+        "output_tokens_details": {
+          "reasoning_tokens": 29
+        },
+        "total_tokens": 89918
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0225658,
+      "reference_reservation_usd": 0.0524066,
+      "request_sha256": "289dfc7259622eb98e706ce23fc762388c1eb043596604ce5eee811ca5822c47",
+      "response_sha256": "94ac5397806da3f7a31dfbb73c49f3e6b8f63aaf9de48c7f9f11212ae1d4e326",
+      "request_file_sha256": "ee8eb560b4adb272ce89e8112333dc9fe61b5b74cd053a806b4db34702c27488",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 58,
+      "model_id": "gpt56-luna",
+      "deployment": "maqam-orchestrator-luna",
+      "served_model": "maqam-orchestrator-luna",
+      "started_at": "2026-10-02T14:03:47.581Z",
+      "completed_at": "2026-10-02T14:03:50.651Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 90813,
+        "input_tokens_details": {
+          "cache_write_tokens": 986,
+          "cached_tokens": 89824
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 90838
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0020735799999999998,
+      "reference_reservation_usd": 0.05318385,
+      "request_sha256": "ef305aed51bcdb4feab07db781f659aab4a52e2abe8f6b9f815ee2a4413ae253",
+      "response_sha256": "9e7818f8fcfde48f0177d452b2112714fe42d348ca4feaa85ad8b82f808829fa",
+      "request_file_sha256": "ffcd4faf727dff4384f4bbd698d5d2c4daa19adc5ac4154047f56224f37bdcfa",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 59,
+      "model_id": "gpt56-luna",
+      "deployment": "maqam-orchestrator-luna",
+      "served_model": "maqam-orchestrator-luna",
+      "started_at": "2026-10-02T14:03:50.696Z",
+      "completed_at": "2026-10-02T14:03:51.270Z",
+      "http_status": 200,
+      "status": "failed",
+      "response_completed": false,
+      "usage": null,
+      "usage_unknown": true,
+      "reference_cost_usd": 0.0533181,
+      "reference_reservation_usd": 0.0533181,
+      "request_sha256": "2711bd17ccfc5106aad9eb01f5a1ddb69be94a59488643747c2f43fbec495054",
+      "response_sha256": "0a75154563b218d93ea0c8429498609ef0272cb10037531bca20f2baec4c342e",
+      "request_file_sha256": "e6000fb4ad17d40893bb6abf529ebdbaa79609340f70a7f2c1375b0c6b35a63d",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "099f81ef08853b666ae942effc0ee1dda325cf58bc03a1ba5109e03aec756c1a",
+  "tool_calls": {
+    "project_files": 1,
+    "inspect_file": 1
+  },
+  "initial_context_sha256": "564a0f1c3ece85f7c10fa51c3fb48ce9b9207361660a32f2fb2a1bf5638b005d",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

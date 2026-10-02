@@ -26,5 +26,14 @@ database backups. Published evidence contains fictional fixtures, candidate code
 aggregate usage, hashes and honest denominators. `evidence/erp/manifest.json`
 records exact published bytes; annotations adding modification notices are explicit.
 
+The October 2 vague/context export additionally publishes Ajnas's 24 configured
+original fixture programs/tests, exact Frappe candidate/input modules with their
+MIT notices, synthetic inputs, fixed observations and model usage metadata.
+Long ERPNext/Frappe source context is reconstructed from pinned official sources
+and file hashes; the complete GPL ERPNext checkout and raw model reasoning are
+not bundled as original project work. Qarinah memory remains local and ignored.
+Public availability does not silently assign a new software license to Ajnas's
+original study code.
+
 Git commits use Ajnas's configured identity. No `codex/*` branch or bot author
 is used. The existing Delta repository keeps its existing private visibility.

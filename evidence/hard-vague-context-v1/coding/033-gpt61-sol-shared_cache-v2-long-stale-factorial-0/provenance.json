@@ -1,0 +1,14 @@
+{
+  "provider_metadata": [],
+  "raw_events_sha256": "bf1c968167d3a5f4eeb20428caaa7bdd9737413ff7f6afbd5ed5b4f0fe58982a",
+  "tool_calls": {},
+  "initial_context_sha256": "dd8a6371a473c976b2239595e7096ab9148102c97186e8d0735dc114ab6006b4",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

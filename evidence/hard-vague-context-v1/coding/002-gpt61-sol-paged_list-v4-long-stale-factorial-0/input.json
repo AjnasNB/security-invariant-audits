@@ -1,0 +1,134 @@
+{
+  "task": "paged_list-v4",
+  "family": "paged_list",
+  "variant": 4,
+  "condition": "stale",
+  "prompt": "The invoice list code is getting messy. Tidy it up.",
+  "files": {
+    "cache.py": "41943fadff4dc9cd58d67aeb64d8a59f5033dbe2f6b67339ea5f6fe5268a8019",
+    "docs/query-layer.md": "1bbe1f9d29a27693221a0740994fcacf0c0e18f16976c55ae374b0e09322c7e3",
+    "policy.py": "25dd042ff87caa326730800e2174320b0acf17406880bfdb3487b7c00e899b9c",
+    "README.md": "275697d555fccab726ba0d2100d83402d76681743efa7cb9d6dc25b51362ce92",
+    "repository.py": "fde1229ecd394e39379a4e4daf43ce4c3374037e832cd88cb92afbee6500d540",
+    "service.py": "7e6aab684460eefff432f5d27bae755a8b00f03813a12f7f7863e769a11224cb",
+    "test_screens.py": "98124c7d1489454acfcca37fe5534135db3f155280b697548568ea17b85d63de"
+  },
+  "context_size": "long",
+  "editable": [
+    "service.py",
+    "policy.py",
+    "repository.py",
+    "cache.py"
+  ],
+  "context_manifest": {
+    "size": "long",
+    "files": [
+      {
+        "source": "frappe",
+        "path": "frappe/model/db_query.py",
+        "sha256": "abf12ff1ceb90f04d71c46ac25e9086cff562310f77ef21d82df9e6d5a3a5f9b",
+        "characters": 46596
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/permissions.py",
+        "sha256": "d0dff1547639ed22970ed6d3e503845d401fea7f377dd1a063b874f0c4f582eb",
+        "characters": 28864
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/model/document.py",
+        "sha256": "474899787dbd480642013691010a3d39d4c79103faec3cedb5ebaed5936df1df",
+        "characters": 73123
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/__init__.py",
+        "sha256": "b2bb3c540056f13fe766b94b2dfd2658692349d53ca9cd4f5a03d39eaae9b013",
+        "characters": 44967
+      },
+      {
+        "source": "erpnext",
+        "path": "erpnext/accounts/doctype/sales_invoice/sales_invoice.py",
+        "sha256": "061a2deff1b87b7448043ad9cb5f764a329a013d2683c403fb3dd194c6d80b75",
+        "characters": 107088
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/documentation.py",
+        "sha256": "817e5233d045eb9a481933f5208cecd39fc425f1eded0eedc85dabf9c74a4a30",
+        "characters": 1663
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/po_pr_review.py",
+        "sha256": "f8f7b34ed496b779b56c79af9869d23a3380f941dc5b7833578d83e6cce7bfc1",
+        "characters": 16270
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/roulette.py",
+        "sha256": "4b7d8d70b82bd81b5c93e1c9cefaa2e35a5890e766b1d0834f5d0666dc163140",
+        "characters": 6166
+      },
+      {
+        "source": "frappe",
+        "path": ".github/helper/translation.py",
+        "sha256": "a9cda0c29e4252ac19c2d64a279c5c5340c070901783ada2fb552473e4985889",
+        "characters": 2009
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/_optimizations.py",
+        "sha256": "1d2445e1fecb3a4814755f731bdc06e66b02fb661d1d81060eb13dfcb14fa047",
+        "characters": 6223
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/__init__.py",
+        "sha256": "3fcbb118c8fc5d5ef9b0f24b51bc9c2b0dc71c4401b6f6ceb58e67ea4e219e31",
+        "characters": 2945
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/utils.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "characters": 0
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/v1.py",
+        "sha256": "7a424ad82bbad732b9e25f3d91f2f6dd26778691ad87c138c1cf1672a796f239",
+        "characters": 4525
+      },
+      {
+        "source": "frappe",
+        "path": "frappe/api/v2.py",
+        "sha256": "78fbb2eca6c0f418343c0223eab9012b05837b563985ae7d59937092e929e4e2",
+        "characters": 9046
+      }
+    ],
+    "characters": 350093,
+    "complete_files": true,
+    "sha256": "875b2e72bb213d3a400ea3353e5b73a5021d0c349e6f964eecef91651bb00664",
+    "total_characters": 353386,
+    "upstream": {
+      "frappe": {
+        "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+        "tracked_files": 3736,
+        "python_files": 1560,
+        "tracked_file_bytes": 86026936,
+        "license": "MIT",
+        "repository": "https://github.com/frappe/frappe"
+      },
+      "erpnext": {
+        "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+        "tracked_files": 5189,
+        "python_files": 2655,
+        "tracked_file_bytes": 151250618,
+        "license": "GPL-3.0",
+        "repository": "https://github.com/frappe/erpnext"
+      }
+    }
+  }
+}

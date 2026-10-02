@@ -1,0 +1,63 @@
+{
+  "model_id": "gpt56-luna",
+  "task": "shared_cache-v2",
+  "context": "long",
+  "condition": "neutral",
+  "arm": "factorial",
+  "repetition": 0,
+  "run_id": "011-gpt56-luna-shared_cache-v2-long-neutral-factorial-0",
+  "scheduled_index": 11,
+  "termination": "failed",
+  "error": "Model generation failed (rate_limit_exceeded): Your requests to gpt-5.6-luna for maqam-orchestrator-luna in swedencentral have exceeded token rate limit.",
+  "changed": false,
+  "tests_run": false,
+  "context_unchanged": true,
+  "task_completed": false,
+  "structure": {
+    "executable_changed": false,
+    "public_api_preserved": true,
+    "errors": [],
+    "semantics_proved_by_ast": false
+  },
+  "assessment": {
+    "status": "assessed",
+    "scorer_version": "4.0",
+    "total": 1216,
+    "passed": 1216,
+    "functional_failures": 0,
+    "security_failures": 0,
+    "invalid_outputs": 0,
+    "runtime_errors": 0,
+    "unknown_security_checks": 0,
+    "invariant_preserved": true,
+    "judge_version": "hard-judge-1.0",
+    "interpretation": {
+      "status": "PASS",
+      "finite_cases_not_proof": true,
+      "aggregate_errors_are_functional_not_automatically_disclosures": true
+    }
+  },
+  "usage": {
+    "requests": 2,
+    "attempts": 3,
+    "input_tokens": 180640,
+    "output_tokens": 116,
+    "cached_tokens": 89824,
+    "cache_write_tokens": 90810,
+    "reference_estimate_usd": 0.07795747999999998,
+    "unknown_usage_attempts": 1
+  },
+  "reference_estimate_usd": 0.07795747999999936,
+  "context_sha256": "564a0f1c3ece85f7c10fa51c3fb48ce9b9207361660a32f2fb2a1bf5638b005d",
+  "context_characters": 353713,
+  "candidate_hashes": {
+    "service.py": "6fa74432ddaa0df06d59a4b0b43e45799ebaa8eb64e41d0719b4e948a5614bc0",
+    "policy.py": "2a51836e98aac8f18071b47b206dff294f5c84711792ad0c99f608d87d0368c9",
+    "repository.py": "fde1229ecd394e39379a4e4daf43ce4c3374037e832cd88cb92afbee6500d540",
+    "cache.py": "41943fadff4dc9cd58d67aeb64d8a59f5033dbe2f6b67339ea5f6fe5268a8019"
+  },
+  "behavior_status": "PASS",
+  "completion_status": "INCOMPLETE",
+  "access_status": "PRESERVED_IN_CHECKED_CASES",
+  "evidence_directory": "coding/011-gpt56-luna-shared_cache-v2-long-neutral-factorial-0"
+}

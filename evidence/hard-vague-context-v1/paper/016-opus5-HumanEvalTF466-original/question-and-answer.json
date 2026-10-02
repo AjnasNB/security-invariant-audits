@@ -1,0 +1,36 @@
+{
+  "model_id": "opus5",
+  "question_id": "HumanEvalTF466:original",
+  "scheduled_index": 16,
+  "run_id": "016-opus5-HumanEvalTF466-original",
+  "text": "",
+  "error": null,
+  "termination": "completed",
+  "reference_estimate_usd": 0.0006149999999999992,
+  "usage": {
+    "requests": 1,
+    "attempts": 1,
+    "input_tokens": 123,
+    "output_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 0.0006149999999999992,
+    "unknown_usage_attempts": 0
+  },
+  "question": {
+    "id": "HumanEvalTF466:original",
+    "task": "HumanEvalTF466",
+    "condition": "original",
+    "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return False\n    for i in range(2, l):\n        if l % i == 0:\n            return False\n    return True\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+    "expected": false,
+    "program_sha256": "c790c0c7756c4f5a2af4d82fe770f740e17d43e849a225edb43819f12da8ac0d"
+  },
+  "provider_status": "refusal",
+  "observed": null,
+  "answer_status": "REFUSAL",
+  "output_valid": false,
+  "correct": null,
+  "presentation": "bare_value",
+  "literal_format_compliant": false,
+  "evidence_directory": "paper/016-opus5-HumanEvalTF466-original"
+}

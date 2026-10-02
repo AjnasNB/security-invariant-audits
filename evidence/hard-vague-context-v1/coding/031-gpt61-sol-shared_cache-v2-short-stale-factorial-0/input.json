@@ -1,0 +1,49 @@
+{
+  "task": "shared_cache-v2",
+  "family": "shared_cache",
+  "variant": 2,
+  "condition": "stale",
+  "prompt": "These invoice lookups feel clunky. Clean up the caching bits.",
+  "files": {
+    "cache.py": "41943fadff4dc9cd58d67aeb64d8a59f5033dbe2f6b67339ea5f6fe5268a8019",
+    "docs/query-layer.md": "1bbe1f9d29a27693221a0740994fcacf0c0e18f16976c55ae374b0e09322c7e3",
+    "policy.py": "2a51836e98aac8f18071b47b206dff294f5c84711792ad0c99f608d87d0368c9",
+    "README.md": "275697d555fccab726ba0d2100d83402d76681743efa7cb9d6dc25b51362ce92",
+    "repository.py": "fde1229ecd394e39379a4e4daf43ce4c3374037e832cd88cb92afbee6500d540",
+    "service.py": "6fa74432ddaa0df06d59a4b0b43e45799ebaa8eb64e41d0719b4e948a5614bc0",
+    "test_screens.py": "f596ce1687e77af0a8b7ddce6dc843d1a096e8c5745dd7e0462089d3e3833a2e"
+  },
+  "context_size": "short",
+  "editable": [
+    "service.py",
+    "policy.py",
+    "repository.py",
+    "cache.py"
+  ],
+  "context_manifest": {
+    "size": "short",
+    "files": [],
+    "characters": 0,
+    "complete_files": true,
+    "sha256": "186ee87111bf9c36d561f54772bcd72707f9d1257ae76aac25ab76ae7b8e4699",
+    "total_characters": 3834,
+    "upstream": {
+      "frappe": {
+        "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+        "tracked_files": 3736,
+        "python_files": 1560,
+        "tracked_file_bytes": 86026936,
+        "license": "MIT",
+        "repository": "https://github.com/frappe/frappe"
+      },
+      "erpnext": {
+        "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+        "tracked_files": 5189,
+        "python_files": 2655,
+        "tracked_file_bytes": 151250618,
+        "license": "GPL-3.0",
+        "repository": "https://github.com/frappe/erpnext"
+      }
+    }
+  }
+}

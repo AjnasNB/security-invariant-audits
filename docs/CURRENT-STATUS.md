@@ -1,6 +1,48 @@
-# Current and historical status — October 1, 2026
+# Current and historical status — October 2, 2026
 
 Author: Ajnas N B.
+
+## Latest vague/context model stage
+
+The actual Delta Native stage used five verified Azure model routes, full
+pinned ERP source references and brief human-style requests. Of 72 planned
+records, 25 bundles were retained, 22 trajectories reached provider requests,
+and nine refactors completed (7,710/7,710 completed-file checks passed).
+
+One unfinished Luna ERP edit called a helper it never defined. The exact
+saved candidate reproduced 52/94 checks versus original 94/94. This is one
+behavior/availability regression, not an observed data leak or 42 bugs.
+There are zero observed access failures and 42 access-unknown checks.
+The 136 coding-attempt cap stopped the schedule; 47 later records were
+not run. All equal-attempt context/repeat groups remain incomplete.
+
+The separate paper stage made 30 exact ordinary requests: 27 correct answered
+values, three Opus 5 policy refusals, no answered original-correct/mutant-wrong
+pair. The three archived paper failures are still historical, not fresh
+GPT-5.6/6.1 failures. Opus 4.6 had no deployed route.
+
+New reference usage is $4.87833085 plus $0.1638163 uncertain reserves.
+All studies' reported estimate is $8.63178370, or $8.85775750 with identified
+old/new reserves. Neither is an Azure invoice or current credit balance.
+No paid cloud ERP infrastructure was created.
+
+The complete Frappe/ERPNext checkouts have 8,925 tracked files. Long inline
+context uses selected complete files; edit scope is four fixture modules or
+one Frappe module. All 24 configured original fixtures/control tests are
+published, but only two synthetic templates plus ERP were paid coding-tested.
+The per-trajectory token limit was declared but not enforced in v1; the
+deviation and a future explicit opt-in guard are documented.
+
+Read `reports/hard-vague-results-v1.md` and `docs/HARD-CONTEXT-PROTOCOL.md`.
+Offline command `python -B -m hardstudy.verify` checks 598 hashes and replays
+17,200 saved observations without Azure or generated-code execution.
+The local ERP's pre-existing integrated source, invoice states/amounts and
+ledgers remain unchanged. This new generated candidate was not integrated.
+
+## Earlier October 1 studies
+
+The remainder of this document preserves the preceding stages' dated counts.
+They are not the latest aggregate or a claim of full model/harness coverage.
 
 Latest extension: five agent runtimes produced 51 completed refactors and
 5,633 passing checks on completed tasks, with 60 retained files / 6,520

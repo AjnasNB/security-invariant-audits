@@ -1,0 +1,125 @@
+{
+  "recorded_at": "2026-10-02T14:28:12.974327+00:00",
+  "author": "Ajnas N B",
+  "unit_tests": 65,
+  "all_commands_passed": true,
+  "commands": [
+    {
+      "command": "python -B -m unittest discover -s tests -q",
+      "passed": true,
+      "output": "----------------------------------------------------------------------\nRan 65 tests in 0.378s\n\nOK"
+    },
+    {
+      "command": "python -B -m hardstudy.verify",
+      "passed": true,
+      "output": "Verified 598 evidence hashes; 72 schedule records; 25 saved bundles; 9 completed.\nReplayed 17158/17200 checks, 0 access failures, 42 unknown access checks.\nPaper: 27/27 answered correctly; 3 refusals. No Azure, Docker, or generated-program execution."
+    },
+    {
+      "command": "python -B -m harnesses.verify_ordinary",
+      "passed": true,
+      "output": "Verified 592 files; 60 saved coding outputs; 51 completed refactors.\nReplayed 6520/6520 checks; 18 answered paper questions (18 correct). No Azure or generated-program execution."
+    },
+    {
+      "command": "python -B -m research.demo",
+      "passed": true,
+      "output": "Verified 226 evidence files; 24 recorded trajectories.\nReplayed 2608/2608 checks; 23 completed refactors; 0 access violations; 0 unknown files.\nNo Azure calls, candidate code execution, Docker or credentials used. This replays saved observations; a fresh model experiment is a separate paid command."
+    },
+    {
+      "command": "python -B -m research.check_paper_evidence",
+      "passed": true,
+      "output": "Verified 10 paper evidence files and 3 archived failures. No new model or program execution."
+    },
+    {
+      "command": "python -B -m erp.check_published",
+      "passed": true,
+      "output": "Published evidence valid: 27 hashes, six refactors, 564 checks."
+    },
+    {
+      "command": "python -B -m compileall -q -x [/\\\\](vendor|private|runs|runtime|protected)[/\\\\] research erp harnesses hardstudy",
+      "passed": true,
+      "output": ""
+    }
+  ],
+  "independently_executed_windows_and_linux_unit_tests": 65,
+  "linux_saved_evidence_replay_passed": true,
+  "offline_typescript_budget_tests": {
+    "passed": 5,
+    "failed": 0,
+    "real_network_used": false,
+    "command": "tsx --test tests/test_multi_model_budget.ts"
+  },
+  "published_evidence_hashes": 598,
+  "totals": {
+    "scheduled": 72,
+    "retained_candidate_bundles": 25,
+    "trajectories_with_provider_attempts": 22,
+    "completed_refactors": 9,
+    "changed_bundles": 15,
+    "saved_output_checks": 17200,
+    "saved_output_passed": 17158,
+    "completed_refactor_checks": 7710,
+    "completed_refactor_passed": 7710,
+    "functional_failing_bundles": 1,
+    "functional_failing_checks": 42,
+    "access_violating_bundles": 0,
+    "access_failing_checks": 0,
+    "access_unknown_bundles": 1,
+    "access_unknown_checks": 42,
+    "termination": {
+      "budget_stopped": 5,
+      "completed": 9,
+      "failed": 11,
+      "not_run_budget": 47
+    }
+  },
+  "reference_controls": {
+    "correct_variants_accepted": 48,
+    "seeded_faults_rejected": 24,
+    "azure_calls": 0
+  },
+  "erp_failure_reexecution": {
+    "original": "94/94",
+    "same_candidate": "52/94",
+    "new_model_calls": 0,
+    "classification": "unfinished generated-code behavior failure, no observed access leak"
+  },
+  "erp_read_only_final_check": {
+    "passed": true,
+    "integrated_source_ast_matches": true,
+    "integrated_source_normalized_sha256": "4e4ecaf6d5277512104cf9888d1847eefb1407b1c6549d65a6452991a9f363b6",
+    "seeded_invoice_count": 6,
+    "all_seeded_states_and_amounts_preserved": true,
+    "submitted_ledgers_balanced": true,
+    "temporary_http_records_removed": true,
+    "scope": "Read-only final check of this local synthetic ERP instance"
+  },
+  "pdf": {
+    "pages": 6,
+    "rendered_with": "Poppler 110 dpi",
+    "all_six_pages_visually_inspected": true,
+    "layout_passed": true,
+    "rendered_page_sha256": [
+      "f573db437ba14ca9b5d8467186801e4339c571154e4053f955c6c6e91682a616",
+      "89767c13f60e22c1f23bdd9a86f9c13fadb735bbc09a1917bffdab67c52a5668",
+      "d301972cfddccba8af218ea497856fbda0ac30788e47e00c9bdd00f2d0ee1d96",
+      "3facdc5c1099878a9f612ae2a1c19b2db7ffac553f9f66616259b5afb1d685cd",
+      "0df80204366f58197b017eb2bc1cb7fa5aeeee6df2012a4a178d65ae342b3232",
+      "af34544e1449c2e5f49ef7d9b073a080c72e8c50115c01bdfda52e059b3b8908"
+    ]
+  },
+  "cost_reported_reference_usd": 4.87833085,
+  "cost_identified_uncertainty_usd": 0.1638163,
+  "cost_within_reference_ceiling": true,
+  "artifact_sha256": {
+    "reports/hard-vague-results-v1.json": "8ce4d5db85259d5ee21131f3354ea349072b5fa47d64058d5f475ff5a2053430",
+    "reports/hard-vague-results-v1.md": "31439342385ec7144302b1ad46d857ea54ba677b8aaf813fa9fdf99083508b77",
+    "reports/hard-vague-costs-v1.json": "3d49130d2ad762de32b7e8857410a8abe113bf48328f619373a842ac4b0461a7",
+    "reports/hard-reference-controls-v1.json": "730b8313a666d33df434527b2bbcde87d8bb9637c0bf19fc54806cd18e4839b2",
+    "reports/Ajnas_Vague_Context_Results_20261002.pdf": "14e017eeddc69bbf1e62fb55e6a8ee80f36540579e477cd8a5efb68481abdfa5",
+    "evidence/hard-vague-context-v1/manifest.json": "7b43f781db4b08e1aebd21c1459a4d176ff662eeaaa90ea848fd4016383f9870",
+    "datasets/hard-task-catalog-v1.json": "b5efde1744f10cecddf0efcf6367ad8a889a099e2a64533042fb4b598fd48bd7",
+    "datasets/large-erp-sources-v1.json": "b49b963d31c88c0697340aa78aa9b9b83cd6e479108d7ce80bdda21640bcc553"
+  },
+  "new_paid_model_calls_during_final_verification": 0,
+  "scope": "Executed local checks, saved-result replay, fixture controls, retained failure reexecution, read-only ERP data check and visual PDF review. Not a full upstream test suite or production guarantee."
+}

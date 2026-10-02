@@ -1,0 +1,1820 @@
+{
+  "status": "assessed",
+  "scorer_version": "4.0",
+  "checks": [
+    {
+      "id": "erp-000",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      }
+    },
+    {
+      "id": "erp-001",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      }
+    },
+    {
+      "id": "erp-002",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      }
+    },
+    {
+      "id": "erp-003",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 2360.0
+      }
+    },
+    {
+      "id": "erp-004",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 975.27
+      }
+    },
+    {
+      "id": "erp-005",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 1456.78
+      }
+    },
+    {
+      "id": "erp-006",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-007",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003",
+          "ACC-SINV-2026-00004",
+          "ACC-SINV-2026-00005",
+          "ACC-SINV-2026-00006"
+        ],
+        "companies": [
+          "Audit Kerala Trading",
+          "Audit Tamil Nadu Supplies"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003",
+          "ACC-SINV-2026-00004",
+          "ACC-SINV-2026-00005",
+          "ACC-SINV-2026-00006"
+        ],
+        "companies": [
+          "Audit Kerala Trading",
+          "Audit Tamil Nadu Supplies"
+        ]
+      }
+    },
+    {
+      "id": "erp-008",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      }
+    },
+    {
+      "id": "erp-009",
+      "operation": "update",
+      "passed": false,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "unknown",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "remarks_after": "AUDIT-TEMP-EDIT"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "ValidationError"
+      }
+    },
+    {
+      "id": "erp-010",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "exists_after": false
+      },
+      "observed": {
+        "allowed": true,
+        "exists_after": false
+      }
+    },
+    {
+      "id": "erp-011",
+      "operation": "update",
+      "passed": false,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "unknown",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "remarks_after": "AUDIT-TEMP-EDIT"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "ValidationError"
+      }
+    },
+    {
+      "id": "erp-012",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "exists_after": false
+      },
+      "observed": {
+        "allowed": true,
+        "exists_after": false
+      }
+    },
+    {
+      "id": "erp-013",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      },
+      "observed": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      }
+    },
+    {
+      "id": "erp-014",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      },
+      "observed": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      }
+    },
+    {
+      "id": "erp-015",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      }
+    },
+    {
+      "id": "erp-016",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      }
+    },
+    {
+      "id": "erp-017",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      }
+    },
+    {
+      "id": "erp-018",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-019",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-020",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-021",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-022",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      }
+    },
+    {
+      "id": "erp-023",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      }
+    },
+    {
+      "id": "erp-024",
+      "operation": "update",
+      "passed": false,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "unknown",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "remarks_after": "AUDIT-TEMP-EDIT"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "ValidationError"
+      }
+    },
+    {
+      "id": "erp-025",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "exists_after": false
+      },
+      "observed": {
+        "allowed": true,
+        "exists_after": false
+      }
+    },
+    {
+      "id": "erp-026",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-027",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-028",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      },
+      "observed": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      }
+    },
+    {
+      "id": "erp-029",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-030",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-031",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-032",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-033",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 2360.0
+      }
+    },
+    {
+      "id": "erp-034",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 975.27
+      }
+    },
+    {
+      "id": "erp-035",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "grand_total": 1456.78
+      }
+    },
+    {
+      "id": "erp-036",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-037",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00004",
+          "ACC-SINV-2026-00005",
+          "ACC-SINV-2026-00006"
+        ],
+        "companies": [
+          "Audit Tamil Nadu Supplies"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00004",
+          "ACC-SINV-2026-00005",
+          "ACC-SINV-2026-00006"
+        ],
+        "companies": [
+          "Audit Tamil Nadu Supplies"
+        ]
+      }
+    },
+    {
+      "id": "erp-038",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00005"
+        ],
+        "companies": [
+          "Audit Tamil Nadu Supplies"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00005"
+        ],
+        "companies": [
+          "Audit Tamil Nadu Supplies"
+        ]
+      }
+    },
+    {
+      "id": "erp-039",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-040",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-041",
+      "operation": "update",
+      "passed": false,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "unknown",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "remarks_after": "AUDIT-TEMP-EDIT"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "ValidationError"
+      }
+    },
+    {
+      "id": "erp-042",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "exists_after": false
+      },
+      "observed": {
+        "allowed": true,
+        "exists_after": false
+      }
+    },
+    {
+      "id": "erp-043",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-044",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      },
+      "observed": {
+        "allowed": true,
+        "docstatus": 2,
+        "active_gl_entries": 0
+      }
+    },
+    {
+      "id": "erp-045",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "grand_total": 2360.0
+      }
+    },
+    {
+      "id": "erp-046",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "grand_total": 975.27
+      }
+    },
+    {
+      "id": "erp-047",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "grand_total": 1456.78
+      }
+    },
+    {
+      "id": "erp-048",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-049",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-050",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-051",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-052",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00001",
+          "ACC-SINV-2026-00002",
+          "ACC-SINV-2026-00003"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      }
+    },
+    {
+      "id": "erp-053",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      },
+      "observed": {
+        "allowed": true,
+        "names": [
+          "ACC-SINV-2026-00002"
+        ],
+        "companies": [
+          "Audit Kerala Trading"
+        ]
+      }
+    },
+    {
+      "id": "erp-054",
+      "operation": "update",
+      "passed": false,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "unknown",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "remarks_after": "AUDIT-TEMP-EDIT"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "ValidationError"
+      }
+    },
+    {
+      "id": "erp-055",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-056",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-057",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-058",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-059",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-060",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-061",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-062",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-063",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-064",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-065",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-066",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-067",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-068",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-069",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-070",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-071",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-072",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-073",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-074",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-075",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-076",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-077",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-078",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-079",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-080",
+      "operation": "read",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "DoesNotExistError"
+      }
+    },
+    {
+      "id": "erp-081",
+      "operation": "list",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-082",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-083",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-084",
+      "operation": "update",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-085",
+      "operation": "delete",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-086",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-087",
+      "operation": "cancel",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": false,
+        "error": "PermissionError"
+      },
+      "observed": {
+        "allowed": false,
+        "error": "PermissionError"
+      }
+    },
+    {
+      "id": "erp-088",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "docstatus": 1,
+        "outstanding": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "docstatus": 1,
+        "outstanding": 2360.0
+      }
+    },
+    {
+      "id": "erp-089",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "docstatus": 0,
+        "outstanding": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "docstatus": 0,
+        "outstanding": 975.27
+      }
+    },
+    {
+      "id": "erp-090",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "docstatus": 0,
+        "outstanding": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "docstatus": 0,
+        "outstanding": 1456.78
+      }
+    },
+    {
+      "id": "erp-091",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "docstatus": 1,
+        "outstanding": 2360.0
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "docstatus": 1,
+        "outstanding": 2360.0
+      }
+    },
+    {
+      "id": "erp-092",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "docstatus": 0,
+        "outstanding": 975.27
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "docstatus": 0,
+        "outstanding": 975.27
+      }
+    },
+    {
+      "id": "erp-093",
+      "operation": "calculate",
+      "passed": true,
+      "output_valid": true,
+      "runtime_error": false,
+      "security_verdict": "preserved",
+      "security_failure": false,
+      "expected": {
+        "allowed": true,
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "docstatus": 0,
+        "outstanding": 1456.78
+      },
+      "observed": {
+        "allowed": true,
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "docstatus": 0,
+        "outstanding": 1456.78
+      }
+    }
+  ],
+  "total": 94,
+  "passed": 89,
+  "functional_failures": 5,
+  "security_failures": 0,
+  "invalid_outputs": 0,
+  "runtime_errors": 0,
+  "unknown_security_checks": 5,
+  "invariant_preserved": null
+}

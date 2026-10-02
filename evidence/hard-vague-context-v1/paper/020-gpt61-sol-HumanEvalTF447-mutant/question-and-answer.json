@@ -1,0 +1,36 @@
+{
+  "model_id": "gpt61-sol",
+  "question_id": "HumanEvalTF447:mutant",
+  "scheduled_index": 20,
+  "run_id": "020-gpt61-sol-HumanEvalTF447-mutant",
+  "text": "False",
+  "error": null,
+  "termination": "completed",
+  "reference_estimate_usd": 0.0004420000000000014,
+  "usage": {
+    "requests": 1,
+    "attempts": 1,
+    "input_tokens": 121,
+    "output_tokens": 20,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 0.0004419999999999997,
+    "unknown_usage_attempts": 0
+  },
+  "question": {
+    "id": "HumanEvalTF447:mutant",
+    "task": "HumanEvalTF447",
+    "condition": "mutant",
+    "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef is_happy(s):\n    if len(s) < 3:\n        return not True\n    for i in range(len(s) - 2):\n        if s[i] == s[i + 1] or s[i + 1] == s[i + 2] or s[i] == s[i + 2]:\n            return not True\n    return not False\n\nCall: is_happy('iopaxioi')",
+    "expected": false,
+    "program_sha256": "a25636c4123d9ea31d14487ead507a8d4997a8179f63e97cb3bc71a0ffb7e88d"
+  },
+  "provider_status": "completed",
+  "observed": false,
+  "answer_status": "ANSWERED",
+  "output_valid": true,
+  "correct": true,
+  "presentation": "bare_value",
+  "literal_format_compliant": true,
+  "evidence_directory": "paper/020-gpt61-sol-HumanEvalTF447-mutant"
+}

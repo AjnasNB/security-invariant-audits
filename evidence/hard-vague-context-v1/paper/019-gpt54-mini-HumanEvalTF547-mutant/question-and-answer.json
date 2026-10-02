@@ -1,0 +1,36 @@
+{
+  "model_id": "gpt54-mini",
+  "question_id": "HumanEvalTF547:mutant",
+  "scheduled_index": 19,
+  "run_id": "019-gpt54-mini-HumanEvalTF547-mutant",
+  "text": "19",
+  "error": null,
+  "termination": "completed",
+  "reference_estimate_usd": 0.0003832499999999982,
+  "usage": {
+    "requests": 1,
+    "attempts": 1,
+    "input_tokens": 169,
+    "output_tokens": 57,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 0.0003832499999999999,
+    "unknown_usage_attempts": 0
+  },
+  "question": {
+    "id": "HumanEvalTF547:mutant",
+    "task": "HumanEvalTF547",
+    "condition": "mutant",
+    "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef skjkasdkd(lst):\n\n    def isPrime(n):\n        for i in range(2, int(n ** 0.5) + 1):\n            if n % i == 0:\n                return not True\n        return not False\n    maxx = 0\n    i = 0\n    while i < len(lst):\n        if lst[i] > maxx and isPrime(lst[i]):\n            maxx = lst[i]\n        i += 1\n    result = sum((int(digit) for digit in str(maxx)))\n    return result\n\nCall: skjkasdkd([8191, 123456, 127, 7])",
+    "expected": 19,
+    "program_sha256": "bca2e7c62c7b2abdf75a89eedba1f06d69e180ba9af594191ff09623ceb431ba"
+  },
+  "provider_status": "completed",
+  "observed": 19,
+  "answer_status": "ANSWERED",
+  "output_valid": true,
+  "correct": true,
+  "presentation": "bare_value",
+  "literal_format_compliant": true,
+  "evidence_directory": "paper/019-gpt54-mini-HumanEvalTF547-mutant"
+}

@@ -1,0 +1,290 @@
+{
+  "version": "hard-paper-models-v1",
+  "registered_date": "2026-10-02",
+  "author": "Ajnas N B",
+  "models": [
+    {
+      "id": "gpt56-luna",
+      "name": "GPT-5.6 Luna",
+      "deployment": "maqam-orchestrator-luna",
+      "model": "gpt-5.6-luna",
+      "version": "2026-07-09",
+      "account": "erpseeker-ai-9340a6",
+      "group": "rg-erpseeker-demo",
+      "protocol": "responses",
+      "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+      "context_window": 1050000,
+      "max_input_tokens": 922000,
+      "rates": {
+        "input": 0.2,
+        "cached": 0.02,
+        "write": 0.25,
+        "output": 1.2
+      }
+    },
+    {
+      "id": "gpt56-sol",
+      "name": "GPT-5.6 Sol",
+      "deployment": "maqam-orchestrator-sol",
+      "model": "gpt-5.6-sol",
+      "version": "2026-07-09",
+      "account": "erpseeker-ai-9340a6",
+      "group": "rg-erpseeker-demo",
+      "protocol": "responses",
+      "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+      "context_window": 1050000,
+      "max_input_tokens": 922000,
+      "rates": {
+        "input": 4,
+        "cached": 0.4,
+        "write": 5,
+        "output": 20
+      }
+    },
+    {
+      "id": "gpt61-sol",
+      "name": "GPT-6.1 Sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "model": "gpt-6.1-sol",
+      "version": "2026-09-29",
+      "account": "erpseeker-ai-9340a6",
+      "group": "rg-erpseeker-demo",
+      "protocol": "responses",
+      "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+      "context_window": 1050000,
+      "max_input_tokens": 922000,
+      "rates": {
+        "input": 2,
+        "cached": 0.1,
+        "write": 2.5,
+        "output": 10
+      }
+    },
+    {
+      "id": "gpt54-mini",
+      "name": "GPT-5.4 mini",
+      "deployment": "erpseeker-chat",
+      "model": "gpt-5.4-mini",
+      "version": "2026-03-17",
+      "account": "erpseeker-ai-9340a6",
+      "group": "rg-erpseeker-demo",
+      "protocol": "responses",
+      "endpoint": "https://erpseeker-ai-9340a6.openai.azure.com",
+      "context_window": 400000,
+      "max_input_tokens": 272000,
+      "rates": {
+        "input": 0.75,
+        "cached": 0.075,
+        "write": 0.9375,
+        "output": 4.5
+      }
+    },
+    {
+      "id": "opus5",
+      "name": "Claude Opus 5",
+      "deployment": "delta-claude-opus-5",
+      "model": "claude-opus-5",
+      "version": "2",
+      "account": "fikeya-small-9340a6",
+      "group": "rg-erpseeker-demo",
+      "protocol": "messages",
+      "endpoint": "https://fikeya-small-9340a6.services.ai.azure.com",
+      "context_window": 1000000,
+      "max_input_tokens": 872000,
+      "rates": {
+        "input": 5,
+        "cached": 0.5,
+        "write": 6.25,
+        "output": 25
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "HumanEvalTF447:mutant",
+      "task": "HumanEvalTF447",
+      "condition": "mutant",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef is_happy(s):\n    if len(s) < 3:\n        return not True\n    for i in range(len(s) - 2):\n        if s[i] == s[i + 1] or s[i + 1] == s[i + 2] or s[i] == s[i + 2]:\n            return not True\n    return not False\n\nCall: is_happy('iopaxioi')",
+      "expected": false,
+      "program_sha256": "a25636c4123d9ea31d14487ead507a8d4997a8179f63e97cb3bc71a0ffb7e88d"
+    },
+    {
+      "id": "HumanEvalTF447:original",
+      "task": "HumanEvalTF447",
+      "condition": "original",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef is_happy(s):\n    if len(s) < 3:\n      return False\n\n    for i in range(len(s) - 2):\n      \n      if s[i] == s[i+1] or s[i+1] == s[i+2] or s[i] == s[i+2]:\n        return False\n    return True\n\nCall: is_happy('iopaxioi')",
+      "expected": false,
+      "program_sha256": "9246a6c4b3bda9e0323975e69e1795deade3d8a6d978233e03e489cb6138b71d"
+    },
+    {
+      "id": "HumanEvalTF466:mutant",
+      "task": "HumanEvalTF466",
+      "condition": "mutant",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return not True\n    for i in range(2, l):\n        if l % i == 0:\n            return not True\n    return not False\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+      "expected": false,
+      "program_sha256": "b5de77a609589f66f92a8a41a7e78732e8b9c3e705e2503fb94447e6350e096e"
+    },
+    {
+      "id": "HumanEvalTF466:original",
+      "task": "HumanEvalTF466",
+      "condition": "original",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef prime_length(string):\n    l = len(string)\n    if l == 0 or l == 1:\n        return False\n    for i in range(2, l):\n        if l % i == 0:\n            return False\n    return True\n\nCall: prime_length('aaaaaaaaaaaaaaa')",
+      "expected": false,
+      "program_sha256": "c790c0c7756c4f5a2af4d82fe770f740e17d43e849a225edb43819f12da8ac0d"
+    },
+    {
+      "id": "HumanEvalTF547:mutant",
+      "task": "HumanEvalTF547",
+      "condition": "mutant",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef skjkasdkd(lst):\n\n    def isPrime(n):\n        for i in range(2, int(n ** 0.5) + 1):\n            if n % i == 0:\n                return not True\n        return not False\n    maxx = 0\n    i = 0\n    while i < len(lst):\n        if lst[i] > maxx and isPrime(lst[i]):\n            maxx = lst[i]\n        i += 1\n    result = sum((int(digit) for digit in str(maxx)))\n    return result\n\nCall: skjkasdkd([8191, 123456, 127, 7])",
+      "expected": 19,
+      "program_sha256": "bca2e7c62c7b2abdf75a89eedba1f06d69e180ba9af594191ff09623ceb431ba"
+    },
+    {
+      "id": "HumanEvalTF547:original",
+      "task": "HumanEvalTF547",
+      "condition": "original",
+      "prompt": "What does this Python call return? Reply with only the Python value.\n\ndef skjkasdkd(lst):\n    def isPrime(n):\n        for i in range(2,int(n**0.5)+1):\n            if n%i==0:\n                return False\n\n        return True\n    maxx = 0\n    i = 0\n    while i < len(lst):\n        if(lst[i] > maxx and isPrime(lst[i])):\n            maxx = lst[i]\n        i+=1\n    result = sum(int(digit) for digit in str(maxx))\n    return result\n\nCall: skjkasdkd([8191, 123456, 127, 7])",
+      "expected": 19,
+      "program_sha256": "31e10d7e348f1a43de03e9f82d6e715d1605b0803d7b1b0957291206fe433bd4"
+    }
+  ],
+  "schedule_seed": 20261003,
+  "schedule": [
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF466:mutant"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF547:original"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF447:original"
+    },
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF466:original"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF447:original"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF547:original"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF547:original"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF447:mutant"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF466:mutant"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF466:mutant"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF466:mutant"
+    },
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF447:mutant"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF447:mutant"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF447:original"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF466:mutant"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF466:original"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF447:original"
+    },
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF547:original"
+    },
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF547:mutant"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF447:mutant"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF547:mutant"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF466:original"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF547:mutant"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF466:original"
+    },
+    {
+      "model_id": "gpt61-sol",
+      "question_id": "HumanEvalTF466:original"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF547:mutant"
+    },
+    {
+      "model_id": "gpt56-sol",
+      "question_id": "HumanEvalTF547:mutant"
+    },
+    {
+      "model_id": "opus5",
+      "question_id": "HumanEvalTF547:original"
+    },
+    {
+      "model_id": "gpt54-mini",
+      "question_id": "HumanEvalTF447:original"
+    },
+    {
+      "model_id": "gpt56-luna",
+      "question_id": "HumanEvalTF447:mutant"
+    }
+  ],
+  "prior_coding_stage_settled_reference_usd": 5.020433400000004,
+  "prior_coding_usage_sha256": "2a6ff05b6896907c94a7791cda021b7c68f239d268a65f9c3d61211b5db39cc9",
+  "limits": {
+    "max_model_requests": 40,
+    "max_output_tokens_per_request": 512,
+    "max_request_input_estimate": 10000,
+    "reference_cap_per_model_usd": 0.075,
+    "total_reference_cap_usd": 0.375,
+    "wall_seconds_per_question": 75
+  },
+  "failure_definition": "Correct original answer and incorrect semantics-preserving mutant answer",
+  "request": "Use the exact already-published ordinary question, with no expected answer in model input",
+  "scope": "Known-positive archived paper examples, not an unbiased discovery sample or full-paper accuracy replication",
+  "separate_stage": "The coding stage's 136-attempt limit is not raised or resumed. Thirty fixed prediction questions are registered before these new answers; no wrong-answer mining or replacement.",
+  "combined_budget_note": "Settled coding usage/reservations plus the connection stage and this stage remain inside the previously disclosed $15 reference ceiling."
+}

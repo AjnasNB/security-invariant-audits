@@ -1,0 +1,269 @@
+{
+  "provider_metadata": [
+    {
+      "number": 129,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:39.189Z",
+      "completed_at": "2026-10-02T14:07:41.310Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 1800,
+        "input_tokens_details": {
+          "cache_write_tokens": 1797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 45,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1845
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0049485,
+      "reference_reservation_usd": 0.03267,
+      "request_sha256": "76c379c89ba255f7db5a2111dcc8b44fe73c6faa6c1c7d1b2f6279c2186847f2",
+      "response_sha256": "4c610bd74af370178e4b22f2988374ae00c2c7e694e04bdb16eda775dba56ce3",
+      "request_file_sha256": "ab63acf8d5ea52b1d9748c3eba44deb6e7b8b86e66a7020b6689aa71ec081af3",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 130,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:41.334Z",
+      "completed_at": "2026-10-02T14:07:43.001Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 2541,
+        "input_tokens_details": {
+          "cache_write_tokens": 741,
+          "cached_tokens": 1797
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2560
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0022281999999999996,
+      "reference_reservation_usd": 0.03711,
+      "request_sha256": "f28e1329e983640fdab90a8f6c50a398139d94ebb94775c723bd7ac41505fcea",
+      "response_sha256": "6a73745c67936511422261166048e72bbf28d4b688fa0dc80912dbe7eb453e76",
+      "request_file_sha256": "ca2dd7e4483d740ee6591cb02c0d5e8da49eb5a94cbdbfe68a525449148ab5f2",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 131,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:43.018Z",
+      "completed_at": "2026-10-02T14:07:44.941Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 2776,
+        "input_tokens_details": {
+          "cache_write_tokens": 235,
+          "cached_tokens": 2538
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2795
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0010373,
+      "reference_reservation_usd": 0.0384275,
+      "request_sha256": "fcf34b9a7088c396a9637acc0bff93d3b92c9927c9b99f7f5d118b361ba47943",
+      "response_sha256": "8ad072cc98039d3467dc659743251ecab95c42fa1a378896a06bc1dbd3b64770",
+      "request_file_sha256": "7847e33a346221ba5467f7dff6225cff79186bcabc7b838d9e45ba8f987206d6",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 132,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:44.961Z",
+      "completed_at": "2026-10-02T14:07:46.527Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 3161,
+        "input_tokens_details": {
+          "cache_write_tokens": 385,
+          "cached_tokens": 2773
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3182
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0014558,
+      "reference_reservation_usd": 0.040725,
+      "request_sha256": "874ed099db8cd688607f85abf882172ed8e3a1ffba7a2e9dbd4ad8fac68f6f6a",
+      "response_sha256": "3bda5d8c5db162e41ee5a0d9b4613727b51865c1faef91a2007994b930f8e606",
+      "request_file_sha256": "2b9211ac7ee58f05a4e67881a6ff0e4975f5744d690a6ea3ca0ef28c1dbbb2ca",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 133,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:46.546Z",
+      "completed_at": "2026-10-02T14:07:51.053Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 3641,
+        "input_tokens_details": {
+          "cache_write_tokens": 480,
+          "cached_tokens": 3158
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 30
+        },
+        "total_tokens": 3917
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0042818000000000005,
+      "reference_reservation_usd": 0.04262,
+      "request_sha256": "786f1374da4531f7a5da3a5ec6b9c373125e2efd68c18b6e52da06b53f024753",
+      "response_sha256": "5038fd8dd141129ae4ac291a177c2582698edf0e8b54fa044b426f1e0acf7614",
+      "request_file_sha256": "7c6854cfeb4c4fc565706162f2b4262f994cb906e1e32ae6a487050635029a3c",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 134,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:51.075Z",
+      "completed_at": "2026-10-02T14:07:56.289Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 3945,
+        "input_tokens_details": {
+          "cache_write_tokens": 304,
+          "cached_tokens": 3638
+        },
+        "output_tokens": 332,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4277
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0044498,
+      "reference_reservation_usd": 0.046305,
+      "request_sha256": "f54af5877b8f26744d1d886b1224936e2a520ca7b57c2e8c81bf855eb0cdd790",
+      "response_sha256": "962a329f976d199f8e3a48c5e7ae96940db30149fddaa1bc53ec2b2a6163d3e9",
+      "request_file_sha256": "bcd07afaf19294b16b4d59a5d62a2357f20022491ecf3fedaa4e87a46d9a5bc3",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 135,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:07:56.307Z",
+      "completed_at": "2026-10-02T14:08:02.572Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 4338,
+        "input_tokens_details": {
+          "cache_write_tokens": 393,
+          "cached_tokens": 3942
+        },
+        "output_tokens": 614,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4952
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0075227,
+      "reference_reservation_usd": 0.048415,
+      "request_sha256": "fccad638b6fd55c9f95f6ccc2e4c97b93aff711b14867fe1e8cc520a95d4136a",
+      "response_sha256": "3a1f366c6bea4725b8ff384cab307c2239b80a83a854f6117eaf6cfa0d86c459",
+      "request_file_sha256": "82556daac16975cc31acf0be5b132f2ef7bf3703c0412953c498e8b36c1fcbd4",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    },
+    {
+      "number": 136,
+      "model_id": "gpt61-sol",
+      "deployment": "maqam-orchestrator-sol-6-1",
+      "served_model": "maqam-orchestrator-sol-6-1",
+      "started_at": "2026-10-02T14:08:02.594Z",
+      "completed_at": "2026-10-02T14:08:04.340Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 4972,
+        "input_tokens_details": {
+          "cache_write_tokens": 634,
+          "cached_tokens": 4335
+        },
+        "output_tokens": 14,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4986
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.0021645,
+      "reference_reservation_usd": 0.0514,
+      "request_sha256": "c00946fe7af048169b1ec3a917396eb758df36a7eb4d73264e05d54dc94a4a13",
+      "response_sha256": "07b6bdacdc7a1a8e396018e9f3e3eee398de3cfe201a325dd5d4157fc22ec3e7",
+      "request_file_sha256": "486bd834050b180221981d1d2a5915c4ea7c9b9cb3248c66ab38ddd1fc51d3f8",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "06626b6afbf0e1c231d69f27374042a0baa382432cc905cd0b0bc63e8c6b7e7c",
+  "tool_calls": {
+    "project_files": 1,
+    "inspect_file": 3,
+    "edit_block": 2,
+    "update_file": 1,
+    "run_tests": 1
+  },
+  "initial_context_sha256": "186ee87111bf9c36d561f54772bcd72707f9d1257ae76aac25ab76ae7b8e4699",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

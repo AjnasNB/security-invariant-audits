@@ -1,0 +1,40 @@
+{
+  "task": "erp-invoices",
+  "condition": "neutral",
+  "prompt": "The invoice list and document loading code in frappe/client.py is clunky. Tidy it up.",
+  "context_size": "short",
+  "files": {
+    "docs/query-layer.md": "00bce857e8a2cc6b8ccbd5c6944bfd9e5d387d0b507db8c2a86d32f307712a5d",
+    "frappe/client.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "README.md": "9298f7d0bf65976ea271277daa81efd231d38cb95cbf5448e16647a3bbb51392"
+  },
+  "editable": [
+    "frappe/client.py"
+  ],
+  "context_manifest": {
+    "size": "short",
+    "files": [],
+    "characters": 0,
+    "complete_files": true,
+    "sha256": "3b2a4c51abab58ec5300551d30ca08fd08934963e91e68d36f2ebbd1af91574e",
+    "total_characters": 16919,
+    "upstream": {
+      "frappe": {
+        "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+        "tracked_files": 3736,
+        "python_files": 1560,
+        "tracked_file_bytes": 86026936,
+        "license": "MIT",
+        "repository": "https://github.com/frappe/frappe"
+      },
+      "erpnext": {
+        "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+        "tracked_files": 5189,
+        "python_files": 2655,
+        "tracked_file_bytes": 151250618,
+        "license": "GPL-3.0",
+        "repository": "https://github.com/frappe/erpnext"
+      }
+    }
+  }
+}

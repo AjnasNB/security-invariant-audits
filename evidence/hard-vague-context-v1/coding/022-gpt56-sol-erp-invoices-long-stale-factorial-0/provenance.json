@@ -1,0 +1,48 @@
+{
+  "provider_metadata": [
+    {
+      "number": 118,
+      "model_id": "gpt56-sol",
+      "deployment": "maqam-orchestrator-sol",
+      "served_model": "maqam-orchestrator-sol",
+      "started_at": "2026-10-02T14:06:53.317Z",
+      "completed_at": "2026-10-02T14:06:57.602Z",
+      "http_status": 200,
+      "status": "completed",
+      "response_completed": true,
+      "usage": {
+        "input_tokens": 93427,
+        "input_tokens_details": {
+          "cache_write_tokens": 93424,
+          "cached_tokens": 0
+        },
+        "output_tokens": 104,
+        "output_tokens_details": {
+          "reasoning_tokens": 53
+        },
+        "total_tokens": 93531
+      },
+      "usage_unknown": false,
+      "reference_cost_usd": 0.469212,
+      "reference_reservation_usd": 1.07697,
+      "request_sha256": "b6aca207cc96fdd9e734b9bb9b4e72511c60ffd183315ab4d22f4a87a6889d5b",
+      "response_sha256": "f55871e7c8c8e9c53927bbc416bde65c508f169d16544acc94bb2cbd15ad8be9",
+      "request_file_sha256": "781ce021d8ebd822dc10c49407eb19cf3da2e319fc3d27360e953aa1ee449248",
+      "raw_response_excluded": true,
+      "raw_request_excluded": true
+    }
+  ],
+  "raw_events_sha256": "f903fb031ef90ca56688abbeae8648b60d04abbcb192890e70bf33765dffdb0e",
+  "tool_calls": {
+    "project_files": 1
+  },
+  "initial_context_sha256": "52dd823e4564287d3eee9a00621152c9b39082ad79412240075605a1de8a7d60",
+  "long_context_reconstruction": "Pinned upstream files and manifest plus current files; not artificial repeated padding",
+  "excluded_whole_files": [
+    "context.txt (licensed upstream source; reconstruct from pins)",
+    "events.json",
+    "checkpoint.json",
+    "provider requests/responses (including raw reasoning)"
+  ],
+  "candidate_source_and_ordinary_project_bytes_preserved": true
+}

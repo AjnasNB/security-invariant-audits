@@ -1,0 +1,33 @@
+[
+  {
+    "number": 6,
+    "model_id": "gpt56-sol",
+    "deployment": "maqam-orchestrator-sol",
+    "served_model": "maqam-orchestrator-sol",
+    "started_at": "2026-10-02T14:12:37.020Z",
+    "completed_at": "2026-10-02T14:12:38.565Z",
+    "http_status": 200,
+    "status": "completed",
+    "response_completed": true,
+    "usage": {
+      "input_tokens": 159,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 5,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 164
+    },
+    "usage_unknown": false,
+    "reference_cost_usd": 0.000736,
+    "reference_reservation_usd": 0.012155,
+    "request_sha256": "78a97e46914ec6e8605ab04eb7c34a74ac4d3fb8e580fa9859025acc5ed47890",
+    "response_sha256": "2b323b027ca9212cf7d334dd0f2d32baeef11cbbeb27bac884cf0415d14761ee",
+    "request_file_sha256": "5cc41ae5296e20ab0c35d7a45a19350f9ea64dd951ac8e7d0b74e2f9498955df",
+    "raw_response_excluded": true,
+    "raw_request_excluded": true
+  }
+]

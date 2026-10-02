@@ -1,0 +1,22 @@
+{
+  "frappe": {
+    "commit": "f3f0c0b13c77a419487150a198fed42964e1919e",
+    "tracked_files": 3736,
+    "python_files": 1560,
+    "tracked_file_bytes": 86026936,
+    "license": "MIT",
+    "repository": "https://github.com/frappe/frappe",
+    "version_or_tag": "v16.36.0",
+    "clone_unchanged": true
+  },
+  "erpnext": {
+    "commit": "af63cde4941570ec7b9e12422c68302762cfcf91",
+    "tracked_files": 5189,
+    "python_files": 2655,
+    "tracked_file_bytes": 151250618,
+    "license": "GPL-3.0",
+    "repository": "https://github.com/frappe/erpnext",
+    "version_or_tag": "v16.37.0",
+    "clone_unchanged": true
+  }
+}
