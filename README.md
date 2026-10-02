@@ -41,6 +41,7 @@ Azure invoices or remaining-credit measurements.
 [Six-page PDF](reports/Ajnas_Vague_Context_Results_20261002.pdf) |
 [Counts](reports/hard-vague-results-v1.json) |
 [Costs](reports/hard-vague-costs-v1.json).
+[Published content commits and passing GitHub CI](reports/hard-vague-publication-v1.md).
 
 Verify all new saved evidence without Azure, Docker or candidate execution:
 

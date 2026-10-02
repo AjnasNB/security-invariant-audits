@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-02T14:32:32.182284+00:00",
+  "author": "Ajnas N B",
+  "repository": "AjnasNB/security-invariant-audits",
+  "url": "https://github.com/AjnasNB/security-invariant-audits",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "reviewed_previous_main": "9f5618536eacaf2e343b03fe97089755fa8d11dd",
+  "inspected_content_main": "4ddab32d901898bac914cfe3aeb0e94ffbaec9ec",
+  "commits": [
+    {
+      "sha": "eaedc082fd6ac5ca35163da1b535fcacc108750a",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com",
+      "subject": "feat(study): add vague multi-model context runner and independent checks"
+    },
+    {
+      "sha": "4ddab32d901898bac914cfe3aeb0e94ffbaec9ec",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com",
+      "subject": "docs(results): publish vague-context evidence reproduced ERP bug and costs"
+    }
+  ],
+  "ci": {
+    "conclusion": "success",
+    "headSha": "4ddab32d901898bac914cfe3aeb0e94ffbaec9ec",
+    "jobs": [
+      {
+        "completedAt": "2026-10-02T14:31:04Z",
+        "conclusion": "success",
+        "databaseId": 110881655884,
+        "name": "unit",
+        "startedAt": "2026-10-02T14:30:51Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-02T14:30:53Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-02T14:30:52Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:54Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v4",
+            "number": 2,
+            "startedAt": "2026-10-02T14:30:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:54Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@v5",
+            "number": 3,
+            "startedAt": "2026-10-02T14:30:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:56Z",
+            "conclusion": "success",
+            "name": "Run python -B -m unittest discover -s tests -v",
+            "number": 4,
+            "startedAt": "2026-10-02T14:30:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:56Z",
+            "conclusion": "success",
+            "name": "Run python -B -m compileall -q -x '[/\\\\](vendor|private|runs|runtime|protected)[/\\\\]' research erp harnesses hardstudy",
+            "number": 5,
+            "startedAt": "2026-10-02T14:30:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:56Z",
+            "conclusion": "success",
+            "name": "Run python -B -m erp.check_published",
+            "number": 6,
+            "startedAt": "2026-10-02T14:30:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:56Z",
+            "conclusion": "success",
+            "name": "Run python -B -m research.demo",
+            "number": 7,
+            "startedAt": "2026-10-02T14:30:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:56Z",
+            "conclusion": "success",
+            "name": "Run python -B -m research.check_paper_evidence",
+            "number": 8,
+            "startedAt": "2026-10-02T14:30:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:57Z",
+            "conclusion": "success",
+            "name": "Run python -B -m harnesses.verify_ordinary",
+            "number": 9,
+            "startedAt": "2026-10-02T14:30:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:58Z",
+            "conclusion": "success",
+            "name": "Run python -B -m hardstudy.verify",
+            "number": 10,
+            "startedAt": "2026-10-02T14:30:57Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:30:58Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v4",
+            "number": 11,
+            "startedAt": "2026-10-02T14:30:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:31:00Z",
+            "conclusion": "success",
+            "name": "Run npx --yes tsx@4.20.6 --test tests/test_multi_model_budget.ts",
+            "number": 12,
+            "startedAt": "2026-10-02T14:30:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:31:01Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v4",
+            "number": 22,
+            "startedAt": "2026-10-02T14:31:00Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:31:01Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@v5",
+            "number": 23,
+            "startedAt": "2026-10-02T14:31:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:31:01Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v4",
+            "number": 24,
+            "startedAt": "2026-10-02T14:31:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-02T14:31:01Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 25,
+            "startedAt": "2026-10-02T14:31:01Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/37020385585/job/110881655884"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/37020385585"
+  },
+  "fresh_public_clone": {
+    "exact_revision": "4ddab32d901898bac914cfe3aeb0e94ffbaec9ec",
+    "clean": true,
+    "checks": [
+      {
+        "command": "python/tsx offline verification",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "command": "python/tsx offline verification",
+        "passed": true,
+        "output": "Verified 598 evidence hashes; 72 schedule records; 25 saved bundles; 9 completed.\nReplayed 17158/17200 checks, 0 access failures, 42 unknown access checks.\nPaper: 27/27 answered correctly; 3 refusals. No Azure, Docker, or generated-program execution."
+      },
+      {
+        "command": "python/tsx offline verification",
+        "passed": true,
+        "output": "✔ upfront reservation survives a transport failure without saving auth (16.8449ms)\n✔ reported cache input and writes replace, not double-charge, input (27.3409ms)\n✔ HTTP 429 records an attempt but no reported inference cost (4.9835ms)\n✔ unexpected served model is retained and rejected (6.9286ms)\n✔ future strict trajectory guard stops before a second network call (5.1134ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 233.696"
+      }
+    ],
+    "no_azure_or_private_profile_required": true
+  },
+  "publication_audit": {
+    "passed": true,
+    "tracked_files": 1709,
+    "issues": [],
+    "scope": "Git-index paths, common token/private-key patterns and exact local ERP passwords; not an exhaustive secret detector",
+    "values_disclosed": false
+  },
+  "totals": {
+    "scheduled": 72,
+    "retained_candidate_bundles": 25,
+    "trajectories_with_provider_attempts": 22,
+    "completed_refactors": 9,
+    "changed_bundles": 15,
+    "saved_output_checks": 17200,
+    "saved_output_passed": 17158,
+    "completed_refactor_checks": 7710,
+    "completed_refactor_passed": 7710,
+    "functional_failing_bundles": 1,
+    "functional_failing_checks": 42,
+    "access_violating_bundles": 0,
+    "access_failing_checks": 0,
+    "access_unknown_bundles": 1,
+    "access_unknown_checks": 42,
+    "termination": {
+      "budget_stopped": 5,
+      "completed": 9,
+      "failed": 11,
+      "not_run_budget": 47
+    }
+  },
+  "paper": {
+    "attempts": 30,
+    "answered": 27,
+    "correct": 27,
+    "refusals": 3,
+    "complete_original_mutant_pairs": 13,
+    "paper_defined_inconsistencies": 0
+  },
+  "cost": {
+    "reported_reference_usd": 4.87833085,
+    "uncertain_reference_reservations_usd": 0.1638163,
+    "reported_plus_uncertainty_usd": 5.04214715,
+    "within_cap": true
+  },
+  "pdf": {
+    "pages_visually_inspected": 6,
+    "sha256": "14e017eeddc69bbf1e62fb55e6a8ee80f36540579e477cd8a5efb68481abdfa5"
+  },
+  "authorization_scope": "Ajnas-authored main commits, normal non-force pushes of requested research changes. No unrelated Delta product files or cloud deployment settings changed.",
+  "excluded": [
+    "credentials",
+    "raw model reasoning/requests/responses",
+    "private profiles/site configs",
+    "source clones",
+    "Qarinah memory",
+    "unrelated product files"
+  ],
+  "metadata_record_note": "This records inspected content commits before its own metadata-only commit; no self-referential SHA or unverified future CI is claimed."
+}
