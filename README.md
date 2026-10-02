@@ -37,6 +37,7 @@ $9.67725456 with identified reserves—not Azure invoices or remaining credit.
 [Five-page PDF](reports/Ajnas_Whole_Application_Access_Results_20261002.pdf) |
 [Counts](reports/wholeapp-results-v1.json) |
 [Optional hardening patch](evidence/wholeapp-v1/hardening/company-boundary.patch).
+[Verified commits and passing GitHub CI](reports/wholeapp-publication-v1.md).
 
 Offline verification, without Azure/Docker/candidate execution:
 

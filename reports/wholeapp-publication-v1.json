@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-10-02T16:57:13.180169+00:00",
+  "author": "Ajnas N B",
+  "repository": "AjnasNB/security-invariant-audits",
+  "url": "https://github.com/AjnasNB/security-invariant-audits",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "reviewed_base": "94d0fcfb4117f61fe7f798e1b58f8e6f70899a60",
+  "inspected_content_main": "b6a781da7dd4829140ff627cda9b3f25ad4a562f",
+  "commits": [
+    {
+      "sha": "4d4b6808c1d8e8d466cd6f49281a75b1cf5aaad7",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com",
+      "subject": "feat(study): add whole-source ERP attempts and broad HTTP access checks"
+    },
+    {
+      "sha": "7abf806a894a862e2f90814b670d57fea759d9c9",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com",
+      "subject": "docs(results): publish broad access matrix print conflict and tested hardening"
+    },
+    {
+      "sha": "b6a781da7dd4829140ff627cda9b3f25ad4a562f",
+      "author": "ajnasnb",
+      "email": "ajnasnb@gmail.com",
+      "subject": "fix(replay): support long Windows evidence paths"
+    }
+  ],
+  "ci": {
+    "conclusion": "success",
+    "headSha": "b6a781da7dd4829140ff627cda9b3f25ad4a562f",
+    "status": "completed",
+    "url": "https://github.com/AjnasNB/security-invariant-audits/actions/runs/37037208348"
+  },
+  "fresh_public_clone": {
+    "exact_revision": "b6a781da7dd4829140ff627cda9b3f25ad4a562f",
+    "clean": true,
+    "checks": [
+      {
+        "command": "python -B -m unittest discover -s tests -q",
+        "passed": true,
+        "output": "----------------------------------------------------------------------\nRan 74 tests in 0.285s\n\nOK"
+      },
+      {
+        "command": "python -B -m wholeapp.verify",
+        "passed": true,
+        "output": "Verified 82 public hashes; 8925 starting source paths; 6 retained model attempts.\nReplayed 5847 HTTP checks; original 721/730; hardening 730/730; new model access regressions 0.\nNo Azure, Docker, credentials, private site or generated-code execution. Full rewrite remains incomplete."
+      }
+    ],
+    "no_private_erp_or_azure_required": true
+  },
+  "publication_audit": {
+    "passed": true,
+    "tracked_files": 1831,
+    "issues": [],
+    "scope": "Git-index paths, common token/private-key patterns and exact original/disposable ERP passwords/API credentials; not an exhaustive secret detector",
+    "values_disclosed": false
+  },
+  "verification": {
+    "python_tests": 74,
+    "offline_budget_tests": 7,
+    "new_evidence_hashes": 82,
+    "source_inventory_files": 8925,
+    "public_saved_http_checks": 5847,
+    "pdf_pages_reviewed": 5
+  },
+  "results": {
+    "entire_application_rewrite_completed": false,
+    "baseline": {
+      "total": 730,
+      "passed": 721,
+      "functional_failures": 9,
+      "security_failures": 9,
+      "unknown_access_checks": 0,
+      "invariant_preserved": false
+    },
+    "hardening": {
+      "total": 730,
+      "passed": 730,
+      "functional_failures": 0,
+      "security_failures": 0,
+      "unknown_access_checks": 0,
+      "invariant_preserved": true
+    },
+    "changed_files": {
+      "gpt61-sol": 2,
+      "gpt56-sol": 2,
+      "gpt56-luna": 0
+    },
+    "new_ai_access_regressions": 0
+  },
+  "costs": {
+    "reported_reference_usd": 0.79520166,
+    "uncertain_reservations_usd": 0.0242954,
+    "reported_plus_identified_uncertainty_usd": 0.81949706,
+    "within_cap": true
+  },
+  "original_application_preserved": true,
+  "disposable_runtime_removed": true,
+  "authorization": "Scoped requested research changes, Ajnas-author main commits, normal non-force pushes. No unrelated Delta product changes, credentials or raw reasoning published.",
+  "scope": "Inspected content before this metadata-only commit; no self-referential commit SHA or future CI claim."
+}
