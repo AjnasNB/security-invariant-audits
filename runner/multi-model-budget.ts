@@ -27,6 +27,17 @@ export class MultiModelBudget {
     this.perModel[model.id]??={requests:0,attempts:0,input_tokens:0,output_tokens:0,cached_tokens:0,
       cache_write_tokens:0,reference_estimate_usd:0,unknown_usage_attempts:0};
   }
+  async restoreSavedLedger(){
+    const record=JSON.parse(await fs.readFile(path.join(this.root,'usage.json'),'utf8'));
+    assert.equal(record.total_reference_cap_usd,this.limit,'Saved reference ceiling changed');
+    assert.equal(record.pending_requests.length,0,'Cannot automatically resume an unsettled inference request');
+    this.attempts=record.http_attempts;this.reference=record.reference_estimate_usd;
+    this.perModel=record.per_model;this.pending=[];
+  }
+  restoreTrajectoryEstimate(estimate:number){
+    assert.ok(Number.isInteger(estimate)&&estimate>=0);
+    this.trajectoryInputEstimate=estimate;
+  }
   async save(){
     await fs.writeFile(path.join(this.root,'usage.json'),JSON.stringify({
       http_attempts:this.attempts,reference_estimate_usd:this.reference,per_model:this.perModel,

@@ -40,6 +40,15 @@ def main():
             raise RuntimeError("Worktree audit requires tracked files to match the index")
     private_env = Path(__file__).resolve().parent / "private" / "experiment.env"
     private_values = [line.split("=", 1)[1].encode() for line in private_env.read_text().splitlines()] if private_env.exists() else []
+    whole_private = repo / "artifacts/private/wholeapp-v1"
+    if (whole_private / "private-runtime.json").exists():
+        runtime = json.loads((whole_private / "private-runtime.json").read_text(encoding="utf-8"))
+        private_values += [runtime[key].encode() for key in ("root_password", "app_password", "login_password")
+                           if runtime.get(key)]
+    if (whole_private / "api-credentials.json").exists():
+        credentials = json.loads((whole_private / "api-credentials.json").read_text(encoding="utf-8"))
+        private_values += [record[key].encode() for record in credentials.values()
+                           for key in ("api_key", "api_secret") if record.get(key)]
     issues = []
     manifest = {}
     for index, name in enumerate(files):
@@ -58,7 +67,7 @@ def main():
         manifest[name] = hashlib.sha256(body).hexdigest()
     result = {"passed": not issues, "tracked_files": len(files), "reviewed_base": args.since,
               "issues": issues,
-              "scope": "Git-index paths, common token/private-key patterns and exact local ERP passwords; not an exhaustive secret detector",
+              "scope": "Git-index paths, common token/private-key patterns and exact original/disposable ERP passwords/API credentials; not an exhaustive secret detector",
               "values_disclosed": False, "file_hashes": manifest}
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)

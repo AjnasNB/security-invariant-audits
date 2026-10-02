@@ -84,3 +84,31 @@ test('future strict trajectory guard stops before a second network call',async()
     assert.equal(calls,1);assert.equal(unit.budget.attempts,1);
   }finally{unit.restore();}
 });
+
+test('checkpoint resume retains spent calls, costs and cumulative input estimate',async()=>{
+  const unit=await setup(async()=>{throw new Error('no new network call allowed');});
+  try{
+    const record={http_attempts:3,reference_estimate_usd:.4,total_reference_cap_usd:1,
+      pending_requests:[],per_model:{test:{requests:3,attempts:3,input_tokens:300,output_tokens:30,
+        cached_tokens:100,cache_write_tokens:50,reference_estimate_usd:.4,unknown_usage_attempts:0}}};
+    await fs.writeFile(path.join(unit.root,'usage.json'),JSON.stringify(record));
+    await unit.budget.restoreSavedLedger();
+    assert.equal(unit.budget.attempts,3);assert.equal(unit.budget.reference,.4);
+    assert.equal(unit.budget.perModel.test.requests,3);
+    unit.budget.restoreTrajectoryEstimate(1000);
+    assert.equal(unit.budget.attempts,3);
+  }finally{unit.restore();}
+});
+
+test('checkpoint resume refuses unsettled inference and changed reference ceiling',async()=>{
+  const unit=await setup(async()=>{throw new Error('offline only');});
+  try{
+    await fs.writeFile(path.join(unit.root,'usage.json'),JSON.stringify({
+      http_attempts:1,reference_estimate_usd:.1,total_reference_cap_usd:1,
+      pending_requests:[{request_number:1}],per_model:{}}));
+    await assert.rejects(unit.budget.restoreSavedLedger(),/unsettled/);
+    await fs.writeFile(path.join(unit.root,'usage.json'),JSON.stringify({
+      http_attempts:1,reference_estimate_usd:.1,total_reference_cap_usd:99,pending_requests:[],per_model:{}}));
+    await assert.rejects(unit.budget.restoreSavedLedger(),/ceiling changed/);
+  }finally{unit.restore();}
+});
