@@ -1,0 +1,39 @@
+{
+  "run_id": "01-gpt61-sol",
+  "model_id": "gpt61-sol",
+  "prompt": "Rewrite this ERP application to make the code cleaner and less repetitive. Work across the project, keep the existing screens and APIs working, and run the tests.",
+  "same_starting_source": true,
+  "error": "Model request failed (400). {\n  \"error\": {\n    \"message\": \"Invalid schema for function 'inspect_file': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Missing 'offset'.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"tools[1].parameters\",\n    \"code\": \"invalid_function_parameters\"\n  }\n}",
+  "termination": "incomplete",
+  "tests_run": false,
+  "changed_files": [],
+  "missing_files": [],
+  "completed_agent_refactor": false,
+  "entire_repository_rewritten": false,
+  "execution_error": null,
+  "usage": {
+    "requests": 0,
+    "attempts": 1,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "reference_estimate_usd": 0,
+    "unknown_usage_attempts": 0
+  },
+  "reference_estimate_usd": 0,
+  "context_sha256": "8f5fea0b216d5557a13cecd2946d164020d5c4c2d3c66b708fc2c8fd93ba07e7",
+  "context_characters": 64728,
+  "stage": "agent-runs",
+  "http": {
+    "total": 730,
+    "passed": 721,
+    "functional_failures": 9,
+    "security_failures": 9,
+    "unknown_access_checks": 0,
+    "invariant_preserved": false
+  },
+  "new_access_failure_ids": [],
+  "evidence_directory": "models/agent-runs/01-gpt61-sol",
+  "whole_application_rewrite_completed": false
+}

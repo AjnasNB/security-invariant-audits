@@ -1,0 +1,63 @@
+{
+  "version": "whole-http-judge-1.0",
+  "total": 2,
+  "passed": 1,
+  "functional_failures": 1,
+  "security_failures": 1,
+  "unknown_access_checks": 0,
+  "invariant_preserved": false,
+  "checks": [
+    {
+      "id": "whole-0161",
+      "surface": "resource-document-read",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": true,
+      "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+      "security_failure": false,
+      "exposed_names": [
+        "PROJ-0001"
+      ],
+      "unauthorized_names": [],
+      "leaked_markers": [],
+      "response_sha256": "412ca5c7f895f94e24f60cdceed1041e5eafdd7429ce7ad1e632d3f629787b54",
+      "response_bytes": 842
+    },
+    {
+      "id": "whole-0168",
+      "surface": "resource-document-read",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": false,
+      "access_verdict": "VIOLATION",
+      "security_failure": true,
+      "exposed_names": [
+        "PROJ-0002"
+      ],
+      "unauthorized_names": [
+        "PROJ-0002"
+      ],
+      "leaked_markers": [
+        {
+          "marker": "AJNAS_DOC_PRIVATE_01_20261002",
+          "type": "private_attachment_content"
+        },
+        {
+          "marker": "AJNAS_FIELD_SECRET_DOC_01_20261002",
+          "type": "protected_field_content"
+        }
+      ],
+      "response_sha256": "0afee2e820a9bb5c3f76b6a02fed56279a628b177786e6cef728b28e50b1a565",
+      "response_bytes": 847
+    }
+  ],
+  "by_surface": {
+    "resource-document-read": {
+      "total": 2,
+      "passed": 1,
+      "security_failures": 1,
+      "unknown": 0
+    }
+  },
+  "finite_response_matrix_not_proof": true
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "whole-0161",
+    "http_status": 200,
+    "body": "{\"data\":{\"name\":\"PROJ-0001\",\"owner\":\"Administrator\",\"creation\":\"2026-10-01 12:00:00\",\"modified\":\"2026-10-01 12:00:00\",\"modified_by\":\"Administrator\",\"docstatus\":0,\"idx\":0,\"naming_series\":\"PROJ-.####\",\"project_name\":\"AJNAS Research Project 1\",\"custom_audit_secret\":\"AJNAS_FIELD_SECRET_DOC_00_20261002\",\"status\":\"Open\",\"percent_complete_method\":\"Task Completion\",\"priority\":\"Medium\",\"is_active\":\"Yes\",\"percent_complete\":0.0,\"actual_time\":0.0,\"estimated_costing\":0.0,\"total_costing_amount\":0.0,\"total_purchase_cost\":0.0,\"company\":\"Audit Kerala Trading\",\"total_sales_amount\":0.0,\"total_billable_amount\":0.0,\"total_billed_amount\":0.0,\"total_consumed_material_cost\":0.0,\"gross_margin\":0.0,\"per_gross_margin\":0.0,\"collect_progress\":0,\"frequency\":\"Hourly\",\"day_to_send\":\"Monday\",\"notes\":\"AJNAS_DOC_PRIVATE_00_20261002\",\"doctype\":\"Project\",\"users\":[]}}",
+    "bytes": 842,
+    "sha256": "412ca5c7f895f94e24f60cdceed1041e5eafdd7429ce7ad1e632d3f629787b54",
+    "cache_control": "no-store,no-cache,must-revalidate,max-age=0",
+    "body_error_diagnostics_removed": false,
+    "original_response_sha256": "412ca5c7f895f94e24f60cdceed1041e5eafdd7429ce7ad1e632d3f629787b54",
+    "public_body_sha256": "412ca5c7f895f94e24f60cdceed1041e5eafdd7429ce7ad1e632d3f629787b54"
+  },
+  {
+    "id": "whole-0168",
+    "http_status": 200,
+    "body": "{\"data\":{\"name\":\"PROJ-0002\",\"owner\":\"Administrator\",\"creation\":\"2026-10-01 12:00:00\",\"modified\":\"2026-10-01 12:00:00\",\"modified_by\":\"Administrator\",\"docstatus\":0,\"idx\":0,\"naming_series\":\"PROJ-.####\",\"project_name\":\"AJNAS Research Project 2\",\"custom_audit_secret\":\"AJNAS_FIELD_SECRET_DOC_01_20261002\",\"status\":\"Open\",\"percent_complete_method\":\"Task Completion\",\"priority\":\"Medium\",\"is_active\":\"Yes\",\"percent_complete\":0.0,\"actual_time\":0.0,\"estimated_costing\":0.0,\"total_costing_amount\":0.0,\"total_purchase_cost\":0.0,\"company\":\"Audit Tamil Nadu Supplies\",\"total_sales_amount\":0.0,\"total_billable_amount\":0.0,\"total_billed_amount\":0.0,\"total_consumed_material_cost\":0.0,\"gross_margin\":0.0,\"per_gross_margin\":0.0,\"collect_progress\":0,\"frequency\":\"Hourly\",\"day_to_send\":\"Monday\",\"notes\":\"AJNAS_DOC_PRIVATE_01_20261002\",\"doctype\":\"Project\",\"users\":[]}}",
+    "bytes": 847,
+    "sha256": "0afee2e820a9bb5c3f76b6a02fed56279a628b177786e6cef728b28e50b1a565",
+    "cache_control": "no-store,no-cache,must-revalidate,max-age=0",
+    "body_error_diagnostics_removed": false,
+    "original_response_sha256": "0afee2e820a9bb5c3f76b6a02fed56279a628b177786e6cef728b28e50b1a565",
+    "public_body_sha256": "0afee2e820a9bb5c3f76b6a02fed56279a628b177786e6cef728b28e50b1a565"
+  }
+]

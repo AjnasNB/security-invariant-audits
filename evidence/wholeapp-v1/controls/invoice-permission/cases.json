@@ -1,0 +1,32 @@
+[
+  {
+    "id": "whole-0121",
+    "user": "alice@audit.invalid",
+    "surface": "rpc-document-read",
+    "method": "GET",
+    "route": "/api/method/frappe.client.get?doctype=Sales+Invoice&name=ACC-SINV-2026-00001",
+    "expected_allowed": true,
+    "document": {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00001"
+    },
+    "expected_names": [
+      "ACC-SINV-2026-00001"
+    ],
+    "check_secret_field": true
+  },
+  {
+    "id": "whole-0142",
+    "user": "alice@audit.invalid",
+    "surface": "rpc-document-read",
+    "method": "GET",
+    "route": "/api/method/frappe.client.get?doctype=Sales+Invoice&name=ACC-SINV-2026-00004",
+    "expected_allowed": false,
+    "document": {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00004"
+    },
+    "expected_names": [],
+    "check_secret_field": true
+  }
+]

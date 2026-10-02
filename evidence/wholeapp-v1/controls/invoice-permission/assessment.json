@@ -1,0 +1,59 @@
+{
+  "version": "whole-http-judge-1.0",
+  "total": 2,
+  "passed": 1,
+  "functional_failures": 1,
+  "security_failures": 1,
+  "unknown_access_checks": 0,
+  "invariant_preserved": false,
+  "checks": [
+    {
+      "id": "whole-0121",
+      "surface": "rpc-document-read",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": true,
+      "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+      "security_failure": false,
+      "exposed_names": [
+        "ACC-SINV-2026-00001"
+      ],
+      "unauthorized_names": [],
+      "leaked_markers": [],
+      "response_sha256": "3215673170b69b56174a2573f7c4a7b6a44f4e9df9bea75c9ae6cdc454343f9f",
+      "response_bytes": 9329
+    },
+    {
+      "id": "whole-0142",
+      "surface": "rpc-document-read",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": false,
+      "access_verdict": "VIOLATION",
+      "security_failure": true,
+      "exposed_names": [
+        "ACC-SINV-2026-00004"
+      ],
+      "unauthorized_names": [
+        "ACC-SINV-2026-00004"
+      ],
+      "leaked_markers": [
+        {
+          "marker": "AJNAS_FIELD_SECRET_INV_03_20261002",
+          "type": "protected_field_content"
+        }
+      ],
+      "response_sha256": "f5b2a1d019c69962f5f73b0e76a6cdf182c9c68f2f4b98d92f3d909c8341347c",
+      "response_bytes": 9334
+    }
+  ],
+  "by_surface": {
+    "rpc-document-read": {
+      "total": 2,
+      "passed": 1,
+      "security_failures": 1,
+      "unknown": 0
+    }
+  },
+  "finite_response_matrix_not_proof": true
+}

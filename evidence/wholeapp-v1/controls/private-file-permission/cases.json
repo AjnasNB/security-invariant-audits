@@ -1,0 +1,38 @@
+[
+  {
+    "id": "whole-0195",
+    "user": "alice@audit.invalid",
+    "surface": "private-file-download",
+    "method": "GET",
+    "route": "/private/files/ajnas-private-0060d40c.txt",
+    "expected_allowed": true,
+    "file_name": "be51b398ed",
+    "expected_marker": "AJNAS_INV_PRIVATE_00_20261002",
+    "binary_response": true,
+    "public_file": false
+  },
+  {
+    "id": "whole-0207",
+    "user": "alice@audit.invalid",
+    "surface": "private-file-download",
+    "method": "GET",
+    "route": "/private/files/ajnas-private-03e45c9d.txt",
+    "expected_allowed": false,
+    "file_name": "d99d8183c8",
+    "expected_marker": "AJNAS_INV_PRIVATE_03_20261002",
+    "binary_response": true,
+    "public_file": false
+  },
+  {
+    "id": "whole-0223",
+    "user": "alice@audit.invalid",
+    "surface": "private-file-download",
+    "method": "GET",
+    "route": "/private/files/ajnas-private-07ea6f52.txt",
+    "expected_allowed": false,
+    "file_name": "7bf4a7c66f",
+    "expected_marker": "AJNAS_DOC_PRIVATE_01_20261002",
+    "binary_response": true,
+    "public_file": false
+  }
+]

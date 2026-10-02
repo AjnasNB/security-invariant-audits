@@ -1,0 +1,128 @@
+{
+  "verified_at": "2026-10-02T16:49:20.450406+00:00",
+  "author": "Ajnas N B",
+  "all_commands_passed": true,
+  "python_unit_tests": 73,
+  "commands": [
+    {
+      "command": "python -B -m unittest discover -s tests -q",
+      "passed": true,
+      "output": "----------------------------------------------------------------------\nRan 73 tests in 0.423s\n\nOK"
+    },
+    {
+      "command": "python -B -m wholeapp.verify",
+      "passed": true,
+      "output": "Verified 82 public hashes; 8925 starting source paths; 6 retained model attempts.\nReplayed 5847 HTTP checks; original 721/730; hardening 730/730; new model access regressions 0.\nNo Azure, Docker, credentials, private site or generated-code execution. Full rewrite remains incomplete."
+    },
+    {
+      "command": "python -B -m hardstudy.verify",
+      "passed": true,
+      "output": "Verified 598 evidence hashes; 72 schedule records; 25 saved bundles; 9 completed.\nReplayed 17158/17200 checks, 0 access failures, 42 unknown access checks.\nPaper: 27/27 answered correctly; 3 refusals. No Azure, Docker, or generated-program execution."
+    },
+    {
+      "command": "python -B -m harnesses.verify_ordinary",
+      "passed": true,
+      "output": "Verified 592 files; 60 saved coding outputs; 51 completed refactors.\nReplayed 6520/6520 checks; 18 answered paper questions (18 correct). No Azure or generated-program execution."
+    },
+    {
+      "command": "python -B -m research.demo",
+      "passed": true,
+      "output": "Verified 226 evidence files; 24 recorded trajectories.\nReplayed 2608/2608 checks; 23 completed refactors; 0 access violations; 0 unknown files.\nNo Azure calls, candidate code execution, Docker or credentials used. This replays saved observations; a fresh model experiment is a separate paid command."
+    },
+    {
+      "command": "python -B -m research.check_paper_evidence",
+      "passed": true,
+      "output": "Verified 10 paper evidence files and 3 archived failures. No new model or program execution."
+    },
+    {
+      "command": "python -B -m erp.check_published",
+      "passed": true,
+      "output": "Published evidence valid: 27 hashes, six refactors, 564 checks."
+    },
+    {
+      "command": "python -B -m compileall -q -x [/\\\\](vendor|private|runs|runtime|protected)[/\\\\] research erp harnesses hardstudy wholeapp",
+      "passed": true,
+      "output": ""
+    }
+  ],
+  "windows_and_linux_unit_tests_executed": 73,
+  "linux_public_evidence_replay_passed": true,
+  "offline_typescript_budget_tests": {
+    "passed": 7,
+    "network_used": false
+  },
+  "manifest_file_count": 82,
+  "http_cases_per_main_run": 730,
+  "total_retained_public_http_observations": 5847,
+  "baseline_print_policy_conflict": 9,
+  "hardening_passed": 730,
+  "new_model_access_regressions": 0,
+  "entire_application_rewrite_completed": false,
+  "business": {
+    "baseline": {
+      "total": 94,
+      "passed": 94,
+      "security_failures": 0
+    },
+    "gpt61-sol": {
+      "total": 94,
+      "passed": 94,
+      "security_failures": 0
+    },
+    "gpt56-sol": {
+      "total": 94,
+      "passed": 94,
+      "security_failures": 0
+    }
+  },
+  "changed_helpers": {
+    "cases_per_candidate": 8,
+    "models": 3,
+    "all_passed": true
+  },
+  "disposable_runtime_cleanup": {
+    "experiment_containers_removed": true,
+    "ram_database_discarded": true,
+    "private_snapshot_and_evidence_retained": true,
+    "existing_erp_untouched": true
+  },
+  "original_erp_read_only_final_check": {
+    "passed": true,
+    "integrated_source_ast_matches": true,
+    "integrated_source_normalized_sha256": "4e4ecaf6d5277512104cf9888d1847eefb1407b1c6549d65a6452991a9f363b6",
+    "seeded_invoice_count": 6,
+    "all_seeded_states_and_amounts_preserved": true,
+    "submitted_ledgers_balanced": true,
+    "temporary_http_records_removed": true,
+    "scope": "Read-only final check of this local synthetic ERP instance"
+  },
+  "pdf": {
+    "pages": 5,
+    "all_pages_visually_inspected": true,
+    "layout_passed": true,
+    "rendered_with": "Poppler, 110 dpi",
+    "sha256": "1a0ea48e466dd1eaf7337e3a6936ab83a2221529442af8ea907f9494c327f4e5",
+    "rendered_page_sha256": [
+      "cff0c118fa56eb9a40eae48ef97140933fc40b9b88bc3e109733161d991da10f",
+      "07abcdfb7b4bc88e499a205224c1fc868486ce4618060013b6501755594d5260",
+      "1ae8a62dac40a36adc682034978092e9562f00c348816a84374404ee1c063c95",
+      "4ad582b0550e640f93e2d67c4f32084714ffa08ab0b7b6a47eefa0057e6fbb52",
+      "3045ce5a498c9d0958732f7fb04beb1a0b620fc3f77b3faa740e94cf9ca747f1"
+    ]
+  },
+  "cost": {
+    "reported_reference_usd": 0.79520166,
+    "uncertain_reservations_usd": 0.0242954,
+    "reported_plus_identified_uncertainty_usd": 0.81949706,
+    "within_cap": true
+  },
+  "no_new_model_calls_during_verification": true,
+  "artifact_sha256": {
+    "reports/wholeapp-results-v1.json": "6ba149b18547f1dae230d1c467be06f6ca7feb0e7e6c1158079df976481b8446",
+    "reports/wholeapp-results-v1.md": "40fa7a21b8832b39aaf9b234b8bbab24e232999695e7f0a2ab7b64259a9d9f46",
+    "reports/wholeapp-costs-v1.json": "e6691250013b7d8ca6bda389725223e1f08f3b79ee4464dc76db33f0f93aaebc",
+    "evidence/wholeapp-v1/manifest.json": "98a32562357839d9c808e38bb8339edb156c8d1887ab2ab5e8dc3e97dfe5f6c7",
+    "reports/Ajnas_Whole_Application_Access_Results_20261002.pdf": "1a0ea48e466dd1eaf7337e3a6936ab83a2221529442af8ea907f9494c327f4e5"
+  },
+  "scope": "Executed local unit/replay/runtime/QA checks, not generalized security or complete rewrite proof."
+}

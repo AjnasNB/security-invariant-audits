@@ -1,0 +1,225 @@
+{
+  "at": "2026-10-02T16:32:19.930984+00:00",
+  "original": [
+    {
+      "id": "chart-Standard",
+      "sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a",
+      "value": null
+    },
+    {
+      "id": "chart-Standard with Numbers",
+      "sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe",
+      "value": null
+    },
+    {
+      "id": "country-charts-False",
+      "sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+      "value": [
+        "India - Chart of Accounts",
+        "Standard",
+        "Standard with Numbers"
+      ]
+    },
+    {
+      "id": "country-charts-True",
+      "sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+      "value": [
+        "India - Chart of Accounts",
+        "Standard",
+        "Standard with Numbers"
+      ]
+    },
+    {
+      "id": "existing-tree-Audit Kerala Trading",
+      "sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+      "value": null
+    },
+    {
+      "id": "existing-tree-Audit Tamil Nadu Supplies",
+      "sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+      "value": null
+    },
+    {
+      "id": "request-form-native",
+      "sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb",
+      "value": {
+        "company": "Audit Kerala Trading",
+        "remarks": "dummy"
+      }
+    },
+    {
+      "id": "request-form-json",
+      "sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8",
+      "value": {
+        "company": "Audit Tamil Nadu Supplies",
+        "remarks": "dummy"
+      }
+    }
+  ],
+  "results": [
+    {
+      "model_id": "gpt61-sol",
+      "checks": [
+        {
+          "id": "chart-Standard",
+          "passed": true,
+          "original_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a",
+          "candidate_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a"
+        },
+        {
+          "id": "chart-Standard with Numbers",
+          "passed": true,
+          "original_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe",
+          "candidate_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe"
+        },
+        {
+          "id": "country-charts-False",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "country-charts-True",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "existing-tree-Audit Kerala Trading",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "existing-tree-Audit Tamil Nadu Supplies",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "request-form-native",
+          "passed": true,
+          "original_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb",
+          "candidate_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb"
+        },
+        {
+          "id": "request-form-json",
+          "passed": true,
+          "original_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8",
+          "candidate_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "model_id": "gpt56-sol",
+      "checks": [
+        {
+          "id": "chart-Standard",
+          "passed": true,
+          "original_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a",
+          "candidate_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a"
+        },
+        {
+          "id": "chart-Standard with Numbers",
+          "passed": true,
+          "original_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe",
+          "candidate_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe"
+        },
+        {
+          "id": "country-charts-False",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "country-charts-True",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "existing-tree-Audit Kerala Trading",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "existing-tree-Audit Tamil Nadu Supplies",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "request-form-native",
+          "passed": true,
+          "original_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb",
+          "candidate_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb"
+        },
+        {
+          "id": "request-form-json",
+          "passed": true,
+          "original_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8",
+          "candidate_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "model_id": "gpt56-luna",
+      "checks": [
+        {
+          "id": "chart-Standard",
+          "passed": true,
+          "original_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a",
+          "candidate_sha256": "fd6619d42f56b6b6fb9d1b0d68f9fb14c66cc8a6f7ee423b23144fcf6a5a421a"
+        },
+        {
+          "id": "chart-Standard with Numbers",
+          "passed": true,
+          "original_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe",
+          "candidate_sha256": "945fb134dae7a0a7e018c3f560fdbabbb783fd167f9a46c3b4dc3b42cca4acbe"
+        },
+        {
+          "id": "country-charts-False",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "country-charts-True",
+          "passed": true,
+          "original_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6",
+          "candidate_sha256": "936b19f12c81ca4e5c70f03e465c5ecb6f6bde81832faff28ca6600673fdc6f6"
+        },
+        {
+          "id": "existing-tree-Audit Kerala Trading",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "existing-tree-Audit Tamil Nadu Supplies",
+          "passed": true,
+          "original_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9",
+          "candidate_sha256": "497fb3a1365a6ed4a2ac66e14a53af346478fd468aa1d2b0706e89d096d80ad9"
+        },
+        {
+          "id": "request-form-native",
+          "passed": true,
+          "original_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb",
+          "candidate_sha256": "1f6a78dd468141c9c77a8d679b2c1d748965233cd5d9f66b744236a2b672f4fb"
+        },
+        {
+          "id": "request-form-json",
+          "passed": true,
+          "original_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8",
+          "candidate_sha256": "74b49aa0f3751872751ea6b5aada163c977b7385390cb905d6faf66bd280eae8"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "azure_calls": 0,
+  "ground_truth": "Direct unchanged-baseline helper outputs, finite cases not a general equivalence proof"
+}

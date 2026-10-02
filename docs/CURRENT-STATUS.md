@@ -2,6 +2,36 @@
 
 Author: Ajnas N B.
 
+## Latest whole-source/access stage
+
+The entire ERP rewrite is incomplete. Whole-source editable attempts gave
+three Azure/Delta models 8,925 files. GPT-6.1 and GPT-5.6 Sol changed two files
+each, then hit cumulative-input estimate caps. Luna saved no edit and hit
+a rate failure. No generated candidate was merged into the original ERP.
+
+The 730-request real HTTP matrix found nine existing cross-company invoice
+print disclosures via a native customer/website permission exception in the
+fictional fixture. Normal company API checks deny them. This is an existing
+conflict with desired internal company isolation, not a new AI-created leak,
+nine independent vulnerabilities or a universal upstream security claim.
+All model outputs remained 721/730, with no additional observed leak.
+
+A separate explicit company-policy hardening overlay passed 730/730. Original
+and generated outputs were not relabeled; the fix was not deployed to the
+original app. The 94-case business contract and eight changed-helper
+comparisons per candidate also passed. Coverage is finite and does not include
+every UI/PDF/upload/portal/share-key/ERP feature.
+
+New reference usage: $0.79520166 plus $0.0242954 uncertain reserve, total
+$0.81949706. All studies: $9.42698536 reported, $9.67725456 with identified
+uncertainty; not an Azure invoice/credit snapshot. Three initial schema
+rejections, checkpoint/WSL recovery and limit stops are documented.
+
+See `reports/wholeapp-results-v1.md` and `docs/WHOLE-APPLICATION-PROTOCOL.md`.
+Offline `python -B -m wholeapp.verify` checks 82 evidence files, the 8,925-file
+starting inventory, six retained attempts and 5,847 saved HTTP observations
+without Azure, Docker or generated-code execution.
+
 ## Latest vague/context model stage
 
 The actual Delta Native stage used five verified Azure model routes, full

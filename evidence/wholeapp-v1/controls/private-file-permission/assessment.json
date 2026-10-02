@@ -1,0 +1,72 @@
+{
+  "version": "whole-http-judge-1.0",
+  "total": 3,
+  "passed": 1,
+  "functional_failures": 2,
+  "security_failures": 2,
+  "unknown_access_checks": 0,
+  "invariant_preserved": false,
+  "checks": [
+    {
+      "id": "whole-0195",
+      "surface": "private-file-download",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": true,
+      "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+      "security_failure": false,
+      "exposed_names": [],
+      "unauthorized_names": [],
+      "leaked_markers": [],
+      "response_sha256": "a8a15476b37636ca36ff16847e2806020dbf2722124fe82ab3740fb900d1eb75",
+      "response_bytes": 66
+    },
+    {
+      "id": "whole-0207",
+      "surface": "private-file-download",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": false,
+      "access_verdict": "VIOLATION",
+      "security_failure": true,
+      "exposed_names": [],
+      "unauthorized_names": [],
+      "leaked_markers": [
+        {
+          "marker": "AJNAS_INV_PRIVATE_03_20261002",
+          "type": "private_attachment_content"
+        }
+      ],
+      "response_sha256": "a4e0d025648578db8e5d0fefdda80589b5517a03c11a8a64fc074a96a61e5c63",
+      "response_bytes": 66
+    },
+    {
+      "id": "whole-0223",
+      "surface": "private-file-download",
+      "user": "alice@audit.invalid",
+      "http_status": 200,
+      "passed": false,
+      "access_verdict": "VIOLATION",
+      "security_failure": true,
+      "exposed_names": [],
+      "unauthorized_names": [],
+      "leaked_markers": [
+        {
+          "marker": "AJNAS_DOC_PRIVATE_01_20261002",
+          "type": "private_attachment_content"
+        }
+      ],
+      "response_sha256": "c11c0dee15070701cca18d5b2e67e62adba350a4e0e73bb261ca950f75bb4ecb",
+      "response_bytes": 66
+    }
+  ],
+  "by_surface": {
+    "private-file-download": {
+      "total": 3,
+      "passed": 1,
+      "security_failures": 2,
+      "unknown": 0
+    }
+  },
+  "finite_response_matrix_not_proof": true
+}

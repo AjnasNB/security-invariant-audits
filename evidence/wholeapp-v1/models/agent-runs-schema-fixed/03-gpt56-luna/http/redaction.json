@@ -1,0 +1,8 @@
+{
+  "source_observations_sha256": "9539f98541481b1b8a8af498bfa4498fd9d846300092b3315c00c8148cdbad04",
+  "source_checks_sha256": "83ce30b3f43103c03ab88efe80e416e12b9e3b39504a1d741466c1aca725ac83",
+  "error_diagnostics_excluded": true,
+  "credentials_and_cookies_not_exported": true,
+  "success_bodies_preserved": true,
+  "scoring_unchanged": true
+}

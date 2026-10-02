@@ -1,0 +1,39 @@
+{
+  "run_id": "03-gpt56-luna",
+  "model_id": "gpt56-luna",
+  "prompt": "Rewrite this ERP application to make the code cleaner and less repetitive. Work across the project, keep the existing screens and APIs working, and run the tests.",
+  "same_starting_source": true,
+  "error": "Model generation failed (rate_limit_exceeded): Your requests to gpt-5.6-luna for maqam-orchestrator-luna in swedencentral have exceeded token rate limit.",
+  "termination": "incomplete",
+  "tests_run": false,
+  "changed_files": [],
+  "missing_files": [],
+  "completed_agent_refactor": false,
+  "entire_repository_rewritten": false,
+  "execution_error": null,
+  "usage": {
+    "requests": 6,
+    "attempts": 7,
+    "input_tokens": 125338,
+    "output_tokens": 662,
+    "cached_tokens": 100698,
+    "cache_write_tokens": 24622,
+    "reference_estimate_usd": 0.033262860000000005,
+    "unknown_usage_attempts": 1
+  },
+  "reference_estimate_usd": 0.03326285999999978,
+  "context_sha256": "8f5fea0b216d5557a13cecd2946d164020d5c4c2d3c66b708fc2c8fd93ba07e7",
+  "context_characters": 64728,
+  "stage": "agent-runs-schema-fixed",
+  "http": {
+    "total": 730,
+    "passed": 721,
+    "functional_failures": 9,
+    "security_failures": 9,
+    "unknown_access_checks": 0,
+    "invariant_preserved": false
+  },
+  "new_access_failure_ids": [],
+  "evidence_directory": "models/agent-runs-schema-fixed/03-gpt56-luna",
+  "whole_application_rewrite_completed": false
+}

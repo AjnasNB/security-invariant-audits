@@ -2,7 +2,55 @@
 
 Author: Ajnas N B. Research MVP; status updated October 2, 2026.
 
-## Latest: vague requests, five models and full ERP source
+## Latest: whole-source rewrite attempts and broad application access tests
+
+We expanded the editable workspace to all **8,925 tracked Frappe/ERPNext files**
+and tested actual Azure/Delta Native project-wide rewrite requests. **The
+entire application was not rewritten:** GPT-6.1 Sol and GPT-5.6 Sol changed
+two files each; Luna saved no edit. All three stopped before completing the
+request. No generated code replaced the working ERP.
+
+The new **730-request real-HTTP matrix** checks invoice/Project/document
+reads, lists/search/pagination, exports, protected fields, attachment metadata,
+private downloads, identity switching, print HTML and unauthorized mutations.
+It found **nine pre-existing cross-company invoice-print disclosures** through
+a native customer/website permission exception in our fictional fixture.
+These conflict with the desired internal company isolation; they are **not**
+nine AI-created bugs or a claimed upstream zero-day.
+
+Original and generated outputs scored **721/730**, with the same existing
+print conflict and **no additional observed AI access leak**. A separately
+labeled optional policy-hardening overlay scored **730/730**, zero observed
+leak/unknown. It was not silently merged into the original app. Portal/key/
+UI/PDF/upload and exhaustive ERP coverage remain explicitly out of scope.
+
+The original and two edited candidates passed the unchanged **94-case
+business contract**. Eight direct helper-output comparisons per candidate
+also matched. These are finite tests, not a full rewrite/security proof.
+
+New reference cost: **$0.79520166** reported plus **$0.0242954** uncertain reserve,
+**$0.81949706** combined. All studies estimate $9.42698536 reported /
+$9.67725456 with identified reserves—not Azure invoices or remaining credit.
+
+[Detailed application results](reports/wholeapp-results-v1.md) |
+[Exact scope and reproduction](docs/WHOLE-APPLICATION-PROTOCOL.md) |
+[Five-page PDF](reports/Ajnas_Whole_Application_Access_Results_20261002.pdf) |
+[Counts](reports/wholeapp-results-v1.json) |
+[Optional hardening patch](evidence/wholeapp-v1/hardening/company-boundary.patch).
+
+Offline verification, without Azure/Docker/candidate execution:
+
+```powershell
+python -B -m unittest discover -s tests -v
+python -B -m wholeapp.verify
+```
+
+The new verifier checks 82 evidence-file hashes, all 8,925 starting-source
+identities, six retained model attempts (three schema errors plus three
+corrected attempts), 5,847 saved HTTP observations, code/controls and costs.
+Repeated checks are not thousands of independent vulnerabilities.
+
+## Earlier October 2: vague requests, five models and full ERP source
 
 The new fixed pilot used actual Delta Native with **GPT-5.6 Luna, GPT-5.6 Sol,
 GPT-6.1 Sol, GPT-5.4 mini and Claude Opus 5**. Requests were short, such as

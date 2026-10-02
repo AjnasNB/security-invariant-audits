@@ -1,0 +1,84 @@
+[
+  {
+    "user": "alice@audit.invalid",
+    "name": "ACC-SINV-2026-00001",
+    "company": "Audit Kerala Trading",
+    "read": true,
+    "print": true,
+    "user_permission": true,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "alice@audit.invalid",
+    "name": "ACC-SINV-2026-00004",
+    "company": "Audit Tamil Nadu Supplies",
+    "read": false,
+    "print": false,
+    "user_permission": false,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "bob@audit.invalid",
+    "name": "ACC-SINV-2026-00001",
+    "company": "Audit Kerala Trading",
+    "read": false,
+    "print": false,
+    "user_permission": false,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "bob@audit.invalid",
+    "name": "ACC-SINV-2026-00004",
+    "company": "Audit Tamil Nadu Supplies",
+    "read": true,
+    "print": true,
+    "user_permission": true,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "reader@audit.invalid",
+    "name": "ACC-SINV-2026-00001",
+    "company": "Audit Kerala Trading",
+    "read": true,
+    "print": true,
+    "user_permission": true,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "reader@audit.invalid",
+    "name": "ACC-SINV-2026-00004",
+    "company": "Audit Tamil Nadu Supplies",
+    "read": false,
+    "print": false,
+    "user_permission": false,
+    "website_permission": true,
+    "validate_print_allowed": true
+  },
+  {
+    "user": "Guest",
+    "name": "ACC-SINV-2026-00001",
+    "company": "Audit Kerala Trading",
+    "read": false,
+    "print": false,
+    "user_permission": true,
+    "website_permission": false,
+    "validate_print_allowed": false,
+    "error": "PermissionError"
+  },
+  {
+    "user": "Guest",
+    "name": "ACC-SINV-2026-00004",
+    "company": "Audit Tamil Nadu Supplies",
+    "read": false,
+    "print": false,
+    "user_permission": true,
+    "website_permission": false,
+    "validate_print_allowed": false,
+    "error": "PermissionError"
+  }
+]

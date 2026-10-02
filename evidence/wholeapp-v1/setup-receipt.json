@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-02T15:37:08.701546+00:00",
+  "isolated": true,
+  "source_database_read_only_export": true,
+  "source_snapshot_sha256": "8362468dad043531ecbae0399169c07f7792a26ba3dcfad1477ec1dbf0a1f8ad",
+  "source_dump_bytes": 9535901,
+  "database_storage": "Disposable RAM tmpfs",
+  "network": "ajnas-wholeapp-20261002",
+  "candidate_http": "http://127.0.0.1:18081",
+  "source_seed": {
+    "companies": [
+      {
+        "name": "Audit Kerala Trading",
+        "abbr": "AKT"
+      },
+      {
+        "name": "Audit Tamil Nadu Supplies",
+        "abbr": "ATS"
+      }
+    ],
+    "users": {
+      "alice": "alice@audit.invalid",
+      "bob": "bob@audit.invalid",
+      "reader": "reader@audit.invalid",
+      "outsider": "outsider@audit.invalid"
+    },
+    "invoices": [
+      {
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 1,
+        "owner": "Administrator",
+        "quantity": 2,
+        "rate": "1000",
+        "net_expected": "2000",
+        "grand_expected": "2360.00",
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "outstanding": 2360.0
+      },
+      {
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 3,
+        "rate": "275.5",
+        "net_expected": "826.5",
+        "grand_expected": "975.27",
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "outstanding": 975.27
+      },
+      {
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 1,
+        "rate": "1234.56",
+        "net_expected": "1234.56",
+        "grand_expected": "1456.78",
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "outstanding": 1456.78
+      },
+      {
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 1,
+        "owner": "Administrator",
+        "quantity": 2,
+        "rate": "1000",
+        "net_expected": "2000",
+        "grand_expected": "2360.00",
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "outstanding": 2360.0
+      },
+      {
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 3,
+        "rate": "275.5",
+        "net_expected": "826.5",
+        "grand_expected": "975.27",
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "outstanding": 975.27
+      },
+      {
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 1,
+        "rate": "1234.56",
+        "net_expected": "1234.56",
+        "grand_expected": "1456.78",
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "outstanding": 1456.78
+      }
+    ],
+    "data_is_fictional": true,
+    "policy": "ERPNext Accounts roles + configured Company User Permissions. No owner-only requirement was added.",
+    "tax_note": "Arithmetic fixture only; no GST registration/e-invoice/e-waybill integration or compliance claim."
+  },
+  "existing_application_unchanged": true,
+  "setup_readiness_retry_retained": true
+}

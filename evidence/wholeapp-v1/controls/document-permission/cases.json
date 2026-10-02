@@ -1,0 +1,32 @@
+[
+  {
+    "id": "whole-0161",
+    "user": "alice@audit.invalid",
+    "surface": "resource-document-read",
+    "method": "GET",
+    "route": "/api/resource/Project/PROJ-0001",
+    "expected_allowed": true,
+    "document": {
+      "doctype": "Project",
+      "name": "PROJ-0001"
+    },
+    "expected_names": [
+      "PROJ-0001"
+    ],
+    "check_secret_field": true
+  },
+  {
+    "id": "whole-0168",
+    "user": "alice@audit.invalid",
+    "surface": "resource-document-read",
+    "method": "GET",
+    "route": "/api/resource/Project/PROJ-0002",
+    "expected_allowed": false,
+    "document": {
+      "doctype": "Project",
+      "name": "PROJ-0002"
+    },
+    "expected_names": [],
+    "check_secret_field": true
+  }
+]

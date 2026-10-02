@@ -1,0 +1,12 @@
+{
+  "registered_at": "2026-10-02T16:29:34.437518+00:00",
+  "not_an_ai_generated_patch": true,
+  "not_a_stock_upstream_security_claim": true,
+  "goal": "Enforce the study's Company boundary for internal System Users at the print/website fallback",
+  "native_exceptions_retained": "Normal read/print authorization, Website User portal fallback and explicit valid share keys",
+  "original_sha256": "af2897500003562830286637c9f24a6d0781d71a609f41402d566d8f87d38248",
+  "patch_sha256": "dc542dde61c1b7dd97646811dd5a33d0e6952723eb3a1640a77df6ebfac03e83",
+  "application_mutation_scope": "Disposable overlay only; no original ERP/source checkout is modified",
+  "existing_baseline_print_failures": 9,
+  "protocol": "730 frozen real-HTTP requests; no replacing original or generated model results"
+}

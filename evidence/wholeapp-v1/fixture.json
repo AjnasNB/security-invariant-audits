@@ -1,0 +1,316 @@
+{
+  "source": {
+    "companies": [
+      {
+        "name": "Audit Kerala Trading",
+        "abbr": "AKT"
+      },
+      {
+        "name": "Audit Tamil Nadu Supplies",
+        "abbr": "ATS"
+      }
+    ],
+    "users": {
+      "alice": "alice@audit.invalid",
+      "bob": "bob@audit.invalid",
+      "reader": "reader@audit.invalid",
+      "outsider": "outsider@audit.invalid"
+    },
+    "invoices": [
+      {
+        "name": "ACC-SINV-2026-00001",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 1,
+        "owner": "Administrator",
+        "quantity": 2,
+        "rate": "1000",
+        "net_expected": "2000",
+        "grand_expected": "2360.00",
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "outstanding": 2360.0
+      },
+      {
+        "name": "ACC-SINV-2026-00002",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 3,
+        "rate": "275.5",
+        "net_expected": "826.5",
+        "grand_expected": "975.27",
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "outstanding": 975.27
+      },
+      {
+        "name": "ACC-SINV-2026-00003",
+        "company": "Audit Kerala Trading",
+        "company_index": 0,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 1,
+        "rate": "1234.56",
+        "net_expected": "1234.56",
+        "grand_expected": "1456.78",
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "outstanding": 1456.78
+      },
+      {
+        "name": "ACC-SINV-2026-00004",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 1,
+        "owner": "Administrator",
+        "quantity": 2,
+        "rate": "1000",
+        "net_expected": "2000",
+        "grand_expected": "2360.00",
+        "net_total": 2000.0,
+        "grand_total": 2360.0,
+        "outstanding": 2360.0
+      },
+      {
+        "name": "ACC-SINV-2026-00005",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 3,
+        "rate": "275.5",
+        "net_expected": "826.5",
+        "grand_expected": "975.27",
+        "net_total": 826.5,
+        "grand_total": 975.27,
+        "outstanding": 975.27
+      },
+      {
+        "name": "ACC-SINV-2026-00006",
+        "company": "Audit Tamil Nadu Supplies",
+        "company_index": 1,
+        "status": 0,
+        "owner": "Administrator",
+        "quantity": 1,
+        "rate": "1234.56",
+        "net_expected": "1234.56",
+        "grand_expected": "1456.78",
+        "net_total": 1234.56,
+        "grand_total": 1456.78,
+        "outstanding": 1456.78
+      }
+    ],
+    "data_is_fictional": true,
+    "policy": "ERPNext Accounts roles + configured Company User Permissions. No owner-only requirement was added.",
+    "tax_note": "Arithmetic fixture only; no GST registration/e-invoice/e-waybill integration or compliance claim."
+  },
+  "documents": [
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00001",
+      "company_index": 0,
+      "company": "Audit Kerala Trading",
+      "secret": "AJNAS_FIELD_SECRET_INV_00_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_00_20261002"
+    },
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00002",
+      "company_index": 0,
+      "company": "Audit Kerala Trading",
+      "secret": "AJNAS_FIELD_SECRET_INV_01_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_01_20261002"
+    },
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00003",
+      "company_index": 0,
+      "company": "Audit Kerala Trading",
+      "secret": "AJNAS_FIELD_SECRET_INV_02_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_02_20261002"
+    },
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00004",
+      "company_index": 1,
+      "company": "Audit Tamil Nadu Supplies",
+      "secret": "AJNAS_FIELD_SECRET_INV_03_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_03_20261002"
+    },
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00005",
+      "company_index": 1,
+      "company": "Audit Tamil Nadu Supplies",
+      "secret": "AJNAS_FIELD_SECRET_INV_04_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_04_20261002"
+    },
+    {
+      "doctype": "Sales Invoice",
+      "name": "ACC-SINV-2026-00006",
+      "company_index": 1,
+      "company": "Audit Tamil Nadu Supplies",
+      "secret": "AJNAS_FIELD_SECRET_INV_05_20261002",
+      "content_marker": "AJNAS_INV_PRIVATE_05_20261002"
+    },
+    {
+      "doctype": "Project",
+      "name": "PROJ-0001",
+      "company_index": 0,
+      "company": "Audit Kerala Trading",
+      "secret": "AJNAS_FIELD_SECRET_DOC_00_20261002",
+      "content_marker": "AJNAS_DOC_PRIVATE_00_20261002"
+    },
+    {
+      "doctype": "Project",
+      "name": "PROJ-0002",
+      "company_index": 1,
+      "company": "Audit Tamil Nadu Supplies",
+      "secret": "AJNAS_FIELD_SECRET_DOC_01_20261002",
+      "content_marker": "AJNAS_DOC_PRIVATE_01_20261002"
+    }
+  ],
+  "files": [
+    {
+      "name": "be51b398ed",
+      "file_url": "/private/files/ajnas-private-0060d40c.txt",
+      "file_name": "ajnas-private-0060d40c.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_00_20261002",
+      "company_index": 0,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00001",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "9883c9114f",
+      "file_url": "/private/files/ajnas-private-01c180d2.txt",
+      "file_name": "ajnas-private-01c180d2.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_01_20261002",
+      "company_index": 0,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00002",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "e6f6d4c6ff",
+      "file_url": "/private/files/ajnas-private-02145227.txt",
+      "file_name": "ajnas-private-02145227.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_02_20261002",
+      "company_index": 0,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00003",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "d99d8183c8",
+      "file_url": "/private/files/ajnas-private-03e45c9d.txt",
+      "file_name": "ajnas-private-03e45c9d.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_03_20261002",
+      "company_index": 1,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00004",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "a7fb1b8486",
+      "file_url": "/private/files/ajnas-private-0496d31c.txt",
+      "file_name": "ajnas-private-0496d31c.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_04_20261002",
+      "company_index": 1,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00005",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "469c677555",
+      "file_url": "/private/files/ajnas-private-05c37fae.txt",
+      "file_name": "ajnas-private-05c37fae.txt",
+      "private": true,
+      "content_marker": "AJNAS_INV_PRIVATE_05_20261002",
+      "company_index": 1,
+      "attached_to_doctype": "Sales Invoice",
+      "attached_to_name": "ACC-SINV-2026-00006",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "3bcc0feaf9",
+      "file_url": "/private/files/ajnas-private-06bd7fd4.txt",
+      "file_name": "ajnas-private-06bd7fd4.txt",
+      "private": true,
+      "content_marker": "AJNAS_DOC_PRIVATE_00_20261002",
+      "company_index": 0,
+      "attached_to_doctype": "Project",
+      "attached_to_name": "PROJ-0001",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "7bf4a7c66f",
+      "file_url": "/private/files/ajnas-private-07ea6f52.txt",
+      "file_name": "ajnas-private-07ea6f52.txt",
+      "private": true,
+      "content_marker": "AJNAS_DOC_PRIVATE_01_20261002",
+      "company_index": 1,
+      "attached_to_doctype": "Project",
+      "attached_to_name": "PROJ-0002",
+      "owner": "Administrator",
+      "shared_with": []
+    },
+    {
+      "name": "f7ba27e630",
+      "file_url": "/private/files/ajnas-owner-only883622.txt",
+      "file_name": "ajnas-owner-only883622.txt",
+      "private": true,
+      "content_marker": "AJNAS_OWNER_PRIVATE_20261002",
+      "company_index": null,
+      "attached_to_doctype": null,
+      "attached_to_name": null,
+      "owner": "alice@audit.invalid",
+      "shared_with": []
+    },
+    {
+      "name": "1b71d00c07",
+      "file_url": "/private/files/ajnas-explicit-sharede2d8ef.txt",
+      "file_name": "ajnas-explicit-sharede2d8ef.txt",
+      "private": true,
+      "content_marker": "AJNAS_SHARED_PRIVATE_20261002",
+      "company_index": null,
+      "attached_to_doctype": null,
+      "attached_to_name": null,
+      "owner": "bob@audit.invalid",
+      "shared_with": [
+        "reader@audit.invalid"
+      ]
+    },
+    {
+      "name": "712608f685",
+      "file_url": "/files/ajnas-public-examplee3cddf.txt",
+      "file_name": "ajnas-public-examplee3cddf.txt",
+      "private": false,
+      "content_marker": "AJNAS_PUBLIC_20261002",
+      "company_index": null,
+      "attached_to_doctype": null,
+      "attached_to_name": null,
+      "owner": "Administrator",
+      "shared_with": []
+    }
+  ],
+  "fictional": true,
+  "secret_field": "custom_audit_secret",
+  "secret_reader_role": "Audit Secret Reader",
+  "policy": "ERPNext/Frappe native role+Company User Permission; File owner/admin/public/explicit share exceptions",
+  "seed_clock": "2026-10-01T12:00:00"
+}

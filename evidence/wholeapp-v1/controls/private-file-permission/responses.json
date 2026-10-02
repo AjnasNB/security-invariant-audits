@@ -1,0 +1,35 @@
+[
+  {
+    "id": "whole-0195",
+    "http_status": 200,
+    "body": "AJNAS_INV_PRIVATE_00_20261002\nFictional internal attachment only.\n",
+    "bytes": 66,
+    "sha256": "a8a15476b37636ca36ff16847e2806020dbf2722124fe82ab3740fb900d1eb75",
+    "cache_control": "no-cache",
+    "body_error_diagnostics_removed": false,
+    "original_response_sha256": "a8a15476b37636ca36ff16847e2806020dbf2722124fe82ab3740fb900d1eb75",
+    "public_body_sha256": "a8a15476b37636ca36ff16847e2806020dbf2722124fe82ab3740fb900d1eb75"
+  },
+  {
+    "id": "whole-0207",
+    "http_status": 200,
+    "body": "AJNAS_INV_PRIVATE_03_20261002\nFictional internal attachment only.\n",
+    "bytes": 66,
+    "sha256": "a4e0d025648578db8e5d0fefdda80589b5517a03c11a8a64fc074a96a61e5c63",
+    "cache_control": "no-cache",
+    "body_error_diagnostics_removed": false,
+    "original_response_sha256": "a4e0d025648578db8e5d0fefdda80589b5517a03c11a8a64fc074a96a61e5c63",
+    "public_body_sha256": "a4e0d025648578db8e5d0fefdda80589b5517a03c11a8a64fc074a96a61e5c63"
+  },
+  {
+    "id": "whole-0223",
+    "http_status": 200,
+    "body": "AJNAS_DOC_PRIVATE_01_20261002\nFictional internal attachment only.\n",
+    "bytes": 66,
+    "sha256": "c11c0dee15070701cca18d5b2e67e62adba350a4e0e73bb261ca950f75bb4ecb",
+    "cache_control": "no-cache",
+    "body_error_diagnostics_removed": false,
+    "original_response_sha256": "c11c0dee15070701cca18d5b2e67e62adba350a4e0e73bb261ca950f75bb4ecb",
+    "public_body_sha256": "c11c0dee15070701cca18d5b2e67e62adba350a4e0e73bb261ca950f75bb4ecb"
+  }
+]

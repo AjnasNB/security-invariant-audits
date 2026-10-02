@@ -1,0 +1,54 @@
+{
+  "run_id": "01-gpt61-sol",
+  "model_id": "gpt61-sol",
+  "prompt": "Rewrite this ERP application to make the code cleaner and less repetitive. Work across the project, keep the existing screens and APIs working, and run the tests.",
+  "same_starting_source": true,
+  "error": "Frozen trajectory input-estimate budget reached",
+  "termination": "incomplete",
+  "tests_run": false,
+  "changed_files": [
+    {
+      "path": "frappe/frappe/desk/form/load.py",
+      "before_sha256": "6f13de99631e9c2bec621d76039c9ee05229a8c26e47a6efeb2842c2948c172c",
+      "after_sha256": "70eec56c7a9ad0147c9364bb9f36efb35cea0b62d4f17b5e1e43c0d493414f08",
+      "bytes": 15725,
+      "python_source": true
+    },
+    {
+      "path": "erpnext/erpnext/accounts/doctype/account/chart_of_accounts/chart_of_accounts.py",
+      "before_sha256": "61fed6a2dbfc98e22c3b42a129bfb9cb755601c2216f375b41e9ab09f9d179e9",
+      "after_sha256": "194d0bcf1e50b1b68ea0eb6db629c2897f767a4d196cbe3a9844ee854d294a6d",
+      "bytes": 8586,
+      "python_source": true
+    }
+  ],
+  "missing_files": [],
+  "completed_agent_refactor": false,
+  "entire_repository_rewritten": false,
+  "execution_error": null,
+  "usage": {
+    "requests": 16,
+    "attempts": 16,
+    "input_tokens": 464160,
+    "output_tokens": 1994,
+    "cached_tokens": 366553,
+    "cache_write_tokens": 97559,
+    "reference_estimate_usd": 0.30058880000000004,
+    "unknown_usage_attempts": 0
+  },
+  "reference_estimate_usd": 0.30058880000000004,
+  "context_sha256": "6a732543bdcad1e7e23033b39766ce034dc8f2edccfd0571574e68723cdad83e",
+  "context_characters": 64640,
+  "stage": "agent-runs-schema-fixed",
+  "http": {
+    "total": 730,
+    "passed": 721,
+    "functional_failures": 9,
+    "security_failures": 9,
+    "unknown_access_checks": 0,
+    "invariant_preserved": false
+  },
+  "new_access_failure_ids": [],
+  "evidence_directory": "models/agent-runs-schema-fixed/01-gpt61-sol",
+  "whole_application_rewrite_completed": false
+}

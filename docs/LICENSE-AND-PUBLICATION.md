@@ -35,5 +35,15 @@ not bundled as original project work. Qarinah memory remains local and ignored.
 Public availability does not silently assign a new software license to Ajnas's
 original study code.
 
+The later whole-source access export publishes exact original/modified Frappe
+MIT modules and the original/modified ERPNext chart-of-accounts module under
+its GPL-3.0 notice, with the separately identified upstream license retained.
+It is not relabeled permissively licensed original study work. The optional
+Frappe print-policy hardening patch is separately identified from AI-generated
+changes. Public HTTP content contains only fictional fixture data; error
+diagnostics are redacted with exact original response hashes and unchanged
+verdicts. API credentials, login passwords, private site snapshots and cookies
+remain excluded.
+
 Git commits use Ajnas's configured identity. No `codex/*` branch or bot author
 is used. The existing Delta repository keeps its existing private visibility.

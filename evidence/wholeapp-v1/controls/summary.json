@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-02T16:05:47.732167+00:00",
+  "controls": [
+    {
+      "control": "invoice-permission",
+      "seeded_not_model_finding": true,
+      "total": 2,
+      "passed": 1,
+      "security_failures": 1,
+      "judge_rejects_fault": true
+    },
+    {
+      "control": "document-permission",
+      "seeded_not_model_finding": true,
+      "total": 2,
+      "passed": 1,
+      "security_failures": 1,
+      "judge_rejects_fault": true
+    },
+    {
+      "control": "private-file-permission",
+      "seeded_not_model_finding": true,
+      "total": 3,
+      "passed": 1,
+      "security_failures": 2,
+      "judge_rejects_fault": true
+    }
+  ],
+  "azure_calls": 0,
+  "passed": true
+}
