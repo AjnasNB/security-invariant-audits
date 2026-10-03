@@ -1,0 +1,5842 @@
+[
+  {
+    "id": "whole-0000",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0001",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0002",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0003",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0004",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0005",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0006",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0007",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0008",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0009",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0010",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0011",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0012",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0013",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0014",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0015",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0016",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0017",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0018",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0019",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0020",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0021",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0022",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0023",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0024",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0025",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0026",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0027",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0028",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0029",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0030",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0031",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0032",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0033",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0034",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0035",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0036",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0037",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0038",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0039",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0040",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0041",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0042",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0043",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0044",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0045",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0046",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0047",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0048",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0049",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0050",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0051",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0052",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0053",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0054",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0055",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0056",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0057",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0058",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0059",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0060",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0061",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0062",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0063",
+    "surface": "csv-export",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0064",
+    "surface": "protected-field-query",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0065",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0066",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0067",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0068",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0069",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0070",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0071",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0072",
+    "surface": "csv-export",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0073",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0074",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0075",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0076",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0077",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0078",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0079",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0080",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0081",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0082",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0083",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0084",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0085",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0086",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0087",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0088",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0089",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0090",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0091",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0092",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0093",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0094",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0095",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0096",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0097",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0098",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0099",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0100",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0101",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0102",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0103",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0104",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0105",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0106",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0107",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0108",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0109",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0110",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0111",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0112",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0113",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0114",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0115",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0116",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0117",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0118",
+    "surface": "missing-record",
+    "http_status": 404,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0119",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0120",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0121",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0122",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0123",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0124",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0125",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0126",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0127",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0128",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0129",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0130",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0131",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0132",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0133",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0134",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0135",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0136",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0137",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0138",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0139",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0140",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0141",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0142",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0143",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0144",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0145",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0146",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0147",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0148",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0149",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0150",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0151",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0152",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0153",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0154",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0155",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0156",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0157",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0158",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0159",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0160",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0161",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0162",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0163",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0164",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0165",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0166",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0167",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0168",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0169",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0170",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0171",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0172",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0173",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0174",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0175",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0176",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0177",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0178",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0179",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0180",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0181",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0182",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0183",
+    "surface": "protected-field-query",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0184",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0185",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0186",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0187",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0188",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0189",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0190",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0191",
+    "surface": "csv-export",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0192",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0193",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0194",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0195",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0196",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0197",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0198",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0199",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0200",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0201",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0202",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0203",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0204",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0205",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0206",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0207",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0208",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0209",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0210",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0211",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0212",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0213",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0214",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0215",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0216",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0217",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0218",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0219",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0220",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0221",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0222",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0223",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0224",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0225",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0226",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0227",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0228",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0229",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0230",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0231",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0232",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0233",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0234",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0235",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0236",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0237",
+    "surface": "missing-record",
+    "http_status": 404,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0238",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0239",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0240",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0241",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0242",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0243",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0244",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0245",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0246",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0247",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0248",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0249",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0250",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0251",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0252",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0253",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0254",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0255",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0256",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0257",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0258",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0259",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0260",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0261",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0262",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0263",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0264",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0265",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0266",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0267",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0268",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0269",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0270",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0271",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0272",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0273",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0274",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0275",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0276",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0277",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0278",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0279",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0280",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0281",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0282",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0283",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0284",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0285",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0286",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0287",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0288",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0289",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0290",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0291",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0292",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0293",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0294",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0295",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0296",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0297",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0298",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0299",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0300",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0301",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0302",
+    "surface": "protected-field-query",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0303",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0304",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0305",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0306",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0307",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0308",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0309",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0310",
+    "surface": "csv-export",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0311",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0312",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0313",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0314",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0315",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0316",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0317",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0318",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0319",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0320",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0321",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0322",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0323",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0324",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0325",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0326",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0327",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0328",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0329",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0330",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0331",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0332",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0333",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0334",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0335",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0336",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0337",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0338",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0339",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0340",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0341",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0342",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0343",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0344",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0345",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0346",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0347",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0348",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0349",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0350",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0351",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0352",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0353",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0354",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0355",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0356",
+    "surface": "missing-record",
+    "http_status": 404,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0357",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0358",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0359",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0360",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0361",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0362",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0363",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0364",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0365",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0366",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0367",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0368",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0369",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0370",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0371",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0372",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0373",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0374",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0375",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0376",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0377",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0378",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0379",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0380",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0381",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0382",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0383",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0384",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0385",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0386",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0387",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0388",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0389",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0390",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0391",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0392",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0393",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0394",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0395",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0396",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0397",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0398",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": false,
+    "access_verdict": "VIOLATION",
+    "security_failure": true
+  },
+  {
+    "id": "whole-0399",
+    "surface": "resource-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0400",
+    "surface": "version2-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0401",
+    "surface": "rpc-document-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0402",
+    "surface": "form-document-load",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0403",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0404",
+    "surface": "attachment-gallery",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0405",
+    "surface": "document-print",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0406",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0407",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0408",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0409",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0410",
+    "surface": "field-value-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0411",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0412",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0413",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0414",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0415",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0416",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0417",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0418",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0419",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0420",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0421",
+    "surface": "protected-field-query",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0422",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0423",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0424",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0425",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0426",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0427",
+    "surface": "list-pagination",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0428",
+    "surface": "link-search",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0429",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0430",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0431",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0432",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0433",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0434",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0435",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0436",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0437",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0438",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0439",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0440",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0441",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0442",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0443",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0444",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0445",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0446",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0447",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0448",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0449",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0450",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0451",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0452",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0453",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0454",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0455",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0456",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0457",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0458",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0459",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0460",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0461",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0462",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0463",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0464",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0465",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0466",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0467",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0468",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0469",
+    "surface": "private-file-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0470",
+    "surface": "private-file-id-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0471",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0472",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0473",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0474",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0475",
+    "surface": "missing-record",
+    "http_status": 404,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0476",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0477",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0478",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0479",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0480",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0481",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0482",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0483",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0484",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0485",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0486",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0487",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0488",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0489",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0490",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0491",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0492",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0493",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0494",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0495",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0496",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0497",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0498",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0499",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0500",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0501",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0502",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0503",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0504",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0505",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0506",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0507",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0508",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0509",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0510",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0511",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0512",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0513",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0514",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0515",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0516",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0517",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0518",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0519",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0520",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0521",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0522",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0523",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0524",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0525",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0526",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0527",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0528",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0529",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0530",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0531",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0532",
+    "surface": "resource-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0533",
+    "surface": "rpc-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0534",
+    "surface": "report-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0535",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0536",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0537",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0538",
+    "surface": "link-search",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0539",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0540",
+    "surface": "protected-field-query",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0541",
+    "surface": "resource-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0542",
+    "surface": "rpc-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0543",
+    "surface": "report-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0544",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0545",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0546",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0547",
+    "surface": "link-search",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0548",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0549",
+    "surface": "resource-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0550",
+    "surface": "rpc-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0551",
+    "surface": "report-list",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0552",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0553",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0554",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0555",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0556",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0557",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0558",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0559",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0560",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0561",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0562",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0563",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0564",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0565",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0566",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0567",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0568",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0569",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0570",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0571",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0572",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0573",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0574",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0575",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0576",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0577",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0578",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0579",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0580",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0581",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0582",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0583",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0584",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0585",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0586",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0587",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0588",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0589",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0590",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0591",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0592",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0593",
+    "surface": "file-metadata-read",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0594",
+    "surface": "missing-record",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0595",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0596",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0597",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0598",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0599",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0600",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0601",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0602",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0603",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0604",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0605",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0606",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0607",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0608",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0609",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0610",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0611",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0612",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0613",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0614",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0615",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0616",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0617",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0618",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0619",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0620",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0621",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0622",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0623",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0624",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0625",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0626",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0627",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0628",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0629",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0630",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0631",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0632",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0633",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0634",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0635",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0636",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0637",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0638",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0639",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0640",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0641",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0642",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0643",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0644",
+    "surface": "resource-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0645",
+    "surface": "version2-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0646",
+    "surface": "rpc-document-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0647",
+    "surface": "form-document-load",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0648",
+    "surface": "field-value-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0649",
+    "surface": "attachment-gallery",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0650",
+    "surface": "document-print",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0651",
+    "surface": "resource-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0652",
+    "surface": "rpc-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0653",
+    "surface": "report-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0654",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0655",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0656",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0657",
+    "surface": "link-search",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0658",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0659",
+    "surface": "protected-field-query",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0660",
+    "surface": "resource-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0661",
+    "surface": "rpc-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0662",
+    "surface": "report-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0663",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0664",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0665",
+    "surface": "list-pagination",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0666",
+    "surface": "link-search",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0667",
+    "surface": "csv-export",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0668",
+    "surface": "resource-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0669",
+    "surface": "rpc-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0670",
+    "surface": "report-list",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0671",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0672",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0673",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0674",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0675",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0676",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0677",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0678",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0679",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0680",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0681",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0682",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0683",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0684",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0685",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0686",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0687",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0688",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0689",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0690",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0691",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0692",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0693",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0694",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0695",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0696",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0697",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0698",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0699",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0700",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0701",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0702",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0703",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0704",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0705",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0706",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0707",
+    "surface": "private-file-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0708",
+    "surface": "private-file-id-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0709",
+    "surface": "file-rpc-download",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0710",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0711",
+    "surface": "file-rpc-download",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0712",
+    "surface": "file-metadata-read",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0713",
+    "surface": "missing-record",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0714",
+    "surface": "identity-switch-cache",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0715",
+    "surface": "identity-switch-cache",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0716",
+    "surface": "identity-switch-cache",
+    "http_status": 200,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0717",
+    "surface": "identity-switch-cache",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0718",
+    "surface": "unauthorized-update",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0719",
+    "surface": "client-supplied-ignore-permissions",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0720",
+    "surface": "unauthorized-file-delete",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0721",
+    "surface": "unauthorized-update",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0722",
+    "surface": "client-supplied-ignore-permissions",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0723",
+    "surface": "unauthorized-file-delete",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0724",
+    "surface": "unauthorized-update",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0725",
+    "surface": "client-supplied-ignore-permissions",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0726",
+    "surface": "unauthorized-file-delete",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0727",
+    "surface": "unauthorized-update",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0728",
+    "surface": "client-supplied-ignore-permissions",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  },
+  {
+    "id": "whole-0729",
+    "surface": "unauthorized-file-delete",
+    "http_status": 403,
+    "passed": true,
+    "access_verdict": "PRESERVED_IN_CHECKED_RESPONSE",
+    "security_failure": false
+  }
+]

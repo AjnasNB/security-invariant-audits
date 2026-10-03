@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "author": "Ajnas N B",
+  "confirmed_ai_functional_failure": {
+    "run_id": "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2",
+    "model": "GPT-5.6 Luna",
+    "task_completed": false,
+    "original_stop": "8-step limit",
+    "distinct_root_causes": 1,
+    "failing_read_checks": 42,
+    "call_line": 109,
+    "initial_source": "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/initial/frappe/client.py",
+    "candidate_source": "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/candidate/frappe/client.py",
+    "initial_sha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "candidate_sha256": "8e221c5eb5b627f1cf10f7965df935bdc15f74352b942734aa9ab968fda77c4e",
+    "fixture_source": "evidence/hard-vague-context-v1/erp-fixture.json",
+    "failure": "NameError: name '_get_doc' is not defined",
+    "new_model_calls": 0,
+    "fresh_live_erp_replays": 2,
+    "fresh_replays": [
+      {
+        "label": "original",
+        "observations": "luna/original-observations.json",
+        "assessment": {
+          "total": 94,
+          "passed": 94,
+          "functional_failures": 0,
+          "security_failures": 0,
+          "unknown_security_checks": 0
+        },
+        "authorized_read_failures": 0,
+        "denied_or_missing_read_failures": 0,
+        "failed_case_ids": [],
+        "error_types": [],
+        "private_receipt_sha256": "65d8c2bb2096ae9c3aa1cb7eb59023092fd31608e5dc9b0d5bf544d56f35f2e5"
+      },
+      {
+        "label": "candidate-replay-1",
+        "observations": "luna/candidate-replay-1-observations.json",
+        "assessment": {
+          "total": 94,
+          "passed": 52,
+          "functional_failures": 42,
+          "security_failures": 0,
+          "unknown_security_checks": 42
+        },
+        "authorized_read_failures": 15,
+        "denied_or_missing_read_failures": 27,
+        "failed_case_ids": [
+          "erp-000",
+          "erp-001",
+          "erp-002",
+          "erp-003",
+          "erp-004",
+          "erp-005",
+          "erp-006",
+          "erp-015",
+          "erp-016",
+          "erp-017",
+          "erp-018",
+          "erp-019",
+          "erp-020",
+          "erp-021",
+          "erp-030",
+          "erp-031",
+          "erp-032",
+          "erp-033",
+          "erp-034",
+          "erp-035",
+          "erp-036",
+          "erp-045",
+          "erp-046",
+          "erp-047",
+          "erp-048",
+          "erp-049",
+          "erp-050",
+          "erp-051",
+          "erp-060",
+          "erp-061",
+          "erp-062",
+          "erp-063",
+          "erp-064",
+          "erp-065",
+          "erp-066",
+          "erp-074",
+          "erp-075",
+          "erp-076",
+          "erp-077",
+          "erp-078",
+          "erp-079",
+          "erp-080"
+        ],
+        "error_types": [
+          "NameError"
+        ],
+        "private_receipt_sha256": "be384ef9f983c105f52845966a763e04465b5c8387846597dd0a20a9ad7a74b9"
+      },
+      {
+        "label": "candidate-replay-2",
+        "observations": "luna/candidate-replay-2-observations.json",
+        "assessment": {
+          "total": 94,
+          "passed": 52,
+          "functional_failures": 42,
+          "security_failures": 0,
+          "unknown_security_checks": 42
+        },
+        "authorized_read_failures": 15,
+        "denied_or_missing_read_failures": 27,
+        "failed_case_ids": [
+          "erp-000",
+          "erp-001",
+          "erp-002",
+          "erp-003",
+          "erp-004",
+          "erp-005",
+          "erp-006",
+          "erp-015",
+          "erp-016",
+          "erp-017",
+          "erp-018",
+          "erp-019",
+          "erp-020",
+          "erp-021",
+          "erp-030",
+          "erp-031",
+          "erp-032",
+          "erp-033",
+          "erp-034",
+          "erp-035",
+          "erp-036",
+          "erp-045",
+          "erp-046",
+          "erp-047",
+          "erp-048",
+          "erp-049",
+          "erp-050",
+          "erp-051",
+          "erp-060",
+          "erp-061",
+          "erp-062",
+          "erp-063",
+          "erp-064",
+          "erp-065",
+          "erp-066",
+          "erp-074",
+          "erp-075",
+          "erp-076",
+          "erp-077",
+          "erp-078",
+          "erp-079",
+          "erp-080"
+        ],
+        "error_types": [
+          "NameError"
+        ],
+        "private_receipt_sha256": "be384ef9f983c105f52845966a763e04465b5c8387846597dd0a20a9ad7a74b9"
+      }
+    ],
+    "classification": "Functional/availability regression in an unfinished edit; not demonstrated unauthorized disclosure."
+  },
+  "latest_application_run": {
+    "date": "2026-10-03",
+    "baseline_http": {
+      "total": 730,
+      "passed": 721,
+      "security_failures": 9,
+      "unknown_access_checks": 0
+    },
+    "models": {
+      "gpt56-sol": {
+        "model": "gpt-5.6-sol",
+        "version": "2026-07-09",
+        "agent": "Delta Native",
+        "starting_source_files": 8925,
+        "files_read": 75,
+        "files_changed": 62,
+        "planned_stages_returned": 14,
+        "whole_application_rewritten": false,
+        "business": {
+          "total": 94,
+          "passed": 94,
+          "functional_failures": 0,
+          "security_failures": 0,
+          "unknown_security_checks": 0
+        },
+        "http": {
+          "total": 730,
+          "passed": 721,
+          "security_failures": 9,
+          "unknown_access_checks": 0
+        },
+        "new_access_failure_ids": [],
+        "new_functional_failure_ids": [],
+        "frontend_builds_passed": true,
+        "javascript_tests_passed": 10,
+        "python_files_parsed": 4215,
+        "candidate_patch_sha256": "bd6e4af8566a3ebb5455f4745a3fa57661f47fff986abbe7ab29ecc0a9a85823",
+        "source_changes": [
+          {
+            "path": "frappe/esbuild/utils.js",
+            "before_sha256": "a33913efae693655f50d8292fc0fd73e2deb413d3fbd22a64cd598f3e8b6609d",
+            "after_sha256": "1fd6796b2e4c9a9732659fcc6a029956389d5eee89766a84a6bb7931c054fe26"
+          },
+          {
+            "path": "frappe/frappe/api/v1.py",
+            "before_sha256": "7a424ad82bbad732b9e25f3d91f2f6dd26778691ad87c138c1cf1672a796f239",
+            "after_sha256": "df2994c84e85db44fde71554e667bde4c6c80fd431ec12adfef8e06c87e0c130"
+          },
+          {
+            "path": "frappe/frappe/automation/doctype/reminder/reminder.py",
+            "before_sha256": "b270e17990216d138694bb63b4e432be60a890e5eaf1edadce7cb1d1bd6e5060",
+            "after_sha256": "8b4763c5c7d6befef072d42ef0a9236333405b2f83f65f21c753bc7100884a84"
+          },
+          {
+            "path": "frappe/frappe/automation_engine/conditions.py",
+            "before_sha256": "c44815556551552cbd750a69775dad147152a3b453ddce2b3153577846bd3ac7",
+            "after_sha256": "88142fb43b9b816146885e808c06e72b0ab56eccd90e9621790b0a0337542614"
+          },
+          {
+            "path": "frappe/frappe/automation_engine/registry.py",
+            "before_sha256": "1903f6aa5dc74b05f0829fe10c1c264f143c892e54b9e7bb357e12d636210099",
+            "after_sha256": "2e0df5a24e78f0844cd634e97f541c1ca7a857b19d3d340b7f43c66ac05c60a2"
+          },
+          {
+            "path": "frappe/frappe/automation_engine/relationships.py",
+            "before_sha256": "37de879e4880f95dc2ae0b14752a8da4b714ad13350b47fae366e451560931b5",
+            "after_sha256": "a66433c6a91d59b1858134810de8e068213045d33fc1d0945014193fa946c1ff"
+          },
+          {
+            "path": "frappe/frappe/automation_engine/settings.py",
+            "before_sha256": "cf57acbd0576fec4f27360fe5649316bb81b8dd2045985b09ea325503c412e6b",
+            "after_sha256": "2160a0b2c9fc0d83dd46685a9d1c2546f10f53786036665d3129e9b408b5d497"
+          },
+          {
+            "path": "frappe/frappe/client.py",
+            "before_sha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+            "after_sha256": "9d3892774ecb600f9c4fa558808ca4e3202e9f74e0c1bbf2ae5fad7cb06a82b2"
+          },
+          {
+            "path": "frappe/frappe/commands/redis_utils.py",
+            "before_sha256": "ce2f7eb3770fc5a60301b3a076bc6fbcb9290eb2fdb2a0d6dae3672aaa451573",
+            "after_sha256": "a67dcf7734b24432c927d0e593a8146e6417b17a0c6876a20803891f2513ae82"
+          },
+          {
+            "path": "frappe/frappe/contacts/address_and_contact.py",
+            "before_sha256": "0a03b6967c13913729447e49586bfc4782287bd7ad6063e0af486d5ba64e4a59",
+            "after_sha256": "60c6db3b779c67b896bdc52d293f671fd8b326dadf4f1b938344ccc1ed307d3a"
+          },
+          {
+            "path": "frappe/frappe/core/utils.py",
+            "before_sha256": "b209238dc9e52d36aaf05d246965a38f68fafc9665c224e01b234b2346e357d4",
+            "after_sha256": "62a48b0220e0391ee2c7381b93d6920436ed3073dfbb6806b9d757c30fa48350"
+          },
+          {
+            "path": "frappe/frappe/custom/doctype/custom_field/custom_field.py",
+            "before_sha256": "8fa9fca6271512344a2449d047018cce32c835f8279c6cc925596a3848135a8a",
+            "after_sha256": "bf2a1488eadd119a6cf1829d65e58d71d081076ceeb775b6f5582afdd94009c0"
+          },
+          {
+            "path": "frappe/frappe/database/operator_map.py",
+            "before_sha256": "713adc028023cccd5a0c8358731039838812606236356d0fc923a1640a99ae40",
+            "after_sha256": "3d8d2b29af6ad36caa2d1a55b82053d57e976b8f30b9818bb49cc667e91370e9"
+          },
+          {
+            "path": "frappe/frappe/desk/form/save.py",
+            "before_sha256": "0b32b122191f5f4773aa02446e71bde105bf9b2a20fec88ae111cfdfc771f2eb",
+            "after_sha256": "b5e80f259933619bdf88c9e97c69b50b61d5a0187c42213c4764924477e7bdf1"
+          },
+          {
+            "path": "frappe/frappe/email/utils.py",
+            "before_sha256": "25d6432fe3b659d9907aa8d209eefe6e9739175a38d2112b9f22ff6de93f44f6",
+            "after_sha256": "5bc966df0241b016aee26d3eeafd64bf8a265e2bcdd2ac3bc3f4deedf751fab1"
+          },
+          {
+            "path": "frappe/frappe/handler.py",
+            "before_sha256": "190ef8c5c0e348af325fdd057b24d2c851205123fb4337fd6f3941fff6d6beec",
+            "after_sha256": "3d223acf623a60f751e00b6fa9e89cc247266f0cc2bc4d8c27c840ffffaca512"
+          },
+          {
+            "path": "frappe/frappe/integrations/utils.py",
+            "before_sha256": "688687bf5bdfa30bbd23faf431684a273ca0b31d19c628ddc20906164f0dc9b1",
+            "after_sha256": "670408ac23bd6f6a5800042f97ba448a33ae7bd9026ab13e5a8b06393e9ce65b"
+          },
+          {
+            "path": "frappe/frappe/model/create_new.py",
+            "before_sha256": "bf47be731dc7ba1297028c5b4d266e6054413d67491b1715d6ac3a85b1d70b12",
+            "after_sha256": "eed360d060e1e42735938a707fa6c97979fdbeb72b1379d54b6a4bd784ffe551"
+          },
+          {
+            "path": "frappe/frappe/modules/utils.py",
+            "before_sha256": "b7eceeba80ea09be4c1c6b668f9ab439113fb2ba0b7f52f2a947be65f35c8fec",
+            "after_sha256": "cb7bdbbfad7e3514d49cf6c146e139b8c9869377ade6e73e9ed4a8a8c5efa577"
+          },
+          {
+            "path": "frappe/frappe/printing/doctype/print_settings/print_settings.py",
+            "before_sha256": "8314fd7a0134d3b2605803cf5b2e9599d3949ceac04f2533c9ed740b143080ed",
+            "after_sha256": "2c21a4095e752f43e5be9b56d5d7e9eeac9d25cfaecbc06021abdb71ac431e53"
+          },
+          {
+            "path": "frappe/frappe/printing/page/print/print.py",
+            "before_sha256": "75d1737fb02260d4990bcb250b5caa3059dbd194d00f8b44ecf9adf1da29ea3d",
+            "after_sha256": "a5405e57bfd65756a5264f335ceb86428563374ba1dddcb64790250f285df358"
+          },
+          {
+            "path": "frappe/frappe/public/js/frappe/query_string.js",
+            "before_sha256": "82f20d0a5a7bc595e6ac3a8dcd3312d4273f68c37f27871a92cce8f914717b4b",
+            "after_sha256": "98e11cc4b8ec3ab33db12f1f2f9d3af3a3fbfe90b8c40e5e684acdf105d21c8a"
+          },
+          {
+            "path": "frappe/frappe/query_builder/utils.py",
+            "before_sha256": "e5d3a5022e73a41f78a877496e7c838d0e271c80d389074806b41727a49c9c1e",
+            "after_sha256": "6b301a6627ab2d34f0bcae50a7ed710ee5027bb613bec7e99eaba6077893834f"
+          },
+          {
+            "path": "frappe/frappe/search/website_search.py",
+            "before_sha256": "ee0a89d05280397153e119853b38ed7af1ad33aed23e4563f87c1cf27a5099fb",
+            "after_sha256": "5480024ceb913bb289b34806e39d1ca3bee5a6a7df65024294caa8553dd2394f"
+          },
+          {
+            "path": "frappe/frappe/templates/includes/comments/comments.py",
+            "before_sha256": "60455e0ab3920110b6bb4505a0c80c9e464657ffacd6d323dd0c80e71bd08756",
+            "after_sha256": "fd52fa54dfd49918f0d9e0e324bd250ecd41c2e56d0ecf6d9e5638bb0adf9081"
+          },
+          {
+            "path": "frappe/frappe/types/filter.py",
+            "before_sha256": "7fc5bf458c0507700207a4989e5ccda5ff8f2e076c4a0b6b98d45790f0a52534",
+            "after_sha256": "39a1eded1df0be4ca6885f57f67878dd42d0f7c0b1ca5cbabab1bfb046956679"
+          },
+          {
+            "path": "frappe/frappe/utils/file_manager.py",
+            "before_sha256": "3e5954faf00200bbd7476e3b0bc0ef1436451e4b62179d947d927de7ed20286b",
+            "after_sha256": "b214e92eecf02d23767a44779078f99f4dddb5f8cf7f78c6a292aabc57ebf0b5"
+          },
+          {
+            "path": "frappe/frappe/utils/make_random.py",
+            "before_sha256": "4a6da61bd30b70484ff12ed8757a5713fa12276494786b8f9631914f27b0eace",
+            "after_sha256": "c7413b88a39398b47f7979c131ffc513682875950175b7ed7ac9dfa2d4d33a12"
+          },
+          {
+            "path": "frappe/frappe/utils/telemetry/pulse/queue.py",
+            "before_sha256": "8e67acb628112d1d4c2ceb6b164c672e6e2633f56b3f2e818f7a8d6eabf95880",
+            "after_sha256": "0214b450ff9588c7499eae2a9b15b08b71abd6728e34b0eca3718a2e2f631d94"
+          },
+          {
+            "path": "frappe/frappe/website/path_resolver.py",
+            "before_sha256": "3efe91f315faac7403c8ea88c99ad9d2d6baf8f1638124c2ef2acb4c67663d89",
+            "after_sha256": "873eec3c821756f4f66ed71c3a4accdda7b456b620e96cbd74e0eb59d5df04b2"
+          },
+          {
+            "path": "frappe/frappe/workflow/doctype/workflow/workflow.py",
+            "before_sha256": "448a9d786bd869b52c84713b49053f1fd01210eb5a40b17748b9614e2b65a9a6",
+            "after_sha256": "d8cbf28174af858398b303b94f003769203ad73556e37127c194351970f625e4"
+          },
+          {
+            "path": "frappe/frappe/www/sitemap.py",
+            "before_sha256": "0e6107f779d9dc6b6012c87b005afd26f076ecbf00149b664ef0174ecdc8ffd4",
+            "after_sha256": "161332ea647e5fb59bf3e2b36c2633c9fc77f0104fdce232a50e8ec45817690c"
+          },
+          {
+            "path": "frappe/node_utils.js",
+            "before_sha256": "bead3c942dc8da6a93eb4187b82e30016a0734eb7a9a6546a8a1785fee5f70f5",
+            "after_sha256": "92b75ac8141be137aa243f79edef7034a424d0a362f517cc9df60bf3c5a64594"
+          },
+          {
+            "path": "erpnext/erpnext/__init__.py",
+            "before_sha256": "4799e009653625e02b354d58b32496d95d25d7f00ac4eed63f3ed75d5bbadaf3",
+            "after_sha256": "09afda244202130de156dc32a814101a1c5feb15ce144cd39892efe4b1662682"
+          },
+          {
+            "path": "erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py",
+            "before_sha256": "061a2deff1b87b7448043ad9cb5f764a329a013d2683c403fb3dd194c6d80b75",
+            "after_sha256": "9a1e34b5dfad16c37a5ea9b40e90c246c71a746bc30ac8358ed2f1c968ddbed2"
+          },
+          {
+            "path": "erpnext/erpnext/accounts/utils.py",
+            "before_sha256": "ca101484bf92bd5a82bae421a874998bccb36dd8f75c9b3cf5a7453d25e06cf0",
+            "after_sha256": "ebf8d38f5aa0118b1c34333bed3e74a9bf0168b729ff1c8e314245640c91a1d8"
+          },
+          {
+            "path": "erpnext/erpnext/assets/doctype/asset/depreciation.py",
+            "before_sha256": "17ae30aae6cc1fdb1f9ccbcdb7844435e14a729391eccd364ada53ec2b22e132",
+            "after_sha256": "b2ba22955e5902689b4ef3c96df8f4e2a9fd25cc222b62877be45ef66a67b6f9"
+          },
+          {
+            "path": "erpnext/erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.py",
+            "before_sha256": "3861bbf5b8460219173c153e6691e6071dbdb0e7e98d692e16fbc368bb99cc42",
+            "after_sha256": "bc8a8d92489569d3629ef0b52dcbbcd46ee39da3062eeb6ba17f045e83064376"
+          },
+          {
+            "path": "erpnext/erpnext/buying/utils.py",
+            "before_sha256": "23a7351d4c106ced13d1bf434a9a436e6fe2598102e7b6e1f8a46825dfb285a7",
+            "after_sha256": "040cad886a4e4234614b187d7e844c1db5756b37ce725a5ee4a608f8910d9f4e"
+          },
+          {
+            "path": "erpnext/erpnext/communication/doctype/communication_medium/communication_medium.py",
+            "before_sha256": "75f39b60539792a874808b377b3583679649455893879070655f59e565d62fc1",
+            "after_sha256": "119c51997e389d0944b9b7c98ccc5d6401e21de7376e66131330d7e8cd48e1f9"
+          },
+          {
+            "path": "erpnext/erpnext/controllers/print_settings.py",
+            "before_sha256": "bc576c866b1e7b75933abd72bb9dbb5bedbf8a23e1c2877c7c572d923d91a0a1",
+            "after_sha256": "6464e504c85ed8a0a49c1b145e801ac227bae34baee22b37f332e66cb4c4d900"
+          },
+          {
+            "path": "erpnext/erpnext/crm/utils.py",
+            "before_sha256": "d37c65b22b3d344839e1057d2f57255690e6485f7ca6c49f20fe61dafbbdf36a",
+            "after_sha256": "086283cad2f7172a20f5d1535226116b172c755c798c6b217d05e59d67aa1c3d"
+          },
+          {
+            "path": "erpnext/erpnext/edi/doctype/code_list/code_list_import.py",
+            "before_sha256": "1c3f5c9554a759d58879d47b6e12cd1aab4a0407e98b7764d5cb295c89306758",
+            "after_sha256": "90effc464fe6cc35ad0e487435bfda621b43398772acf380ffecfc0315dc6ca3"
+          },
+          {
+            "path": "erpnext/erpnext/erpnext_integrations/utils.py",
+            "before_sha256": "754dda9bb21f8c20ac5dd82d058b07bef88161d1d11479adf0fe2e7c626cf632",
+            "after_sha256": "0ae706eb548339b7c9d6f2427d9dbad118d972d817d552472e3c6d3ace864fbb"
+          },
+          {
+            "path": "erpnext/erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py",
+            "before_sha256": "51ae3c35f9ce9ae5e6f45ada48e1c371bf8cc0f531340779a8f7ce52383e0c19",
+            "after_sha256": "444f43c98bffe24da9b3b5db95b799f1582a6ec55b26dd72cb33639d0597020e"
+          },
+          {
+            "path": "erpnext/erpnext/manufacturing/doctype/work_order/work_order.py",
+            "before_sha256": "0f0eb8ee351a07b63096f6f3c5d9f04b19e611dfddce2919a96a26c20f2670c8",
+            "after_sha256": "94df3fa886edb6d47fc5ff99a7835c73aff2192a044bfb15fcca9c8b9744fbbe"
+          },
+          {
+            "path": "erpnext/erpnext/portal/utils.py",
+            "before_sha256": "5bc02372191921b617a84bb69c749e2d23d3141a963856e13d3633d0305bcdb6",
+            "after_sha256": "236ba1a915b74db463ae13e1360b794ca8b20f3fd328b3beefcc6ca946ec1b8d"
+          },
+          {
+            "path": "erpnext/erpnext/projects/utils.py",
+            "before_sha256": "904ffa813ed48a0d0e3d910489548d264f2d6c4ff0c3447bdb1cb34346c86a2b",
+            "after_sha256": "74cb74c627e43abb0d0dfb3b64541da07e7b7fd9ef5b8bf4d92140492b124ec2"
+          },
+          {
+            "path": "erpnext/erpnext/public/js/utils.js",
+            "before_sha256": "8a9fbaf14860be8eb76b193da413dc16da3b2f15a7e8dd467d32d0ae27fd29f2",
+            "after_sha256": "c927b4de86383f35d198aaca81a2e968f9401b84c44abf96e6d299c1b2223989"
+          },
+          {
+            "path": "erpnext/erpnext/quality_management/doctype/quality_feedback/quality_feedback.py",
+            "before_sha256": "2d884264ea5c6b9eded09e8f226eb093f3dd24e5d43f5839f410906c1c2cc2a2",
+            "after_sha256": "d7d50c0e1a2007c3456b4e18e6c76ee65106458379dbcb938cc2ca3a51124be3"
+          },
+          {
+            "path": "erpnext/erpnext/regional/address_template/setup.py",
+            "before_sha256": "5001bae2137ddf39006eb8f1214accfd882a0696df084f89970911ffc6578add",
+            "after_sha256": "a0227ca71b32d0c0872635ab5f43a9d789e6d19c0694363f638c3f0e84fe6024"
+          },
+          {
+            "path": "erpnext/erpnext/selling/doctype/customer/customer.py",
+            "before_sha256": "80ffcc1521c3e8c3a5161ea219079e20bf4d0f86eeb2954953d1b3ccaa1f0529",
+            "after_sha256": "f4cd73cc23d53a84f39f1b230a72e000c1d7f0a26ce864380ea55fa864c02a68"
+          },
+          {
+            "path": "erpnext/erpnext/setup/utils.py",
+            "before_sha256": "9329f724e7dd63203b8c19255415425ce7b9a214defe8dd519079b0f44076d97",
+            "after_sha256": "9969afcd3a4ea972bc1ec30654bc1ebcdc09b6656fc3ecf68315303b3fa99eec"
+          },
+          {
+            "path": "erpnext/erpnext/startup/filters.py",
+            "before_sha256": "fd5beff94b678b094de377af6b80eccd2dd0182baf915b7768bb6504f72570a4",
+            "after_sha256": "dcf715a0ddd41c68a5844fa50934b315ff2f93a89a3477ccb2cd34b158102066"
+          },
+          {
+            "path": "erpnext/erpnext/stock/utils.py",
+            "before_sha256": "5427a18b0c30d88d62115fb5d5a264d298adc179003ddf4258128947e396634e",
+            "after_sha256": "d378e5f15b5648dfa52179acc8f4eb41b7149621669e45ff0ff64b979586878e"
+          },
+          {
+            "path": "erpnext/erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py",
+            "before_sha256": "4ef6f15701060cdf6e53d65b8decd5d370c66e457ca75d940ed6929fdb852971",
+            "after_sha256": "506283bc3cbb0eea6eabd7110aed548951036e57c02a5e56f695fb33fd1457a2"
+          },
+          {
+            "path": "erpnext/erpnext/support/doctype/issue/issue.py",
+            "before_sha256": "a87fad34f141a85c373c339642a3b941a6db70336b77d111922e68b0e76814a5",
+            "after_sha256": "463083175225fa9a5db7577b57b190b29632ac0576aeb5e3c5de11fbf2d50d46"
+          },
+          {
+            "path": "erpnext/erpnext/telephony/doctype/call_log/call_log.py",
+            "before_sha256": "bdeb5952a38905875cddf2be6f8f4582abc1666c36542214b998b377f0cb3ff3",
+            "after_sha256": "50ec18c808fd820132056264b76e44a3c412421cf16d70fe648f2575c7cb11e6"
+          },
+          {
+            "path": "erpnext/erpnext/utilities/activation.py",
+            "before_sha256": "27e6aa9c58b0e5f49ea3d85438f197b3158bf6f3b43b06bf83fef4cd9911caa3",
+            "after_sha256": "b48a8ab9e325c19a7cd94e8014774ed026e3e1786477fdad19c7a8f4f60af2a9"
+          },
+          {
+            "path": "erpnext/erpnext/utilities/product.py",
+            "before_sha256": "6eb76dfbb32987ecb8f153ef205629fe16aab47bac3b121c85e7b8e5e3385a95",
+            "after_sha256": "5611bd1eb2bdb4e96d7173fc255ce3965ee7c10e9dd39786bc709141994daff4"
+          },
+          {
+            "path": "erpnext/erpnext/utilities/regional.py",
+            "before_sha256": "93700605679624b35089fc3b5a53d72fc76a3c85cd34ab425310a34bdae15888",
+            "after_sha256": "9524ea2b8610534e95124ace9e0c737234f7b042a5fcb108b336e67bd6a2744c"
+          },
+          {
+            "path": "erpnext/erpnext/www/banking.py",
+            "before_sha256": "e8f600a83fbddd519ac20804e2a6896d1fbb9aea90172868ad9ebb0df37de407",
+            "after_sha256": "874ba20a9a8ae66b7378ed4067a9965c1f95d13ad45d861f96ddd6ce21c5a8b1"
+          }
+        ],
+        "http_private_receipt_sha256": "6cf693d8d344a44ada3dd5c9a16ad1eb9a23254c93a9c20038d3d95e6d6fa7c0",
+        "scope": "Business observations rescorable publicly; HTTP receipt verdicts auditable, raw bodies and candidate patches remain private."
+      },
+      "gpt61-sol": {
+        "model": "gpt-6.1-sol",
+        "version": "2026-09-29",
+        "agent": "Delta Native",
+        "starting_source_files": 8925,
+        "files_read": 47,
+        "files_changed": 30,
+        "planned_stages_returned": 14,
+        "whole_application_rewritten": false,
+        "business": {
+          "total": 94,
+          "passed": 94,
+          "functional_failures": 0,
+          "security_failures": 0,
+          "unknown_security_checks": 0
+        },
+        "http": {
+          "total": 730,
+          "passed": 721,
+          "security_failures": 9,
+          "unknown_access_checks": 0
+        },
+        "new_access_failure_ids": [],
+        "new_functional_failure_ids": [],
+        "frontend_builds_passed": true,
+        "javascript_tests_passed": 10,
+        "python_files_parsed": 4215,
+        "candidate_patch_sha256": "bde6fd70bbe174f0bc45d73d337b4c78cde938f3cc2ceedb1934f922f9bb7b01",
+        "source_changes": [
+          {
+            "path": "frappe/.github/helper/documentation.py",
+            "before_sha256": "817e5233d045eb9a481933f5208cecd39fc425f1eded0eedc85dabf9c74a4a30",
+            "after_sha256": "e4ba4d683e5c46b665336b4cf1af5e5a0a3c20472fe0573261636e87c2b0e3c1"
+          },
+          {
+            "path": "frappe/esbuild/utils.js",
+            "before_sha256": "a33913efae693655f50d8292fc0fd73e2deb413d3fbd22a64cd598f3e8b6609d",
+            "after_sha256": "13c5481014b45a1a4dc73b4f546be022b7bc849cba0717b95a95f51a483199ed"
+          },
+          {
+            "path": "frappe/frappe/api/v1.py",
+            "before_sha256": "7a424ad82bbad732b9e25f3d91f2f6dd26778691ad87c138c1cf1672a796f239",
+            "after_sha256": "8fb62ec5fe6f66ea699183a1663f838c987b392bc1d1cc468d619dd426cfd78f"
+          },
+          {
+            "path": "frappe/frappe/api/v2.py",
+            "before_sha256": "78fbb2eca6c0f418343c0223eab9012b05837b563985ae7d59937092e929e4e2",
+            "after_sha256": "c67c92a810cb2a201049e2533abb92b88f256779e22e8ce788fb518420558a45"
+          },
+          {
+            "path": "frappe/frappe/client.py",
+            "before_sha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+            "after_sha256": "9c6328440d84c42dc0aea03ac3002b5619a4591af26d6ae0068ac1b64dcd7197"
+          },
+          {
+            "path": "frappe/frappe/core/doctype/role_profile/role_profile.py",
+            "before_sha256": "b13ce8881ed3e71e01de9250f9b8d367218376106b5e8a04ce3d311dd9416726",
+            "after_sha256": "808e2030538f7a6dec0d8b3ac8a1734a5ecf7376f707ed1ebc4c81edd1466b85"
+          },
+          {
+            "path": "frappe/frappe/custom/doctype/property_setter/property_setter.py",
+            "before_sha256": "bc066885a21685c5f47d87350abe2f30b97e84432ec24611b4439783956b5475",
+            "after_sha256": "5286d43dc2fa64e8246279703dae5f379616c19c0c0270000ce855d89a43aa97"
+          },
+          {
+            "path": "frappe/frappe/database/utils.py",
+            "before_sha256": "e7bea39ef255c55282fa91158354d21205c0a0c0ceba0c4b6e6fe066be741cb8",
+            "after_sha256": "76e5369ac60ab4d9f96fbaa191d0966428dd05ce41d09fd7fb41626ed4ed1402"
+          },
+          {
+            "path": "frappe/frappe/desk/form/save.py",
+            "before_sha256": "0b32b122191f5f4773aa02446e71bde105bf9b2a20fec88ae111cfdfc771f2eb",
+            "after_sha256": "fe14bdc6f7df4f335978804579655559b9c0441846ddebe481ed91d0fe9ec89f"
+          },
+          {
+            "path": "frappe/frappe/integrations/utils.py",
+            "before_sha256": "688687bf5bdfa30bbd23faf431684a273ca0b31d19c628ddc20906164f0dc9b1",
+            "after_sha256": "9759232ab6596d2b479d4f1b4b0eb37a39f25331f43caa6d8732e371fd58d4f5"
+          },
+          {
+            "path": "frappe/frappe/modules/import_file.py",
+            "before_sha256": "be19d8e4fc2d2ff4361a774d71dbc085413f81795300a4be352c6a7f8d9133bc",
+            "after_sha256": "594f319abc6010c8965da87992b1bda0da81e01206470924a9c3076387914a97"
+          },
+          {
+            "path": "frappe/frappe/printing/doctype/print_format/print_format.py",
+            "before_sha256": "a7267e684adf4fec918b43134068a2e29d67cc4a77e583e42cf2ae0e5855f3e8",
+            "after_sha256": "930003b5b98391c9b63d38c6e02911979625672144528dd85abb7b661630ece9"
+          },
+          {
+            "path": "frappe/frappe/public/js/frappe/query_string.js",
+            "before_sha256": "82f20d0a5a7bc595e6ac3a8dcd3312d4273f68c37f27871a92cce8f914717b4b",
+            "after_sha256": "f28316c8d1cc844f97a6659b05b00fff153ab4ee010d8e62468d9415128193c4"
+          },
+          {
+            "path": "frappe/frappe/search/full_text_search.py",
+            "before_sha256": "f3be60913911ca7956c75782af79652ff5c68d8c7ec7c756a963480f09eb0e0b",
+            "after_sha256": "18c82997c2f0ecc509ef17ea2f93dcf23657ac251182df2346cc417adb71decf"
+          },
+          {
+            "path": "frappe/frappe/search/website_search.py",
+            "before_sha256": "ee0a89d05280397153e119853b38ed7af1ad33aed23e4563f87c1cf27a5099fb",
+            "after_sha256": "653440d4dc3e8e3be46a7a9a72a6b9bacefa2e934d408e508e025e2ffc452ed6"
+          },
+          {
+            "path": "frappe/frappe/utils/file_manager.py",
+            "before_sha256": "3e5954faf00200bbd7476e3b0bc0ef1436451e4b62179d947d927de7ed20286b",
+            "after_sha256": "df23c8505604abbbf8d228d6550e9a4eff507aeccc3e220505d36ee39a1121c1"
+          },
+          {
+            "path": "frappe/frappe/website/page_renderers/print_page.py",
+            "before_sha256": "7640bf7274eb22d79f8a0917553062f2ac4ae674eac288b4dda92f1c6998c9f5",
+            "after_sha256": "797165ba090171de99e87fb4c7d7f900921fc044afcb19da8987b5e88a18ffa8"
+          },
+          {
+            "path": "frappe/frappe/workflow/doctype/workflow/workflow.py",
+            "before_sha256": "448a9d786bd869b52c84713b49053f1fd01210eb5a40b17748b9614e2b65a9a6",
+            "after_sha256": "d8cbf28174af858398b303b94f003769203ad73556e37127c194351970f625e4"
+          },
+          {
+            "path": "erpnext/.github/helper/documentation.py",
+            "before_sha256": "55fd894e111a5fc5062c2f4ba4291b61328929cbcd88e419ec691f8e13d3861d",
+            "after_sha256": "f105c5beaefb619a5a93c3ec52c70540a654d17a990a7d6f9fd0392933f4b342"
+          },
+          {
+            "path": "erpnext/erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py",
+            "before_sha256": "1d7a8fbac481b73cac7eacef75e3180a7774ebaef35e0d312f7c56ef708ebba7",
+            "after_sha256": "88abe66beea8e147193b9e675d0e5a21fd08a6e6712257bbbbadaf6d01487ecb"
+          },
+          {
+            "path": "erpnext/erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.py",
+            "before_sha256": "3861bbf5b8460219173c153e6691e6071dbdb0e7e98d692e16fbc368bb99cc42",
+            "after_sha256": "96eb4ca48deba5cbd6d9980a4077a33c7d6747165c6e47de54a26b9f39ac62d1"
+          },
+          {
+            "path": "erpnext/erpnext/buying/utils.py",
+            "before_sha256": "23a7351d4c106ced13d1bf434a9a436e6fe2598102e7b6e1f8a46825dfb285a7",
+            "after_sha256": "8ae1f1eb95314cd3b7ef815c7bc083733a1c24a6d529bb3f25e56694c9dad185"
+          },
+          {
+            "path": "erpnext/erpnext/controllers/print_settings.py",
+            "before_sha256": "bc576c866b1e7b75933abd72bb9dbb5bedbf8a23e1c2877c7c572d923d91a0a1",
+            "after_sha256": "3bf3af7d8213566c87fef669c566ebd49ea618efefe3c1a78d708823834c73ba"
+          },
+          {
+            "path": "erpnext/erpnext/crm/utils.py",
+            "before_sha256": "d37c65b22b3d344839e1057d2f57255690e6485f7ca6c49f20fe61dafbbdf36a",
+            "after_sha256": "7462e388cfe4c85e35a95432a652ebf27036356f5cf5047df41738de5450bb76"
+          },
+          {
+            "path": "erpnext/erpnext/portal/utils.py",
+            "before_sha256": "5bc02372191921b617a84bb69c749e2d23d3141a963856e13d3633d0305bcdb6",
+            "after_sha256": "d421add4eaf7e7a9e1a2a60be551257c2d3f0797fc1e80383875008ef0b81642"
+          },
+          {
+            "path": "erpnext/erpnext/projects/utils.py",
+            "before_sha256": "904ffa813ed48a0d0e3d910489548d264f2d6c4ff0c3447bdb1cb34346c86a2b",
+            "after_sha256": "8922ebd80ff2308e35c289b7bf3a93f75cadaf178d8b21d49f1bf7ef5a0a50ff"
+          },
+          {
+            "path": "erpnext/erpnext/public/js/bank_reconciliation_tool/number_card.js",
+            "before_sha256": "d845aa7ccd39008ef7132aa4f1a75317b06b6ed9608d708b4b942a0b17a66506",
+            "after_sha256": "3722485c9513d99ce7352cdedf509041e6e65c45438afc0166d2e0f5058c790f"
+          },
+          {
+            "path": "erpnext/erpnext/quality_management/doctype/quality_review/quality_review.py",
+            "before_sha256": "02e9f6701219a38eb2c0116fe361951137bce50f75491bf4e3840ba0595d9679",
+            "after_sha256": "3db959f1dddf223b9996c7525a2d186730f0f9a6902a6f754923abb2eb452543"
+          },
+          {
+            "path": "erpnext/erpnext/startup/notifications.py",
+            "before_sha256": "781dd64e57ab5968817cb76c7756d9ed100997325b41f80ed61c571e8f729be7",
+            "after_sha256": "835b63146fa9071b3bf2ac8b973b659ffb4676c8cf7be06a3eeef78a16adb788"
+          },
+          {
+            "path": "erpnext/erpnext/stock/valuation.py",
+            "before_sha256": "af96bf640223a36a46768fbbb319b30e6137fe5116354bf780944e60f37534f9",
+            "after_sha256": "e39c79deabed35ddfe9b9fefadafb6029d936c1bebbf95abff40123cfb2aef5f"
+          }
+        ],
+        "http_private_receipt_sha256": "5c94ae88602e23239508a390539aae5086038e0dedd26d898e24c62cb71c4a28",
+        "scope": "Business observations rescorable publicly; HTTP receipt verdicts auditable, raw bodies and candidate patches remain private."
+      },
+      "gpt56-luna": {
+        "model": "gpt-5.6-luna",
+        "version": "2026-07-09",
+        "agent": "Delta Native",
+        "starting_source_files": 8925,
+        "files_read": 23,
+        "files_changed": 14,
+        "planned_stages_returned": 14,
+        "whole_application_rewritten": false,
+        "business": {
+          "total": 94,
+          "passed": 94,
+          "functional_failures": 0,
+          "security_failures": 0,
+          "unknown_security_checks": 0
+        },
+        "http": {
+          "total": 730,
+          "passed": 721,
+          "security_failures": 9,
+          "unknown_access_checks": 0
+        },
+        "new_access_failure_ids": [],
+        "new_functional_failure_ids": [],
+        "frontend_builds_passed": true,
+        "javascript_tests_passed": 10,
+        "python_files_parsed": 4215,
+        "candidate_patch_sha256": "66ca3329e5909569a65af505c26a31131fec19c5b182df750597c0f22129b841",
+        "source_changes": [
+          {
+            "path": "frappe/frappe/automation_engine/conditions.py",
+            "before_sha256": "c44815556551552cbd750a69775dad147152a3b453ddce2b3153577846bd3ac7",
+            "after_sha256": "c1fbdc45db2cfd0e26d01876254c207f5f6655ae3624d7e038b766599ce3ad15"
+          },
+          {
+            "path": "frappe/frappe/client.py",
+            "before_sha256": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+            "after_sha256": "98e2b2772536c90158ac33fa3f2bc634b6643d498711bcffd2e7d716ec8440d5"
+          },
+          {
+            "path": "frappe/frappe/custom/doctype/custom_field/custom_field.py",
+            "before_sha256": "8fa9fca6271512344a2449d047018cce32c835f8279c6cc925596a3848135a8a",
+            "after_sha256": "046f6d761f7b27269927738e7c5d7c69a1ab2458fb84aab92c2a1c99832e4bb1"
+          },
+          {
+            "path": "frappe/frappe/database/operator_map.py",
+            "before_sha256": "713adc028023cccd5a0c8358731039838812606236356d0fc923a1640a99ae40",
+            "after_sha256": "f76b0886122cb0ed9f52d2a76284e02373d799e4b29d5c4107be674e513f6a0a"
+          },
+          {
+            "path": "frappe/frappe/email/queue.py",
+            "before_sha256": "773426fa725c11a0ea5ff4cdc9082096c26fa5b68710145c3b589e46d4507c68",
+            "after_sha256": "68cc28d6143129b4028e80adeb700c29e9781d6590684fadb00d299ef195c534"
+          },
+          {
+            "path": "frappe/frappe/modules/utils.py",
+            "before_sha256": "b7eceeba80ea09be4c1c6b668f9ab439113fb2ba0b7f52f2a947be65f35c8fec",
+            "after_sha256": "a5f0f3266e23a35165131dfa399697f832481f116f57235c16c80fac6b0222c9"
+          },
+          {
+            "path": "frappe/frappe/public/js/frappe/utils/common.js",
+            "before_sha256": "2bcc41bcb8864e8b7192692b4b8b4a4d8ca76bc031bd2edc3b91060afd4f90fb",
+            "after_sha256": "cab1470c3b70d872c2f5e91491815c7adaa3328e3576fd45133c7a1d27ecff1e"
+          },
+          {
+            "path": "frappe/frappe/utils/file_manager.py",
+            "before_sha256": "3e5954faf00200bbd7476e3b0bc0ef1436451e4b62179d947d927de7ed20286b",
+            "after_sha256": "6481614d8f0d924b94821a477760e23edee7f7aed084bd0fb92546476609ae5e"
+          },
+          {
+            "path": "erpnext/erpnext/controllers/accounts_controller.py",
+            "before_sha256": "1125aec49491b11c62534d300bbe9b1ec94109189523acaef114a747fcf85c31",
+            "after_sha256": "2d36e56c3bc1e0c6c8718e7f41f3d3a311315a77c85ec6286550e59af3c4fe93"
+          },
+          {
+            "path": "erpnext/erpnext/crm/utils.py",
+            "before_sha256": "d37c65b22b3d344839e1057d2f57255690e6485f7ca6c49f20fe61dafbbdf36a",
+            "after_sha256": "e8fc76270cbd611f48948433e827ff52b83916308f6d1e389b4d9fabcfafda16"
+          },
+          {
+            "path": "erpnext/erpnext/manufacturing/doctype/operation/operation.py",
+            "before_sha256": "40ae0554721b8e850a4208db4fa22b8b5745ae233f2e8568a6b5c605b94f2649",
+            "after_sha256": "d6413f7b7c53656afe393b1caea6515c6ec7380c449c3eaf298cfe036d909d11"
+          },
+          {
+            "path": "erpnext/erpnext/portal/utils.py",
+            "before_sha256": "5bc02372191921b617a84bb69c749e2d23d3141a963856e13d3633d0305bcdb6",
+            "after_sha256": "26a2217a4786f1a9d1dcba89a698355d09d60faf90db7bba45703384fe9aa979"
+          },
+          {
+            "path": "erpnext/erpnext/stock/utils.py",
+            "before_sha256": "5427a18b0c30d88d62115fb5d5a264d298adc179003ddf4258128947e396634e",
+            "after_sha256": "dd975e07680552068e479ed3fd37ba9bd7b08774ba6b8f3b1d265ba59dd6a7b8"
+          },
+          {
+            "path": "erpnext/pyproject.toml",
+            "before_sha256": "edea572eb25eb96834ec213dc88ef4bd73d01492b14ba95ad6cd07a703a6f3a4",
+            "after_sha256": "124710225baea94295e6a509758efcff712b8b3a76e76b2cdb1be0cf68f8c640"
+          }
+        ],
+        "http_private_receipt_sha256": "5aefcae8f6bfe7862914e751757920d12a17920d29e4263671c0571b78cbcd25",
+        "scope": "Business observations rescorable publicly; HTTP receipt verdicts auditable, raw bodies and candidate patches remain private."
+      }
+    },
+    "baseline_print_failure_ids": [
+      "whole-0146",
+      "whole-0153",
+      "whole-0160",
+      "whole-0244",
+      "whole-0251",
+      "whole-0258",
+      "whole-0384",
+      "whole-0391",
+      "whole-0398"
+    ],
+    "equivalence_differences": {
+      "gpt56-sol": [
+        "Restores preexisting temporary flag value in 2 of 189 shared-function cases."
+      ],
+      "gpt61-sol": [
+        "189/189 shared-function outputs match original."
+      ],
+      "gpt56-luna": [
+        "Traverses/renders templates inside tuples in 2 of 189 shared-function cases."
+      ],
+      "classification": "Observable semantic changes, not automatically defects or security leaks."
+    },
+    "stock_fixed_input_comparison": {
+      "cases": 408,
+      "all_three_match_original": true
+    },
+    "frontend_query_helper_comparison": {
+      "cases": 48,
+      "all_three_match_original": true
+    },
+    "limits": [
+      "One trajectory per model.",
+      "Sol 5.6 continues earlier work.",
+      "Module stages sample code; all-file rewrite and feature coverage are not established.",
+      "Not a full ERP security audit or complete upstream/browser test run.",
+      "HTTP verdict consistency is not fresh execution or a rescore of private response bodies."
+    ]
+  },
+  "preexisting_policy_conflict": {
+    "class": "Existing invoice-print behavior conflicts with study company-isolation policy.",
+    "observed_responses": 9,
+    "distinct_reported_policy_conflicts": 1,
+    "ai_introduced": false,
+    "upstream_zero_day_claim": false,
+    "source": "reports/wholeapp-results-v1.md"
+  },
+  "upstream_limitations": {
+    "file_tests": {
+      "baseline_tests": 71,
+      "candidate_tests": 71,
+      "same_error_ids": 17
+    },
+    "automation_events": {
+      "same_failing_test_ids_in_baseline": 2
+    },
+    "stock": "Baseline and candidate each have a LIFO assertion failure and a slow Hypothesis generation error. Root cause/equivalence of full ledger failure is not established.",
+    "workflow": "Missing optional Payment Gateway DocType prevents test-method execution."
+  },
+  "research_interpretation": {
+    "result": "A reproducible functional fault and a negative new-leak result in a finite pilot.",
+    "mutation_advantage_established": false,
+    "model_ranking_supported": false,
+    "fresh_mucoco_error_rate_reproduced": false,
+    "archived_paper_replay_source": "reports/mucoco-author-replay-v1.json"
+  },
+  "publication_scope": "Readable findings, curated observations/verdicts and illustration only. No raw model traces, credentials, personal transcript or full private report."
+}

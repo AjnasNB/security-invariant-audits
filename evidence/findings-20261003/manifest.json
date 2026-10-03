@@ -1,0 +1,33 @@
+{
+  "exported_at": "2026-10-03T08:18:57.507297+00:00",
+  "files": {
+    "latest/baseline-http-verdicts.json": "da3fed706bdc9fe482e9fb0ef9b742e1f1f43e3a8e08eda10c9e98b1f2c9f5c5",
+    "latest/gpt56-luna-business-observations.json": "0d591269a609d00e9ce4dbbe3425b78cbe2de70d941a8497bce94f0ee85c8514",
+    "latest/gpt56-luna-http-verdicts.json": "da3fed706bdc9fe482e9fb0ef9b742e1f1f43e3a8e08eda10c9e98b1f2c9f5c5",
+    "latest/gpt56-sol-business-observations.json": "0d591269a609d00e9ce4dbbe3425b78cbe2de70d941a8497bce94f0ee85c8514",
+    "latest/gpt56-sol-http-verdicts.json": "da3fed706bdc9fe482e9fb0ef9b742e1f1f43e3a8e08eda10c9e98b1f2c9f5c5",
+    "latest/gpt61-sol-business-observations.json": "0d591269a609d00e9ce4dbbe3425b78cbe2de70d941a8497bce94f0ee85c8514",
+    "latest/gpt61-sol-http-verdicts.json": "da3fed706bdc9fe482e9fb0ef9b742e1f1f43e3a8e08eda10c9e98b1f2c9f5c5",
+    "luna/candidate-replay-1-observations.json": "12a1b13b1a9ca46ed804706c6d214a91303c08563dc4296d0f9b86365db18b77",
+    "luna/candidate-replay-2-observations.json": "12a1b13b1a9ca46ed804706c6d214a91303c08563dc4296d0f9b86365db18b77",
+    "luna/original-observations.json": "0d591269a609d00e9ce4dbbe3425b78cbe2de70d941a8497bce94f0ee85c8514",
+    "summary.json": "cf99074f6edd4d7e06670f3b0df532540eeeb07da08129a9f7f3b48af8cfdaba"
+  },
+  "existing_public_sources": {
+    "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/initial/frappe/client.py": "e8de090c17a9c9c9c37448f1c288cf63670fdcd12cca6987064cd1c6a6f1ef67",
+    "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/candidate/frappe/client.py": "8e221c5eb5b627f1cf10f7965df935bdc15f74352b942734aa9ab968fda77c4e",
+    "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/run.json": "616d580f15392aa84a49b06dfc32fdd82ac0e5137ca150859ea284edb465cd53",
+    "evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/input.json": "d44d8804f71808845f94e83af09d108ef0d7a41a8fe218b97ecc06f10898e9fa",
+    "evidence/hard-vague-context-v1/erp-fixture.json": "45017e08b71d4a7bb611e3375c7148121a87a4c558343272bda52d19e1155a83",
+    "evidence/hard-vague-context-v1/reproduction.json": "8172e0242dbefbf8db0febf1a770f949f8fdde4e289bb1f16c5edbf7187d9ca8",
+    "evidence/wholeapp-v1/fixture.json": "d5545290c37e3b5a41f54bf82971eb0594d72c63f2b0cecc59e4a9d9c1d991dd",
+    "reports/wholeapp-results-v1.json": "6ba149b18547f1dae230d1c467be06f6ca7feb0e7e6c1158079df976481b8446"
+  },
+  "excluded": [
+    "credentials",
+    "private site configuration and database",
+    "raw provider streams/checkpoints",
+    "personal conversation",
+    "full private report and latest candidate patches"
+  ]
+}
