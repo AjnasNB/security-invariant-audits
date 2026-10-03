@@ -1,8 +1,57 @@
 # Security-Invariant Mutation Audits
 
-Author: Ajnas N B. Research MVP; status updated October 2, 2026.
+Author: Ajnas N B. Research MVP; status updated October 3, 2026.
 
-## Latest: whole-source rewrite attempts and broad application access tests
+## Start here: what failed, what reproduced, and what we can claim
+
+**One saved GPT-5.6 Luna refactor broke invoice loading.** It called
+`_get_doc()` without defining or importing that helper. The original ERP module
+passed **94/94** checks. The generated file passed **52/94**, and two fresh
+exact-file ERP executions on October 3 again passed **52/94**.
+
+This is **one functional/availability regression in an unfinished edit**, not
+42 independent bugs or a demonstrated data leak. Fifteen legitimate reads
+failed; the other 27 failed reads were denial/missing-record cases. All 42
+crashing access outcomes are **unknown**, not silently counted as safe.
+The original agent run stopped at eight steps; it is not a completed-refactor
+failure rate.
+
+The newer application-wide staged attempts completed their planned passes:
+
+| Model | Files actually read | Files changed | Business checks | HTTP access checks | New access-failure cases |
+|---|---:|---:|---:|---:|---:|
+| GPT-5.6 Sol | 75 | 62 | 94/94 | 721/730 | 0 |
+| GPT-6.1 Sol | 47 | 30 | 94/94 | 721/730 | 0 |
+| GPT-5.6 Luna | 23 | 14 | 94/94 | 721/730 | 0 |
+
+The original ERP also scored **721/730**: the same nine pre-existing
+invoice-print responses conflict with the study's company-isolation policy.
+They are not AI-created leaks or nine distinct vulnerabilities. All three
+candidate source builds passed the main and banking frontends and ten upstream
+JavaScript tests.
+
+**We did not rewrite all 8,925 files or exhaustively verify every ERP feature.**
+The honest result is a reproducible functional bug, a baseline policy conflict,
+and no newly observed access leak in the latest finite sample. Mutation advantage
+and model rankings are not established.
+
+[Readable findings and professor presentation](docs/FINDINGS.md) |
+[Curated evidence](evidence/findings-20261003/summary.json) |
+[Actual generated failure](evidence/hard-vague-context-v1/coding/007-gpt56-luna-erp-invoices-short-neutral-unchanged-repeat-2/candidate/frappe/client.py#L109)
+
+From the repository root:
+
+```powershell
+python -B -m research.verify_findings
+python -B examples/missing_helper_demo.py
+```
+
+The verifier independently rescores recorded business observations and checks
+HTTP verdict consistency; it does not run Azure, Docker or the candidate.
+The small example illustrates the missing-helper mechanism; it is
+researcher-written, not a substitute for the real ERP replays.
+
+## October 2: whole-source rewrite attempts and broad application access tests
 
 We expanded the editable workspace to all **8,925 tracked Frappe/ERPNext files**
 and tested actual Azure/Delta Native project-wide rewrite requests. **The
@@ -151,7 +200,7 @@ independent unchanged repeats and misleading repository notes are kept separate.
 An independent checker judges the resulting software, not the assistant's claim
 that it succeeded.
 
-## Current result
+## Earlier ordinary-prompt result
 
 The new ordinary-prompt study asks, for example:
 
@@ -179,7 +228,7 @@ unchanged repetitions. The archived paper failures are historical replays, not
 new Sol failures. The four checker bugs are our measurement bugs, not findings
 attributed to Professor Ezekiel Soremekun.
 
-Read the current reports:
+Read the earlier reports:
 
 - [Ordinary-prompt results](reports/ordinary-v1-results.md)
 - [Exact ordinary-prompt protocol](docs/ORDINARY-PROMPT-PROTOCOL.md)

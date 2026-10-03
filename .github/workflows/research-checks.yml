@@ -18,6 +18,8 @@ jobs:
       - run: python -B -m harnesses.verify_ordinary
       - run: python -B -m hardstudy.verify
       - run: python -B -m wholeapp.verify
+      - run: python -B -m research.verify_findings
+      - run: python -B examples/missing_helper_demo.py
       - uses: actions/setup-node@v4
         with:
           node-version: "24"
